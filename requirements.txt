@@ -1,0 +1,41 @@
+# LLM and AI
+groq
+langchain
+langchain-groq
+langgraph
+openai
+
+# Resume parsing
+pdfplumber
+python-docx
+
+# Data validation
+pydantic
+
+# Database
+psycopg2-binary
+sqlalchemy
+
+# Vector database
+chromadb
+
+# API
+fastapi
+uvicorn
+
+# Task queue
+redis
+celery
+
+# HTTP client
+httpx
+requests
+
+# Environment variables
+python-dotenv
+
+# Testing
+pytest
+
+# Utilities
+python-multipart
