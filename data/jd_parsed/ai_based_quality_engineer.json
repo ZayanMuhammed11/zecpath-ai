@@ -1,0 +1,92 @@
+{
+  "job_id": "JOB-AI_BASED_QUALITY_ENGINEER",
+  "title": "AI-Based Quality Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Machine learning",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "AI concepts",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Python",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "R",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Data analysis",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Data modeling",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Computer vision",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "Machine learning",
+    "AI concepts",
+    "Python",
+    "R",
+    "Data analysis",
+    "Data modeling",
+    "Computer vision"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering",
+    "Data Science"
+  ],
+  "responsibilities": [
+    "Develop AI/ML models for defect detection and quality prediction",
+    "Analyze large datasets to identify quality trends and patterns",
+    "Implement computer vision systems for automated inspection",
+    "Collaborate with data science and engineering teams",
+    "Optimize processes using predictive analytics"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "AI-Based Quality Engineer\nJob Summary:\nApply artificial intelligence and machine learning techniques to improve quality prediction,\ndefect detection, and process optimization.\nKey Responsibilities:\n• Develop AI/ML models for defect detection and quality prediction\n• Analyze large datasets to identify quality trends and patterns\n• Implement computer vision systems for automated inspection\n• Collaborate with data science and engineering teams\n• Optimize processes using predictive analytics\nRequired Skills:\n• Machine learning and AI concepts\n• Programming (Python, R)\n• Data analysis and modeling\n• Knowledge of computer vision tools\nQualifications:\n• Bachelor’s/Master’s degree in Engineering, Data Science, or related field\n• 3–8 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:02:00.911380+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

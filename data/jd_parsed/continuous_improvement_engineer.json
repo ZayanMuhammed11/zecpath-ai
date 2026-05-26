@@ -1,0 +1,74 @@
+{
+  "job_id": "JOB-CONTINUOUS_IMPROVEMENT_ENGINEER",
+  "title": "Continuous Improvement Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Lean manufacturing",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Six Sigma",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Data analysis",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Problem-solving",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Process optimization",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "Lean manufacturing",
+    "Six Sigma"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Identify improvement opportunities in processes",
+    "Implement Lean and Six Sigma methodologies",
+    "Analyze process performance data",
+    "Lead improvement projects and initiatives",
+    "Monitor and sustain improvements"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Continuous Improvement Engineer\nJob Summary:\nDrive ongoing process improvements to enhance efficiency, quality, and productivity.\nKey Responsibilities:\n• Identify improvement opportunities in processes\n• Implement Lean and Six Sigma methodologies\n• Analyze process performance data\n• Lead improvement projects and initiatives\n• Monitor and sustain improvements\nRequired Skills:\n• Lean manufacturing and Six Sigma knowledge\n• Data analysis and problem-solving\n• Process optimization skills\nQualifications:\n• Bachelor’s degree in Engineering or related field\n• 3–7 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:02:43.835895+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

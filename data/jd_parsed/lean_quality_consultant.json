@@ -1,0 +1,76 @@
+{
+  "job_id": "JOB-LEAN_QUALITY_CONSULTANT",
+  "title": "Lean Quality Consultant",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Lean manufacturing",
+      "level": "expert",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Process mapping and optimization",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": false
+    },
+    {
+      "name": "Change management",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": false
+    },
+    {
+      "name": "Analytical thinking",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": false
+    }
+  ],
+  "preferred_skills": [
+    {
+      "name": "Lean certification",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": false
+    }
+  ],
+  "must_have_skills": [
+    "Lean manufacturing"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Implement Lean methodologies",
+    "Identify and eliminate non-value-added activities",
+    "Improve process flow and efficiency",
+    "Train teams on Lean practices",
+    "Support continuous improvement initiatives"
+  ],
+  "nice_to_have": [
+    "Lean certification"
+  ],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Lean Quality Consultant\nJob Summary:\nHelp organizations eliminate waste and improve quality using Lean principles and tools.\nKey Responsibilities:\n• Implement Lean methodologies (5S, VSM, Kaizen)\n• Identify and eliminate non-value-added activities\n• Improve process flow and efficiency\n• Train teams on Lean practices\n• Support continuous improvement initiatives\nRequired Skills:\n• Lean manufacturing expertise\n• Process mapping and optimization\n• Change management skills\n• Strong analytical thinking\nQualifications:\n• Bachelor’s degree in Engineering or related field\n• Lean certification preferred\n• 8–15 years of experience",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:05:21.982948+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

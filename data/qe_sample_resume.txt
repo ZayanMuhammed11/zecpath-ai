@@ -1,0 +1,91 @@
+Arjun Nair
+Quality Engineer
+Pune, Maharashtra, India
+arjun.nair@email.com | +91 98765 43210
+LinkedIn: linkedin.com/in/arjunnair-qe
+
+
+SUMMARY
+
+Results-driven Quality Engineer with 4 years of experience in automotive
+manufacturing quality assurance at a Tier-1 auto parts supplier. Proficient
+in core quality tools including FMEA, APQP, PPAP, and Control Plans with
+hands-on experience managing customer complaints and driving corrective
+actions through structured 8D Problem Solving and Root Cause Analysis.
+Certified ISO 9001 and IATF 16949 internal auditor with a strong track
+record of reducing defect rates and improving process capability through
+Lean Manufacturing and Six Sigma principles. Experienced in SPC, MSA,
+and GD&T for dimensional and process quality control.
+
+
+SKILLS
+
+Quality Systems   : ISO 9001, IATF 16949, Internal Audit
+Core Quality Tools: FMEA, APQP, PPAP, Control Plans, MSA, GD&T
+Problem Solving   : 8D Problem Solving, Root Cause Analysis, CAPA
+Process Excellence: Six Sigma, Lean Manufacturing, Kaizen, 5S, SPC
+Software          : Minitab, SAP QM, MS Excel, AutoCAD (basic)
+Other             : Customer SPOC, Supplier Quality, Incoming Inspection
+
+
+WORK EXPERIENCE
+
+Quality Engineer
+Bharat Auto Components Pvt. Ltd., Pune, Maharashtra
+June 2021 - Present
+
+- Lead APQP activities for new product launches, coordinating cross-functional
+  teams across design, manufacturing, and supply chain to meet customer
+  milestones. Prepared and submitted PPAP documentation to OEM customers
+  including control plans, measurement system analysis reports, and initial
+  process capability studies.
+
+- Conduct FMEA reviews for both design and process stages, updating risk
+  priority numbers after each Kaizen event or process change. Maintained
+  living FMEA documents aligned with IATF 16949 requirements.
+
+- Reduced customer PPM by 38 percent over 18 months by implementing SPC
+  charts on critical-to-quality characteristics and triggering CAPA workflows
+  whenever Cp/Cpk values fell below 1.33.
+
+- Facilitated 8D Problem Solving sessions for field warranty returns and
+  customer complaints, performing Root Cause Analysis using fishbone diagrams
+  and the 5-Why method. Verified effectiveness of corrective actions through
+  follow-up audits.
+
+- Conducted Internal Audit cycles as a certified ISO 9001 and IATF 16949
+  auditor, covering production, incoming, and final inspection departments.
+  Raised non-conformance reports and tracked closure within defined timelines.
+
+- Championed 5S and Lean Manufacturing initiatives on the shop floor,
+  eliminating non-value-added steps and reducing changeover time by 22 percent
+  through value stream mapping exercises.
+
+- Performed MSA studies (Gauge R and R, linearity, bias) for all new gauges
+  and measurement equipment introduced during product launches. Interpreted
+  GD&T callouts from customer drawings to define inspection criteria.
+
+Junior Quality Engineer
+Precision Parts India Ltd., Chakan, Pune
+July 2020 - May 2021
+
+- Supported incoming quality inspection and maintained statistical records
+  for supplier scorecards.
+- Assisted senior engineers in FMEA preparation and control plan development
+  for three new product programs.
+- Participated in Kaizen and 5S activities as part of the plant quality circle.
+
+
+EDUCATION
+
+Bachelor of Engineering in Mechanical Engineering
+Savitribai Phule Pune University, Pune
+Graduated: May 2020 | CGPA: 7.8 / 10
+
+
+CERTIFICATIONS
+
+- IATF 16949:2016 Internal Auditor - TUV India, 2022
+- ISO 9001:2015 Internal Auditor - Bureau Veritas, 2021
+- Six Sigma Green Belt (CSSGB) - ASQ, 2023
+- Core Tools Training (APQP, PPAP, FMEA, MSA, SPC) - ACMA, 2021

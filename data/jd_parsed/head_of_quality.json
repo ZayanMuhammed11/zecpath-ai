@@ -1,0 +1,69 @@
+{
+  "job_id": "JOB-HEAD_OF_QUALITY",
+  "title": "Head of Quality",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Strategic leadership",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Decision-making",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Communication",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Quality systems",
+      "level": "expert",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "Strategic leadership",
+    "Quality systems"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering",
+    "Management"
+  ],
+  "responsibilities": [
+    "Define quality vision and strategy",
+    "Oversee all quality functions and teams",
+    "Ensure compliance with global standards",
+    "Drive a culture of quality excellence",
+    "Report quality performance to senior leadership"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Head of Quality\nJob Summary:\nLead the organization’s overall quality strategy and ensure alignment with business\nobjectives.\nKey Responsibilities:\n• Define quality vision and strategy\n• Oversee all quality functions and teams\n• Ensure compliance with global standards\n• Drive a culture of quality excellence\n• Report quality performance to senior leadership\nRequired Skills:\n• Strategic leadership\n• Strong decision-making and communication\n• Deep knowledge of quality systems\nQualifications:\n• Bachelor’s/Master’s degree in Engineering or Management\n• 12–18 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:04:00.818479+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

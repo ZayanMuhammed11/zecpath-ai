@@ -1,0 +1,63 @@
+{
+  "job_id": "JOB-SUPPLIER_QUALITY_MANAGER",
+  "title": "Supplier Quality Manager",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Supplier management and auditing",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Negotiation and communication skills",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Analytical problem-solving",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "Supplier management and auditing",
+    "Negotiation and communication skills",
+    "Analytical problem-solving"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Develop supplier quality strategies",
+    "Conduct supplier audits and evaluations",
+    "Monitor supplier performance metrics",
+    "Lead supplier development programs",
+    "Resolve supplier-related quality issues"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Supplier Quality Manager\nJob Summary:\nOversee supplier quality performance and ensure consistent supply of quality materials.\nKey Responsibilities:\n• Develop supplier quality strategies\n• Conduct supplier audits and evaluations\n• Monitor supplier performance metrics\n• Lead supplier development programs\n• Resolve supplier-related quality issues\nRequired Skills:\n• Supplier management and auditing\n• Negotiation and communication skills\n• Analytical problem-solving\nQualifications:\n• Bachelor’s degree in Engineering\n• 8–12 years of experience",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:08:29.419704+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

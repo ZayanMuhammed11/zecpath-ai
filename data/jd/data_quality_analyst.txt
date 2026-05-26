@@ -1,0 +1,18 @@
+ Data Quality Analyst
+Job Summary:
+Ensure accuracy, consistency, and reliability of data used for decision-making in quality and
+business processes.
+Key Responsibilities:
+• Monitor and validate data quality across systems
+• Identify data inconsistencies and errors
+• Develop data quality rules and standards
+• Generate reports and dashboards
+• Collaborate with data and IT teams
+Required Skills:
+• Data analysis and SQL
+• Knowledge of data governance principles
+• Attention to detail
+• Analytical thinking
+Qualifications:
+• Bachelor’s degree in Data Science, IT, or related field
+• 2–5 years of experience

@@ -1,0 +1,17 @@
+Predictive Quality Engineer
+Job Summary:
+Use predictive analytics to forecast quality issues and prevent defects before they occur.
+Key Responsibilities:
+• Develop predictive models for quality and defect prevention
+• Analyze historical and real-time data
+• Identify risk patterns and failure trends
+• Implement predictive maintenance and quality strategies
+• Collaborate with data science and operations teams
+Required Skills:
+• Predictive analytics and machine learning
+• Data modeling and statistical analysis
+• Programming (Python, R)
+• Strong analytical thinking
+Qualifications:
+• Bachelor’s/Master’s degree in Engineering, Data Science, or related field
+• 3–8 years of experience

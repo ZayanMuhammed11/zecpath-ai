@@ -1,0 +1,63 @@
+{
+  "job_id": "JOB-PLANT_QUALITY_MANAGER",
+  "title": "Plant Quality Manager",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Manufacturing and process knowledge",
+      "level": "advanced",
+      "years_of_experience": 10.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Leadership and team management",
+      "level": "advanced",
+      "years_of_experience": 10.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Quality tools expertise",
+      "level": "advanced",
+      "years_of_experience": 10.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "Manufacturing and process knowledge",
+    "Leadership and team management",
+    "Quality tools expertise"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Oversee plant-level quality operations",
+    "Monitor production quality metrics",
+    "Ensure compliance with manufacturing standards",
+    "Lead quality audits and inspections",
+    "Drive defect reduction and process improvements"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": " Plant Quality Manager\nJob Summary:\nEnsure quality across all plant operations and manufacturing processes.\nKey Responsibilities:\n• Oversee plant-level quality operations\n• Monitor production quality metrics\n• Ensure compliance with manufacturing standards\n• Lead quality audits and inspections\n• Drive defect reduction and process improvements\nRequired Skills:\n• Manufacturing and process knowledge\n• Leadership and team management\n• Quality tools expertise\nQualifications:\n• Bachelor’s degree in Engineering\n• 10–15 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:06:16.696285+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

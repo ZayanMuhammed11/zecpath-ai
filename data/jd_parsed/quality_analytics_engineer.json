@@ -1,0 +1,101 @@
+{
+  "job_id": "JOB-QUALITY_ANALYTICS_ENGINEER",
+  "title": "Quality Analytics Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Data analytics",
+      "level": "advanced",
+      "years_of_experience": 3.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Statistical analysis",
+      "level": "advanced",
+      "years_of_experience": 3.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Visualization tools",
+      "level": "advanced",
+      "years_of_experience": 3.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Problem-solving skills",
+      "level": "advanced",
+      "years_of_experience": 3.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Python",
+      "level": "advanced",
+      "years_of_experience": 3.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "R",
+      "level": "advanced",
+      "years_of_experience": 3.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "years_of_experience": 3.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Power BI",
+      "level": "advanced",
+      "years_of_experience": 3.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Tableau",
+      "level": "advanced",
+      "years_of_experience": 3.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "Data analytics",
+    "Statistical analysis",
+    "Visualization tools",
+    "Problem-solving skills"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering",
+    "Data Analytics"
+  ],
+  "responsibilities": [
+    "Analyze quality data using statistical and analytical tools",
+    "Develop dashboards and reports for quality metrics",
+    "Identify trends, patterns, and improvement opportunities",
+    "Support data-driven decision-making",
+    "Collaborate with cross-functional teams"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Quality Analytics Engineer\nJob Summary:\nUse advanced analytics to derive insights from quality data and drive process improvements.\nKey Responsibilities:\n• Analyze quality data using statistical and analytical tools\n• Develop dashboards and reports for quality metrics\n• Identify trends, patterns, and improvement opportunities\n• Support data-driven decision-making\n• Collaborate with cross-functional teams\nRequired Skills:\n• Data analytics (Python, R, SQL)\n• Statistical analysis\n• Visualization tools (Power BI, Tableau)\n• Problem-solving skills\nQualifications:\n• Bachelor’s degree in Engineering, Data Analytics, or related field\n• 3–7 years of experience",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:07:51.298102+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "job_id": "JOB-VALIDATION_COMPLIANCE_ENGINEER",
+  "title": "Validation & Compliance Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Validation lifecycle knowledge",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Regulatory compliance",
+      "level": "expert",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Documentation skills",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Analytical and problem-solving abilities",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "Validation lifecycle knowledge",
+    "Regulatory compliance"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering",
+    "Pharmacy"
+  ],
+  "responsibilities": [
+    "Develop and execute validation protocols (IQ, OQ, PQ)",
+    "Ensure compliance with regulatory requirements (FDA, EMA, WHO)",
+    "Prepare validation documentation and reports",
+    "Manage deviations, CAPA, and change controls",
+    "Support audits and inspections",
+    "Collaborate with cross-functional teams for validation activities"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Validation & Compliance Engineer\nJob Summary:\nEnsure that equipment, systems, and processes are validated and compliant with regulatory\nstandards.\nKey Responsibilities:\n• Develop and execute validation protocols (IQ, OQ, PQ)\n• Ensure compliance with regulatory requirements (FDA, EMA, WHO)\n• Prepare validation documentation and reports\n• Manage deviations, CAPA, and change controls\n• Support audits and inspections\n• Collaborate with cross-functional teams for validation activities\nRequired Skills:\n• Validation lifecycle knowledge (IQ/OQ/PQ)\n• Regulatory compliance expertise\n• Strong documentation skills\n• Analytical and problem-solving abilities\nQualifications:\n• Bachelor’s degree in Engineering, Pharmacy, or related field\n• 3–7 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:08:47.972143+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

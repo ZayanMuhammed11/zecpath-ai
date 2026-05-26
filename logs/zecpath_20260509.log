@@ -1,0 +1,193 @@
+2026-05-09 15:49:00 | INFO     | tests.test_extraction | Running test: test_pdf_reader_file_not_found
+2026-05-09 15:49:00 | INFO     | tests.test_extraction | Running test: test_docx_reader_file_not_found
+2026-05-09 15:49:00 | INFO     | tests.test_extraction | Running test: test_text_cleaner_removes_special_chars
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 27 chars
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 27 chars
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 27 chars | After: 23 chars | Reduced by: 4 chars
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 27 chars | After: 23 chars | Reduced by: 4 chars
+2026-05-09 15:49:00 | INFO     | tests.test_extraction | Running test: test_text_cleaner_normalizes_bullets
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 46 chars
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 46 chars
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 46 chars | After: 46 chars | Reduced by: 0 chars
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 46 chars | After: 46 chars | Reduced by: 0 chars
+2026-05-09 15:49:00 | INFO     | tests.test_extraction | Running test: test_text_cleaner_normalizes_whitespace
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 33 chars
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 33 chars
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 33 chars | After: 25 chars | Reduced by: 8 chars
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 33 chars | After: 25 chars | Reduced by: 8 chars
+2026-05-09 15:49:00 | INFO     | tests.test_extraction | Running test: test_text_cleaner_fixes_section_headings
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 55 chars
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 55 chars
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 55 chars | After: 55 chars | Reduced by: 0 chars
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 55 chars | After: 55 chars | Reduced by: 0 chars
+2026-05-09 15:49:00 | INFO     | tests.test_extraction | Running test: test_text_cleaner_removes_noise
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 70 chars
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 70 chars
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 70 chars | After: 26 chars | Reduced by: 44 chars
+2026-05-09 15:49:00 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 70 chars | After: 26 chars | Reduced by: 44 chars
+2026-05-09 15:49:00 | INFO     | tests.test_extraction | Running test: test_extract_resume_text_unsupported_format
+2026-05-09 15:49:00 | INFO     | parsers | Starting resume extraction pipeline for: resume_photo.jpg
+2026-05-09 15:57:16 | INFO     | parsers | Starting resume extraction pipeline for: data/zayan_resume.pdf
+2026-05-09 15:57:16 | INFO     | parsers | Detected file type: .pdf | Selecting reader...
+2026-05-09 15:57:16 | INFO     | parsers | Using PDFReader
+2026-05-09 15:57:16 | INFO     | parsers.pdf_reader | PDF extraction successful: zayan_resume.pdf | Pages extracted: 2
+2026-05-09 15:57:16 | INFO     | parsers.pdf_reader | PDF extraction successful: zayan_resume.pdf | Pages extracted: 2
+2026-05-09 15:57:16 | INFO     | parsers | Raw text extracted | Length: 11222 chars
+2026-05-09 15:57:16 | INFO     | parsers | Passing raw text to TextCleaner...
+2026-05-09 15:57:16 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 11222 chars
+2026-05-09 15:57:16 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 11222 chars
+2026-05-09 15:57:16 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-09 15:57:16 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-09 15:57:16 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-09 15:57:16 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-09 15:57:16 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-09 15:57:16 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-09 15:57:16 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-09 15:57:16 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-09 15:57:16 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-09 15:57:16 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-09 15:57:17 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-09 15:57:17 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-09 15:57:17 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 11222 chars | After: 4156 chars | Reduced by: 7066 chars
+2026-05-09 15:57:17 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 11222 chars | After: 4156 chars | Reduced by: 7066 chars
+2026-05-09 15:57:17 | INFO     | parsers | Text cleaning complete | Final length: 4156 chars
+2026-05-09 15:57:17 | INFO     | parsers | Cleaned text saved to: data\zayan_resume.txt
+2026-05-09 15:57:17 | INFO     | parsers | Resume extraction pipeline complete.
+2026-05-09 15:57:38 | INFO     | parsers | Starting resume extraction pipeline for: data/zayan_resume.pdf
+2026-05-09 15:57:38 | INFO     | parsers | Detected file type: .pdf | Selecting reader...
+2026-05-09 15:57:38 | INFO     | parsers | Using PDFReader
+2026-05-09 15:57:38 | INFO     | parsers.pdf_reader | PDF extraction successful: zayan_resume.pdf | Pages extracted: 2
+2026-05-09 15:57:38 | INFO     | parsers.pdf_reader | PDF extraction successful: zayan_resume.pdf | Pages extracted: 2
+2026-05-09 15:57:38 | INFO     | parsers | Raw text extracted | Length: 11222 chars
+2026-05-09 15:57:38 | INFO     | parsers | Passing raw text to TextCleaner...
+2026-05-09 15:57:38 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 11222 chars
+2026-05-09 15:57:38 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 11222 chars
+2026-05-09 15:57:38 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-09 15:57:38 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-09 15:57:38 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-09 15:57:38 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-09 15:57:38 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-09 15:57:38 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-09 15:57:38 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-09 15:57:38 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-09 15:57:38 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-09 15:57:38 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-09 15:57:38 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-09 15:57:38 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-09 15:57:38 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 11222 chars | After: 4156 chars | Reduced by: 7066 chars
+2026-05-09 15:57:38 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 11222 chars | After: 4156 chars | Reduced by: 7066 chars
+2026-05-09 15:57:38 | INFO     | parsers | Text cleaning complete | Final length: 4156 chars
+2026-05-09 15:57:38 | INFO     | parsers | Cleaned text saved to: data\zayan_resume.txt
+2026-05-09 15:57:38 | INFO     | parsers | Resume extraction pipeline complete.
+2026-05-09 17:54:50 | INFO     | parsers | Starting resume extraction pipeline for: data/resume2.pdf
+2026-05-09 17:54:50 | INFO     | parsers | Detected file type: .pdf | Selecting reader...
+2026-05-09 17:54:50 | INFO     | parsers | Using PDFReader
+2026-05-09 17:54:50 | INFO     | parsers.pdf_reader | PDF extraction successful: resume2.pdf | Pages extracted: 2
+2026-05-09 17:54:50 | INFO     | parsers.pdf_reader | PDF extraction successful: resume2.pdf | Pages extracted: 2
+2026-05-09 17:54:50 | INFO     | parsers | Raw text extracted | Length: 11692 chars
+2026-05-09 17:54:50 | INFO     | parsers | Passing raw text to TextCleaner...
+2026-05-09 17:54:50 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 11692 chars
+2026-05-09 17:54:50 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 11692 chars
+2026-05-09 17:54:50 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-09 17:54:50 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-09 17:54:50 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-09 17:54:50 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-09 17:54:50 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-09 17:54:50 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-09 17:54:50 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-09 17:54:50 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-09 17:54:50 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-09 17:54:50 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-09 17:54:50 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-09 17:54:50 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-09 17:54:50 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 11692 chars | After: 5416 chars | Reduced by: 6276 chars
+2026-05-09 17:54:50 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 11692 chars | After: 5416 chars | Reduced by: 6276 chars
+2026-05-09 17:54:50 | INFO     | parsers | Text cleaning complete | Final length: 5416 chars
+2026-05-09 17:54:50 | INFO     | parsers | Cleaned text saved to: data\resume2.txt
+2026-05-09 17:54:50 | INFO     | parsers | Resume extraction pipeline complete.
+2026-05-09 17:55:01 | INFO     | parsers | Starting resume extraction pipeline for: data/resume2.pdf
+2026-05-09 17:55:01 | INFO     | parsers | Detected file type: .pdf | Selecting reader...
+2026-05-09 17:55:01 | INFO     | parsers | Using PDFReader
+2026-05-09 17:55:02 | INFO     | parsers.pdf_reader | PDF extraction successful: resume2.pdf | Pages extracted: 2
+2026-05-09 17:55:02 | INFO     | parsers.pdf_reader | PDF extraction successful: resume2.pdf | Pages extracted: 2
+2026-05-09 17:55:02 | INFO     | parsers | Raw text extracted | Length: 11692 chars
+2026-05-09 17:55:02 | INFO     | parsers | Passing raw text to TextCleaner...
+2026-05-09 17:55:02 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 11692 chars
+2026-05-09 17:55:02 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 11692 chars
+2026-05-09 17:55:02 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-09 17:55:02 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-09 17:55:02 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-09 17:55:02 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-09 17:55:02 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-09 17:55:02 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-09 17:55:02 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-09 17:55:02 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-09 17:55:02 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-09 17:55:02 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-09 17:55:02 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-09 17:55:02 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-09 17:55:02 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 11692 chars | After: 5416 chars | Reduced by: 6276 chars
+2026-05-09 17:55:02 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 11692 chars | After: 5416 chars | Reduced by: 6276 chars
+2026-05-09 17:55:02 | INFO     | parsers | Text cleaning complete | Final length: 5416 chars
+2026-05-09 17:55:02 | INFO     | parsers | Cleaned text saved to: data\resume2.txt
+2026-05-09 17:55:02 | INFO     | parsers | Resume extraction pipeline complete.

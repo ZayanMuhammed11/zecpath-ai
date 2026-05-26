@@ -1,0 +1,98 @@
+{
+  "job_id": "JOB-AEROSPACE_QUALITY_ENGINEER",
+  "title": "Aerospace Quality Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "aerospace quality standards and regulations",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "AS9100",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "FAA",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "EASA",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "analytical and problem-solving skills",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "quality tools (FMEA, SPC, 8D)",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "attention to detail",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "documentation expertise",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "aerospace quality standards and regulations",
+    "AS9100",
+    "FAA",
+    "EASA"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Aerospace",
+    "Mechanical",
+    "related Engineering field"
+  ],
+  "responsibilities": [
+    "Implement and maintain aerospace quality standards and procedures",
+    "Conduct product and process audits",
+    "Perform root cause analysis and implement corrective/preventive actions (CAPA)",
+    "Ensure compliance with aerospace standards and customer requirements",
+    "Support new product development and qualification processes",
+    "Monitor quality metrics (defects, non-conformance, reliability)",
+    "Collaborate with design, manufacturing, and supplier teams"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Aerospace Quality Engineer\nJob Summary:\nEnsure that aerospace products, components, and processes meet stringent quality, safety, and\nregulatory standards throughout the product lifecycle.\nKey Responsibilities:\n• Implement and maintain aerospace quality standards and procedures\n• Conduct product and process audits\n• Perform root cause analysis and implement corrective/preventive actions (CAPA)\n• Ensure compliance with aerospace standards and customer requirements\n• Support new product development and qualification processes\n• Monitor quality metrics (defects, non-conformance, reliability)\n• Collaborate with design, manufacturing, and supplier teams\nRequired Skills:\n• Knowledge of aerospace quality standards and regulations\n• Familiarity with AS9100, FAA, and EASA requirements\n• Strong analytical and problem-solving skills\n• Experience with quality tools (FMEA, SPC, 8D)\n• Attention to detail and documentation expertise\nQualifications:\n• Bachelor’s degree in Aerospace, Mechanical, or related Engineering field\n• 3–8 years of experience in aerospace or high-precision manufacturing ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:01:54.793355+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

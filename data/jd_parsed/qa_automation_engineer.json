@@ -1,0 +1,81 @@
+{
+  "job_id": "JOB-QA_AUTOMATION_ENGINEER",
+  "title": "QA Automation Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Programming skills",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Automation tools",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "CI/CD tools",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "API testing",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Test frameworks",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "Java",
+    "Python",
+    "JavaScript",
+    "Selenium",
+    "Cypress",
+    "Playwright",
+    "Jenkins",
+    "GitHub Actions",
+    "GitLab CI"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Computer Science"
+  ],
+  "responsibilities": [
+    "Develop and maintain automation frameworks and scripts",
+    "Execute automated test suites and analyze results",
+    "Integrate automated testing into CI/CD pipelines",
+    "Identify defects and support debugging",
+    "Improve test coverage and reduce manual testing effort"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": " QA Automation Engineer\nJob Summary:\nDesign and implement automated testing frameworks to improve testing efficiency and\ncoverage.\nKey Responsibilities:\n• Develop and maintain automation frameworks and scripts\n• Execute automated test suites and analyze results\n• Integrate automated testing into CI/CD pipelines\n• Identify defects and support debugging\n• Improve test coverage and reduce manual testing effort\nRequired Skills:\n• Programming skills (Java, Python, JavaScript, etc.)\n• Automation tools (Selenium, Cypress, Playwright)\n• CI/CD tools (Jenkins, GitHub Actions, GitLab CI)\n• Understanding of API testing and test frameworks\nQualifications:\n• Bachelor’s degree in Computer Science or related field\n• 2–6 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:07:20.441574+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

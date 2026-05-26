@@ -1,0 +1,70 @@
+{
+  "job_id": "JOB-HACCP_SPECIALIST",
+  "title": "HACCP Specialist",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "HACCP principles",
+      "level": "expert",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Food safety and risk assessment",
+      "level": "expert",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Auditing and documentation",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Analytical and problem-solving abilities",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "HACCP certification"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Food Science",
+    "Microbiology"
+  ],
+  "responsibilities": [
+    "Conduct hazard analysis and identify critical control points",
+    "Develop and maintain HACCP plans and documentation",
+    "Monitor critical control points and ensure compliance",
+    "Conduct food safety audits and inspections",
+    "Train employees on HACCP and food safety practices",
+    "Investigate food safety incidents and implement corrective actions",
+    "Ensure compliance with regulatory and customer requirements"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "HACCP Specialist\nJob Summary:\nDevelop, implement, and maintain Hazard Analysis and Critical Control Points (HACCP)\nsystems to ensure food safety and compliance.\nKey Responsibilities:\n• Conduct hazard analysis and identify critical control points\n• Develop and maintain HACCP plans and documentation\n• Monitor critical control points and ensure compliance\n• Conduct food safety audits and inspections\n• Train employees on HACCP and food safety practices\n• Investigate food safety incidents and implement corrective actions\n• Ensure compliance with regulatory and customer requirements\nRequired Skills:\n• In-depth knowledge of HACCP principles\n• Food safety and risk assessment expertise\n• Auditing and documentation skills\n• Strong analytical and problem-solving abilities\nQualifications:\n• Bachelor’s degree in Food Science, Microbiology, or related field\n• HACCP certification required\n• 3–7 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:03:54.786050+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

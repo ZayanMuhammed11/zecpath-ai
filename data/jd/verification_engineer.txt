@@ -1,0 +1,17 @@
+Verification Engineer
+Job Summary:
+Verify that products and systems meet design specifications and functional requirements.
+Key Responsibilities:
+• Develop verification plans and test cases
+• Execute functional and performance verification tests
+• Analyze test results and identify deviations
+• Collaborate with design and development teams
+• Ensure traceability between requirements and test results
+• Document verification outcomes and reports
+Required Skills:
+• Knowledge of verification methodologies
+• Test planning and execution
+• Analytical thinking and troubleshooting
+Qualifications:
+• Bachelor’s degree in Engineering (Mechanical, Electrical, Software, or related)
+• 2–5 years of experience

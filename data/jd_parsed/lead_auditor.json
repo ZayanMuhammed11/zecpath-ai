@@ -1,0 +1,100 @@
+{
+  "job_id": "JOB-LEAD_AUDITOR",
+  "title": "Lead Auditor (ISO 9001 / ISO 14001 /ISO 45001)",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "ISO 9001",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "ISO 14001",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "ISO 45001",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "auditing",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "leadership",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "communication",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "presentation",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "analytical skills",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "problem-solving",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "ISO 9001",
+    "ISO 14001",
+    "ISO 45001"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Plan, lead, and conduct audits as per ISO standards",
+    "Evaluate organizational processes for compliance",
+    "Identify gaps and recommend improvements",
+    "Prepare detailed audit reports and present findings",
+    "Guide teams in implementing corrective actions",
+    "Maintain audit schedules and documentation"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Lead Auditor (ISO 9001 / ISO 14001 /ISO 45001)\nJob Summary:\nLead and manage internal and external audits to ensure compliance with international\nstandards and certification requirements.\nKey Responsibilities:\n• Plan, lead, and conduct audits as per ISO standards\n• Evaluate organizational processes for compliance\n• Identify gaps and recommend improvements\n• Prepare detailed audit reports and present findings\n• Guide teams in implementing corrective actions\n• Maintain audit schedules and documentation\nRequired Skills:\n• In-depth knowledge of ISO 9001, ISO 14001, ISO 45001\n• Strong auditing and leadership skills\n• Excellent communication and presentation skills\n• Analytical and problem-solving abilities\nQualifications:\n• Bachelor’s degree in Engineering or related field\n• 4–8 years of experience\n• Certified Lead Auditor (ISO standards) ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:05:09.494066+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "job_id": "JOB-PROCESS_QUALITY_ENGINEER_JUNIOR",
+  "title": "Process Quality Engineer (Junior)",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": "fulltime",
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "process control",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "quality tools",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "analytical thinking",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "process control",
+    "quality tools",
+    "analytical thinking"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "engineering"
+  ],
+  "responsibilities": [
+    "Analyze process performance",
+    "Identify quality issues in production",
+    "Implement corrective and preventive actions",
+    "Support process improvement initiatives",
+    "Monitor KPIs and quality metrics"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Process Quality Engineer (Junior)\n\nJob Summary:\nMonitor and improve quality within manufacturing processes.\nKey Responsibilities:\n• Analyze process performance\n• Identify quality issues in production\n• Implement corrective and preventive actions\n• Support process improvement initiatives\n• Monitor KPIs and quality metrics\nRequired Skills:\n• Basic understanding of process control\n• Knowledge of quality tools (Pareto, Fishbone, etc.)\n• Analytical thinking\nQualifications:\n• Bachelor’s degree in Engineering\n• 0–2 years experience",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:06:55.428681+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

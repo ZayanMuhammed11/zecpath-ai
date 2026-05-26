@@ -1,0 +1,68 @@
+{
+  "job_id": "JOB-QA_QC_CONSULTANT",
+  "title": "QA/QC Consultant",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "QA and QC methodologies",
+      "level": "expert",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Inspection and auditing",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Documentation and process design",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Attention to detail",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "QA and QC methodologies",
+    "Inspection and auditing"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Design QA/QC processes and inspection frameworks",
+    "Evaluate existing QA/QC systems and recommend improvements",
+    "Conduct audits and compliance checks",
+    "Develop quality documentation and SOPs",
+    "Train teams on QA/QC practices"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "QA/QC Consultant\nJob Summary:\nAdvise organizations on establishing and improving Quality Assurance and Quality Control\nprocesses.\nKey Responsibilities:\n• Design QA/QC processes and inspection frameworks\n• Evaluate existing QA/QC systems and recommend improvements\n• Conduct audits and compliance checks\n• Develop quality documentation and SOPs\n• Train teams on QA/QC practices\nRequired Skills:\n• Expertise in QA and QC methodologies\n• Inspection and auditing knowledge\n• Documentation and process design skills\n• Attention to detail\nQualifications:\n• Bachelor’s degree in Engineering or related field\n• 8–15 years of experience",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:07:26.487432+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

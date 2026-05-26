@@ -1,0 +1,164 @@
+{
+  "candidate_id": "CAND-1001",
+  "full_name": "Rahul Menon",
+  "email": "rahul.menon@gmail.com",
+  "phone": "+91-9876543210",
+  "location": "Bangalore, Karnataka",
+  "linkedin_url": "https://linkedin.com/in/rahulmenon",
+  "portfolio_url": "https://rahulmenon.dev",
+  "github_url": "https://github.com/rahulmenon",
+  "total_experience_months": 42,
+  "current_role": "Python Backend Developer",
+  "current_company": "TechNova Solutions",
+  "skills": [
+    {
+      "name": "Python",
+      "level": "expert",
+      "years_of_experience": 3.5,
+      "is_primary_skill": true
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "years_of_experience": 2.5,
+      "is_primary_skill": true
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "years_of_experience": 3,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Docker",
+      "level": "intermediate",
+      "years_of_experience": 1.5,
+      "is_primary_skill": false
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "TechNova Solutions",
+      "role_title": "Python Backend Developer",
+      "department": "Engineering",
+      "company_type": "product",
+      "location": "Bangalore, Karnataka",
+      "employment_type": "fulltime",
+      "start_date": "2023-01",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 28,
+      "responsibilities": [
+        "Developed REST APIs using FastAPI",
+        "Integrated PostgreSQL databases",
+        "Implemented JWT authentication"
+      ],
+      "technologies_used": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker",
+        "Redis"
+      ],
+      "achievements": [
+        "Reduced API response time by 40%",
+        "Built scalable microservice architecture"
+      ]
+    },
+    {
+      "company_name": "CodeCraft Labs",
+      "role_title": "Software Engineer Intern",
+      "department": "Backend Team",
+      "company_type": "startup",
+      "location": "Kochi, Kerala",
+      "employment_type": "internship",
+      "start_date": "2021-11",
+      "end_date": "2022-12",
+      "is_current": false,
+      "duration_months": 14,
+      "responsibilities": [
+        "Worked on backend API development",
+        "Assisted in database optimization"
+      ],
+      "technologies_used": [
+        "Python",
+        "Flask",
+        "MySQL"
+      ],
+      "achievements": [
+        "Improved SQL query performance"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science",
+      "field_of_study": "Data Science",
+      "institution_name": "Mahatma Gandhi University",
+      "location": "Kerala",
+      "start_year": 2023,
+      "end_year": 2025,
+      "grade": "8.7",
+      "grade_type": "cgpa",
+      "is_highest_qualification": true
+    },
+    {
+      "degree": "Bachelor of Computer Applications",
+      "field_of_study": "Computer Applications",
+      "institution_name": "University of Kerala",
+      "location": "Kerala",
+      "start_year": 2020,
+      "end_year": 2023,
+      "grade": "82",
+      "grade_type": "percentage",
+      "is_highest_qualification": false
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuing_organization": "Amazon Web Services",
+      "issue_date": "2024-03",
+      "expiry_date": "2027-03",
+      "credential_id": "AWS-CCP-78213",
+      "is_expired": false
+    }
+  ],
+  "projects": [
+    {
+      "project_name": "AI Resume Screening System",
+      "description": "Developed an AI-powered ATS system for parsing resumes and matching candidates against job descriptions using FastAPI and NLP techniques.",
+      "technologies_used": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Pydantic",
+        "LangChain"
+      ],
+      "role": "Backend Developer",
+      "duration_months": 6,
+      "project_url": "https://github.com/rahulmenon/ai-resume-screening",
+      "is_live": false,
+      "achievements": [
+        "Built resume parsing pipeline with structured JSON output",
+        "Implemented candidate scoring based on skills and experience",
+        "Reduced manual screening effort by 70%"
+      ]
+    }
+  ],
+  "languages_known": [
+    "English",
+    "Malayalam",
+    "Hindi"
+  ],
+  "expected_salary_inr": 1200000,
+  "notice_period_days": 30,
+  "is_actively_looking": true,
+  "raw_text": "Experienced Python backend developer with expertise in FastAPI and PostgreSQL...",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-07T10:45:00",
+    "confidence_score": 96.5,
+    "parsing_version": "v1.0.0"
+  }
+}

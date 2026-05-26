@@ -1,0 +1,69 @@
+{
+  "job_id": "JOB-VALIDATION_ENGINEER_V1",
+  "title": "Validation Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "validation lifecycle (IQ/OQ/PQ)",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "documentation and compliance",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "regulatory standards (GMP, ISO)",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "analytical and problem-solving",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "validation lifecycle",
+    "regulatory standards"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Develop and execute validation protocols (IQ, OQ, PQ)",
+    "Prepare validation plans, reports, and documentation",
+    "Ensure compliance with regulatory and quality standards",
+    "Coordinate with engineering, production, and QA teams",
+    "Identify deviations and implement corrective actions",
+    "Support audits and regulatory inspections"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Validation Engineer\nJob Summary:\nEnsure that systems, equipment, and processes meet defined requirements and regulatory\nstandards through structured validation activities.\nKey Responsibilities:\n• Develop and execute validation protocols (IQ, OQ, PQ)\n• Prepare validation plans, reports, and documentation\n• Ensure compliance with regulatory and quality standards\n• Coordinate with engineering, production, and QA teams\n• Identify deviations and implement corrective actions\n• Support audits and regulatory inspections\nRequired Skills:\n• Knowledge of validation lifecycle (IQ/OQ/PQ)\n• Strong documentation and compliance skills\n• Understanding of regulatory standards (GMP, ISO)\n• Analytical and problem-solving skills\nQualifications:\n• Bachelor’s degree in Engineering or related field\n• 2–6 years of experience",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:09:00.360718+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

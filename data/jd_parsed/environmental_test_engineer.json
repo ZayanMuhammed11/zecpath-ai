@@ -1,0 +1,70 @@
+{
+  "job_id": "JOB-ENVIRONMENTAL_TEST_ENGINEER",
+  "title": "Environmental Test Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "environmental testing standards",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "data analysis",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "failure analysis",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "product reliability concepts",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "environmental testing standards",
+    "data analysis",
+    "failure analysis",
+    "product reliability concepts"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Design and perform environmental tests",
+    "Analyze test data and identify failure modes",
+    "Ensure compliance with environmental and industry standards",
+    "Prepare test reports and documentation",
+    "Collaborate with design and quality teams for improvements"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Environmental Test Engineer\nJob Summary:\nEnsure product reliability and durability by conducting environmental and stress testing.\nKey Responsibilities:\n• Design and perform environmental tests (temperature, humidity, vibration, etc.)\n• Analyze test data and identify failure modes\n• Ensure compliance with environmental and industry standards\n• Prepare test reports and documentation\n• Collaborate with design and quality teams for improvements\nRequired Skills:\n• Knowledge of environmental testing standards\n• Data analysis and failure analysis\n• Understanding of product reliability concepts\nQualifications:\n• Bachelor’s degree in Engineering\n• 2–6 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:03:27.495559+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

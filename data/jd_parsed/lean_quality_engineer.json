@@ -1,0 +1,70 @@
+{
+  "job_id": "JOB-LEAN_QUALITY_ENGINEER",
+  "title": "Lean Quality Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Lean manufacturing",
+      "level": "expert",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Process mapping and analysis",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": false
+    },
+    {
+      "name": "Problem-solving",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": false
+    }
+  ],
+  "preferred_skills": [
+    {
+      "name": "Lean certification",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": false
+    }
+  ],
+  "must_have_skills": [
+    "Lean manufacturing"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Implement Lean tools",
+    "Identify and eliminate non-value-added activities",
+    "Improve process flow and efficiency",
+    "Support continuous improvement initiatives",
+    "Train teams on Lean methodologies"
+  ],
+  "nice_to_have": [
+    "Lean certification"
+  ],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Lean Quality Engineer\nJob Summary:\nIntegrate Lean principles with quality engineering to eliminate waste and improve process\nefficiency.\nKey Responsibilities:\n• Implement Lean tools (5S, Value Stream Mapping, Kanban)\n• Identify and eliminate non-value-added activities\n• Improve process flow and efficiency\n• Support continuous improvement initiatives\n• Train teams on Lean methodologies\nRequired Skills:\n• Lean manufacturing expertise\n• Process mapping and analysis\n• Strong problem-solving skills\nQualifications:\n• Bachelor’s degree in Engineering\n• 3–7 years of experience\n• Lean certification preferred",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:05:27.999749+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

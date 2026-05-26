@@ -1,0 +1,78 @@
+{
+  "job_id": "JOB-NEW_PRODUCT_QUALITY_ENGINEER",
+  "title": "New Product Quality Engineer (NPQE)",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "New Product Development (NPD) and NPI processes",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "APQP fundamentals",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Risk management",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Problem-solving",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Cross-functional coordination",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "New Product Development (NPD) and NPI processes",
+    "APQP fundamentals",
+    "Risk management",
+    "Problem-solving",
+    "Cross-functional coordination"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Define quality requirements for new products",
+    "Support new product introduction (NPI/NPD) processes",
+    "Develop control plans and inspection criteria",
+    "Coordinate cross-functional teams during product launch",
+    "Identify risks and implement mitigation strategies",
+    "Ensure smooth transition from development to production"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "New Product Quality Engineer (NPQE)\nJob Summary:\nEnsure quality readiness for new product development and successful product launches.\nKey Responsibilities:\n• Define quality requirements for new products\n• Support new product introduction (NPI/NPD) processes\n• Develop control plans and inspection criteria\n• Coordinate cross-functional teams during product launch\n• Identify risks and implement mitigation strategies\n• Ensure smooth transition from development to production\nRequired Skills:\n• New Product Development (NPD) and NPI processes\n• APQP fundamentals\n• Risk management and problem-solving\n• Cross-functional coordination\nQualifications:\n• Bachelor’s degree in Engineering\n• 3–7 years of experience",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:06:04.810257+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

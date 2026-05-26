@@ -10,3 +10,15 @@
 2026-05-06 14:45:21 | INFO     | tests.test_scoring | Weights valid. Total = 100
 2026-05-06 14:45:21 | INFO     | tests.test_scoring | Threshold valid: 70
 2026-05-06 14:45:21 | INFO     | tests.test_scoring | Calculated score: 77.0
+2026-05-06 19:58:08 | INFO     | tests.test_ats | ATS test logger is working
+2026-05-06 19:58:08 | INFO     | tests.test_ats | Config loaded. Model: llama-3.3-70b-versatile, Threshold: 70
+2026-05-06 19:58:08 | INFO     | tests.test_ats | Folder exists: parsers
+2026-05-06 19:58:08 | INFO     | tests.test_ats | Folder exists: ats_engine
+2026-05-06 19:58:08 | INFO     | tests.test_ats | Folder exists: screening_ai
+2026-05-06 19:58:08 | INFO     | tests.test_ats | Folder exists: interview_ai
+2026-05-06 19:58:08 | INFO     | tests.test_ats | Folder exists: scoring
+2026-05-06 19:58:08 | INFO     | tests.test_ats | Folder exists: utils
+2026-05-06 19:58:08 | INFO     | tests.test_ats | Folder exists: config
+2026-05-06 19:58:08 | INFO     | tests.test_scoring | Weights valid. Total = 100
+2026-05-06 19:58:08 | INFO     | tests.test_scoring | Threshold valid: 70
+2026-05-06 19:58:08 | INFO     | tests.test_scoring | Calculated score: 77.0

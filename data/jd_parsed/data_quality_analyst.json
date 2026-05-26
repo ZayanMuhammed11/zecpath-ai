@@ -1,0 +1,75 @@
+{
+  "job_id": "JOB-DATA_QUALITY_ANALYST",
+  "title": "Data Quality Analyst",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Data analysis",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Data governance principles",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Attention to detail",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Analytical thinking",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "Data analysis",
+    "SQL"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Data Science",
+    "IT"
+  ],
+  "responsibilities": [
+    "Monitor and validate data quality across systems",
+    "Identify data inconsistencies and errors",
+    "Develop data quality rules and standards",
+    "Generate reports and dashboards",
+    "Collaborate with data and IT teams"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": " Data Quality Analyst\nJob Summary:\nEnsure accuracy, consistency, and reliability of data used for decision-making in quality and\nbusiness processes.\nKey Responsibilities:\n• Monitor and validate data quality across systems\n• Identify data inconsistencies and errors\n• Develop data quality rules and standards\n• Generate reports and dashboards\n• Collaborate with data and IT teams\nRequired Skills:\n• Data analysis and SQL\n• Knowledge of data governance principles\n• Attention to detail\n• Analytical thinking\nQualifications:\n• Bachelor’s degree in Data Science, IT, or related field\n• 2–5 years of experience",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:03:02.537577+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

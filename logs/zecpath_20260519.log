@@ -1,0 +1,72 @@
+2026-05-19 16:32:43 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-05-19 16:32:43 | INFO     | scoring.ats_scorer | _score_skills(): matched 3/3, score=76.00.
+2026-05-19 16:32:43 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 48).
+2026-05-19 16:32:43 | INFO     | scoring.ats_scorer | _score_experience(): total=48 months, relevance=1.00, score=100.00.
+2026-05-19 16:32:43 | INFO     | scoring.ats_scorer | Scoring complete — final_score=78.20, shortlisted=True, label=Moderate Match.
+2026-05-19 16:32:44 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-05-19 16:32:44 | WARNING  | scoring.ats_scorer | Must-have skills missing: ['FMEA', 'ISO 9001']
+2026-05-19 16:32:44 | WARNING  | scoring.ats_scorer | Must-have filter failed for 'Quality Engineer' — instant reject.
+2026-05-19 16:32:44 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-05-19 16:32:44 | INFO     | scoring.ats_scorer | _score_skills(): matched 2/3, score=50.67.
+2026-05-19 16:32:44 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 48).
+2026-05-19 16:32:44 | INFO     | scoring.ats_scorer | _score_experience(): total=48 months, relevance=1.00, score=100.00.
+2026-05-19 16:32:44 | INFO     | scoring.ats_scorer | Scoring complete — final_score=66.80, shortlisted=False, label=Weak Match.
+2026-05-19 16:32:45 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-05-19 16:32:45 | INFO     | scoring.ats_scorer | _score_skills(): matched 3/3, score=76.00.
+2026-05-19 16:32:45 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 6).
+2026-05-19 16:32:45 | INFO     | scoring.ats_scorer | _score_experience(): total=6 months, relevance=1.00, score=72.00.
+2026-05-19 16:32:45 | INFO     | scoring.ats_scorer | Scoring complete — final_score=68.40, shortlisted=False, label=Weak Match.
+2026-05-19 16:32:46 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-05-19 16:32:46 | INFO     | scoring.ats_scorer | _score_skills(): matched 3/3, score=76.00.
+2026-05-19 16:32:46 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 60).
+2026-05-19 16:32:46 | INFO     | scoring.ats_scorer | _score_experience(): total=60 months, relevance=1.00, score=100.00.
+2026-05-19 16:32:46 | INFO     | scoring.ats_scorer | Scoring complete — final_score=78.20, shortlisted=True, label=Moderate Match.
+2026-05-19 16:32:47 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-05-19 16:32:47 | INFO     | scoring.ats_scorer | _score_skills(): matched 3/3, score=76.00.
+2026-05-19 16:32:47 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 48).
+2026-05-19 16:32:47 | INFO     | scoring.ats_scorer | _score_experience(): total=48 months, relevance=1.00, score=100.00.
+2026-05-19 16:32:47 | INFO     | parsers.education_parser | Certification relevance: score=1.00, relevant=3/3.
+2026-05-19 16:32:47 | INFO     | parsers.education_parser | Certification relevance: score=1.00, relevant=3/3.
+2026-05-19 16:32:47 | INFO     | scoring.ats_scorer | _score_certifications(): total=3, relevant=3, score=100.00.
+2026-05-19 16:32:47 | INFO     | scoring.ats_scorer | Scoring complete — final_score=84.20, shortlisted=True, label=Moderate Match.
+2026-05-19 16:32:48 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-05-19 16:32:48 | INFO     | scoring.ats_scorer | _score_skills(): matched 3/3, score=76.00.
+2026-05-19 16:32:48 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 48).
+2026-05-19 16:32:48 | INFO     | scoring.ats_scorer | _score_experience(): total=48 months, relevance=1.00, score=100.00.
+2026-05-19 16:32:48 | INFO     | scoring.ats_scorer | Scoring complete — final_score=78.20, shortlisted=True, label=Moderate Match.
+2026-05-19 16:36:50 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-05-19 16:36:50 | INFO     | scoring.ats_scorer | _score_skills(): matched 3/3, score=76.00.
+2026-05-19 16:36:50 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 48).
+2026-05-19 16:36:50 | INFO     | scoring.ats_scorer | _score_experience(): total=48 months, relevance=1.00, score=100.00.
+2026-05-19 16:36:50 | INFO     | scoring.ats_scorer | Scoring complete — final_score=78.20, shortlisted=True, label=Moderate Match.
+2026-05-19 16:36:50 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-05-19 16:36:50 | WARNING  | scoring.ats_scorer | Must-have skills missing: ['FMEA', 'ISO 9001']
+2026-05-19 16:36:50 | WARNING  | scoring.ats_scorer | Must-have filter failed for 'Quality Engineer' — instant reject.
+2026-05-19 16:36:51 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-05-19 16:36:51 | INFO     | scoring.ats_scorer | _score_skills(): matched 2/3, score=50.67.
+2026-05-19 16:36:51 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 48).
+2026-05-19 16:36:51 | INFO     | scoring.ats_scorer | _score_experience(): total=48 months, relevance=1.00, score=100.00.
+2026-05-19 16:36:51 | INFO     | scoring.ats_scorer | Scoring complete — final_score=66.80, shortlisted=False, label=Weak Match.
+2026-05-19 16:36:51 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-05-19 16:36:51 | INFO     | scoring.ats_scorer | _score_skills(): matched 3/3, score=76.00.
+2026-05-19 16:36:51 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 6).
+2026-05-19 16:36:51 | INFO     | scoring.ats_scorer | _score_experience(): total=6 months, relevance=1.00, score=72.00.
+2026-05-19 16:36:51 | INFO     | scoring.ats_scorer | Scoring complete — final_score=68.40, shortlisted=False, label=Weak Match.
+2026-05-19 16:36:52 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-05-19 16:36:52 | INFO     | scoring.ats_scorer | _score_skills(): matched 3/3, score=76.00.
+2026-05-19 16:36:52 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 60).
+2026-05-19 16:36:52 | INFO     | scoring.ats_scorer | _score_experience(): total=60 months, relevance=1.00, score=100.00.
+2026-05-19 16:36:52 | INFO     | scoring.ats_scorer | Scoring complete — final_score=78.20, shortlisted=True, label=Moderate Match.
+2026-05-19 16:36:52 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-05-19 16:36:52 | INFO     | scoring.ats_scorer | _score_skills(): matched 3/3, score=76.00.
+2026-05-19 16:36:52 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 48).
+2026-05-19 16:36:52 | INFO     | scoring.ats_scorer | _score_experience(): total=48 months, relevance=1.00, score=100.00.
+2026-05-19 16:36:52 | INFO     | parsers.education_parser | Certification relevance: score=1.00, relevant=3/3.
+2026-05-19 16:36:52 | INFO     | parsers.education_parser | Certification relevance: score=1.00, relevant=3/3.
+2026-05-19 16:36:52 | INFO     | scoring.ats_scorer | _score_certifications(): total=3, relevant=3, score=100.00.
+2026-05-19 16:36:52 | INFO     | scoring.ats_scorer | Scoring complete — final_score=84.20, shortlisted=True, label=Moderate Match.
+2026-05-19 16:36:54 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-05-19 16:36:54 | INFO     | scoring.ats_scorer | _score_skills(): matched 3/3, score=76.00.
+2026-05-19 16:36:54 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 48).
+2026-05-19 16:36:54 | INFO     | scoring.ats_scorer | _score_experience(): total=48 months, relevance=1.00, score=100.00.
+2026-05-19 16:36:54 | INFO     | scoring.ats_scorer | Scoring complete — final_score=78.20, shortlisted=True, label=Moderate Match.

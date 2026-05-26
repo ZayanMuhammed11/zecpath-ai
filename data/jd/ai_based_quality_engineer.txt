@@ -1,0 +1,18 @@
+AI-Based Quality Engineer
+Job Summary:
+Apply artificial intelligence and machine learning techniques to improve quality prediction,
+defect detection, and process optimization.
+Key Responsibilities:
+• Develop AI/ML models for defect detection and quality prediction
+• Analyze large datasets to identify quality trends and patterns
+• Implement computer vision systems for automated inspection
+• Collaborate with data science and engineering teams
+• Optimize processes using predictive analytics
+Required Skills:
+• Machine learning and AI concepts
+• Programming (Python, R)
+• Data analysis and modeling
+• Knowledge of computer vision tools
+Qualifications:
+• Bachelor’s/Master’s degree in Engineering, Data Science, or related field
+• 3–8 years of experience 

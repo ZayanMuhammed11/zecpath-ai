@@ -1,0 +1,87 @@
+{
+  "job_id": "JOB-QUALITY_CONSULTANT",
+  "title": "Quality Consultant",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "quality management systems (QMS)",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "problem-solving",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "analytical skills",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "consulting",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "client management",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "communication",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "training",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "quality management systems (QMS)"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering",
+    "Management"
+  ],
+  "responsibilities": [
+    "Assess current quality systems and identify improvement areas",
+    "Develop and implement quality strategies and frameworks",
+    "Conduct audits and gap analysis",
+    "Recommend and implement best practices",
+    "Train teams on quality tools and methodologies",
+    "Support certification and compliance initiatives"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Quality Consultant\nJob Summary:\nProvide expert guidance to organizations on improving quality systems, processes, and\noverall operational performance.\nKey Responsibilities:\n• Assess current quality systems and identify improvement areas\n• Develop and implement quality strategies and frameworks\n• Conduct audits and gap analysis\n• Recommend and implement best practices\n• Train teams on quality tools and methodologies\n• Support certification and compliance initiatives\nRequired Skills:\n• Strong knowledge of quality management systems (QMS)\n• Problem-solving and analytical skills\n• Consulting and client management abilities\n• Communication and training skills\nQualifications:\n• Bachelor’s/Master’s degree in Engineering or Management\n• 8–15 years of experience in quality roles",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:08:17.133280+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

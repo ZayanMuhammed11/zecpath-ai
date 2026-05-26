@@ -1,0 +1,70 @@
+{
+  "job_id": "JOB-SUPPLIER_QUALITY_ENGINEER_JUNIOR",
+  "title": "Supplier Quality Engineer (Junior)",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "supplier management",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "communication",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "negotiation",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "problem-solving",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "supplier management",
+    "communication",
+    "negotiation",
+    "problem-solving"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "engineering"
+  ],
+  "responsibilities": [
+    "Evaluate supplier quality performance",
+    "Conduct supplier audits",
+    "Support supplier development initiatives",
+    "Analyze supplier defects and issues",
+    "Coordinate corrective actions"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Supplier Quality Engineer (Junior)\n\n\nJob Summary:\nEnsure that suppliers meet company quality requirements.\nKey Responsibilities:\n• Evaluate supplier quality performance\n• Conduct supplier audits\n• Support supplier development initiatives\n• Analyze supplier defects and issues\n• Coordinate corrective actions\nRequired Skills:\n• Basic supplier management knowledge\n• Communication and negotiation skills\n• Problem-solving ability\nQualifications:\n• Bachelor’s degree in Engineering\n• 0–2 years experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:08:23.310951+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

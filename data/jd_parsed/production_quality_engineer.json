@@ -1,0 +1,63 @@
+{
+  "job_id": "JOB-PRODUCTION_QUALITY_ENGINEER",
+  "title": "Production Quality Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Production process knowledge",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Quality control techniques",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Analytical skills",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "Production process knowledge",
+    "Quality control techniques",
+    "Analytical skills"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Monitor production quality metrics",
+    "Identify and resolve quality issues",
+    "Implement corrective and preventive actions",
+    "Conduct in-process inspections",
+    "Collaborate with production teams"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": " Production Quality Engineer\nJob Summary:\nEnsure quality during production by monitoring processes and outputs.\nKey Responsibilities:\n• Monitor production quality metrics\n• Identify and resolve quality issues\n• Implement corrective and preventive actions\n• Conduct in-process inspections\n• Collaborate with production teams\nRequired Skills:\n• Production process knowledge\n• Quality control techniques\n• Analytical skills\nQualifications:\n• Bachelor’s degree in Engineering\n• 2–5 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:07:01.319195+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

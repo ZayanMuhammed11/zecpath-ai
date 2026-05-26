@@ -1,0 +1,77 @@
+{
+  "job_id": "JOB-KAIZEN_SPECIALIST",
+  "title": "Kaizen Specialist",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Kaizen principles",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Facilitation",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Team engagement",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Problem-solving",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Analytical thinking",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "Kaizen principles",
+    "Facilitation",
+    "Team engagement",
+    "Problem-solving",
+    "Analytical thinking"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Plan and execute Kaizen events",
+    "Identify small, continuous improvement opportunities",
+    "Engage employees in improvement activities",
+    "Monitor results and sustain improvements",
+    "Promote a culture of continuous improvement"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Kaizen Specialist\nJob Summary:\nLead Kaizen initiatives to drive incremental improvements in processes, quality, and\nproductivity.\nKey Responsibilities:\n• Plan and execute Kaizen events\n• Identify small, continuous improvement opportunities\n• Engage employees in improvement activities\n• Monitor results and sustain improvements\n• Promote a culture of continuous improvement\nRequired Skills:\n• Knowledge of Kaizen principles\n• Facilitation and team engagement skills\n• Problem-solving and analytical thinking\nQualifications:\n• Bachelor’s degree in Engineering or related field\n• 3–7 years of experience",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:05:03.010836+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

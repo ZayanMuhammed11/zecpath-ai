@@ -1,0 +1,80 @@
+{
+  "job_id": "JOB-JUNIOR_QUALITY_ENGINEER",
+  "title": "Junior Quality Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": "fulltime",
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "quality tools (7 QC tools)",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "manufacturing processes",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "analytical skills",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "problem-solving skills",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "attention to detail",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "quality tools (7 QC tools)",
+    "manufacturing processes",
+    "analytical skills",
+    "problem-solving skills",
+    "attention to detail"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Mechanical",
+    "Industrial",
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Assist in implementing quality control processes and procedures",
+    "Conduct inspections and basic testing of products",
+    "Record and analyze quality data",
+    "Support root cause analysis for defects",
+    "Maintain quality documentation and reports",
+    "Coordinate with production and engineering teams"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Junior Quality Engineer\n\nJob Summary:\nSupport quality assurance and control activities to ensure products meet defined standards\nand customer requirements.\nKey Responsibilities:\n• Assist in implementing quality control processes and procedures\n• Conduct inspections and basic testing of products\n• Record and analyze quality data\n• Support root cause analysis for defects\n• Maintain quality documentation and reports\n• Coordinate with production and engineering teams\nRequired Skills:\n• Basic knowledge of quality tools (7 QC tools)\n• Understanding of manufacturing processes\n• Analytical and problem-solving skills\n• Attention to detail\nQualifications:\n• Bachelor’s degree in Engineering (Mechanical, Industrial, or related)\n• 0–2 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:04:56.245447+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

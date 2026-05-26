@@ -1,0 +1,71 @@
+{
+  "job_id": "JOB-PROCESS_IMPROVEMENT_CONSULTANT",
+  "title": "Process Improvement Consultant",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Process optimization and analysis",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Data-driven problem-solving",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Project management",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Communication and stakeholder management",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "Process optimization and analysis",
+    "Data-driven problem-solving",
+    "Project management",
+    "Communication and stakeholder management"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering",
+    "Management"
+  ],
+  "responsibilities": [
+    "Evaluate current processes and identify inefficiencies",
+    "Design and implement improved workflows",
+    "Use data analysis to support decision-making",
+    "Lead improvement projects",
+    "Monitor and sustain process improvements"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Process Improvement Consultant\nJob Summary:\nAnalyze and optimize business and manufacturing processes to improve quality, efficiency,\nand performance.\nKey Responsibilities:\n• Evaluate current processes and identify inefficiencies\n• Design and implement improved workflows\n• Use data analysis to support decision-making\n• Lead improvement projects\n• Monitor and sustain process improvements\nRequired Skills:\n• Process optimization and analysis\n• Data-driven problem-solving\n• Project management\n• Communication and stakeholder management\nQualifications:\n• Bachelor’s/Master’s degree in Engineering or Management\n• 8–15 years of experience",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:06:42.856608+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

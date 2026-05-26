@@ -1,0 +1,55 @@
+{
+  "candidate_id": "CAND-1001",
+  "total_sections_found": 6,
+  "sections": [
+    {
+      "section": "summary",
+      "content": "MSc Computer Science graduate specialized in Data Science with hands-on experience building AI systems\nusing generative AI, deep learning, and computer vision. Experienced in engineering Agentic RAG pipelines,\ndeploying real-time body tracking models, and building robust backend architectures using Python, FastAPI,\nand LangChain. Passionate about engineering scalable software, bridging the gap between machine learning\nresearch and production environments, and developing privacy-focused AI applications.",
+      "line_count": 5,
+      "confidence": 1.0,
+      "detection_method": "exact_match"
+    },
+    {
+      "section": "skills",
+      "content": "Programming: Python, SQL, R\nAI & Machine Learning: DeepLearning,AgenticRAG,HuggingFace,ExplainableAI,Transfer&Ensemble\nLearning\nFrameworks & Libraries: PyTorch, scikit-learn, LangChain, LangGraph, Streamlit, FastAPI, Flask, PyQt5\nComputer Vision: OpenCV, MMPose, MediaPipe Pose\nDatabases & Tools: MySQL, SQLite, ChromaDB, Git, GitHub",
+      "line_count": 6,
+      "confidence": 1.0,
+      "detection_method": "exact_match"
+    },
+    {
+      "section": "experience",
+      "content": "AI Developer Intern \u2014 Zecser Business LLP May 2026 \u2013 Present\n- Working on the architecture and development of an AI-powered autonomous hiring platform focused on\nresume parsing, ATS scoring, candidate shortlisting, AI interview workflows, and scalable backend AI\nsystems.\nSoftware Engineer Intern \u2014 Remap Intelligence Dec 2025 \u2013 March 2026\n- Engineered a real-time gait analysis system using advanced computer vision techniques to monitor, track,\nand evaluate patient mobility metrics.\n- Developedreal-time, gamifiedtherapeuticmodulesusingcomputervisiontotranslatepatientmovements\ninto interactive exercises for motor neuron rehabilitation.\n- Implemented low-latency body tracking models (MMPose, MediaPipe Pose) and built a responsive,\nmultithreaded GUI using PyQt5 for seamless system performance.\nRobotics Trainer \u2014 Digital Bridge International May 2023 \u2013 July 2024\n- Instructed students in STEM classes and hands-on workshops, teaching core concepts in robotics, drone\ntechnology, IoT, and programming under the AICRA initiative.",
+      "line_count": 14,
+      "confidence": 1.0,
+      "detection_method": "exact_match"
+    },
+    {
+      "section": "projects",
+      "content": "AI-Powered ATS Core & Candidate Retrieval Engine (Agentic RAG)\n- Architected a local-first Agentic RAG pipeline to parse and query resumes with zero data egress, ensuring\nPII privacy.\n- Built a semantic search engine using HuggingFace Transformers for dense vector embeddings, indexed in\na local ChromaDB.\n- Designed a Hybrid LLM extraction pipeline: Used Groq\u2019s Llama 3.3 API for JSON schema generation\nand a local Ollama Llama 3.1 8B for zero-shot SQLite extraction.\n- Engineered a LangGraph ReAct Agent to route queries between dynamic SQL generation and semantic\nvector searches.\n- Deployed the full embedding and LLM pipeline within a 6GB VRAM budget by offloading HuggingFace\nworkloads to the CPU.\n- Technologies: Python, LangGraph, LangChain, ChromaDB, SQLite, HuggingFace, Ollama, Groq API,\nStreamlit.\nPlant Disease Diagnosis using Deep Learning and Explainable AI\n- Developed a deep learning system for plant disease diagnosis using CNNs and transfer learning (VGG19,\nResNet50, DenseNet121).\n- Achieved 95.6% test accuracy via a logistic regression stacking ensemble, outperforming individual pretrained models.\n- Integrated Explainable AI (LIME) to visualize model reasoning and deployed a Flask web interface with\na local LLM (Ollama phi-3) for remedy generation.\n- Technologies: Python, PyTorch, Flask, LIME, Transfer Learning, Ensemble Learning, Ollama.\nPrana Health \u2014 Full-Stack Health and Wellness Platform\n- Architected a full-stack health platform with a MySQL relational database to securely manage patient\nrecords and doctor-patient chats.\n- Developed robust, privacy-focused backend services using Flask and PHP.\n- Technologies: Python, Flask, PHP, MySQL, HTML.",
+      "line_count": 25,
+      "confidence": 1.0,
+      "detection_method": "exact_match"
+    },
+    {
+      "section": "education",
+      "content": "Cochin University of Science and Technology (CUSAT) July 2024 \u2013 April 2026\nMaster of Computer Science with Specialization in Data Science\nCollege of Applied Science, Thamarassery July 2020 \u2013 May 2023\nBachelor of Computer Science",
+      "line_count": 4,
+      "confidence": 1.0,
+      "detection_method": "exact_match"
+    },
+    {
+      "section": "certifications",
+      "content": "AI Engineering \u2014 IBM (2026)\nRAG and Agentic AI \u2014 IBM (2026)\nMachine Learning Specialization \u2014 DeepLearning.AI (2025)\nIntroduction to Internet of Things \u2014 IIT Kharagpur (NPTEL, 2025)",
+      "line_count": 4,
+      "confidence": 1.0,
+      "detection_method": "exact_match"
+    }
+  ],
+  "unclassified_content": "Muhammed Zayan A\nmuhammedzayann11@gmail.com | +91 9995131735 | linkedin.com/in/muhammedzayann7",
+  "tagging_metadata": {
+    "classifier_version": "v1.0.0",
+    "tagged_at": "2026-05-14T10:53:32.067995+00:00",
+    "total_lines_processed": 88,
+    "sections_detected": 6
+  }
+}

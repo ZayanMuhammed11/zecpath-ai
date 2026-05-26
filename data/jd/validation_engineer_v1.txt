@@ -1,0 +1,19 @@
+Validation Engineer
+Job Summary:
+Ensure that systems, equipment, and processes meet defined requirements and regulatory
+standards through structured validation activities.
+Key Responsibilities:
+• Develop and execute validation protocols (IQ, OQ, PQ)
+• Prepare validation plans, reports, and documentation
+• Ensure compliance with regulatory and quality standards
+• Coordinate with engineering, production, and QA teams
+• Identify deviations and implement corrective actions
+• Support audits and regulatory inspections
+Required Skills:
+• Knowledge of validation lifecycle (IQ/OQ/PQ)
+• Strong documentation and compliance skills
+• Understanding of regulatory standards (GMP, ISO)
+• Analytical and problem-solving skills
+Qualifications:
+• Bachelor’s degree in Engineering or related field
+• 2–6 years of experience

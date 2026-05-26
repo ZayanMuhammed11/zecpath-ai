@@ -1,0 +1,528 @@
+2026-05-14 16:08:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-05-14 16:08:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-05-14 16:08:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['experience']
+2026-05-14 16:08:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['experience']
+2026-05-14 16:08:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['education']
+2026-05-14 16:08:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['education']
+2026-05-14 16:08:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-05-14 16:08:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-05-14 16:08:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:08:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['header', 'skills', 'other']
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['header', 'skills', 'other']
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 5
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 5
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['experience', 'header', 'other']
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['experience', 'header', 'other']
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 1
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 1
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-X'. Raw sections: ['header', 'other', 'skills']
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-X'. Raw sections: ['header', 'other', 'skills']
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-X'. Sections found: 1, Total lines processed: 3
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-X'. Sections found: 1, Total lines processed: 3
+2026-05-14 16:08:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:08:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13
+2026-05-14 16:08:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-05-14 16:08:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-EMPTY'. Raw sections: ['header', 'other']
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-EMPTY'. Raw sections: ['header', 'other']
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-EMPTY'. Sections found: 0, Total lines processed: 0
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-EMPTY'. Sections found: 0, Total lines processed: 0
+2026-05-14 16:08:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-05-14 16:08:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-9999'. Raw sections: ['header', 'other', 'skills']
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-9999'. Raw sections: ['header', 'other', 'skills']
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-9999'. Sections found: 1, Total lines processed: 1
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-9999'. Sections found: 1, Total lines processed: 1
+2026-05-14 16:08:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:08:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13
+2026-05-14 16:08:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13
+2026-05-14 16:09:53 | INFO     | parsers | Starting resume extraction pipeline for: data/zayan_resume.pdf
+2026-05-14 16:09:53 | INFO     | parsers | Detected file type: .pdf | Selecting reader...
+2026-05-14 16:09:53 | INFO     | parsers | Using PDFReader
+2026-05-14 16:09:53 | INFO     | parsers.pdf_reader | PDF extraction successful: zayan_resume.pdf | Pages extracted: 2
+2026-05-14 16:09:53 | INFO     | parsers.pdf_reader | PDF extraction successful: zayan_resume.pdf | Pages extracted: 2
+2026-05-14 16:09:53 | INFO     | parsers | Raw text extracted | Length: 11222 chars
+2026-05-14 16:09:53 | INFO     | parsers | Passing raw text to TextCleaner...
+2026-05-14 16:09:53 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 11222 chars
+2026-05-14 16:09:53 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 11222 chars
+2026-05-14 16:09:53 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-14 16:09:53 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-14 16:09:53 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-14 16:09:53 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-14 16:09:53 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-14 16:09:53 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-14 16:09:53 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-14 16:09:53 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-14 16:09:53 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-14 16:09:53 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-14 16:09:53 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-14 16:09:53 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-14 16:09:53 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 11222 chars | After: 4156 chars | Reduced by: 7066 chars
+2026-05-14 16:09:53 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 11222 chars | After: 4156 chars | Reduced by: 7066 chars
+2026-05-14 16:09:53 | INFO     | parsers | Text cleaning complete | Final length: 4156 chars
+2026-05-14 16:09:53 | INFO     | parsers | Resume extraction pipeline complete.
+2026-05-14 16:09:53 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-14 16:09:53 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-14 16:09:53 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-14 16:09:53 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-14 16:09:53 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 6, Total lines processed: 88
+2026-05-14 16:09:53 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 6, Total lines processed: 88
+2026-05-14 16:11:13 | INFO     | parsers | Starting resume extraction pipeline for: data/zayan_resume.pdf
+2026-05-14 16:11:13 | INFO     | parsers | Detected file type: .pdf | Selecting reader...
+2026-05-14 16:11:13 | INFO     | parsers | Using PDFReader
+2026-05-14 16:11:13 | INFO     | parsers.pdf_reader | PDF extraction successful: zayan_resume.pdf | Pages extracted: 2
+2026-05-14 16:11:13 | INFO     | parsers.pdf_reader | PDF extraction successful: zayan_resume.pdf | Pages extracted: 2
+2026-05-14 16:11:13 | INFO     | parsers | Raw text extracted | Length: 11222 chars
+2026-05-14 16:11:13 | INFO     | parsers | Passing raw text to TextCleaner...
+2026-05-14 16:11:13 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 11222 chars
+2026-05-14 16:11:13 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 11222 chars
+2026-05-14 16:11:13 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-14 16:11:13 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-14 16:11:13 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-14 16:11:13 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-14 16:11:13 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-14 16:11:13 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-14 16:11:13 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-14 16:11:13 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-14 16:11:13 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-14 16:11:13 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-14 16:11:13 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-14 16:11:13 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-14 16:11:13 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 11222 chars | After: 4156 chars | Reduced by: 7066 chars
+2026-05-14 16:11:13 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 11222 chars | After: 4156 chars | Reduced by: 7066 chars
+2026-05-14 16:11:13 | INFO     | parsers | Text cleaning complete | Final length: 4156 chars
+2026-05-14 16:11:13 | INFO     | parsers | Resume extraction pipeline complete.
+2026-05-14 16:11:13 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-14 16:11:13 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-14 16:11:13 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-14 16:11:13 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-14 16:11:13 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 6, Total lines processed: 88
+2026-05-14 16:11:13 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 6, Total lines processed: 88
+2026-05-14 16:14:25 | INFO     | parsers | Starting resume extraction pipeline for: data/Aadhil Resume.pdf
+2026-05-14 16:14:25 | INFO     | parsers | Detected file type: .pdf | Selecting reader...
+2026-05-14 16:14:25 | INFO     | parsers | Using PDFReader
+2026-05-14 16:14:26 | INFO     | parsers.pdf_reader | PDF extraction successful: Aadhil Resume.pdf | Pages extracted: 1
+2026-05-14 16:14:26 | INFO     | parsers.pdf_reader | PDF extraction successful: Aadhil Resume.pdf | Pages extracted: 1
+2026-05-14 16:14:26 | INFO     | parsers | Raw text extracted | Length: 5428 chars
+2026-05-14 16:14:26 | INFO     | parsers | Passing raw text to TextCleaner...
+2026-05-14 16:14:26 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 5428 chars
+2026-05-14 16:14:26 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 5428 chars
+2026-05-14 16:14:26 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-14 16:14:26 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-14 16:14:26 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-14 16:14:26 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-14 16:14:26 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-14 16:14:26 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-14 16:14:26 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-14 16:14:26 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-14 16:14:26 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-14 16:14:26 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-14 16:14:26 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-14 16:14:26 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-14 16:14:26 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 5428 chars | After: 1596 chars | Reduced by: 3832 chars
+2026-05-14 16:14:26 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 5428 chars | After: 1596 chars | Reduced by: 3832 chars
+2026-05-14 16:14:26 | INFO     | parsers | Text cleaning complete | Final length: 1596 chars
+2026-05-14 16:14:26 | INFO     | parsers | Resume extraction pipeline complete.
+2026-05-14 16:14:26 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['education', 'skills', 'experience', 'projects', 'languages']
+2026-05-14 16:14:26 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['education', 'skills', 'experience', 'projects', 'languages']
+2026-05-14 16:14:26 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1002'. Raw sections: ['header', 'other', 'education', 'skills', 'experience', 'projects', 'languages']
+2026-05-14 16:14:26 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1002'. Raw sections: ['header', 'other', 'education', 'skills', 'experience', 'projects', 'languages']
+2026-05-14 16:14:26 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1002'. Sections found: 5, Total lines processed: 46
+2026-05-14 16:14:26 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1002'. Sections found: 5, Total lines processed: 46
+2026-05-14 16:15:04 | INFO     | parsers | Starting resume extraction pipeline for: data/Allen Joseph Joy Resume..pdf
+2026-05-14 16:15:25 | INFO     | parsers | Starting resume extraction pipeline for: data/zayan_re.pdf
+2026-05-14 16:15:40 | INFO     | parsers | Starting resume extraction pipeline for: data/Allen Joseph Joy Resume.pdf
+2026-05-14 16:15:40 | INFO     | parsers | Detected file type: .pdf | Selecting reader...
+2026-05-14 16:15:40 | INFO     | parsers | Using PDFReader
+2026-05-14 16:15:40 | INFO     | parsers.pdf_reader | PDF extraction successful: Allen Joseph Joy Resume.pdf | Pages extracted: 2
+2026-05-14 16:15:40 | INFO     | parsers.pdf_reader | PDF extraction successful: Allen Joseph Joy Resume.pdf | Pages extracted: 2
+2026-05-14 16:15:40 | INFO     | parsers | Raw text extracted | Length: 10787 chars
+2026-05-14 16:15:40 | INFO     | parsers | Passing raw text to TextCleaner...
+2026-05-14 16:15:40 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 10787 chars
+2026-05-14 16:15:40 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 10787 chars
+2026-05-14 16:15:40 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-14 16:15:40 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-14 16:15:40 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-14 16:15:40 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-14 16:15:40 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-14 16:15:40 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-14 16:15:40 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-14 16:15:40 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-14 16:15:40 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-14 16:15:40 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-14 16:15:40 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-14 16:15:40 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-14 16:15:40 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 10787 chars | After: 2430 chars | Reduced by: 8357 chars
+2026-05-14 16:15:40 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 10787 chars | After: 2430 chars | Reduced by: 8357 chars
+2026-05-14 16:15:40 | INFO     | parsers | Text cleaning complete | Final length: 2430 chars
+2026-05-14 16:15:40 | INFO     | parsers | Resume extraction pipeline complete.
+2026-05-14 16:15:40 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['summary', 'education', 'projects', 'experience', 'skills', 'certifications']
+2026-05-14 16:15:40 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['summary', 'education', 'projects', 'experience', 'skills', 'certifications']
+2026-05-14 16:15:40 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1003'. Raw sections: ['header', 'other', 'summary', 'education', 'projects', 'experience', 'skills', 'certifications']
+2026-05-14 16:15:40 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1003'. Raw sections: ['header', 'other', 'summary', 'education', 'projects', 'experience', 'skills', 'certifications']
+2026-05-14 16:15:40 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1003'. Sections found: 6, Total lines processed: 65
+2026-05-14 16:15:40 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1003'. Sections found: 6, Total lines processed: 65
+2026-05-14 16:16:50 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-05-14 16:16:50 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-05-14 16:16:50 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['experience']
+2026-05-14 16:16:50 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['experience']
+2026-05-14 16:16:50 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['education']
+2026-05-14 16:16:50 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['education']
+2026-05-14 16:16:50 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-05-14 16:16:50 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-05-14 16:16:50 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:16:50 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['header', 'skills', 'other']
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['header', 'skills', 'other']
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 5
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 5
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['experience', 'header', 'other']
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['experience', 'header', 'other']
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 1
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 1
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-X'. Raw sections: ['header', 'other', 'skills']
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-X'. Raw sections: ['header', 'other', 'skills']
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-X'. Sections found: 1, Total lines processed: 3
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-X'. Sections found: 1, Total lines processed: 3
+2026-05-14 16:16:50 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:16:50 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13
+2026-05-14 16:16:50 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-05-14 16:16:50 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-EMPTY'. Raw sections: ['header', 'other']
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-EMPTY'. Raw sections: ['header', 'other']
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-EMPTY'. Sections found: 0, Total lines processed: 0
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-EMPTY'. Sections found: 0, Total lines processed: 0
+2026-05-14 16:16:50 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-05-14 16:16:50 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-9999'. Raw sections: ['header', 'other', 'skills']
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-9999'. Raw sections: ['header', 'other', 'skills']
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-9999'. Sections found: 1, Total lines processed: 1
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-9999'. Sections found: 1, Total lines processed: 1
+2026-05-14 16:16:50 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:16:50 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13
+2026-05-14 16:16:50 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13
+2026-05-14 16:17:00 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-05-14 16:17:00 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-05-14 16:17:00 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['experience']
+2026-05-14 16:17:00 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['experience']
+2026-05-14 16:17:00 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['education']
+2026-05-14 16:17:00 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['education']
+2026-05-14 16:17:00 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-05-14 16:17:00 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-05-14 16:17:00 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:17:00 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['header', 'skills', 'other']
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['header', 'skills', 'other']
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 5
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 5
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['experience', 'header', 'other']
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['experience', 'header', 'other']
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 1
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 1
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-X'. Raw sections: ['header', 'other', 'skills']
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-X'. Raw sections: ['header', 'other', 'skills']
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-X'. Sections found: 1, Total lines processed: 3
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-X'. Sections found: 1, Total lines processed: 3
+2026-05-14 16:17:00 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:17:00 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13
+2026-05-14 16:17:00 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-05-14 16:17:00 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-EMPTY'. Raw sections: ['header', 'other']
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-EMPTY'. Raw sections: ['header', 'other']
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-EMPTY'. Sections found: 0, Total lines processed: 0
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-EMPTY'. Sections found: 0, Total lines processed: 0
+2026-05-14 16:17:00 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-05-14 16:17:00 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-9999'. Raw sections: ['header', 'other', 'skills']
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-9999'. Raw sections: ['header', 'other', 'skills']
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-9999'. Sections found: 1, Total lines processed: 1
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-9999'. Sections found: 1, Total lines processed: 1
+2026-05-14 16:17:00 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:17:00 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13
+2026-05-14 16:17:00 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13
+2026-05-14 16:20:20 | INFO     | parsers | Starting resume extraction pipeline for: data/Aadhil Resume.pdf
+2026-05-14 16:20:20 | INFO     | parsers | Detected file type: .pdf | Selecting reader...
+2026-05-14 16:20:20 | INFO     | parsers | Using PDFReader
+2026-05-14 16:20:20 | INFO     | parsers.pdf_reader | PDF extraction successful: Aadhil Resume.pdf | Pages extracted: 1
+2026-05-14 16:20:20 | INFO     | parsers.pdf_reader | PDF extraction successful: Aadhil Resume.pdf | Pages extracted: 1
+2026-05-14 16:20:20 | INFO     | parsers | Raw text extracted | Length: 5428 chars
+2026-05-14 16:20:20 | INFO     | parsers | Passing raw text to TextCleaner...
+2026-05-14 16:20:20 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 5428 chars
+2026-05-14 16:20:20 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 5428 chars
+2026-05-14 16:20:20 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-14 16:20:20 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-14 16:20:20 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-14 16:20:20 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-14 16:20:20 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-14 16:20:20 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-14 16:20:20 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-14 16:20:20 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-14 16:20:20 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-14 16:20:20 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-14 16:20:20 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-14 16:20:20 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-14 16:20:20 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 5428 chars | After: 1596 chars | Reduced by: 3832 chars
+2026-05-14 16:20:20 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 5428 chars | After: 1596 chars | Reduced by: 3832 chars
+2026-05-14 16:20:20 | INFO     | parsers | Text cleaning complete | Final length: 1596 chars
+2026-05-14 16:20:20 | INFO     | parsers | Resume extraction pipeline complete.
+2026-05-14 16:20:20 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['education', 'skills', 'experience', 'projects', 'languages']
+2026-05-14 16:20:20 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['education', 'skills', 'experience', 'projects', 'languages']
+2026-05-14 16:20:20 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1002'. Raw sections: ['header', 'other', 'education', 'skills', 'experience', 'projects', 'languages']
+2026-05-14 16:20:20 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1002'. Raw sections: ['header', 'other', 'education', 'skills', 'experience', 'projects', 'languages']
+2026-05-14 16:20:20 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1002'. Sections found: 5, Total lines processed: 46
+2026-05-14 16:20:20 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1002'. Sections found: 5, Total lines processed: 46
+2026-05-14 16:20:57 | INFO     | parsers | Starting resume extraction pipeline for: data/Aadhil Resume.pdf
+2026-05-14 16:20:57 | INFO     | parsers | Detected file type: .pdf | Selecting reader...
+2026-05-14 16:20:57 | INFO     | parsers | Using PDFReader
+2026-05-14 16:20:57 | INFO     | parsers.pdf_reader | PDF extraction successful: Aadhil Resume.pdf | Pages extracted: 1
+2026-05-14 16:20:57 | INFO     | parsers.pdf_reader | PDF extraction successful: Aadhil Resume.pdf | Pages extracted: 1
+2026-05-14 16:20:57 | INFO     | parsers | Raw text extracted | Length: 5428 chars
+2026-05-14 16:20:57 | INFO     | parsers | Passing raw text to TextCleaner...
+2026-05-14 16:20:57 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 5428 chars
+2026-05-14 16:20:57 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 5428 chars
+2026-05-14 16:20:57 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-14 16:20:57 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-14 16:20:57 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-14 16:20:57 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-14 16:20:57 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-14 16:20:57 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-14 16:20:57 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-14 16:20:57 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-14 16:20:57 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-14 16:20:57 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-14 16:20:57 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-14 16:20:57 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-14 16:20:57 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 5428 chars | After: 1596 chars | Reduced by: 3832 chars
+2026-05-14 16:20:57 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 5428 chars | After: 1596 chars | Reduced by: 3832 chars
+2026-05-14 16:20:57 | INFO     | parsers | Text cleaning complete | Final length: 1596 chars
+2026-05-14 16:20:57 | INFO     | parsers | Resume extraction pipeline complete.
+2026-05-14 16:20:57 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['education', 'skills', 'experience', 'projects', 'languages']
+2026-05-14 16:20:57 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['education', 'skills', 'experience', 'projects', 'languages']
+2026-05-14 16:20:57 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1002'. Raw sections: ['header', 'other', 'education', 'skills', 'experience', 'projects', 'languages']
+2026-05-14 16:20:57 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1002'. Raw sections: ['header', 'other', 'education', 'skills', 'experience', 'projects', 'languages']
+2026-05-14 16:20:57 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1002'. Sections found: 5, Total lines processed: 46
+2026-05-14 16:20:57 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1002'. Sections found: 5, Total lines processed: 46
+2026-05-14 16:23:02 | INFO     | parsers | Starting resume extraction pipeline for: data/zayan_resume.pdf
+2026-05-14 16:23:02 | INFO     | parsers | Detected file type: .pdf | Selecting reader...
+2026-05-14 16:23:02 | INFO     | parsers | Using PDFReader
+2026-05-14 16:23:02 | INFO     | parsers.pdf_reader | PDF extraction successful: zayan_resume.pdf | Pages extracted: 2
+2026-05-14 16:23:02 | INFO     | parsers.pdf_reader | PDF extraction successful: zayan_resume.pdf | Pages extracted: 2
+2026-05-14 16:23:02 | INFO     | parsers | Raw text extracted | Length: 11222 chars
+2026-05-14 16:23:02 | INFO     | parsers | Passing raw text to TextCleaner...
+2026-05-14 16:23:02 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 11222 chars
+2026-05-14 16:23:02 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 11222 chars
+2026-05-14 16:23:02 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-14 16:23:02 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-14 16:23:02 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-14 16:23:02 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-14 16:23:02 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-14 16:23:02 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-14 16:23:02 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-14 16:23:02 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-14 16:23:02 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-14 16:23:02 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-14 16:23:02 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-14 16:23:02 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-14 16:23:02 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 11222 chars | After: 4156 chars | Reduced by: 7066 chars
+2026-05-14 16:23:02 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 11222 chars | After: 4156 chars | Reduced by: 7066 chars
+2026-05-14 16:23:02 | INFO     | parsers | Text cleaning complete | Final length: 4156 chars
+2026-05-14 16:23:02 | INFO     | parsers | Resume extraction pipeline complete.
+2026-05-14 16:23:02 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-14 16:23:02 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-14 16:23:02 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-14 16:23:02 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-14 16:23:02 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 6, Total lines processed: 88
+2026-05-14 16:23:02 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 6, Total lines processed: 88
+2026-05-14 16:23:31 | INFO     | parsers | Starting resume extraction pipeline for: data/zayan_resume.pdf
+2026-05-14 16:23:31 | INFO     | parsers | Detected file type: .pdf | Selecting reader...
+2026-05-14 16:23:31 | INFO     | parsers | Using PDFReader
+2026-05-14 16:23:32 | INFO     | parsers.pdf_reader | PDF extraction successful: zayan_resume.pdf | Pages extracted: 2
+2026-05-14 16:23:32 | INFO     | parsers.pdf_reader | PDF extraction successful: zayan_resume.pdf | Pages extracted: 2
+2026-05-14 16:23:32 | INFO     | parsers | Raw text extracted | Length: 11222 chars
+2026-05-14 16:23:32 | INFO     | parsers | Passing raw text to TextCleaner...
+2026-05-14 16:23:32 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 11222 chars
+2026-05-14 16:23:32 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 11222 chars
+2026-05-14 16:23:32 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-14 16:23:32 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-14 16:23:32 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-14 16:23:32 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-14 16:23:32 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-14 16:23:32 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-14 16:23:32 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-14 16:23:32 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-14 16:23:32 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-14 16:23:32 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-14 16:23:32 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-14 16:23:32 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-14 16:23:32 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 11222 chars | After: 4156 chars | Reduced by: 7066 chars
+2026-05-14 16:23:32 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 11222 chars | After: 4156 chars | Reduced by: 7066 chars
+2026-05-14 16:23:32 | INFO     | parsers | Text cleaning complete | Final length: 4156 chars
+2026-05-14 16:23:32 | INFO     | parsers | Resume extraction pipeline complete.
+2026-05-14 16:23:32 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-14 16:23:32 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-14 16:23:32 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-14 16:23:32 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-14 16:23:32 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 6, Total lines processed: 88
+2026-05-14 16:23:32 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 6, Total lines processed: 88
+2026-05-14 16:24:33 | INFO     | parsers | Starting resume extraction pipeline for: data/Aadhil Resume.pdf
+2026-05-14 16:24:33 | INFO     | parsers | Detected file type: .pdf | Selecting reader...
+2026-05-14 16:24:33 | INFO     | parsers | Using PDFReader
+2026-05-14 16:24:33 | INFO     | parsers.pdf_reader | PDF extraction successful: Aadhil Resume.pdf | Pages extracted: 1
+2026-05-14 16:24:33 | INFO     | parsers.pdf_reader | PDF extraction successful: Aadhil Resume.pdf | Pages extracted: 1
+2026-05-14 16:24:33 | INFO     | parsers | Raw text extracted | Length: 5428 chars
+2026-05-14 16:24:33 | INFO     | parsers | Passing raw text to TextCleaner...
+2026-05-14 16:24:33 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 5428 chars
+2026-05-14 16:24:33 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 5428 chars
+2026-05-14 16:24:33 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-14 16:24:33 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-14 16:24:33 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-14 16:24:33 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-14 16:24:33 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-14 16:24:33 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-14 16:24:33 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-14 16:24:33 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-14 16:24:33 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-14 16:24:33 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-14 16:24:33 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-14 16:24:33 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-14 16:24:33 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 5428 chars | After: 1596 chars | Reduced by: 3832 chars
+2026-05-14 16:24:33 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 5428 chars | After: 1596 chars | Reduced by: 3832 chars
+2026-05-14 16:24:33 | INFO     | parsers | Text cleaning complete | Final length: 1596 chars
+2026-05-14 16:24:33 | INFO     | parsers | Resume extraction pipeline complete.
+2026-05-14 16:24:33 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['education', 'skills', 'experience', 'projects', 'languages']
+2026-05-14 16:24:33 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['education', 'skills', 'experience', 'projects', 'languages']
+2026-05-14 16:24:33 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1002'. Raw sections: ['header', 'other', 'education', 'skills', 'experience', 'projects', 'languages']
+2026-05-14 16:24:33 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1002'. Raw sections: ['header', 'other', 'education', 'skills', 'experience', 'projects', 'languages']
+2026-05-14 16:24:33 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1002'. Sections found: 5, Total lines processed: 46
+2026-05-14 16:24:33 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1002'. Sections found: 5, Total lines processed: 46
+2026-05-14 16:25:13 | INFO     | parsers | Starting resume extraction pipeline for: data/Aadhil Resume.pdf
+2026-05-14 16:25:13 | INFO     | parsers | Detected file type: .pdf | Selecting reader...
+2026-05-14 16:25:13 | INFO     | parsers | Using PDFReader
+2026-05-14 16:25:13 | INFO     | parsers.pdf_reader | PDF extraction successful: Aadhil Resume.pdf | Pages extracted: 1
+2026-05-14 16:25:13 | INFO     | parsers.pdf_reader | PDF extraction successful: Aadhil Resume.pdf | Pages extracted: 1
+2026-05-14 16:25:13 | INFO     | parsers | Raw text extracted | Length: 5428 chars
+2026-05-14 16:25:13 | INFO     | parsers | Passing raw text to TextCleaner...
+2026-05-14 16:25:13 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 5428 chars
+2026-05-14 16:25:13 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 5428 chars
+2026-05-14 16:25:13 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-14 16:25:13 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-14 16:25:13 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-14 16:25:13 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-14 16:25:13 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-14 16:25:13 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-14 16:25:13 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-14 16:25:13 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-14 16:25:13 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-14 16:25:13 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-14 16:25:13 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-14 16:25:13 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-14 16:25:13 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 5428 chars | After: 1596 chars | Reduced by: 3832 chars
+2026-05-14 16:25:13 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 5428 chars | After: 1596 chars | Reduced by: 3832 chars
+2026-05-14 16:25:13 | INFO     | parsers | Text cleaning complete | Final length: 1596 chars
+2026-05-14 16:25:13 | INFO     | parsers | Resume extraction pipeline complete.
+2026-05-14 16:25:13 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['education', 'skills', 'experience', 'projects', 'languages']
+2026-05-14 16:25:13 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['education', 'skills', 'experience', 'projects', 'languages']
+2026-05-14 16:25:13 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1002'. Raw sections: ['header', 'other', 'education', 'skills', 'experience', 'projects', 'languages']
+2026-05-14 16:25:13 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1002'. Raw sections: ['header', 'other', 'education', 'skills', 'experience', 'projects', 'languages']
+2026-05-14 16:25:13 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1002'. Sections found: 5, Total lines processed: 46
+2026-05-14 16:25:13 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1002'. Sections found: 5, Total lines processed: 46
+2026-05-14 16:25:46 | INFO     | parsers | Starting resume extraction pipeline for: data/Allen Joseph Joy.pdf
+2026-05-14 16:26:52 | INFO     | parsers | Starting resume extraction pipeline for: data/Allen Joseph Joy Resume.pdf
+2026-05-14 16:26:52 | INFO     | parsers | Detected file type: .pdf | Selecting reader...
+2026-05-14 16:26:52 | INFO     | parsers | Using PDFReader
+2026-05-14 16:26:53 | INFO     | parsers.pdf_reader | PDF extraction successful: Allen Joseph Joy Resume.pdf | Pages extracted: 2
+2026-05-14 16:26:53 | INFO     | parsers.pdf_reader | PDF extraction successful: Allen Joseph Joy Resume.pdf | Pages extracted: 2
+2026-05-14 16:26:53 | INFO     | parsers | Raw text extracted | Length: 10787 chars
+2026-05-14 16:26:53 | INFO     | parsers | Passing raw text to TextCleaner...
+2026-05-14 16:26:53 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 10787 chars
+2026-05-14 16:26:53 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 10787 chars
+2026-05-14 16:26:53 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-14 16:26:53 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-05-14 16:26:53 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-14 16:26:53 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-05-14 16:26:53 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-14 16:26:53 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-05-14 16:26:53 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-14 16:26:53 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-05-14 16:26:53 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-14 16:26:53 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-05-14 16:26:53 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-14 16:26:53 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-05-14 16:26:53 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 10787 chars | After: 2430 chars | Reduced by: 8357 chars
+2026-05-14 16:26:53 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 10787 chars | After: 2430 chars | Reduced by: 8357 chars
+2026-05-14 16:26:53 | INFO     | parsers | Text cleaning complete | Final length: 2430 chars
+2026-05-14 16:26:53 | INFO     | parsers | Resume extraction pipeline complete.
+2026-05-14 16:26:53 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['summary', 'education', 'projects', 'experience', 'skills', 'certifications']
+2026-05-14 16:26:53 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['summary', 'education', 'projects', 'experience', 'skills', 'certifications']
+2026-05-14 16:26:53 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1003'. Raw sections: ['header', 'other', 'summary', 'education', 'projects', 'experience', 'skills', 'certifications']
+2026-05-14 16:26:53 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1003'. Raw sections: ['header', 'other', 'summary', 'education', 'projects', 'experience', 'skills', 'certifications']
+2026-05-14 16:26:53 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1003'. Sections found: 6, Total lines processed: 65
+2026-05-14 16:26:53 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1003'. Sections found: 6, Total lines processed: 65
+2026-05-14 16:29:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-05-14 16:29:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-05-14 16:29:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['experience']
+2026-05-14 16:29:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['experience']
+2026-05-14 16:29:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['education']
+2026-05-14 16:29:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['education']
+2026-05-14 16:29:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-05-14 16:29:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-05-14 16:29:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:29:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['header', 'skills', 'other']
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['header', 'skills', 'other']
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 5
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 5
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['experience', 'header', 'other']
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['experience', 'header', 'other']
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 1
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 1
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-X'. Raw sections: ['header', 'other', 'skills']
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-X'. Raw sections: ['header', 'other', 'skills']
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-X'. Sections found: 1, Total lines processed: 3
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-X'. Sections found: 1, Total lines processed: 3
+2026-05-14 16:29:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:29:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13
+2026-05-14 16:29:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-05-14 16:29:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-EMPTY'. Raw sections: ['header', 'other']
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-EMPTY'. Raw sections: ['header', 'other']
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-EMPTY'. Sections found: 0, Total lines processed: 0
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-EMPTY'. Sections found: 0, Total lines processed: 0
+2026-05-14 16:29:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-05-14 16:29:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-9999'. Raw sections: ['header', 'other', 'skills']
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-9999'. Raw sections: ['header', 'other', 'skills']
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-9999'. Sections found: 1, Total lines processed: 1
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-9999'. Sections found: 1, Total lines processed: 1
+2026-05-14 16:29:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:29:19 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13
+2026-05-14 16:29:19 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13

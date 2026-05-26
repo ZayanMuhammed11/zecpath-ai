@@ -1,0 +1,70 @@
+{
+  "job_id": "JOB-CUSTOMER_QUALITY_ENGINEER",
+  "title": "Customer Quality Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "communication skills",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "customer handling",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "problem-solving",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "analytical thinking",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "communication skills",
+    "customer handling",
+    "problem-solving",
+    "analytical thinking"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Handle customer complaints and feedback",
+    "Conduct root cause analysis and corrective actions",
+    "Improve customer satisfaction",
+    "Coordinate with internal teams for issue resolution",
+    "Maintain customer quality reports"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Customer Quality Engineer\nJob Summary:\nAct as the interface between customers and internal teams to resolve quality issues.\nKey Responsibilities:\n• Handle customer complaints and feedback\n• Conduct root cause analysis and corrective actions\n• Improve customer satisfaction\n• Coordinate with internal teams for issue resolution\n• Maintain customer quality reports\nRequired Skills:\n• Strong communication skills\n• Customer handling and problem-solving\n• Analytical thinking\nQualifications:\n• Bachelor’s degree in Engineering\n• 3–6 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:02:50.104995+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

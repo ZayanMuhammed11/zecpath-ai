@@ -1,0 +1,62 @@
+{
+  "job_id": "JOB-CALIBRATION_ENGINEER",
+  "title": "Calibration Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "calibration standards",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "attention to detail",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "instrument handling skills",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "calibration standards",
+    "instrument handling skills"
+  ],
+  "required_education_level": "diploma",
+  "required_education_field": [
+    "engineering"
+  ],
+  "responsibilities": [
+    "calibrate measuring and testing equipment",
+    "maintain calibration records",
+    "ensure compliance with standards",
+    "identify faulty instruments",
+    "coordinate with external calibration agencies"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Calibration Engineer\n\nJob Summary:\nMaintain accuracy of measuring instruments through regular calibration.\nKey Responsibilities:\n• Calibrate measuring and testing equipment\n• Maintain calibration records\n• Ensure compliance with standards\n• Identify faulty instruments\n• Coordinate with external calibration agencies\nRequired Skills:\n• Knowledge of calibration standards\n• Attention to detail\n• Instrument handling skills\nQualifications:\n• Diploma/Bachelor’s degree in Engineering\n• 0–2 years experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:02:25.568301+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

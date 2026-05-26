@@ -1,0 +1,72 @@
+{
+  "job_id": "JOB-DIGITAL_QUALITY_ENGINEER",
+  "title": "Digital Quality Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "digital tools (MES, ERP, QMS software)",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "data analysis and visualization (Power BI, Tableau)",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "manufacturing and quality systems",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "programming or scripting",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "digital tools",
+    "data analysis and visualization",
+    "manufacturing and quality systems",
+    "programming or scripting"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering",
+    "IT"
+  ],
+  "responsibilities": [
+    "Implement digital quality tools and platforms",
+    "Automate quality data collection and reporting",
+    "Integrate quality systems with ERP/MES platforms",
+    "Monitor real-time quality metrics and KPIs",
+    "Drive digital transformation initiatives in quality processes",
+    "Collaborate with IT and operations teams"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Digital Quality Engineer\nJob Summary:\nLeverage digital technologies to enhance quality management systems, automate quality\nprocesses, and improve real-time decision-making.\nKey Responsibilities:\n• Implement digital quality tools and platforms (QMS software, dashboards)\n• Automate quality data collection and reporting\n• Integrate quality systems with ERP/MES platforms\n• Monitor real-time quality metrics and KPIs\n• Drive digital transformation initiatives in quality processes\n• Collaborate with IT and operations teams\nRequired Skills:\n• Knowledge of digital tools (MES, ERP, QMS software)\n• Data analysis and visualization (Power BI, Tableau)\n• Understanding of manufacturing and quality systems\n• Basic programming or scripting knowledge\nQualifications:\n• Bachelor’s degree in Engineering, IT, or related field\n• 3–7 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:03:15.207521+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

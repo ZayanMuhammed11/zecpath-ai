@@ -1,0 +1,68 @@
+{
+  "job_id": "JOB-AUDIT_ENGINEER",
+  "title": "Audit Engineer (Internal Quality Auditor)",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Auditing techniques",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "ISO standards",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Analytical skills",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Reporting skills",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "Auditing techniques",
+    "ISO standards"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Plan and execute internal audits",
+    "Identify non-conformities",
+    "Recommend corrective actions",
+    "Prepare audit reports",
+    "Ensure compliance with quality systems"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Audit Engineer (Internal Quality\nAuditor)\nJob Summary:\nConduct internal audits to ensure compliance with quality standards and processes.\nKey Responsibilities:\n• Plan and execute internal audits\n• Identify non-conformities\n• Recommend corrective actions\n• Prepare audit reports\n• Ensure compliance with quality systems\nRequired Skills:\n• Auditing techniques\n• Knowledge of ISO standards\n• Analytical and reporting skills\nQualifications:\n• Bachelor’s degree in Engineering\n• 3–6 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:02:13.107036+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

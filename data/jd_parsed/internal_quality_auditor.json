@@ -1,0 +1,79 @@
+{
+  "job_id": "JOB-INTERNAL_QUALITY_AUDITOR",
+  "title": "Internal Quality Auditor",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "auditing principles and techniques",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "ISO standards",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "analytical skills",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "reporting skills",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [
+    {
+      "name": "Internal Auditor certification",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": false
+    }
+  ],
+  "must_have_skills": [
+    "auditing principles and techniques",
+    "ISO standards"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering",
+    "Quality Management"
+  ],
+  "responsibilities": [
+    "Plan and execute internal audits",
+    "Evaluate compliance with QMS, policies, and procedures",
+    "Identify non-conformities and areas for improvement",
+    "Prepare audit reports and communicate findings",
+    "Follow up on corrective and preventive actions (CAPA)",
+    "Support external audits and certification processes"
+  ],
+  "nice_to_have": [
+    "Internal Auditor certification"
+  ],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Internal Quality Auditor\nJob Summary:\nConduct internal audits to evaluate the effectiveness of the Quality Management System\n(QMS) and ensure compliance with organizational and regulatory standards.\nKey Responsibilities:\n• Plan and execute internal audits across departments\n• Evaluate compliance with QMS, policies, and procedures\n• Identify non-conformities and areas for improvement\n• Prepare audit reports and communicate findings\n• Follow up on corrective and preventive actions (CAPA)\n• Support external audits and certification processes\nRequired Skills:\n• Knowledge of auditing principles and techniques\n• Familiarity with ISO standards (ISO 9001, etc.)\n• Strong analytical and reporting skills\n• Attention to detail\nQualifications:\n• Bachelor’s degree in Engineering, Quality Management, or related field\n• 2–5 years of experience\n• Internal Auditor certification preferred",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:04:43.903656+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

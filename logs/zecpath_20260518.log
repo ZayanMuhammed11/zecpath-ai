@@ -1,0 +1,120 @@
+2026-05-18 19:34:42 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-05-18 19:34:42 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-05-18 19:34:42 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-05-18 19:34:42 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-05-18 19:34:42 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-05-18 19:34:42 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-05-18 19:34:42 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-05-18 19:34:42 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-05-18 19:34:42 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-05-18 19:34:42 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-05-18 19:34:42 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-05-18 19:34:42 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-05-18 19:34:42 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-05-18 19:34:42 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-05-18 19:34:42 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-05-18 19:34:42 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-05-18 19:34:42 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-05-18 19:34:42 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-05-18 19:34:43 | INFO     | parsers.education_parser | Certification combined text length: 121 chars.
+2026-05-18 19:34:43 | INFO     | parsers.education_parser | Certification combined text length: 121 chars.
+2026-05-18 19:34:43 | INFO     | parsers.education_parser | Rule-based certification parse found 3 entries.
+2026-05-18 19:34:43 | INFO     | parsers.education_parser | Rule-based certification parse found 3 entries.
+2026-05-18 19:34:43 | INFO     | parsers.education_parser | parse_certifications() returning 3 entries.
+2026-05-18 19:34:43 | INFO     | parsers.education_parser | parse_certifications() returning 3 entries.
+2026-05-18 19:34:43 | INFO     | parsers.education_parser | Certification combined text length: 91 chars.
+2026-05-18 19:34:43 | INFO     | parsers.education_parser | Certification combined text length: 91 chars.
+2026-05-18 19:34:43 | INFO     | parsers.education_parser | Rule-based certification parse found 5 entries.
+2026-05-18 19:34:43 | INFO     | parsers.education_parser | Rule-based certification parse found 5 entries.
+2026-05-18 19:34:43 | INFO     | parsers.education_parser | parse_certifications() returning 5 entries.
+2026-05-18 19:34:43 | INFO     | parsers.education_parser | parse_certifications() returning 5 entries.
+2026-05-18 19:34:43 | INFO     | parsers.education_parser | Certification combined text length: 121 chars.
+2026-05-18 19:34:43 | INFO     | parsers.education_parser | Certification combined text length: 121 chars.
+2026-05-18 19:34:43 | INFO     | parsers.education_parser | Rule-based certification parse found 3 entries.
+2026-05-18 19:34:43 | INFO     | parsers.education_parser | Rule-based certification parse found 3 entries.
+2026-05-18 19:34:43 | INFO     | parsers.education_parser | parse_certifications() returning 3 entries.
+2026-05-18 19:34:43 | INFO     | parsers.education_parser | parse_certifications() returning 3 entries.
+2026-05-18 19:34:43 | INFO     | parsers.education_parser | Education relevance: score=1.00, level=bachelors, field_matched=True.
+2026-05-18 19:34:43 | INFO     | parsers.education_parser | Education relevance: score=1.00, level=bachelors, field_matched=True.
+2026-05-18 19:34:44 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-05-18 19:34:44 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-05-18 19:34:44 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-05-18 19:34:44 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-05-18 19:34:44 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-05-18 19:34:44 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-05-18 19:34:44 | INFO     | parsers.education_parser | Certification combined text length: 121 chars.
+2026-05-18 19:34:44 | INFO     | parsers.education_parser | Certification combined text length: 121 chars.
+2026-05-18 19:34:44 | INFO     | parsers.education_parser | Rule-based certification parse found 3 entries.
+2026-05-18 19:34:44 | INFO     | parsers.education_parser | Rule-based certification parse found 3 entries.
+2026-05-18 19:34:44 | INFO     | parsers.education_parser | parse_certifications() returning 3 entries.
+2026-05-18 19:34:44 | INFO     | parsers.education_parser | parse_certifications() returning 3 entries.
+2026-05-18 19:34:44 | WARNING  | parsers.education_parser | EducationObject validation failed for 'B.Tech': 1 validation error for EducationObject
+start_year
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.13/v/int_type — skipping.
+2026-05-18 19:34:44 | WARNING  | parsers.education_parser | EducationObject validation failed for 'B.Tech': 1 validation error for EducationObject
+start_year
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.13/v/int_type — skipping.
+2026-05-18 19:34:44 | WARNING  | parsers.education_parser | CertificationObject validation failed for 'Six Sigma Green Belt': 3 validation errors for CertificationObject
+issuing_organization
+  Field required [type=missing, input_value={'name': 'Six Sigma Green... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+issue_date
+  Field required [type=missing, input_value={'name': 'Six Sigma Green... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+is_expired
+  Field required [type=missing, input_value={'name': 'Six Sigma Green... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing — skipping.
+2026-05-18 19:34:44 | WARNING  | parsers.education_parser | CertificationObject validation failed for 'Six Sigma Green Belt': 3 validation errors for CertificationObject
+issuing_organization
+  Field required [type=missing, input_value={'name': 'Six Sigma Green... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+issue_date
+  Field required [type=missing, input_value={'name': 'Six Sigma Green... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+is_expired
+  Field required [type=missing, input_value={'name': 'Six Sigma Green... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing — skipping.
+2026-05-18 19:34:44 | WARNING  | parsers.education_parser | CertificationObject validation failed for 'Lean Manufacturing': 3 validation errors for CertificationObject
+issuing_organization
+  Field required [type=missing, input_value={'name': 'Lean Manufactur... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+issue_date
+  Field required [type=missing, input_value={'name': 'Lean Manufactur... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+is_expired
+  Field required [type=missing, input_value={'name': 'Lean Manufactur... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing — skipping.
+2026-05-18 19:34:44 | WARNING  | parsers.education_parser | CertificationObject validation failed for 'Lean Manufacturing': 3 validation errors for CertificationObject
+issuing_organization
+  Field required [type=missing, input_value={'name': 'Lean Manufactur... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+issue_date
+  Field required [type=missing, input_value={'name': 'Lean Manufactur... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+is_expired
+  Field required [type=missing, input_value={'name': 'Lean Manufactur... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing — skipping.
+2026-05-18 19:34:44 | WARNING  | parsers.education_parser | CertificationObject validation failed for 'Internal Auditor': 3 validation errors for CertificationObject
+issuing_organization
+  Field required [type=missing, input_value={'name': 'Internal Audito... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+issue_date
+  Field required [type=missing, input_value={'name': 'Internal Audito... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+is_expired
+  Field required [type=missing, input_value={'name': 'Internal Audito... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing — skipping.
+2026-05-18 19:34:44 | WARNING  | parsers.education_parser | CertificationObject validation failed for 'Internal Auditor': 3 validation errors for CertificationObject
+issuing_organization
+  Field required [type=missing, input_value={'name': 'Internal Audito... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+issue_date
+  Field required [type=missing, input_value={'name': 'Internal Audito... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+is_expired
+  Field required [type=missing, input_value={'name': 'Internal Audito... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing — skipping.
+2026-05-18 19:34:44 | INFO     | parsers.education_parser | parse_to_objects(): 0 education, 0 certification objects.
+2026-05-18 19:34:44 | INFO     | parsers.education_parser | parse_to_objects(): 0 education, 0 certification objects.

@@ -1,0 +1,55 @@
+{
+  "candidate_id": "CAND-1003",
+  "total_sections_found": 6,
+  "sections": [
+    {
+      "section": "summary",
+      "content": "I\u2019m a passionate Computer Science graduate who enjoys solving problems and building smart,\nefficient solutions. With a solid foundation in web development, I love creating web applications\nusing the latest technologies. I'm always curious about new trends in tech and excited to apply my\nknowledge to real-world projects. I also have a basic understanding of Data Science and have\ncompleted a capstone project focused on business data analysis.\nTeamwork Adaptivity Good Communication Problem Solving\nLeadership Networking Work Ethnic Emotional Intelligence\nAdditional Information\nLanguages: English, Malayalam.\nCertifications: IITM Foundational Certificate, Infosys SpringBoard: Basis of Python, MEARN",
+      "line_count": 10,
+      "confidence": 1.0,
+      "detection_method": "exact_match"
+    },
+    {
+      "section": "education",
+      "content": "Masters in Computer Application Jul 2024 - Present\nCochin University of Science and Technology\nBS in Data Science and Programming Jan 2021 - Present\nIndian Insititute of Science and Technology\nBSc in Computer Science Jul 2020 - Dec 2023\nSN College Cherthala",
+      "line_count": 6,
+      "confidence": 1.0,
+      "detection_method": "exact_match"
+    },
+    {
+      "section": "projects",
+      "content": "EduBuddy Dec 2024 - Jan 2025\nBuildathon, STACC\nDeveloped a full-stack educational platform using React, Node.js, Express, and MongoDB to\nstreamline academic resource management.\nImplemented core features including notes and question paper repositories, an attendance\ntracker, an AI-powered model question paper generator, and a grade calculator.\nDriving Forward : Insights from JJ School of Driving Jun 2024 - Jan 2025\nIndian Institute of Technology, Madras\nLed a capstone project focused on business data analysis, aiming to extract actionable\ninsights from raw datasets to enhance operational efficiency and profitability.\nAnalyzed real-world business data to ensure practical relevance and meaningful outcomes.\nApplied statistical and analytical techniques to identify trends, uncover patterns, and\nsupport data-driven decision-making for business growth.",
+      "line_count": 13,
+      "confidence": 1.0,
+      "detection_method": "exact_match"
+    },
+    {
+      "section": "experience",
+      "content": "Torcue Digital, Kochi Dec 2025 - Present\nSoftware Developer Intern\nConnecting Dots Tech Ventures Pvt Ltd, Kochi Dec 2025 - Present\nData Analyst Intern\nN-OMS,Pune Jun 2024 - Dec 2024\nFrontend Developer Intern",
+      "line_count": 6,
+      "confidence": 1.0,
+      "detection_method": "exact_match"
+    },
+    {
+      "section": "skills",
+      "content": "ReactJS TypeScript JavaScript HTML\nNodeJS MongoDB Python Tailwindcss",
+      "line_count": 2,
+      "confidence": 1.0,
+      "detection_method": "exact_match"
+    },
+    {
+      "section": "certifications",
+      "content": "Awards/Activities: Best Project in Buildathon 2024-2025, NSS volunteering\nClubs : Member of STACC",
+      "line_count": 2,
+      "confidence": 0.8,
+      "detection_method": "fuzzy_match"
+    }
+  ],
+  "unclassified_content": "Allen Joseph Joy\nStudent\nAlappuzha, Kerala | allenalackaparambil@gmail.com | +91 85471 71373 | Allen-Josu",
+  "tagging_metadata": {
+    "classifier_version": "v1.0.0",
+    "tagged_at": "2026-05-14T10:56:53.283658+00:00",
+    "total_lines_processed": 65,
+    "sections_detected": 6
+  }
+}

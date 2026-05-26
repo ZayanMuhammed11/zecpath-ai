@@ -1,0 +1,18 @@
+ QA Automation Engineer
+Job Summary:
+Design and implement automated testing frameworks to improve testing efficiency and
+coverage.
+Key Responsibilities:
+• Develop and maintain automation frameworks and scripts
+• Execute automated test suites and analyze results
+• Integrate automated testing into CI/CD pipelines
+• Identify defects and support debugging
+• Improve test coverage and reduce manual testing effort
+Required Skills:
+• Programming skills (Java, Python, JavaScript, etc.)
+• Automation tools (Selenium, Cypress, Playwright)
+• CI/CD tools (Jenkins, GitHub Actions, GitLab CI)
+• Understanding of API testing and test frameworks
+Qualifications:
+• Bachelor’s degree in Computer Science or related field
+• 2–6 years of experience 

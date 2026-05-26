@@ -1,0 +1,94 @@
+Muhammed Zayan A
+
+muhammedzayann11@gmail.com | +91 9995131735 | linkedin.com/in/muhammedzayann7
+
+Summary
+
+MSc Computer Science graduate specialized in Data Science with hands-on experience building AI systems
+using generative AI, deep learning, and computer vision. Experienced in engineering Agentic RAG pipelines,
+deploying real-time body tracking models, and building robust backend architectures using Python, FastAPI,
+and LangChain. Passionate about engineering scalable software, bridging the gap between machine learning
+research and production environments, and developing privacy-focused AI applications.
+
+Skills
+Programming: Python, SQL, R
+AI & Machine Learning: DeepLearning,AgenticRAG,HuggingFace,ExplainableAI,Transfer&Ensemble
+Learning
+
+Frameworks & Libraries: PyTorch, scikit-learn, LangChain, LangGraph, Streamlit, FastAPI, Flask, PyQt5
+Computer Vision: OpenCV, MMPose, MediaPipe Pose
+Databases & Tools: MySQL, SQLite, ChromaDB, Git, GitHub
+
+Work Experience
+
+AI Developer Intern — Zecser Business LLP May 2026 – Present
+- Working on the architecture and development of an AI-powered autonomous hiring platform focused on
+resume parsing, ATS scoring, candidate shortlisting, AI interview workflows, and scalable backend AI
+
+systems.
+Software Engineer Intern — Remap Intelligence Dec 2025 – March 2026
+
+- Engineered a real-time gait analysis system using advanced computer vision techniques to monitor, track,
+and evaluate patient mobility metrics.
+- Developedreal-time, gamifiedtherapeuticmodulesusingcomputervisiontotranslatepatientmovements
+
+into interactive exercises for motor neuron rehabilitation.
+- Implemented low-latency body tracking models (MMPose, MediaPipe Pose) and built a responsive,
+multithreaded GUI using PyQt5 for seamless system performance.
+
+Robotics Trainer — Digital Bridge International May 2023 – July 2024
+- Instructed students in STEM classes and hands-on workshops, teaching core concepts in robotics, drone
+
+technology, IoT, and programming under the AICRA initiative.
+
+Projects
+
+AI-Powered ATS Core & Candidate Retrieval Engine (Agentic RAG)
+- Architected a local-first Agentic RAG pipeline to parse and query resumes with zero data egress, ensuring
+PII privacy.
+
+- Built a semantic search engine using HuggingFace Transformers for dense vector embeddings, indexed in
+a local ChromaDB.
+- Designed a Hybrid LLM extraction pipeline: Used Groq’s Llama 3.3 API for JSON schema generation
+and a local Ollama Llama 3.1 8B for zero-shot SQLite extraction.
+
+- Engineered a LangGraph ReAct Agent to route queries between dynamic SQL generation and semantic
+vector searches.
+
+- Deployed the full embedding and LLM pipeline within a 6GB VRAM budget by offloading HuggingFace
+workloads to the CPU.
+
+- Technologies: Python, LangGraph, LangChain, ChromaDB, SQLite, HuggingFace, Ollama, Groq API,
+Streamlit.
+
+Plant Disease Diagnosis using Deep Learning and Explainable AI
+- Developed a deep learning system for plant disease diagnosis using CNNs and transfer learning (VGG19,
+ResNet50, DenseNet121).
+
+- Achieved 95.6% test accuracy via a logistic regression stacking ensemble, outperforming individual pretrained models.
+- Integrated Explainable AI (LIME) to visualize model reasoning and deployed a Flask web interface with
+a local LLM (Ollama phi-3) for remedy generation.
+
+- Technologies: Python, PyTorch, Flask, LIME, Transfer Learning, Ensemble Learning, Ollama.
+
+Prana Health — Full-Stack Health and Wellness Platform
+- Architected a full-stack health platform with a MySQL relational database to securely manage patient
+records and doctor-patient chats.
+
+- Developed robust, privacy-focused backend services using Flask and PHP.
+- Technologies: Python, Flask, PHP, MySQL, HTML.
+
+Education
+
+Cochin University of Science and Technology (CUSAT) July 2024 – April 2026
+Master of Computer Science with Specialization in Data Science
+
+College of Applied Science, Thamarassery July 2020 – May 2023
+Bachelor of Computer Science
+
+Certifications
+AI Engineering — IBM (2026)
+
+RAG and Agentic AI — IBM (2026)
+Machine Learning Specialization — DeepLearning.AI (2025)
+Introduction to Internet of Things — IIT Kharagpur (NPTEL, 2025)

@@ -1,0 +1,63 @@
+{
+  "job_id": "JOB-INSPECTION_ENGINEER",
+  "title": "Inspection Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "measurement tools",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "engineering drawings",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "attention to detail",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "measurement tools",
+    "engineering drawings",
+    "attention to detail"
+  ],
+  "required_education_level": "diploma",
+  "required_education_field": [
+    "Mechanical"
+  ],
+  "responsibilities": [
+    "Conduct dimensional and visual inspections",
+    "Use measuring instruments (calipers, micrometers, gauges)",
+    "Prepare inspection reports",
+    "Ensure compliance with specifications",
+    "Support audits and quality checks"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Inspection Engineer\n\nJob Summary:\nPerform detailed inspections of raw materials, in-process items, and finished products.\nKey Responsibilities:\n• Conduct dimensional and visual inspections\n• Use measuring instruments (calipers, micrometers, gauges)\n• Prepare inspection reports\n• Ensure compliance with specifications\n• Support audits and quality checks\nRequired Skills:\n• Proficiency in measurement tools\n• Understanding of engineering drawings\n• High attention to detail\nQualifications:\n• Diploma/Bachelor’s in Mechanical or related field\n• 0–2 years experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:04:37.836004+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

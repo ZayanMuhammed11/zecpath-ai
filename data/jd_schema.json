@@ -1,0 +1,86 @@
+{
+  "job_id": "JOB-5001",
+  "title": "Python Backend Developer",
+  "department": "Engineering",
+  "company_name": "IBM",
+  "company_type": "mnc",
+  "job_status": "active",
+  "location": "Bangalore, Karnataka",
+  "is_remote": true,
+  "employment_type": "fulltime",
+  "experience_required_min_months": 24,
+  "experience_required_max_months": 60,
+  "salary_min_inr": 800000,
+  "salary_max_inr": 1800000,
+  "required_skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "years_of_experience": 2,
+      "is_primary_skill": true
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "years_of_experience": 2,
+      "is_primary_skill": true
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "intermediate",
+      "years_of_experience": 1,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [
+    {
+      "name": "Docker",
+      "level": "intermediate",
+      "years_of_experience": 1,
+      "is_primary_skill": false
+    },
+    {
+      "name": "Redis",
+      "level": "intermediate",
+      "years_of_experience": 1,
+      "is_primary_skill": false
+    }
+  ],
+  "must_have_skills": [
+    "Python",
+    "FastAPI",
+    "REST API Development"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Computer Science",
+    "Information Technology",
+    "Data Science"
+  ],
+  "responsibilities": [
+    "Develop scalable backend services",
+    "Design REST APIs using FastAPI",
+    "Optimize PostgreSQL database queries",
+    "Collaborate with frontend and AI teams",
+    "Write clean and maintainable code"
+  ],
+  "nice_to_have": [
+    "Knowledge of LangGraph",
+    "Experience with AI systems",
+    "Understanding of microservices"
+  ],
+  "shortlist_threshold": 75,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "We are looking for a skilled Python Backend Developer with FastAPI experience...",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-07T11:00:00",
+    "confidence_score": 97.2,
+    "parsing_version": "v1.0.0"
+  }
+}

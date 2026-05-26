@@ -1,0 +1,62 @@
+{
+  "job_id": "JOB-PRODUCTION_QUALITY_SPECIALIST",
+  "title": "Production Quality Specialist",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Production process knowledge",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Quality inspection and control techniques",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Attention to detail and problem-solving",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "Production process knowledge",
+    "Quality inspection and control techniques"
+  ],
+  "required_education_level": "diploma",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Monitor production quality and performance metrics",
+    "Conduct in-process inspections and checks",
+    "Identify defects and coordinate corrective actions",
+    "Work closely with production teams to maintain quality standards",
+    "Maintain quality documentation and reports"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Production Quality Specialist\nJob Summary:\nEnsure consistent product quality during production by monitoring operations and resolving\nquality issues in real time.\nKey Responsibilities:\n• Monitor production quality and performance metrics\n• Conduct in-process inspections and checks\n• Identify defects and coordinate corrective actions\n• Work closely with production teams to maintain quality standards\n• Maintain quality documentation and reports\nRequired Skills:\n• Production process knowledge\n• Quality inspection and control techniques\n• Attention to detail and problem-solving\nQualifications:\n• Diploma or Bachelor’s degree in Engineering\n• 2–5 years of experience",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:07:07.290355+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

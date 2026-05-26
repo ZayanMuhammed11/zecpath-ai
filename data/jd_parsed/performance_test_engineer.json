@@ -1,0 +1,63 @@
+{
+  "job_id": "JOB-PERFORMANCE_TEST_ENGINEER",
+  "title": "Performance Test Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Performance testing tools",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "System architecture",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Data analysis and monitoring tools",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "JMeter",
+    "LoadRunner",
+    "Gatling"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Computer Science"
+  ],
+  "responsibilities": [
+    "Design and execute performance, load, and stress tests",
+    "Analyze system performance metrics",
+    "Identify bottlenecks and recommend improvements",
+    "Work with development teams to optimize performance",
+    "Prepare performance test reports"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Performance Test Engineer\nJob Summary:\nEvaluate system performance, scalability, and stability under various load conditions.\nKey Responsibilities:\n• Design and execute performance, load, and stress tests\n• Analyze system performance metrics\n• Identify bottlenecks and recommend improvements\n• Work with development teams to optimize performance\n• Prepare performance test reports\nRequired Skills:\n• Performance testing tools (JMeter, LoadRunner, Gatling)\n• Understanding of system architecture and scalability\n• Data analysis and monitoring tools\nQualifications:\n• Bachelor’s degree in Computer Science or related field\n• 2–6 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:06:10.753049+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

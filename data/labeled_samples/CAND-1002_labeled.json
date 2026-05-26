@@ -1,0 +1,48 @@
+{
+  "candidate_id": "CAND-1002",
+  "total_sections_found": 5,
+  "sections": [
+    {
+      "section": "education",
+      "content": "- MCA - Cochin University of Science and Technology (2024 \u2013 Present)\n- B.Sc. Mathematics - Catholicate College, Pathanamthitta (2019 -2022)",
+      "line_count": 2,
+      "confidence": 1.0,
+      "detection_method": "exact_match"
+    },
+    {
+      "section": "skills",
+      "content": "Technical Skills: Flutter, React Native, Python, Java, C, MySQL\nSoft Skills: Communication, Time Management, Adaptability, Teamwork",
+      "line_count": 2,
+      "confidence": 1.0,
+      "detection_method": "exact_match"
+    },
+    {
+      "section": "experience",
+      "content": "Android Development Intern | Corestone Innovations LLP (Dec 2025 \u2013 Present)\n- Developing responsive mobile frontend features and UI components using React Native.\n- Integrating and testing APIs via Postman to ensure seamless data flow with the NestJS\nbackend.",
+      "line_count": 4,
+      "confidence": 1.0,
+      "detection_method": "exact_match"
+    },
+    {
+      "section": "projects",
+      "content": "- Sahachari (React Native + TypeScript) | Team Project (Ongoing)\no A mobile platform connecting rural artisans and service providers with wider\nmarkets\no Developing cross-platform frontend using React Native with TypeScript\no Collaborating with NestJS backend for data flow and feature integration\no My Contribution: Working on frontend development and UI implementation\n- Neuro Wallet (Flutter + Firebase) | Team Project (4 members)\no Personal finance app that tracks expenses and provides budget insights\no Built frontend using Flutter with Firebase for authentication & data storage\no Implemented OCR using PyTesseract via a Flask backend, integrated Gemini API for\nchatbot assistance\no My Contribution: Handled the frontend implementation\nVolunteering\n- Red Ribbon Club (2019 \u2013 2022)\n- National Service Scheme (2017 \u2013 2022),\n- STACC (2024 \u2013 Present)",
+      "line_count": 16,
+      "confidence": 1.0,
+      "detection_method": "exact_match"
+    },
+    {
+      "section": "languages",
+      "content": "English, Hindi (Fluent) | Malayalam (Native) | Tamil (Conversational)",
+      "line_count": 1,
+      "confidence": 1.0,
+      "detection_method": "exact_match"
+    }
+  ],
+  "unclassified_content": "Aadhil Ahammed B\nbaadhil2002@gmail.com| +91 9605805456 | LinkedIn | GitHub",
+  "tagging_metadata": {
+    "classifier_version": "v1.0.0",
+    "tagged_at": "2026-05-14T10:55:13.738178+00:00",
+    "total_lines_processed": 46,
+    "sections_detected": 5
+  }
+}

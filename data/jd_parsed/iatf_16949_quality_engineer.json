@@ -1,0 +1,90 @@
+{
+  "job_id": "JOB-IATF_16949_QUALITY_ENGINEER",
+  "title": "IATF 16949 Quality Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "IATF 16949",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "ISO 9001",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Auditing",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Documentation",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Process improvement",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Analytical thinking",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [
+    {
+      "name": "Internal/Lead Auditor certification",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": false
+    }
+  ],
+  "must_have_skills": [
+    "IATF 16949",
+    "ISO 9001"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Implement and maintain IATF 16949 standards",
+    "Conduct internal audits and gap assessments",
+    "Ensure process compliance and documentation control",
+    "Support certification and surveillance audits",
+    "Drive continuous improvement initiatives aligned with IATF requirements",
+    "Train teams on quality standards and procedures"
+  ],
+  "nice_to_have": [
+    "Internal/Lead Auditor certification"
+  ],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "IATF 16949 Quality Engineer\nJob Summary:\nEnsure compliance with IATF 16949 quality management system requirements within\nautomotive manufacturing operations.\nKey Responsibilities:\n• Implement and maintain IATF 16949 standards\n• Conduct internal audits and gap assessments\n• Ensure process compliance and documentation control\n• Support certification and surveillance audits\n• Drive continuous improvement initiatives aligned with IATF requirements\n• Train teams on quality standards and procedures\nRequired Skills:\n• In-depth knowledge of IATF 16949 and ISO 9001\n• Auditing and documentation skills\n• Process improvement and analytical thinking\n• Strong attention to detail\nQualifications:\n• Bachelor’s degree in Engineering or related field\n• 4–8 years of experience in automotive quality\n• Internal/Lead Auditor certification preferred",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:04:07.109518+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "job_id": "JOB-ADVANCED_PRODUCT_QUALITY_PLANNING_ENGINEER",
+  "title": "Advanced Product Quality Planning (APQP) Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Advanced Product Quality Planning",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Production Part Approval Process",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Risk assessment and mitigation",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Project management",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [
+    {
+      "name": "Automotive standards",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": false
+    },
+    {
+      "name": "Manufacturing standards",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": false
+    }
+  ],
+  "must_have_skills": [
+    "APQP",
+    "PPAP"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Plan and execute APQP activities",
+    "Develop and review key deliverables",
+    "Coordinate with cross-functional teams and suppliers",
+    "Monitor project timelines and quality milestones",
+    "Ensure compliance with customer and industry standards",
+    "Support production readiness and launch activities"
+  ],
+  "nice_to_have": [
+    "Experience in automotive or manufacturing industries"
+  ],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Advanced Product Quality Planning\n(APQP) Engineer\nJob Summary:\nLead and manage APQP processes to ensure product quality during development and launch\nphases.\nKey Responsibilities:\n• Plan and execute APQP activities\n• Develop and review key deliverables (DFMEA, PFMEA, Control Plans, PPAP)\n• Coordinate with cross-functional teams and suppliers\n• Monitor project timelines and quality milestones\n• Ensure compliance with customer and industry standards\n• Support production readiness and launch activities\nRequired Skills:\n• Strong knowledge of APQP and PPAP processes\n• Risk assessment and mitigation\n• Project management skills\n• Knowledge of automotive or manufacturing standards\nQualifications:\n• Bachelor’s degree in Engineering\n• 4–8 years of experience\n• Experience in automotive or manufacturing industries preferred ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:01:48.353733+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

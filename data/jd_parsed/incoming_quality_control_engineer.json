@@ -1,0 +1,63 @@
+{
+  "job_id": "JOB-INCOMING_QUALITY_CONTROL_ENGINEER",
+  "title": "Incoming Quality Control (IQC) Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "inspection techniques",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "material specifications",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "attention to detail",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "inspection techniques",
+    "material specifications",
+    "attention to detail"
+  ],
+  "required_education_level": "diploma",
+  "required_education_field": [
+    "engineering"
+  ],
+  "responsibilities": [
+    "Perform incoming inspections",
+    "Approve or reject materials",
+    "Maintain inspection records",
+    "Communicate with suppliers for defects",
+    "Ensure compliance with specifications"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Incoming Quality Control (IQC) Engineer\n\nJob Summary:\nInspect incoming raw materials and components to ensure they meet quality standards.\nKey Responsibilities:\n• Perform incoming inspections\n• Approve or reject materials\n• Maintain inspection records\n• Communicate with suppliers for defects\n• Ensure compliance with specifications\nRequired Skills:\n• Knowledge of inspection techniques\n• Understanding of material specifications\n• Attention to detail\nQualifications:\n• Diploma/Bachelor’s degree in Engineering\n• 0–2 years experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:04:19.682380+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "job_id": "JOB-DESIGN_QUALITY_ENGINEER",
+  "title": "Design Quality Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Design for Quality (DFQ) principles",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "DFMEA and risk analysis",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "product lifecycle management (PLM)",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "analytical skills",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "problem-solving skills",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "Design for Quality (DFQ) principles",
+    "DFMEA and risk analysis"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Mechanical",
+    "Electrical",
+    "related Engineering field"
+  ],
+  "responsibilities": [
+    "Integrate quality requirements into product design and development",
+    "Conduct design reviews and risk assessments (DFMEA)",
+    "Ensure compliance with industry standards and specifications",
+    "Collaborate with design, R&D, and manufacturing teams",
+    "Analyze design-related failures and implement improvements",
+    "Support validation and verification activities"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Design Quality Engineer\nJob Summary:\nEnsure that product designs meet quality, reliability, and regulatory requirements from\nconcept through production.\nKey Responsibilities:\n• Integrate quality requirements into product design and development\n• Conduct design reviews and risk assessments (DFMEA)\n• Ensure compliance with industry standards and specifications\n• Collaborate with design, R&D, and manufacturing teams\n• Analyze design-related failures and implement improvements\n• Support validation and verification activities\nRequired Skills:\n• Design for Quality (DFQ) principles\n• DFMEA and risk analysis\n• Understanding of product lifecycle management (PLM)\n• Strong analytical and problem-solving skills\nQualifications:\n• Bachelor’s degree in Mechanical, Electrical, or related Engineering field\n• 3–7 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:03:08.817261+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

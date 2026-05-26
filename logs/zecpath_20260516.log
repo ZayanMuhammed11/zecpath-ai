@@ -1,0 +1,151 @@
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Raw detected skills (3): ['Python', 'Django', 'FastAPI']
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | After stack expansion (3): ['Python', 'Django', 'FastAPI']
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | After deduplication (3): ['Python', 'Django', 'FastAPI']
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 3 skills (of 3 detected).
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Raw detected skills (0): []
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | After stack expansion (4): ['MongoDB', 'Express', 'React', 'Node']
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | After deduplication (4): ['MongoDB', 'Express', 'React', 'Node']
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 4 skills (of 4 detected).
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Raw detected skills (2): ['React', 'Node']
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | After stack expansion (2): ['React', 'Node']
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | After deduplication (2): ['React', 'Node']
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 2 skills (of 2 detected).
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Raw detected skills (1): ['Python']
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | After stack expansion (1): ['Python']
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | After deduplication (1): ['Python']
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 1 skills (of 1 detected).
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Raw detected skills (1): ['Python']
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | After stack expansion (1): ['Python']
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | After deduplication (1): ['Python']
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 1 skills (of 1 detected).
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Raw detected skills (1): ['Python']
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | After stack expansion (1): ['Python']
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | After deduplication (1): ['Python']
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 1 skills (of 1 detected).
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Raw detected skills (3): ['Python', 'Django', 'React']
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | After stack expansion (3): ['Python', 'Django', 'React']
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | After deduplication (3): ['Python', 'Django', 'React']
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 3 skills (of 3 detected).
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Converted 3 skill dicts to SkillObject instances.
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Raw detected skills (2): ['Communication', 'Leadership']
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | After stack expansion (2): ['Communication', 'Leadership']
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | After deduplication (2): ['Communication', 'Leadership']
+2026-05-16 17:29:49 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 2 skills (of 2 detected).
+2026-05-16 17:34:22 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-16 17:34:22 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-16 17:34:22 | INFO     | parsers.section_tagger | Tagging sections for candidate 'TEST-001'. Raw sections: ['header', 'other', 'summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-16 17:34:22 | INFO     | parsers.section_tagger | Tagging sections for candidate 'TEST-001'. Raw sections: ['header', 'other', 'summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-16 17:34:22 | INFO     | parsers.section_tagger | Tagging complete for 'TEST-001'. Sections found: 6, Total lines processed: 88
+2026-05-16 17:34:22 | INFO     | parsers.section_tagger | Tagging complete for 'TEST-001'. Sections found: 6, Total lines processed: 88
+2026-05-16 17:34:22 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-05-16 17:34:22 | INFO     | ats_engine.skill_extractor | Raw detected skills (17): ['Python', 'R', 'SQL', 'Flask', 'FastAPI', 'PyTorch', 'LangChain', 'LangGraph', 'Scikit-learn', 'MySQL', 'SQLite', 'ChromaDB', 'Git', 'GitHub', 'Machine Learning', 'Deep Learning', 'Computer Vision']
+2026-05-16 17:34:22 | INFO     | ats_engine.skill_extractor | After stack expansion (20): ['Python', 'R', 'SQL', 'Flask', 'FastAPI', 'PyTorch', 'LangChain', 'LangGraph', 'Scikit-learn', 'MySQL', 'SQLite', 'ChromaDB', 'Git', 'GitHub', 'Machine Learning', 'Deep Learning', 'Computer Vision', 'Pandas', 'NumPy', 'Data Analysis']
+2026-05-16 17:34:22 | INFO     | ats_engine.skill_extractor | After deduplication (20): ['Python', 'R', 'SQL', 'Flask', 'FastAPI', 'PyTorch', 'LangChain', 'LangGraph', 'Scikit-learn', 'MySQL', 'SQLite', 'ChromaDB', 'Git', 'GitHub', 'Machine Learning', 'Deep Learning', 'Computer Vision', 'Pandas', 'NumPy', 'Data Analysis']
+2026-05-16 17:34:22 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 20 skills (of 20 detected).
+2026-05-16 17:35:13 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-16 17:35:13 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-16 17:35:13 | INFO     | parsers.section_tagger | Tagging sections for candidate 'TEST-001'. Raw sections: ['header', 'other', 'summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-16 17:35:13 | INFO     | parsers.section_tagger | Tagging sections for candidate 'TEST-001'. Raw sections: ['header', 'other', 'summary', 'skills', 'experience', 'projects', 'education', 'certifications']
+2026-05-16 17:35:13 | INFO     | parsers.section_tagger | Tagging complete for 'TEST-001'. Sections found: 6, Total lines processed: 88
+2026-05-16 17:35:13 | INFO     | parsers.section_tagger | Tagging complete for 'TEST-001'. Sections found: 6, Total lines processed: 88
+2026-05-16 17:35:13 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-05-16 17:35:13 | INFO     | ats_engine.skill_extractor | Raw detected skills (17): ['Python', 'R', 'SQL', 'Flask', 'FastAPI', 'PyTorch', 'LangChain', 'LangGraph', 'Scikit-learn', 'MySQL', 'SQLite', 'ChromaDB', 'Git', 'GitHub', 'Machine Learning', 'Deep Learning', 'Computer Vision']
+2026-05-16 17:35:13 | INFO     | ats_engine.skill_extractor | After stack expansion (20): ['Python', 'R', 'SQL', 'Flask', 'FastAPI', 'PyTorch', 'LangChain', 'LangGraph', 'Scikit-learn', 'MySQL', 'SQLite', 'ChromaDB', 'Git', 'GitHub', 'Machine Learning', 'Deep Learning', 'Computer Vision', 'Pandas', 'NumPy', 'Data Analysis']
+2026-05-16 17:35:13 | INFO     | ats_engine.skill_extractor | After deduplication (20): ['Python', 'R', 'SQL', 'Flask', 'FastAPI', 'PyTorch', 'LangChain', 'LangGraph', 'Scikit-learn', 'MySQL', 'SQLite', 'ChromaDB', 'Git', 'GitHub', 'Machine Learning', 'Deep Learning', 'Computer Vision', 'Pandas', 'NumPy', 'Data Analysis']
+2026-05-16 17:35:13 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 20 skills (of 20 detected).
+2026-05-16 17:49:30 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['summary', 'skills', 'experience', 'education', 'certifications']
+2026-05-16 17:49:30 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['summary', 'skills', 'experience', 'education', 'certifications']
+2026-05-16 17:49:30 | INFO     | parsers.section_tagger | Tagging sections for candidate 'TEST-001'. Raw sections: ['header', 'other', 'summary', 'skills', 'experience', 'education', 'certifications']
+2026-05-16 17:49:30 | INFO     | parsers.section_tagger | Tagging sections for candidate 'TEST-001'. Raw sections: ['header', 'other', 'summary', 'skills', 'experience', 'education', 'certifications']
+2026-05-16 17:49:30 | INFO     | parsers.section_tagger | Tagging complete for 'TEST-001'. Sections found: 5, Total lines processed: 86
+2026-05-16 17:49:30 | INFO     | parsers.section_tagger | Tagging complete for 'TEST-001'. Sections found: 5, Total lines processed: 86
+2026-05-16 17:49:30 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-05-16 17:49:30 | INFO     | ats_engine.skill_extractor | Raw detected skills (19): ['R', 'Excel', 'ISO 9001', 'IATF 16949', 'Six Sigma', 'Lean Manufacturing', 'Statistical Process Control', 'Failure Mode and Effects Analysis', 'Corrective and Preventive Action', 'Root Cause Analysis', 'Value Stream Mapping', 'APQP', 'PPAP', 'Kaizen', '5S', '8D', 'Control Plans', 'Audit', 'Problem Solving']
+2026-05-16 17:49:30 | INFO     | ats_engine.skill_extractor | After stack expansion (19): ['R', 'Excel', 'ISO 9001', 'IATF 16949', 'Six Sigma', 'Lean Manufacturing', 'Statistical Process Control', 'Failure Mode and Effects Analysis', 'Corrective and Preventive Action', 'Root Cause Analysis', 'Value Stream Mapping', 'APQP', 'PPAP', 'Kaizen', '5S', '8D', 'Control Plans', 'Audit', 'Problem Solving']
+2026-05-16 17:49:30 | INFO     | ats_engine.skill_extractor | After deduplication (19): ['R', 'Excel', 'ISO 9001', 'IATF 16949', 'Six Sigma', 'Lean Manufacturing', 'Statistical Process Control', 'Failure Mode and Effects Analysis', 'Corrective and Preventive Action', 'Root Cause Analysis', 'Value Stream Mapping', 'APQP', 'PPAP', 'Kaizen', '5S', '8D', 'Control Plans', 'Audit', 'Problem Solving']
+2026-05-16 17:49:30 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 19 skills (of 19 detected).
+2026-05-16 21:31:32 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-05-16 21:31:32 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-05-16 21:31:32 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-05-16 21:31:32 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-05-16 21:31:32 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-05-16 21:31:32 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-05-16 21:31:33 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-05-16 21:31:33 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-05-16 21:31:33 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-05-16 21:31:33 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-05-16 21:31:33 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-05-16 21:31:33 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-05-16 21:31:33 | INFO     | ats_engine.experience_parser | Experience text extracted (115 chars).
+2026-05-16 21:31:33 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-05-16 21:31:33 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-05-16 21:31:33 | INFO     | ats_engine.experience_parser | detect_gaps() found 1 gap(s).
+2026-05-16 21:31:34 | INFO     | ats_engine.experience_parser | Relevance score for 'quality engineer': 1.00 (total months: 24).
+2026-05-16 21:31:34 | INFO     | ats_engine.experience_parser | Relevance score for 'quality manager': 0.80 (total months: 24).
+2026-05-16 21:31:34 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-05-16 21:31:34 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-05-16 21:31:34 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-05-16 21:31:34 | INFO     | ats_engine.experience_parser | parse_to_objects(): 2/2 entries validated successfully.
+2026-05-16 21:35:49 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-05-16 21:35:49 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-05-16 21:35:49 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-05-16 21:35:49 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-05-16 21:35:49 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-05-16 21:35:49 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-05-16 21:35:49 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-05-16 21:35:49 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-05-16 21:35:49 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-05-16 21:35:50 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-05-16 21:35:50 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-05-16 21:35:50 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-05-16 21:35:50 | INFO     | ats_engine.experience_parser | Experience text extracted (115 chars).
+2026-05-16 21:35:50 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-05-16 21:35:50 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-05-16 21:35:50 | INFO     | ats_engine.experience_parser | detect_gaps() found 1 gap(s).
+2026-05-16 21:35:50 | INFO     | ats_engine.experience_parser | Relevance score for 'quality engineer': 1.00 (total months: 24).
+2026-05-16 21:35:50 | INFO     | ats_engine.experience_parser | Relevance score for 'quality manager': 0.80 (total months: 24).
+2026-05-16 21:35:51 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-05-16 21:35:51 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-05-16 21:35:51 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-05-16 21:35:51 | INFO     | ats_engine.experience_parser | parse_to_objects(): 2/2 entries validated successfully.
+2026-05-16 21:40:12 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-05-16 21:40:12 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-05-16 21:40:12 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-05-16 21:40:13 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-05-16 21:40:13 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-05-16 21:40:13 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-05-16 21:40:13 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-05-16 21:40:13 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-05-16 21:40:13 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-05-16 21:40:13 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-05-16 21:40:13 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-05-16 21:40:13 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-05-16 21:40:13 | INFO     | ats_engine.experience_parser | Experience text extracted (115 chars).
+2026-05-16 21:40:13 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-05-16 21:40:13 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-05-16 21:40:13 | INFO     | ats_engine.experience_parser | detect_gaps() found 1 gap(s).
+2026-05-16 21:40:14 | INFO     | ats_engine.experience_parser | Relevance score for 'quality engineer': 1.00 (total months: 24).
+2026-05-16 21:40:14 | INFO     | ats_engine.experience_parser | Relevance score for 'quality manager': 0.80 (total months: 24).
+2026-05-16 21:40:14 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-05-16 21:40:14 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-05-16 21:40:14 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-05-16 21:40:14 | INFO     | ats_engine.experience_parser | parse_to_objects(): 2/2 entries validated successfully.
+2026-05-16 21:42:52 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['summary', 'skills', 'experience', 'education', 'certifications']
+2026-05-16 21:42:52 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['summary', 'skills', 'experience', 'education', 'certifications']
+2026-05-16 21:42:52 | INFO     | parsers.section_tagger | Tagging sections for candidate 'QE-001'. Raw sections: ['header', 'other', 'summary', 'skills', 'experience', 'education', 'certifications']
+2026-05-16 21:42:52 | INFO     | parsers.section_tagger | Tagging sections for candidate 'QE-001'. Raw sections: ['header', 'other', 'summary', 'skills', 'experience', 'education', 'certifications']
+2026-05-16 21:42:52 | INFO     | parsers.section_tagger | Tagging complete for 'QE-001'. Sections found: 5, Total lines processed: 86
+2026-05-16 21:42:52 | INFO     | parsers.section_tagger | Tagging complete for 'QE-001'. Sections found: 5, Total lines processed: 86
+2026-05-16 21:42:52 | INFO     | ats_engine.experience_parser | Experience text extracted (2048 chars).
+2026-05-16 21:42:52 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-05-16 21:42:52 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-05-16 21:42:52 | INFO     | ats_engine.experience_parser | detect_gaps() found 0 gap(s).
+2026-05-16 21:42:52 | INFO     | ats_engine.experience_parser | Relevance score for 'quality engineer': 0.88 (total months: 69).

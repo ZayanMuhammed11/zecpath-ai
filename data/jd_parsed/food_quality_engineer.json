@@ -1,0 +1,71 @@
+{
+  "job_id": "JOB-FOOD_QUALITY_ENGINEER",
+  "title": "Food Quality Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "food safety standards and regulations",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "quality control and inspection techniques",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "problem-solving and analytical skills",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "attention to detail",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "food safety standards and regulations",
+    "quality control and inspection techniques"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Food Technology",
+    "Food Science"
+  ],
+  "responsibilities": [
+    "Develop and implement food quality standards and procedures",
+    "Monitor production processes to ensure compliance with food safety regulations",
+    "Conduct inspections, sampling, and testing of raw materials and finished products",
+    "Analyze quality issues and implement corrective/preventive actions (CAPA)",
+    "Ensure compliance with regulatory standards (FSSAI, ISO 22000, HACCP)",
+    "Collaborate with production, R&D, and supply chain teams",
+    "Maintain quality documentation and reports"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Food Quality Engineer\nJob Summary:\nEnsure that food products meet quality, safety, and regulatory standards throughout\nproduction, processing, and distribution.\nKey Responsibilities:\n• Develop and implement food quality standards and procedures\n• Monitor production processes to ensure compliance with food safety regulations\n• Conduct inspections, sampling, and testing of raw materials and finished products\n• Analyze quality issues and implement corrective/preventive actions (CAPA)\n• Ensure compliance with regulatory standards (FSSAI, ISO 22000, HACCP)\n• Collaborate with production, R&D, and supply chain teams\n• Maintain quality documentation and reports\nRequired Skills:\n• Knowledge of food safety standards and regulations\n• Quality control and inspection techniques\n• Problem-solving and analytical skills\n• Attention to detail\nQualifications:\n• Bachelor’s degree in Food Technology, Food Science, or related field\n• 2–6 years of experience in food or FMCG industry ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:03:41.121896+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

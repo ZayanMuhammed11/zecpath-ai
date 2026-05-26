@@ -1,0 +1,63 @@
+{
+  "job_id": "JOB-VALIDATION_ENGINEER",
+  "title": "Validation Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "validation processes",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "regulatory standards",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "documentation skills",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "validation processes",
+    "regulatory standards",
+    "documentation skills"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Perform validation activities (IQ, OQ, PQ)",
+    "Prepare validation protocols and reports",
+    "Ensure compliance with standards",
+    "Coordinate with engineering and production",
+    "Document validation results"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Validation Engineer\n\nJob Summary:\nEnsure that processes, equipment, and systems meet required specifications and regulatory\nstandards.\nKey Responsibilities:\n• Perform validation activities (IQ, OQ, PQ)\n• Prepare validation protocols and reports\n• Ensure compliance with standards\n• Coordinate with engineering and production\n• Document validation results\nRequired Skills:\n• Knowledge of validation processes\n• Understanding of regulatory standards\n• Strong documentation skills\nQualifications:\n• Bachelor’s degree in Engineering\n• 0–2 years experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:08:54.073892+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "job_id": "JOB-PPAP_ENGINEER",
+  "title": "PPAP Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Production Part Approval Process",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Advanced Product Quality Planning",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Documentation and compliance",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Attention to detail",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Communication and coordination",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "PPAP",
+    "APQP"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Prepare and review PPAP documentation",
+    "Coordinate PPAP submissions with customers and suppliers",
+    "Ensure compliance with customer-specific requirements",
+    "Validate production processes and product samples",
+    "Track and resolve PPAP-related issues",
+    "Support new product launches and engineering changes"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "PPAP Engineer (Production Part\nApproval Process)\nJob Summary:\nManage and execute the Production Part Approval Process (PPAP) to ensure that suppliers\nand internal processes consistently meet customer requirements.\nKey Responsibilities:\n• Prepare and review PPAP documentation (PSW, control plans, FMEA, process flow\ndiagrams)\n• Coordinate PPAP submissions with customers and suppliers\n• Ensure compliance with customer-specific requirements\n• Validate production processes and product samples\n• Track and resolve PPAP-related issues\n• Support new product launches and engineering changes\nRequired Skills:\n• Strong knowledge of PPAP and APQP processes\n• Documentation and compliance expertise\n• Attention to detail\n• Communication and coordination skills\nQualifications:\n• Bachelor’s degree in Engineering\n• 3–6 years of experience in automotive or manufacturing industry ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:06:23.120557+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

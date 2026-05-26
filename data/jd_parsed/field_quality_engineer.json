@@ -1,0 +1,63 @@
+{
+  "job_id": "JOB-FIELD_QUALITY_ENGINEER",
+  "title": "Field Quality Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Troubleshooting and problem-solving",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Customer interaction skills",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Technical knowledge of products",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "Troubleshooting and problem-solving",
+    "Customer interaction skills",
+    "Technical knowledge of products"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Investigate field failures",
+    "Support customers with technical issues",
+    "Conduct root cause analysis",
+    "Provide feedback to internal teams",
+    "Improve product quality based on field data"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Field Quality Engineer\nJob Summary:\nAddress quality issues at customer sites and ensure product performance in the field.\nKey Responsibilities:\n• Investigate field failures\n• Support customers with technical issues\n• Conduct root cause analysis\n• Provide feedback to internal teams\n• Improve product quality based on field data\nRequired Skills:\n• Troubleshooting and problem-solving\n• Customer interaction skills\n• Technical knowledge of products\nQualifications:\n• Bachelor’s degree in Engineering\n• 3–6 years of experience",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:03:33.750200+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "job_id": "JOB-TEST_AUTOMATION_ENGINEER_QUALITY_FOCUSED",
+  "title": "Test Automation Engineer (Quality Focused)",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Programming/scripting",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Test automation tools",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Software testing methodologies",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "CI/CD tools",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "Python",
+    "Java",
+    "Selenium",
+    "Cypress"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Computer Science",
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Develop and maintain automated test scripts and frameworks",
+    "Execute automated test cases and analyze results",
+    "Integrate testing into CI/CD pipelines",
+    "Identify defects and support issue resolution",
+    "Improve test coverage and reduce manual testing efforts"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Test Automation Engineer (Quality\nFocused)\nJob Summary:\nDesign and implement automated testing solutions to improve test efficiency, coverage, and\nreliability.\nKey Responsibilities:\n• Develop and maintain automated test scripts and frameworks\n• Execute automated test cases and analyze results\n• Integrate testing into CI/CD pipelines\n• Identify defects and support issue resolution\n• Improve test coverage and reduce manual testing efforts\nRequired Skills:\n• Programming/scripting (Python, Java, or similar)\n• Test automation tools (Selenium, Cypress, etc.)\n• Understanding of software testing methodologies\n• Knowledge of CI/CD tools\nQualifications:\n• Bachelor’s degree in Computer Science, Engineering, or related field\n• 2–6 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:08:41.728233+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

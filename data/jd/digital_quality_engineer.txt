@@ -1,0 +1,19 @@
+Digital Quality Engineer
+Job Summary:
+Leverage digital technologies to enhance quality management systems, automate quality
+processes, and improve real-time decision-making.
+Key Responsibilities:
+• Implement digital quality tools and platforms (QMS software, dashboards)
+• Automate quality data collection and reporting
+• Integrate quality systems with ERP/MES platforms
+• Monitor real-time quality metrics and KPIs
+• Drive digital transformation initiatives in quality processes
+• Collaborate with IT and operations teams
+Required Skills:
+• Knowledge of digital tools (MES, ERP, QMS software)
+• Data analysis and visualization (Power BI, Tableau)
+• Understanding of manufacturing and quality systems
+• Basic programming or scripting knowledge
+Qualifications:
+• Bachelor’s degree in Engineering, IT, or related field
+• 3–7 years of experience 

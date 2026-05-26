@@ -1,0 +1,70 @@
+{
+  "job_id": "JOB-PREDICTIVE_QUALITY_ENGINEER",
+  "title": "Predictive Quality Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Predictive analytics and machine learning",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Data modeling and statistical analysis",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Programming (Python, R)",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Analytical thinking",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "Predictive analytics and machine learning",
+    "Data modeling and statistical analysis",
+    "Programming (Python, R)"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering",
+    "Data Science"
+  ],
+  "responsibilities": [
+    "Develop predictive models for quality and defect prevention",
+    "Analyze historical and real-time data",
+    "Identify risk patterns and failure trends",
+    "Implement predictive maintenance and quality strategies",
+    "Collaborate with data science and operations teams"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Predictive Quality Engineer\nJob Summary:\nUse predictive analytics to forecast quality issues and prevent defects before they occur.\nKey Responsibilities:\n• Develop predictive models for quality and defect prevention\n• Analyze historical and real-time data\n• Identify risk patterns and failure trends\n• Implement predictive maintenance and quality strategies\n• Collaborate with data science and operations teams\nRequired Skills:\n• Predictive analytics and machine learning\n• Data modeling and statistical analysis\n• Programming (Python, R)\n• Strong analytical thinking\nQualifications:\n• Bachelor’s/Master’s degree in Engineering, Data Science, or related field\n• 3–8 years of experience",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:06:29.464501+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

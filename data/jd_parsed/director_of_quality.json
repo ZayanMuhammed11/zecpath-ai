@@ -1,0 +1,64 @@
+{
+  "job_id": "JOB-DIRECTOR_OF_QUALITY",
+  "title": "Director of Quality",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "strategic planning and leadership",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "change management",
+      "level": "expert",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "business acumen",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "strategic planning and leadership",
+    "change management",
+    "business acumen"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "engineering",
+    "management"
+  ],
+  "responsibilities": [
+    "develop and execute quality strategies",
+    "lead large-scale quality transformation initiatives",
+    "manage multiple quality teams and functions",
+    "ensure compliance with industry regulations",
+    "align quality goals with business objectives"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Director of Quality\nJob Summary:\nProvide strategic direction for quality across the organization and ensure long-term\nexcellence.\nKey Responsibilities:\n• Develop and execute quality strategies\n• Lead large-scale quality transformation initiatives\n• Manage multiple quality teams and functions\n• Ensure compliance with industry regulations\n• Align quality goals with business objectives\nRequired Skills:\n• Strategic planning and leadership\n• Change management expertise\n• Strong business acumen\nQualifications:\n• Bachelor’s/Master’s degree in Engineering or Management\n• 15–20 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:03:21.378215+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "job_id": "JOB-INDUSTRIAL_QUALITY_ENGINEER",
+  "title": "Industrial Quality Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Industrial engineering concepts",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Process optimization and workflow analysis",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Lean and Six Sigma methodologies",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "Industrial engineering concepts",
+    "Process optimization and workflow analysis",
+    "Lean and Six Sigma methodologies"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Industrial Engineering"
+  ],
+  "responsibilities": [
+    "Analyze and improve industrial processes for quality and efficiency",
+    "Implement quality standards and continuous improvement practices",
+    "Conduct system and process audits",
+    "Identify process inefficiencies and implement corrective actions",
+    "Support Lean manufacturing and Six Sigma initiatives"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Industrial Quality Engineer\nJob Summary:\nFocus on improving quality across industrial operations by optimizing systems, processes,\nand workflows.\nKey Responsibilities:\n• Analyze and improve industrial processes for quality and efficiency\n• Implement quality standards and continuous improvement practices\n• Conduct system and process audits\n• Identify process inefficiencies and implement corrective actions\n• Support Lean manufacturing and Six Sigma initiatives\nRequired Skills:\n• Industrial engineering concepts\n• Process optimization and workflow analysis\n• Lean and Six Sigma methodologies\nQualifications:\n• Bachelor’s degree in Industrial Engineering or related field\n• 2–6 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:04:25.814032+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

@@ -1,0 +1,18 @@
+Manual Test Engineer
+Job Summary:
+Execute manual testing to ensure software applications meet functional and user
+requirements.
+Key Responsibilities:
+• Create and execute manual test cases
+• Perform functional, regression, and exploratory testing
+• Identify, document, and report bugs
+• Validate fixes and perform re-testing
+• Collaborate with development and product teams
+Required Skills:
+• Strong understanding of manual testing techniques
+• Attention to detail
+• Knowledge of test case design
+• Familiarity with bug tracking tools
+Qualifications:
+• Bachelor’s degree in Computer Science, IT, or related field
+• 1–4 years of experience 

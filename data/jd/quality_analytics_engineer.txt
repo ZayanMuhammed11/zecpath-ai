@@ -1,0 +1,17 @@
+Quality Analytics Engineer
+Job Summary:
+Use advanced analytics to derive insights from quality data and drive process improvements.
+Key Responsibilities:
+• Analyze quality data using statistical and analytical tools
+• Develop dashboards and reports for quality metrics
+• Identify trends, patterns, and improvement opportunities
+• Support data-driven decision-making
+• Collaborate with cross-functional teams
+Required Skills:
+• Data analytics (Python, R, SQL)
+• Statistical analysis
+• Visualization tools (Power BI, Tableau)
+• Problem-solving skills
+Qualifications:
+• Bachelor’s degree in Engineering, Data Analytics, or related field
+• 3–7 years of experience

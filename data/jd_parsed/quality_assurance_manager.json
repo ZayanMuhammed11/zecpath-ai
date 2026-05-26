@@ -1,0 +1,70 @@
+{
+  "job_id": "JOB-QUALITY_ASSURANCE_MANAGER",
+  "title": "Quality Assurance Manager",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "auditing",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "documentation",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "ISO standards",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "process improvement",
+      "level": "expert",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "auditing",
+    "documentation",
+    "ISO standards",
+    "process improvement"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Establish QA systems and procedures",
+    "Conduct internal and external audits",
+    "Ensure process compliance with standards",
+    "Manage documentation and quality records",
+    "Lead continuous improvement initiatives"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Quality Assurance Manager\nJob Summary:\nEnsure that processes and systems consistently deliver products meeting defined quality\nstandards.\nKey Responsibilities:\n• Establish QA systems and procedures\n• Conduct internal and external audits\n• Ensure process compliance with standards (ISO 9001, etc.)\n• Manage documentation and quality records\n• Lead continuous improvement initiatives\nRequired Skills:\n• Strong auditing and documentation skills\n• Knowledge of ISO standards\n• Process improvement expertise\nQualifications:\n• Bachelor’s degree in Engineering or related field\n• 8–12 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:08:03.625602+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

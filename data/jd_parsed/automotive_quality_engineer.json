@@ -1,0 +1,104 @@
+{
+  "job_id": "JOB-AUTOMOTIVE_QUALITY_ENGINEER",
+  "title": "Automotive Quality Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "automotive quality standards and tools",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Advanced Product Quality Planning",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Production Part Approval Process",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Failure Mode and Effects Analysis",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Control Plans",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "problem-solving",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "analytical skills",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "communication",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "teamwork",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "automotive quality standards and tools",
+    "APQP",
+    "PPAP",
+    "FMEA",
+    "Control Plans"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Mechanical",
+    "Automotive",
+    "related Engineering field"
+  ],
+  "responsibilities": [
+    "Implement and maintain quality standards specific to the automotive industry",
+    "Conduct process and product audits",
+    "Perform root cause analysis and implement corrective/preventive actions (CAPA)",
+    "Monitor quality metrics such as PPM, scrap, and rework",
+    "Collaborate with production, design, and supplier teams",
+    "Support new product development and launch activities"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Automotive Quality Engineer\nJob Summary:\nEnsure that automotive products and components meet quality, safety, and regulatory\nstandards throughout the manufacturing and product lifecycle.\nKey Responsibilities:\n• Implement and maintain quality standards specific to the automotive industry\n• Conduct process and product audits\n• Perform root cause analysis and implement corrective/preventive actions (CAPA)\n• Monitor quality metrics such as PPM, scrap, and rework\n• Collaborate with production, design, and supplier teams\n• Support new product development and launch activities\nRequired Skills:\n• Knowledge of automotive quality standards and tools\n• Familiarity with APQP, PPAP, FMEA, and Control Plans\n• Problem-solving and analytical skills\n• Strong communication and teamwork\nQualifications:\n• Bachelor’s degree in Mechanical, Automotive, or related Engineering field\n• 3–7 years of experience in automotive manufacturing ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:02:19.702060+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

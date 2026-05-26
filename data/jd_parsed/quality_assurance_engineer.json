@@ -1,0 +1,63 @@
+{
+  "job_id": "JOB-QUALITY_ASSURANCE_ENGINEER",
+  "title": "Quality Assurance Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "ISO 9001",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Auditing and documentation",
+      "level": "expert",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Process improvement",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "ISO 9001",
+    "Auditing and documentation",
+    "Process improvement"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Design and implement QA systems and procedures",
+    "Conduct internal audits and compliance checks",
+    "Monitor process adherence to standards",
+    "Drive continuous improvement initiatives",
+    "Maintain documentation and quality records"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Quality Assurance Engineer\nJob Summary:\nEnsure that systems, processes, and procedures consistently produce quality outputs.\nKey Responsibilities:\n• Design and implement QA systems and procedures\n• Conduct internal audits and compliance checks\n• Monitor process adherence to standards\n• Drive continuous improvement initiatives\n• Maintain documentation and quality records\nRequired Skills:\n• ISO 9001 knowledge\n• Auditing and documentation expertise\n• Process improvement mindset\nQualifications:\n• Bachelor’s degree in Engineering or related field\n• 2–5 years of experience",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:07:57.362150+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

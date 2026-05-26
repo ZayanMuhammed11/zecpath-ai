@@ -1,0 +1,67 @@
+{
+  "job_id": "JOB-PRINCIPAL_QUALITY_ENGINEER",
+  "title": "Principal Quality Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "quality engineering methodologies",
+      "level": "expert",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "strategic thinking",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": false
+    },
+    {
+      "name": "problem-solving",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": false
+    },
+    {
+      "name": "technical leadership",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": false
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "quality engineering methodologies"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "engineering"
+  ],
+  "responsibilities": [
+    "Define quality standards and best practices across the organization",
+    "Lead high-impact quality improvement programs",
+    "Provide technical guidance on complex quality issues",
+    "Influence product design for quality and reliability",
+    "Drive innovation in quality engineering practices"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Principal Quality Engineer\nJob Summary:\nAct as a technical expert and advisor for complex quality challenges and strategic initiatives.\nKey Responsibilities:\n• Define quality standards and best practices across the organization\n• Lead high-impact quality improvement programs\n• Provide technical guidance on complex quality issues\n• Influence product design for quality and reliability\n• Drive innovation in quality engineering practices\nRequired Skills:\n• Deep expertise in quality engineering methodologies\n• Strategic thinking and problem-solving\n• Strong technical leadership\nQualifications:\n• Bachelor’s/Master’s degree in Engineering\n• 8–12 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:06:36.118480+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

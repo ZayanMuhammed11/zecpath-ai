@@ -1,0 +1,19 @@
+Design Quality Engineer
+Job Summary:
+Ensure that product designs meet quality, reliability, and regulatory requirements from
+concept through production.
+Key Responsibilities:
+• Integrate quality requirements into product design and development
+• Conduct design reviews and risk assessments (DFMEA)
+• Ensure compliance with industry standards and specifications
+• Collaborate with design, R&D, and manufacturing teams
+• Analyze design-related failures and implement improvements
+• Support validation and verification activities
+Required Skills:
+• Design for Quality (DFQ) principles
+• DFMEA and risk analysis
+• Understanding of product lifecycle management (PLM)
+• Strong analytical and problem-solving skills
+Qualifications:
+• Bachelor’s degree in Mechanical, Electrical, or related Engineering field
+• 3–7 years of experience 

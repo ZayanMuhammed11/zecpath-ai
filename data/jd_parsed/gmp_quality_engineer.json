@@ -1,0 +1,78 @@
+{
+  "job_id": "JOB-GMP_QUALITY_ENGINEER",
+  "title": "GMP Quality Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "GMP regulations and guidelines",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Quality systems",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Documentation control",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Auditing and compliance",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Analytical thinking",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "GMP regulations and guidelines",
+    "Quality systems",
+    "Auditing and compliance"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Pharmacy",
+    "Biotechnology",
+    "Chemical Engineering"
+  ],
+  "responsibilities": [
+    "Implement and maintain GMP-compliant quality systems",
+    "Monitor manufacturing processes for adherence to GMP standards",
+    "Conduct internal audits and inspections",
+    "Review batch records, deviations, and change controls",
+    "Support regulatory audits and inspections",
+    "Drive corrective and preventive actions (CAPA)"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "GMP Quality Engineer\nJob Summary:\nEnsure that manufacturing processes and products comply with Good Manufacturing\nPractices (GMP) and regulatory requirements in pharmaceutical and healthcare environments.\nKey Responsibilities:\n• Implement and maintain GMP-compliant quality systems\n• Monitor manufacturing processes for adherence to GMP standards\n• Conduct internal audits and inspections\n• Review batch records, deviations, and change controls\n• Support regulatory audits and inspections\n• Drive corrective and preventive actions (CAPA)\nRequired Skills:\n• Strong knowledge of GMP regulations and guidelines\n• Quality systems and documentation control\n• Auditing and compliance skills\n• Attention to detail and analytical thinking\nQualifications:\n• Bachelor’s degree in Pharmacy, Biotechnology, Chemical Engineering, or related\nfield\n• 3–7 years of experience in pharmaceutical or healthcare industry ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:03:48.377097+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

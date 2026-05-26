@@ -1,0 +1,1642 @@
+2026-05-12 21:29:33 | INFO     | ats_engine.batch_processor | BatchProcessor initialized. Output folder: data\jd_parsed
+2026-05-12 21:29:33 | INFO     | ats_engine.batch_processor | Starting batch processing for folder: data/jd
+2026-05-12 21:29:33 | INFO     | ats_engine.batch_processor | Found 68 .txt files to process.
+2026-05-12 21:29:33 | INFO     | ats_engine.batch_processor | Processing 1/68: advanced_product_quality_planning_engineer.txt
+2026-05-12 21:29:33 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\advanced_product_quality_planning_engineer.txt
+2026-05-12 21:29:33 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-ADVANCED_PRODUCT_QUALITY_PLANNING_ENGINEER
+2026-05-12 21:29:33 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-ADVANCED_PRODUCT_QUALITY_PLANNING_ENGINEER
+2026-05-12 21:29:33 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:29:33 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 824 chars
+2026-05-12 21:29:33 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 824 | After: 823 | Reduced by: 1 chars
+2026-05-12 21:29:33 | INFO     | ats_engine.jd_parser | Normalized text length: 823 chars
+2026-05-12 21:29:33 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:29:34 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:29:34 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:29:34 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:29:34 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:29:34 | INFO     | ats_engine.synonym_mapper | Skill mapped: 'APQP' -> 'Advanced Product Quality Planning'
+2026-05-12 21:29:34 | INFO     | ats_engine.synonym_mapper | Skill mapped: 'PPAP' -> 'Production Part Approval Process'
+2026-05-12 21:29:34 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:29:34 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:29:34 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:29:34 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:29:34 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:29:34 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-ADVANCED_PRODUCT_QUALITY_PLANNING_ENGINEER
+2026-05-12 21:29:34 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\advanced_product_quality_planning_engineer.json
+2026-05-12 21:29:34 | INFO     | ats_engine.batch_processor | Successfully processed: advanced_product_quality_planning_engineer.txt
+2026-05-12 21:29:53 | INFO     | ats_engine.batch_processor | BatchProcessor initialized. Output folder: data\jd_parsed
+2026-05-12 21:29:53 | INFO     | ats_engine.batch_processor | Starting batch processing for folder: data/jd
+2026-05-12 21:29:53 | INFO     | ats_engine.batch_processor | Found 68 .txt files to process.
+2026-05-12 21:29:53 | INFO     | ats_engine.batch_processor | Processing 1/68: advanced_product_quality_planning_engineer.txt
+2026-05-12 21:29:53 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\advanced_product_quality_planning_engineer.txt
+2026-05-12 21:29:53 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-ADVANCED_PRODUCT_QUALITY_PLANNING_ENGINEER
+2026-05-12 21:29:53 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-ADVANCED_PRODUCT_QUALITY_PLANNING_ENGINEER
+2026-05-12 21:29:53 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:29:53 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 824 chars
+2026-05-12 21:29:53 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 824 | After: 823 | Reduced by: 1 chars
+2026-05-12 21:29:53 | INFO     | ats_engine.jd_parser | Normalized text length: 823 chars
+2026-05-12 21:29:53 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:29:54 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:29:54 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:29:54 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:29:54 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:29:54 | INFO     | ats_engine.synonym_mapper | Skill mapped: 'APQP' -> 'Advanced Product Quality Planning'
+2026-05-12 21:29:54 | INFO     | ats_engine.synonym_mapper | Skill mapped: 'PPAP' -> 'Production Part Approval Process'
+2026-05-12 21:29:54 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:29:54 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:29:54 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:29:54 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:29:54 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:29:54 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-ADVANCED_PRODUCT_QUALITY_PLANNING_ENGINEER
+2026-05-12 21:29:54 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\advanced_product_quality_planning_engineer.json
+2026-05-12 21:29:54 | INFO     | ats_engine.batch_processor | Successfully processed: advanced_product_quality_planning_engineer.txt
+2026-05-12 21:30:04 | INFO     | ats_engine.batch_processor | Processing 2/68: aerospace_quality_engineer.txt
+2026-05-12 21:30:04 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\aerospace_quality_engineer.txt
+2026-05-12 21:30:04 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-AEROSPACE_QUALITY_ENGINEER
+2026-05-12 21:30:04 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-AEROSPACE_QUALITY_ENGINEER
+2026-05-12 21:30:04 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:30:04 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 1094 chars
+2026-05-12 21:30:04 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 1094 | After: 1093 | Reduced by: 1 chars
+2026-05-12 21:30:04 | INFO     | ats_engine.jd_parser | Normalized text length: 1093 chars
+2026-05-12 21:30:04 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:30:09 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:30:09 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:30:09 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:30:09 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:30:09 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:30:09 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:30:09 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:30:09 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:30:09 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:30:09 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-AEROSPACE_QUALITY_ENGINEER
+2026-05-12 21:30:09 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\aerospace_quality_engineer.json
+2026-05-12 21:30:09 | INFO     | ats_engine.batch_processor | Successfully processed: aerospace_quality_engineer.txt
+2026-05-12 21:30:19 | INFO     | ats_engine.batch_processor | Processing 3/68: ai_based_quality_engineer.txt
+2026-05-12 21:30:19 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\ai_based_quality_engineer.txt
+2026-05-12 21:30:19 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-AI_BASED_QUALITY_ENGINEER
+2026-05-12 21:30:19 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-AI_BASED_QUALITY_ENGINEER
+2026-05-12 21:30:19 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:30:19 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 755 chars
+2026-05-12 21:30:19 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 755 | After: 754 | Reduced by: 1 chars
+2026-05-12 21:30:19 | INFO     | ats_engine.jd_parser | Normalized text length: 754 chars
+2026-05-12 21:30:19 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:30:20 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:30:20 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:30:20 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:30:20 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:30:20 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:30:20 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:30:20 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:30:20 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:30:20 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:30:20 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-AI_BASED_QUALITY_ENGINEER
+2026-05-12 21:30:20 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\ai_based_quality_engineer.json
+2026-05-12 21:30:20 | INFO     | ats_engine.batch_processor | Successfully processed: ai_based_quality_engineer.txt
+2026-05-12 21:30:30 | INFO     | ats_engine.batch_processor | Processing 4/68: as9100_quality_specialist.txt
+2026-05-12 21:30:30 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\as9100_quality_specialist.txt
+2026-05-12 21:30:30 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-AS9100_QUALITY_SPECIALIST
+2026-05-12 21:30:30 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-AS9100_QUALITY_SPECIALIST
+2026-05-12 21:30:30 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:30:30 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 913 chars
+2026-05-12 21:30:30 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 913 | After: 913 | Reduced by: 0 chars
+2026-05-12 21:30:30 | INFO     | ats_engine.jd_parser | Normalized text length: 913 chars
+2026-05-12 21:30:30 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:30:31 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:30:31 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:30:31 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:30:31 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:30:31 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:30:31 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:30:31 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:30:31 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:30:31 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:30:31 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-AS9100_QUALITY_SPECIALIST
+2026-05-12 21:30:31 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\as9100_quality_specialist.json
+2026-05-12 21:30:31 | INFO     | ats_engine.batch_processor | Successfully processed: as9100_quality_specialist.txt
+2026-05-12 21:30:41 | INFO     | ats_engine.batch_processor | Processing 5/68: audit_engineer.txt
+2026-05-12 21:30:41 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\audit_engineer.txt
+2026-05-12 21:30:41 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-AUDIT_ENGINEER
+2026-05-12 21:30:41 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-AUDIT_ENGINEER
+2026-05-12 21:30:41 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:30:41 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 498 chars
+2026-05-12 21:30:41 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 498 | After: 497 | Reduced by: 1 chars
+2026-05-12 21:30:41 | INFO     | ats_engine.jd_parser | Normalized text length: 497 chars
+2026-05-12 21:30:41 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:30:42 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:30:42 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:30:42 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:30:42 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:30:42 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:30:42 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:30:42 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:30:42 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:30:42 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:30:42 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-AUDIT_ENGINEER
+2026-05-12 21:30:42 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\audit_engineer.json
+2026-05-12 21:30:42 | INFO     | ats_engine.batch_processor | Successfully processed: audit_engineer.txt
+2026-05-12 21:30:52 | INFO     | ats_engine.batch_processor | Processing 6/68: automotive_quality_engineer.txt
+2026-05-12 21:30:52 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\automotive_quality_engineer.txt
+2026-05-12 21:30:52 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-AUTOMOTIVE_QUALITY_ENGINEER
+2026-05-12 21:30:52 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-AUTOMOTIVE_QUALITY_ENGINEER
+2026-05-12 21:30:52 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:30:52 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 925 chars
+2026-05-12 21:30:52 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 925 | After: 924 | Reduced by: 1 chars
+2026-05-12 21:30:52 | INFO     | ats_engine.jd_parser | Normalized text length: 924 chars
+2026-05-12 21:30:52 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:30:54 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:30:54 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:30:54 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:30:54 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:30:54 | INFO     | ats_engine.synonym_mapper | Skill mapped: 'APQP' -> 'Advanced Product Quality Planning'
+2026-05-12 21:30:54 | INFO     | ats_engine.synonym_mapper | Skill mapped: 'PPAP' -> 'Production Part Approval Process'
+2026-05-12 21:30:54 | INFO     | ats_engine.synonym_mapper | Skill mapped: 'FMEA' -> 'Failure Mode and Effects Analysis'
+2026-05-12 21:30:54 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:30:54 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:30:54 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:30:54 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:30:54 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:30:54 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-AUTOMOTIVE_QUALITY_ENGINEER
+2026-05-12 21:30:54 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\automotive_quality_engineer.json
+2026-05-12 21:30:54 | INFO     | ats_engine.batch_processor | Successfully processed: automotive_quality_engineer.txt
+2026-05-12 21:31:04 | INFO     | ats_engine.batch_processor | Processing 7/68: calibration_engineer.txt
+2026-05-12 21:31:04 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\calibration_engineer.txt
+2026-05-12 21:31:04 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-CALIBRATION_ENGINEER
+2026-05-12 21:31:04 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-CALIBRATION_ENGINEER
+2026-05-12 21:31:04 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:31:04 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 504 chars
+2026-05-12 21:31:04 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 504 | After: 503 | Reduced by: 1 chars
+2026-05-12 21:31:04 | INFO     | ats_engine.jd_parser | Normalized text length: 503 chars
+2026-05-12 21:31:04 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:31:05 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:31:05 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:31:05 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:31:05 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:31:05 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:31:05 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:31:05 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:31:05 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:31:05 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:31:05 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-CALIBRATION_ENGINEER
+2026-05-12 21:31:05 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\calibration_engineer.json
+2026-05-12 21:31:05 | INFO     | ats_engine.batch_processor | Successfully processed: calibration_engineer.txt
+2026-05-12 21:31:15 | INFO     | ats_engine.batch_processor | Processing 8/68: compliance_auditor.txt
+2026-05-12 21:31:15 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\compliance_auditor.txt
+2026-05-12 21:31:15 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-COMPLIANCE_AUDITOR
+2026-05-12 21:31:15 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-COMPLIANCE_AUDITOR
+2026-05-12 21:31:15 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:31:15 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 759 chars
+2026-05-12 21:31:15 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 759 | After: 758 | Reduced by: 1 chars
+2026-05-12 21:31:15 | INFO     | ats_engine.jd_parser | Normalized text length: 758 chars
+2026-05-12 21:31:15 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:31:16 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:31:16 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:31:16 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:31:16 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:31:16 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:31:16 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:31:16 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:31:16 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:31:16 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:31:16 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-COMPLIANCE_AUDITOR
+2026-05-12 21:31:16 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\compliance_auditor.json
+2026-05-12 21:31:16 | INFO     | ats_engine.batch_processor | Successfully processed: compliance_auditor.txt
+2026-05-12 21:31:26 | INFO     | ats_engine.batch_processor | Processing 9/68: compliance_engineer.txt
+2026-05-12 21:31:26 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\compliance_engineer.txt
+2026-05-12 21:31:26 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-COMPLIANCE_ENGINEER
+2026-05-12 21:31:26 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-COMPLIANCE_ENGINEER
+2026-05-12 21:31:26 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:31:26 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 544 chars
+2026-05-12 21:31:26 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 544 | After: 543 | Reduced by: 1 chars
+2026-05-12 21:31:26 | INFO     | ats_engine.jd_parser | Normalized text length: 543 chars
+2026-05-12 21:31:26 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:31:27 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:31:27 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:31:27 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:31:27 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:31:27 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:31:27 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:31:27 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:31:27 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:31:27 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:31:27 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-COMPLIANCE_ENGINEER
+2026-05-12 21:31:27 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\compliance_engineer.json
+2026-05-12 21:31:27 | INFO     | ats_engine.batch_processor | Successfully processed: compliance_engineer.txt
+2026-05-12 21:31:37 | INFO     | ats_engine.batch_processor | Processing 10/68: continuous_improvement_engineer.txt
+2026-05-12 21:31:37 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\continuous_improvement_engineer.txt
+2026-05-12 21:31:37 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-CONTINUOUS_IMPROVEMENT_ENGINEER
+2026-05-12 21:31:37 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-CONTINUOUS_IMPROVEMENT_ENGINEER
+2026-05-12 21:31:37 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:31:37 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 583 chars
+2026-05-12 21:31:37 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 583 | After: 582 | Reduced by: 1 chars
+2026-05-12 21:31:37 | INFO     | ats_engine.jd_parser | Normalized text length: 582 chars
+2026-05-12 21:31:37 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:31:46 | INFO     | ats_engine.batch_processor | BatchProcessor initialized. Output folder: data\jd_parsed
+2026-05-12 21:31:46 | INFO     | ats_engine.batch_processor | Starting batch processing for folder: data/jd
+2026-05-12 21:31:46 | INFO     | ats_engine.batch_processor | Found 68 .txt files to process.
+2026-05-12 21:31:46 | INFO     | ats_engine.batch_processor | Processing 1/68: advanced_product_quality_planning_engineer.txt
+2026-05-12 21:31:46 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\advanced_product_quality_planning_engineer.txt
+2026-05-12 21:31:46 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-ADVANCED_PRODUCT_QUALITY_PLANNING_ENGINEER
+2026-05-12 21:31:46 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-ADVANCED_PRODUCT_QUALITY_PLANNING_ENGINEER
+2026-05-12 21:31:46 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:31:46 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 824 chars
+2026-05-12 21:31:46 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 824 | After: 823 | Reduced by: 1 chars
+2026-05-12 21:31:46 | INFO     | ats_engine.jd_parser | Normalized text length: 823 chars
+2026-05-12 21:31:46 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:31:48 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:31:48 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:31:48 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:31:48 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:31:48 | INFO     | ats_engine.synonym_mapper | Skill mapped: 'APQP' -> 'Advanced Product Quality Planning'
+2026-05-12 21:31:48 | INFO     | ats_engine.synonym_mapper | Skill mapped: 'PPAP' -> 'Production Part Approval Process'
+2026-05-12 21:31:48 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:31:48 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:31:48 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:31:48 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:31:48 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:31:48 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-ADVANCED_PRODUCT_QUALITY_PLANNING_ENGINEER
+2026-05-12 21:31:48 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\advanced_product_quality_planning_engineer.json
+2026-05-12 21:31:48 | INFO     | ats_engine.batch_processor | Successfully processed: advanced_product_quality_planning_engineer.txt
+2026-05-12 21:31:53 | INFO     | ats_engine.batch_processor | Processing 2/68: aerospace_quality_engineer.txt
+2026-05-12 21:31:53 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\aerospace_quality_engineer.txt
+2026-05-12 21:31:53 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-AEROSPACE_QUALITY_ENGINEER
+2026-05-12 21:31:53 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-AEROSPACE_QUALITY_ENGINEER
+2026-05-12 21:31:53 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:31:53 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 1094 chars
+2026-05-12 21:31:53 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 1094 | After: 1093 | Reduced by: 1 chars
+2026-05-12 21:31:53 | INFO     | ats_engine.jd_parser | Normalized text length: 1093 chars
+2026-05-12 21:31:53 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:31:54 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:31:54 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:31:54 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:31:54 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:31:54 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:31:54 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:31:54 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:31:54 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:31:54 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:31:54 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-AEROSPACE_QUALITY_ENGINEER
+2026-05-12 21:31:54 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\aerospace_quality_engineer.json
+2026-05-12 21:31:54 | INFO     | ats_engine.batch_processor | Successfully processed: aerospace_quality_engineer.txt
+2026-05-12 21:31:59 | INFO     | ats_engine.batch_processor | Processing 3/68: ai_based_quality_engineer.txt
+2026-05-12 21:31:59 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\ai_based_quality_engineer.txt
+2026-05-12 21:31:59 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-AI_BASED_QUALITY_ENGINEER
+2026-05-12 21:31:59 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-AI_BASED_QUALITY_ENGINEER
+2026-05-12 21:31:59 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:31:59 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 755 chars
+2026-05-12 21:31:59 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 755 | After: 754 | Reduced by: 1 chars
+2026-05-12 21:31:59 | INFO     | ats_engine.jd_parser | Normalized text length: 754 chars
+2026-05-12 21:31:59 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:32:00 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:32:00 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:32:00 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:32:00 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:32:00 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:32:00 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:32:00 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:32:00 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:32:00 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:32:00 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-AI_BASED_QUALITY_ENGINEER
+2026-05-12 21:32:00 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\ai_based_quality_engineer.json
+2026-05-12 21:32:00 | INFO     | ats_engine.batch_processor | Successfully processed: ai_based_quality_engineer.txt
+2026-05-12 21:32:05 | INFO     | ats_engine.batch_processor | Processing 4/68: as9100_quality_specialist.txt
+2026-05-12 21:32:05 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\as9100_quality_specialist.txt
+2026-05-12 21:32:05 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-AS9100_QUALITY_SPECIALIST
+2026-05-12 21:32:05 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-AS9100_QUALITY_SPECIALIST
+2026-05-12 21:32:05 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:32:05 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 913 chars
+2026-05-12 21:32:05 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 913 | After: 913 | Reduced by: 0 chars
+2026-05-12 21:32:05 | INFO     | ats_engine.jd_parser | Normalized text length: 913 chars
+2026-05-12 21:32:05 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:32:07 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:32:07 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:32:07 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:32:07 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:32:07 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:32:07 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:32:07 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:32:07 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:32:07 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:32:07 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-AS9100_QUALITY_SPECIALIST
+2026-05-12 21:32:07 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\as9100_quality_specialist.json
+2026-05-12 21:32:07 | INFO     | ats_engine.batch_processor | Successfully processed: as9100_quality_specialist.txt
+2026-05-12 21:32:12 | INFO     | ats_engine.batch_processor | Processing 5/68: audit_engineer.txt
+2026-05-12 21:32:12 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\audit_engineer.txt
+2026-05-12 21:32:12 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-AUDIT_ENGINEER
+2026-05-12 21:32:12 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-AUDIT_ENGINEER
+2026-05-12 21:32:12 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:32:12 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 498 chars
+2026-05-12 21:32:12 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 498 | After: 497 | Reduced by: 1 chars
+2026-05-12 21:32:12 | INFO     | ats_engine.jd_parser | Normalized text length: 497 chars
+2026-05-12 21:32:12 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:32:13 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:32:13 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:32:13 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:32:13 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:32:13 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:32:13 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:32:13 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:32:13 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:32:13 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:32:13 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-AUDIT_ENGINEER
+2026-05-12 21:32:13 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\audit_engineer.json
+2026-05-12 21:32:13 | INFO     | ats_engine.batch_processor | Successfully processed: audit_engineer.txt
+2026-05-12 21:32:18 | INFO     | ats_engine.batch_processor | Processing 6/68: automotive_quality_engineer.txt
+2026-05-12 21:32:18 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\automotive_quality_engineer.txt
+2026-05-12 21:32:18 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-AUTOMOTIVE_QUALITY_ENGINEER
+2026-05-12 21:32:18 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-AUTOMOTIVE_QUALITY_ENGINEER
+2026-05-12 21:32:18 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:32:18 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 925 chars
+2026-05-12 21:32:18 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 925 | After: 924 | Reduced by: 1 chars
+2026-05-12 21:32:18 | INFO     | ats_engine.jd_parser | Normalized text length: 924 chars
+2026-05-12 21:32:18 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:32:19 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:32:19 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:32:19 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:32:19 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:32:19 | INFO     | ats_engine.synonym_mapper | Skill mapped: 'APQP' -> 'Advanced Product Quality Planning'
+2026-05-12 21:32:19 | INFO     | ats_engine.synonym_mapper | Skill mapped: 'PPAP' -> 'Production Part Approval Process'
+2026-05-12 21:32:19 | INFO     | ats_engine.synonym_mapper | Skill mapped: 'FMEA' -> 'Failure Mode and Effects Analysis'
+2026-05-12 21:32:19 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:32:19 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:32:19 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:32:19 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:32:19 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:32:19 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-AUTOMOTIVE_QUALITY_ENGINEER
+2026-05-12 21:32:19 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\automotive_quality_engineer.json
+2026-05-12 21:32:19 | INFO     | ats_engine.batch_processor | Successfully processed: automotive_quality_engineer.txt
+2026-05-12 21:32:24 | INFO     | ats_engine.batch_processor | Processing 7/68: calibration_engineer.txt
+2026-05-12 21:32:24 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\calibration_engineer.txt
+2026-05-12 21:32:24 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-CALIBRATION_ENGINEER
+2026-05-12 21:32:24 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-CALIBRATION_ENGINEER
+2026-05-12 21:32:24 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:32:24 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 504 chars
+2026-05-12 21:32:24 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 504 | After: 503 | Reduced by: 1 chars
+2026-05-12 21:32:24 | INFO     | ats_engine.jd_parser | Normalized text length: 503 chars
+2026-05-12 21:32:24 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:32:25 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:32:25 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:32:25 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:32:25 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:32:25 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:32:25 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:32:25 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:32:25 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:32:25 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:32:25 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-CALIBRATION_ENGINEER
+2026-05-12 21:32:25 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\calibration_engineer.json
+2026-05-12 21:32:25 | INFO     | ats_engine.batch_processor | Successfully processed: calibration_engineer.txt
+2026-05-12 21:32:30 | INFO     | ats_engine.batch_processor | Processing 8/68: compliance_auditor.txt
+2026-05-12 21:32:30 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\compliance_auditor.txt
+2026-05-12 21:32:30 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-COMPLIANCE_AUDITOR
+2026-05-12 21:32:30 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-COMPLIANCE_AUDITOR
+2026-05-12 21:32:30 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:32:30 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 759 chars
+2026-05-12 21:32:30 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 759 | After: 758 | Reduced by: 1 chars
+2026-05-12 21:32:30 | INFO     | ats_engine.jd_parser | Normalized text length: 758 chars
+2026-05-12 21:32:30 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:32:31 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:32:31 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:32:31 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:32:31 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:32:31 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:32:31 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:32:31 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:32:31 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:32:31 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:32:31 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-COMPLIANCE_AUDITOR
+2026-05-12 21:32:31 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\compliance_auditor.json
+2026-05-12 21:32:31 | INFO     | ats_engine.batch_processor | Successfully processed: compliance_auditor.txt
+2026-05-12 21:32:36 | INFO     | ats_engine.batch_processor | Processing 9/68: compliance_engineer.txt
+2026-05-12 21:32:36 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\compliance_engineer.txt
+2026-05-12 21:32:36 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-COMPLIANCE_ENGINEER
+2026-05-12 21:32:36 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-COMPLIANCE_ENGINEER
+2026-05-12 21:32:36 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:32:36 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 544 chars
+2026-05-12 21:32:36 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 544 | After: 543 | Reduced by: 1 chars
+2026-05-12 21:32:36 | INFO     | ats_engine.jd_parser | Normalized text length: 543 chars
+2026-05-12 21:32:36 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:32:37 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:32:37 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:32:37 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:32:37 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:32:37 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:32:37 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:32:37 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:32:37 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:32:37 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:32:37 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-COMPLIANCE_ENGINEER
+2026-05-12 21:32:37 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\compliance_engineer.json
+2026-05-12 21:32:37 | INFO     | ats_engine.batch_processor | Successfully processed: compliance_engineer.txt
+2026-05-12 21:32:42 | INFO     | ats_engine.batch_processor | Processing 10/68: continuous_improvement_engineer.txt
+2026-05-12 21:32:42 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\continuous_improvement_engineer.txt
+2026-05-12 21:32:42 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-CONTINUOUS_IMPROVEMENT_ENGINEER
+2026-05-12 21:32:42 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-CONTINUOUS_IMPROVEMENT_ENGINEER
+2026-05-12 21:32:42 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:32:42 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 583 chars
+2026-05-12 21:32:42 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 583 | After: 582 | Reduced by: 1 chars
+2026-05-12 21:32:42 | INFO     | ats_engine.jd_parser | Normalized text length: 582 chars
+2026-05-12 21:32:42 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:32:43 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:32:43 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:32:43 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:32:43 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:32:43 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:32:43 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:32:43 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:32:43 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:32:43 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:32:43 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-CONTINUOUS_IMPROVEMENT_ENGINEER
+2026-05-12 21:32:43 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\continuous_improvement_engineer.json
+2026-05-12 21:32:43 | INFO     | ats_engine.batch_processor | Successfully processed: continuous_improvement_engineer.txt
+2026-05-12 21:32:48 | INFO     | ats_engine.batch_processor | Processing 11/68: customer_quality_engineer.txt
+2026-05-12 21:32:48 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\customer_quality_engineer.txt
+2026-05-12 21:32:48 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-CUSTOMER_QUALITY_ENGINEER
+2026-05-12 21:32:48 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-CUSTOMER_QUALITY_ENGINEER
+2026-05-12 21:32:48 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:32:48 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 549 chars
+2026-05-12 21:32:48 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 549 | After: 548 | Reduced by: 1 chars
+2026-05-12 21:32:48 | INFO     | ats_engine.jd_parser | Normalized text length: 548 chars
+2026-05-12 21:32:48 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:32:50 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:32:50 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:32:50 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:32:50 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:32:50 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:32:50 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:32:50 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:32:50 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:32:50 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:32:50 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-CUSTOMER_QUALITY_ENGINEER
+2026-05-12 21:32:50 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\customer_quality_engineer.json
+2026-05-12 21:32:50 | INFO     | ats_engine.batch_processor | Successfully processed: customer_quality_engineer.txt
+2026-05-12 21:32:55 | INFO     | ats_engine.batch_processor | Processing 12/68: customer_quality_manager.txt
+2026-05-12 21:32:55 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\customer_quality_manager.txt
+2026-05-12 21:32:55 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-CUSTOMER_QUALITY_MANAGER
+2026-05-12 21:32:55 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-CUSTOMER_QUALITY_MANAGER
+2026-05-12 21:32:55 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:32:55 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 583 chars
+2026-05-12 21:32:55 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 583 | After: 583 | Reduced by: 0 chars
+2026-05-12 21:32:55 | INFO     | ats_engine.jd_parser | Normalized text length: 583 chars
+2026-05-12 21:32:55 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:32:56 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:32:56 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:32:56 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:32:56 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:32:56 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:32:56 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:32:56 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:32:56 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:32:56 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:32:56 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-CUSTOMER_QUALITY_MANAGER
+2026-05-12 21:32:56 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\customer_quality_manager.json
+2026-05-12 21:32:56 | INFO     | ats_engine.batch_processor | Successfully processed: customer_quality_manager.txt
+2026-05-12 21:33:01 | INFO     | ats_engine.batch_processor | Processing 13/68: data_quality_analyst.txt
+2026-05-12 21:33:01 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\data_quality_analyst.txt
+2026-05-12 21:33:01 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-DATA_QUALITY_ANALYST
+2026-05-12 21:33:01 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-DATA_QUALITY_ANALYST
+2026-05-12 21:33:01 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:33:01 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 605 chars
+2026-05-12 21:33:01 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 605 | After: 604 | Reduced by: 1 chars
+2026-05-12 21:33:01 | INFO     | ats_engine.jd_parser | Normalized text length: 604 chars
+2026-05-12 21:33:01 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:33:02 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:33:02 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:33:02 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:33:02 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:33:02 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:33:02 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:33:02 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:33:02 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:33:02 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:33:02 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-DATA_QUALITY_ANALYST
+2026-05-12 21:33:02 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\data_quality_analyst.json
+2026-05-12 21:33:02 | INFO     | ats_engine.batch_processor | Successfully processed: data_quality_analyst.txt
+2026-05-12 21:33:07 | INFO     | ats_engine.batch_processor | Processing 14/68: design_quality_engineer.txt
+2026-05-12 21:33:07 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\design_quality_engineer.txt
+2026-05-12 21:33:07 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-DESIGN_QUALITY_ENGINEER
+2026-05-12 21:33:07 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-DESIGN_QUALITY_ENGINEER
+2026-05-12 21:33:07 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:33:07 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 827 chars
+2026-05-12 21:33:07 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 827 | After: 826 | Reduced by: 1 chars
+2026-05-12 21:33:07 | INFO     | ats_engine.jd_parser | Normalized text length: 826 chars
+2026-05-12 21:33:07 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:33:08 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:33:08 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:33:08 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:33:08 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:33:08 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:33:08 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:33:08 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:33:08 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:33:08 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:33:08 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-DESIGN_QUALITY_ENGINEER
+2026-05-12 21:33:08 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\design_quality_engineer.json
+2026-05-12 21:33:08 | INFO     | ats_engine.batch_processor | Successfully processed: design_quality_engineer.txt
+2026-05-12 21:33:13 | INFO     | ats_engine.batch_processor | Processing 15/68: digital_quality_engineer.txt
+2026-05-12 21:33:13 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\digital_quality_engineer.txt
+2026-05-12 21:33:13 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-DIGITAL_QUALITY_ENGINEER
+2026-05-12 21:33:13 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-DIGITAL_QUALITY_ENGINEER
+2026-05-12 21:33:13 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:33:13 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 843 chars
+2026-05-12 21:33:13 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 843 | After: 842 | Reduced by: 1 chars
+2026-05-12 21:33:13 | INFO     | ats_engine.jd_parser | Normalized text length: 842 chars
+2026-05-12 21:33:13 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:33:15 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:33:15 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:33:15 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:33:15 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:33:15 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:33:15 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:33:15 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:33:15 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:33:15 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:33:15 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-DIGITAL_QUALITY_ENGINEER
+2026-05-12 21:33:15 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\digital_quality_engineer.json
+2026-05-12 21:33:15 | INFO     | ats_engine.batch_processor | Successfully processed: digital_quality_engineer.txt
+2026-05-12 21:33:20 | INFO     | ats_engine.batch_processor | Processing 16/68: director_of_quality.txt
+2026-05-12 21:33:20 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\director_of_quality.txt
+2026-05-12 21:33:20 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-DIRECTOR_OF_QUALITY
+2026-05-12 21:33:20 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-DIRECTOR_OF_QUALITY
+2026-05-12 21:33:20 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:33:20 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 596 chars
+2026-05-12 21:33:20 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 596 | After: 595 | Reduced by: 1 chars
+2026-05-12 21:33:20 | INFO     | ats_engine.jd_parser | Normalized text length: 595 chars
+2026-05-12 21:33:20 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:33:21 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:33:21 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:33:21 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:33:21 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:33:21 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:33:21 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:33:21 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:33:21 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:33:21 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:33:21 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-DIRECTOR_OF_QUALITY
+2026-05-12 21:33:21 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\director_of_quality.json
+2026-05-12 21:33:21 | INFO     | ats_engine.batch_processor | Successfully processed: director_of_quality.txt
+2026-05-12 21:33:26 | INFO     | ats_engine.batch_processor | Processing 17/68: environmental_test_engineer.txt
+2026-05-12 21:33:26 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\environmental_test_engineer.txt
+2026-05-12 21:33:26 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-ENVIRONMENTAL_TEST_ENGINEER
+2026-05-12 21:33:26 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-ENVIRONMENTAL_TEST_ENGINEER
+2026-05-12 21:33:26 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:33:26 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 672 chars
+2026-05-12 21:33:26 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 672 | After: 671 | Reduced by: 1 chars
+2026-05-12 21:33:26 | INFO     | ats_engine.jd_parser | Normalized text length: 671 chars
+2026-05-12 21:33:26 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:33:27 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:33:27 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:33:27 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:33:27 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:33:27 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:33:27 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:33:27 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:33:27 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:33:27 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:33:27 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-ENVIRONMENTAL_TEST_ENGINEER
+2026-05-12 21:33:27 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\environmental_test_engineer.json
+2026-05-12 21:33:27 | INFO     | ats_engine.batch_processor | Successfully processed: environmental_test_engineer.txt
+2026-05-12 21:33:32 | INFO     | ats_engine.batch_processor | Processing 18/68: field_quality_engineer.txt
+2026-05-12 21:33:32 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\field_quality_engineer.txt
+2026-05-12 21:33:32 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-FIELD_QUALITY_ENGINEER
+2026-05-12 21:33:32 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-FIELD_QUALITY_ENGINEER
+2026-05-12 21:33:32 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:33:32 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 523 chars
+2026-05-12 21:33:32 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 523 | After: 523 | Reduced by: 0 chars
+2026-05-12 21:33:32 | INFO     | ats_engine.jd_parser | Normalized text length: 523 chars
+2026-05-12 21:33:32 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:33:33 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:33:33 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:33:33 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:33:33 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:33:33 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:33:33 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:33:33 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:33:33 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:33:33 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:33:33 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-FIELD_QUALITY_ENGINEER
+2026-05-12 21:33:33 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\field_quality_engineer.json
+2026-05-12 21:33:33 | INFO     | ats_engine.batch_processor | Successfully processed: field_quality_engineer.txt
+2026-05-12 21:33:38 | INFO     | ats_engine.batch_processor | Processing 19/68: food_quality_engineer.txt
+2026-05-12 21:33:38 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\food_quality_engineer.txt
+2026-05-12 21:33:38 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-FOOD_QUALITY_ENGINEER
+2026-05-12 21:33:38 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-FOOD_QUALITY_ENGINEER
+2026-05-12 21:33:38 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:33:38 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 976 chars
+2026-05-12 21:33:38 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 976 | After: 975 | Reduced by: 1 chars
+2026-05-12 21:33:38 | INFO     | ats_engine.jd_parser | Normalized text length: 975 chars
+2026-05-12 21:33:38 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:33:41 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:33:41 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:33:41 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:33:41 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:33:41 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:33:41 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:33:41 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:33:41 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:33:41 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:33:41 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-FOOD_QUALITY_ENGINEER
+2026-05-12 21:33:41 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\food_quality_engineer.json
+2026-05-12 21:33:41 | INFO     | ats_engine.batch_processor | Successfully processed: food_quality_engineer.txt
+2026-05-12 21:33:46 | INFO     | ats_engine.batch_processor | Processing 20/68: gmp_quality_engineer.txt
+2026-05-12 21:33:46 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\gmp_quality_engineer.txt
+2026-05-12 21:33:46 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-GMP_QUALITY_ENGINEER
+2026-05-12 21:33:46 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-GMP_QUALITY_ENGINEER
+2026-05-12 21:33:46 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:33:46 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 901 chars
+2026-05-12 21:33:46 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 901 | After: 900 | Reduced by: 1 chars
+2026-05-12 21:33:46 | INFO     | ats_engine.jd_parser | Normalized text length: 900 chars
+2026-05-12 21:33:46 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:33:48 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:33:48 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:33:48 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:33:48 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:33:48 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:33:48 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:33:48 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:33:48 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:33:48 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:33:48 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-GMP_QUALITY_ENGINEER
+2026-05-12 21:33:48 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\gmp_quality_engineer.json
+2026-05-12 21:33:48 | INFO     | ats_engine.batch_processor | Successfully processed: gmp_quality_engineer.txt
+2026-05-12 21:33:53 | INFO     | ats_engine.batch_processor | Processing 21/68: haccp_specialist.txt
+2026-05-12 21:33:53 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\haccp_specialist.txt
+2026-05-12 21:33:53 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-HACCP_SPECIALIST
+2026-05-12 21:33:53 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-HACCP_SPECIALIST
+2026-05-12 21:33:53 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:33:53 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 913 chars
+2026-05-12 21:33:53 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 913 | After: 912 | Reduced by: 1 chars
+2026-05-12 21:33:53 | INFO     | ats_engine.jd_parser | Normalized text length: 912 chars
+2026-05-12 21:33:53 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:33:54 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:33:54 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:33:54 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:33:54 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:33:54 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:33:54 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:33:54 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:33:54 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:33:54 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:33:54 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-HACCP_SPECIALIST
+2026-05-12 21:33:54 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\haccp_specialist.json
+2026-05-12 21:33:54 | INFO     | ats_engine.batch_processor | Successfully processed: haccp_specialist.txt
+2026-05-12 21:33:59 | INFO     | ats_engine.batch_processor | Processing 22/68: head_of_quality.txt
+2026-05-12 21:33:59 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\head_of_quality.txt
+2026-05-12 21:33:59 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-HEAD_OF_QUALITY
+2026-05-12 21:33:59 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-HEAD_OF_QUALITY
+2026-05-12 21:33:59 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:33:59 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 579 chars
+2026-05-12 21:33:59 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 579 | After: 578 | Reduced by: 1 chars
+2026-05-12 21:33:59 | INFO     | ats_engine.jd_parser | Normalized text length: 578 chars
+2026-05-12 21:33:59 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:34:00 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:34:00 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:34:00 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:34:00 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:34:00 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:34:00 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:34:00 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:34:00 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:34:00 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:34:00 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-HEAD_OF_QUALITY
+2026-05-12 21:34:00 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\head_of_quality.json
+2026-05-12 21:34:00 | INFO     | ats_engine.batch_processor | Successfully processed: head_of_quality.txt
+2026-05-12 21:34:05 | INFO     | ats_engine.batch_processor | Processing 23/68: iatf_16949_quality_engineer.txt
+2026-05-12 21:34:05 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\iatf_16949_quality_engineer.txt
+2026-05-12 21:34:05 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-IATF_16949_QUALITY_ENGINEER
+2026-05-12 21:34:05 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-IATF_16949_QUALITY_ENGINEER
+2026-05-12 21:34:05 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:34:05 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 837 chars
+2026-05-12 21:34:05 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 837 | After: 837 | Reduced by: 0 chars
+2026-05-12 21:34:05 | INFO     | ats_engine.jd_parser | Normalized text length: 837 chars
+2026-05-12 21:34:05 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:34:07 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:34:07 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:34:07 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:34:07 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:34:07 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:34:07 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:34:07 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:34:07 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:34:07 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:34:07 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-IATF_16949_QUALITY_ENGINEER
+2026-05-12 21:34:07 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\iatf_16949_quality_engineer.json
+2026-05-12 21:34:07 | INFO     | ats_engine.batch_processor | Successfully processed: iatf_16949_quality_engineer.txt
+2026-05-12 21:34:12 | INFO     | ats_engine.batch_processor | Processing 24/68: incoming_quality_control_engineer.txt
+2026-05-12 21:34:12 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\incoming_quality_control_engineer.txt
+2026-05-12 21:34:12 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-INCOMING_QUALITY_CONTROL_ENGINEER
+2026-05-12 21:34:12 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-INCOMING_QUALITY_CONTROL_ENGINEER
+2026-05-12 21:34:12 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:34:12 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 534 chars
+2026-05-12 21:34:12 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 534 | After: 533 | Reduced by: 1 chars
+2026-05-12 21:34:12 | INFO     | ats_engine.jd_parser | Normalized text length: 533 chars
+2026-05-12 21:34:12 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:34:19 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:34:19 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:34:19 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:34:19 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:34:19 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:34:19 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:34:19 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:34:19 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:34:19 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:34:19 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-INCOMING_QUALITY_CONTROL_ENGINEER
+2026-05-12 21:34:19 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\incoming_quality_control_engineer.json
+2026-05-12 21:34:19 | INFO     | ats_engine.batch_processor | Successfully processed: incoming_quality_control_engineer.txt
+2026-05-12 21:34:24 | INFO     | ats_engine.batch_processor | Processing 25/68: industrial_quality_engineer.txt
+2026-05-12 21:34:24 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\industrial_quality_engineer.txt
+2026-05-12 21:34:24 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-INDUSTRIAL_QUALITY_ENGINEER
+2026-05-12 21:34:24 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-INDUSTRIAL_QUALITY_ENGINEER
+2026-05-12 21:34:24 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:34:24 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 699 chars
+2026-05-12 21:34:24 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 699 | After: 698 | Reduced by: 1 chars
+2026-05-12 21:34:24 | INFO     | ats_engine.jd_parser | Normalized text length: 698 chars
+2026-05-12 21:34:24 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:34:25 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:34:25 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:34:25 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:34:25 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:34:25 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:34:25 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:34:25 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:34:25 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:34:25 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:34:25 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-INDUSTRIAL_QUALITY_ENGINEER
+2026-05-12 21:34:25 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\industrial_quality_engineer.json
+2026-05-12 21:34:25 | INFO     | ats_engine.batch_processor | Successfully processed: industrial_quality_engineer.txt
+2026-05-12 21:34:30 | INFO     | ats_engine.batch_processor | Processing 26/68: industry_4.0_quality_specialist.txt
+2026-05-12 21:34:30 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\industry_4.0_quality_specialist.txt
+2026-05-12 21:34:30 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-INDUSTRY_4.0_QUALITY_SPECIALIST
+2026-05-12 21:34:30 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-INDUSTRY_4.0_QUALITY_SPECIALIST
+2026-05-12 21:34:30 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:34:30 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 683 chars
+2026-05-12 21:34:30 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 683 | After: 682 | Reduced by: 1 chars
+2026-05-12 21:34:30 | INFO     | ats_engine.jd_parser | Normalized text length: 682 chars
+2026-05-12 21:34:30 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:34:31 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:34:31 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:34:31 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:34:31 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:34:31 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:34:31 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:34:31 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:34:31 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:34:31 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:34:31 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-INDUSTRY_4.0_QUALITY_SPECIALIST
+2026-05-12 21:34:31 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\industry_4.0_quality_specialist.json
+2026-05-12 21:34:31 | INFO     | ats_engine.batch_processor | Successfully processed: industry_4.0_quality_specialist.txt
+2026-05-12 21:34:36 | INFO     | ats_engine.batch_processor | Processing 27/68: inspection_engineer.txt
+2026-05-12 21:34:36 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\inspection_engineer.txt
+2026-05-12 21:34:36 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-INSPECTION_ENGINEER
+2026-05-12 21:34:36 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-INSPECTION_ENGINEER
+2026-05-12 21:34:36 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:34:36 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 564 chars
+2026-05-12 21:34:36 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 564 | After: 563 | Reduced by: 1 chars
+2026-05-12 21:34:36 | INFO     | ats_engine.jd_parser | Normalized text length: 563 chars
+2026-05-12 21:34:36 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:34:37 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:34:37 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:34:37 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:34:37 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:34:37 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:34:37 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:34:37 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:34:37 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:34:37 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:34:37 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-INSPECTION_ENGINEER
+2026-05-12 21:34:37 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\inspection_engineer.json
+2026-05-12 21:34:37 | INFO     | ats_engine.batch_processor | Successfully processed: inspection_engineer.txt
+2026-05-12 21:34:42 | INFO     | ats_engine.batch_processor | Processing 28/68: internal_quality_auditor.txt
+2026-05-12 21:34:42 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\internal_quality_auditor.txt
+2026-05-12 21:34:42 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-INTERNAL_QUALITY_AUDITOR
+2026-05-12 21:34:42 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-INTERNAL_QUALITY_AUDITOR
+2026-05-12 21:34:42 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:34:42 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 882 chars
+2026-05-12 21:34:42 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 882 | After: 882 | Reduced by: 0 chars
+2026-05-12 21:34:42 | INFO     | ats_engine.jd_parser | Normalized text length: 882 chars
+2026-05-12 21:34:42 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:34:43 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:34:43 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:34:43 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:34:43 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:34:43 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:34:43 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:34:43 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:34:43 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:34:43 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:34:43 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-INTERNAL_QUALITY_AUDITOR
+2026-05-12 21:34:43 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\internal_quality_auditor.json
+2026-05-12 21:34:43 | INFO     | ats_engine.batch_processor | Successfully processed: internal_quality_auditor.txt
+2026-05-12 21:34:48 | INFO     | ats_engine.batch_processor | Processing 29/68: iso_certification_consultant.txt
+2026-05-12 21:34:48 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\iso_certification_consultant.txt
+2026-05-12 21:34:48 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-ISO_CERTIFICATION_CONSULTANT
+2026-05-12 21:34:48 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-ISO_CERTIFICATION_CONSULTANT
+2026-05-12 21:34:48 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:34:48 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 737 chars
+2026-05-12 21:34:48 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 737 | After: 736 | Reduced by: 1 chars
+2026-05-12 21:34:48 | INFO     | ats_engine.jd_parser | Normalized text length: 736 chars
+2026-05-12 21:34:48 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:34:50 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:34:50 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:34:50 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:34:50 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:34:50 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:34:50 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:34:50 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:34:50 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:34:50 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:34:50 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-ISO_CERTIFICATION_CONSULTANT
+2026-05-12 21:34:50 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\iso_certification_consultant.json
+2026-05-12 21:34:50 | INFO     | ats_engine.batch_processor | Successfully processed: iso_certification_consultant.txt
+2026-05-12 21:34:55 | INFO     | ats_engine.batch_processor | Processing 30/68: junior_quality_engineer.txt
+2026-05-12 21:34:55 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\junior_quality_engineer.txt
+2026-05-12 21:34:55 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-JUNIOR_QUALITY_ENGINEER
+2026-05-12 21:34:55 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-JUNIOR_QUALITY_ENGINEER
+2026-05-12 21:34:55 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:34:55 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 752 chars
+2026-05-12 21:34:55 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 752 | After: 751 | Reduced by: 1 chars
+2026-05-12 21:34:55 | INFO     | ats_engine.jd_parser | Normalized text length: 751 chars
+2026-05-12 21:34:55 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:34:56 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:34:56 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:34:56 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:34:56 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:34:56 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:34:56 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:34:56 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:34:56 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:34:56 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:34:56 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-JUNIOR_QUALITY_ENGINEER
+2026-05-12 21:34:56 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\junior_quality_engineer.json
+2026-05-12 21:34:56 | INFO     | ats_engine.batch_processor | Successfully processed: junior_quality_engineer.txt
+2026-05-12 21:35:01 | INFO     | ats_engine.batch_processor | Processing 31/68: kaizen_specialist.txt
+2026-05-12 21:35:01 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\kaizen_specialist.txt
+2026-05-12 21:35:01 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-KAIZEN_SPECIALIST
+2026-05-12 21:35:01 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-KAIZEN_SPECIALIST
+2026-05-12 21:35:01 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:35:01 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 601 chars
+2026-05-12 21:35:01 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 601 | After: 601 | Reduced by: 0 chars
+2026-05-12 21:35:01 | INFO     | ats_engine.jd_parser | Normalized text length: 601 chars
+2026-05-12 21:35:01 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:35:03 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:35:03 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:35:03 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:35:03 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:35:03 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:35:03 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:35:03 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:35:03 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:35:03 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:35:03 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-KAIZEN_SPECIALIST
+2026-05-12 21:35:03 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\kaizen_specialist.json
+2026-05-12 21:35:03 | INFO     | ats_engine.batch_processor | Successfully processed: kaizen_specialist.txt
+2026-05-12 21:35:08 | INFO     | ats_engine.batch_processor | Processing 32/68: lead_auditor.txt
+2026-05-12 21:35:08 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\lead_auditor.txt
+2026-05-12 21:35:08 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-LEAD_AUDITOR
+2026-05-12 21:35:08 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-LEAD_AUDITOR
+2026-05-12 21:35:08 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:35:08 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 845 chars
+2026-05-12 21:35:08 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 845 | After: 844 | Reduced by: 1 chars
+2026-05-12 21:35:08 | INFO     | ats_engine.jd_parser | Normalized text length: 844 chars
+2026-05-12 21:35:08 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:35:09 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:35:09 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:35:09 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:35:09 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:35:09 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:35:09 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:35:09 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:35:09 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:35:09 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:35:09 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-LEAD_AUDITOR
+2026-05-12 21:35:09 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\lead_auditor.json
+2026-05-12 21:35:09 | INFO     | ats_engine.batch_processor | Successfully processed: lead_auditor.txt
+2026-05-12 21:35:14 | INFO     | ats_engine.batch_processor | Processing 33/68: lead_quality_engineer.txt
+2026-05-12 21:35:14 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\lead_quality_engineer.txt
+2026-05-12 21:35:14 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-LEAD_QUALITY_ENGINEER
+2026-05-12 21:35:14 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-LEAD_QUALITY_ENGINEER
+2026-05-12 21:35:14 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:35:14 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 641 chars
+2026-05-12 21:35:14 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 641 | After: 640 | Reduced by: 1 chars
+2026-05-12 21:35:14 | INFO     | ats_engine.jd_parser | Normalized text length: 640 chars
+2026-05-12 21:35:14 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:35:15 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:35:15 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:35:15 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:35:15 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:35:15 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:35:15 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:35:15 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:35:15 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:35:15 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:35:15 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-LEAD_QUALITY_ENGINEER
+2026-05-12 21:35:15 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\lead_quality_engineer.json
+2026-05-12 21:35:15 | INFO     | ats_engine.batch_processor | Successfully processed: lead_quality_engineer.txt
+2026-05-12 21:35:20 | INFO     | ats_engine.batch_processor | Processing 34/68: lean_quality_consultant.txt
+2026-05-12 21:35:20 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\lean_quality_consultant.txt
+2026-05-12 21:35:20 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-LEAN_QUALITY_CONSULTANT
+2026-05-12 21:35:20 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-LEAN_QUALITY_CONSULTANT
+2026-05-12 21:35:20 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:35:20 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 627 chars
+2026-05-12 21:35:20 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 627 | After: 627 | Reduced by: 0 chars
+2026-05-12 21:35:20 | INFO     | ats_engine.jd_parser | Normalized text length: 627 chars
+2026-05-12 21:35:20 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:35:21 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:35:21 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:35:21 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:35:21 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:35:21 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:35:21 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:35:21 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:35:21 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:35:21 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:35:21 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-LEAN_QUALITY_CONSULTANT
+2026-05-12 21:35:21 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\lean_quality_consultant.json
+2026-05-12 21:35:21 | INFO     | ats_engine.batch_processor | Successfully processed: lean_quality_consultant.txt
+2026-05-12 21:35:26 | INFO     | ats_engine.batch_processor | Processing 35/68: lean_quality_engineer.txt
+2026-05-12 21:35:26 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\lean_quality_engineer.txt
+2026-05-12 21:35:26 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-LEAN_QUALITY_ENGINEER
+2026-05-12 21:35:26 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-LEAN_QUALITY_ENGINEER
+2026-05-12 21:35:26 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:35:26 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 606 chars
+2026-05-12 21:35:26 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 606 | After: 606 | Reduced by: 0 chars
+2026-05-12 21:35:26 | INFO     | ats_engine.jd_parser | Normalized text length: 606 chars
+2026-05-12 21:35:26 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:35:27 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:35:27 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:35:27 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:35:27 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:35:27 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:35:27 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:35:27 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:35:27 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:35:27 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:35:28 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-LEAN_QUALITY_ENGINEER
+2026-05-12 21:35:28 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\lean_quality_engineer.json
+2026-05-12 21:35:28 | INFO     | ats_engine.batch_processor | Successfully processed: lean_quality_engineer.txt
+2026-05-12 21:35:33 | INFO     | ats_engine.batch_processor | Processing 36/68: line_quality_engineer.txt
+2026-05-12 21:35:33 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\line_quality_engineer.txt
+2026-05-12 21:35:33 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-LINE_QUALITY_ENGINEER
+2026-05-12 21:35:33 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-LINE_QUALITY_ENGINEER
+2026-05-12 21:35:33 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:35:33 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 599 chars
+2026-05-12 21:35:33 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 599 | After: 598 | Reduced by: 1 chars
+2026-05-12 21:35:33 | INFO     | ats_engine.jd_parser | Normalized text length: 598 chars
+2026-05-12 21:35:33 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:35:33 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:35:33 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:35:33 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:35:33 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:35:33 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:35:33 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:35:33 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:35:33 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:35:33 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:35:33 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-LINE_QUALITY_ENGINEER
+2026-05-12 21:35:33 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\line_quality_engineer.json
+2026-05-12 21:35:33 | INFO     | ats_engine.batch_processor | Successfully processed: line_quality_engineer.txt
+2026-05-12 21:35:38 | INFO     | ats_engine.batch_processor | Processing 37/68: manual_test_engineer.txt
+2026-05-12 21:35:38 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\manual_test_engineer.txt
+2026-05-12 21:35:38 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-MANUAL_TEST_ENGINEER
+2026-05-12 21:35:38 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-MANUAL_TEST_ENGINEER
+2026-05-12 21:35:38 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:35:38 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 639 chars
+2026-05-12 21:35:38 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 639 | After: 638 | Reduced by: 1 chars
+2026-05-12 21:35:38 | INFO     | ats_engine.jd_parser | Normalized text length: 638 chars
+2026-05-12 21:35:38 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:35:46 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:35:46 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:35:46 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:35:46 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:35:46 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:35:46 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:35:46 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:35:46 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:35:46 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:35:46 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-MANUAL_TEST_ENGINEER
+2026-05-12 21:35:46 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\manual_test_engineer.json
+2026-05-12 21:35:46 | INFO     | ats_engine.batch_processor | Successfully processed: manual_test_engineer.txt
+2026-05-12 21:35:51 | INFO     | ats_engine.batch_processor | Processing 38/68: manufacturing_quality_engineer.txt
+2026-05-12 21:35:51 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\manufacturing_quality_engineer.txt
+2026-05-12 21:35:51 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-MANUFACTURING_QUALITY_ENGINEER
+2026-05-12 21:35:51 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-MANUFACTURING_QUALITY_ENGINEER
+2026-05-12 21:35:51 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:35:51 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 456 chars
+2026-05-12 21:35:51 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 456 | After: 455 | Reduced by: 1 chars
+2026-05-12 21:35:51 | INFO     | ats_engine.jd_parser | Normalized text length: 455 chars
+2026-05-12 21:35:51 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:35:52 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:35:52 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:35:52 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:35:52 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:35:52 | ERROR    | ats_engine.batch_processor | Failed to process 'manufacturing_quality_engineer.txt': 'NoneType' object has no attribute 'strip'
+2026-05-12 21:35:57 | INFO     | ats_engine.batch_processor | Processing 39/68: manufacturing_quality_engineer_v1.txt
+2026-05-12 21:35:57 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\manufacturing_quality_engineer_v1.txt
+2026-05-12 21:35:57 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-MANUFACTURING_QUALITY_ENGINEER_V1
+2026-05-12 21:35:57 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-MANUFACTURING_QUALITY_ENGINEER_V1
+2026-05-12 21:35:57 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:35:57 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 866 chars
+2026-05-12 21:35:57 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 866 | After: 866 | Reduced by: 0 chars
+2026-05-12 21:35:57 | INFO     | ats_engine.jd_parser | Normalized text length: 866 chars
+2026-05-12 21:35:57 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:35:58 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:35:58 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:35:58 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:35:58 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:35:58 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:35:58 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:35:58 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:35:58 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:35:58 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:35:58 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-MANUFACTURING_QUALITY_ENGINEER_V1
+2026-05-12 21:35:58 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\manufacturing_quality_engineer_v1.json
+2026-05-12 21:35:58 | INFO     | ats_engine.batch_processor | Successfully processed: manufacturing_quality_engineer_v1.txt
+2026-05-12 21:36:03 | INFO     | ats_engine.batch_processor | Processing 40/68: new_product_quality_engineer.txt
+2026-05-12 21:36:03 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\new_product_quality_engineer.txt
+2026-05-12 21:36:03 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-NEW_PRODUCT_QUALITY_ENGINEER
+2026-05-12 21:36:03 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-NEW_PRODUCT_QUALITY_ENGINEER
+2026-05-12 21:36:03 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:36:03 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 709 chars
+2026-05-12 21:36:03 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 709 | After: 709 | Reduced by: 0 chars
+2026-05-12 21:36:03 | INFO     | ats_engine.jd_parser | Normalized text length: 709 chars
+2026-05-12 21:36:03 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:36:04 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:36:04 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:36:04 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:36:04 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:36:04 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:36:04 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:36:04 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:36:04 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:36:04 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:36:04 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-NEW_PRODUCT_QUALITY_ENGINEER
+2026-05-12 21:36:04 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\new_product_quality_engineer.json
+2026-05-12 21:36:04 | INFO     | ats_engine.batch_processor | Successfully processed: new_product_quality_engineer.txt
+2026-05-12 21:36:09 | INFO     | ats_engine.batch_processor | Processing 41/68: performance_test_engineer.txt
+2026-05-12 21:36:09 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\performance_test_engineer.txt
+2026-05-12 21:36:09 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-PERFORMANCE_TEST_ENGINEER
+2026-05-12 21:36:09 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-PERFORMANCE_TEST_ENGINEER
+2026-05-12 21:36:09 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:36:09 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 647 chars
+2026-05-12 21:36:09 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 647 | After: 646 | Reduced by: 1 chars
+2026-05-12 21:36:09 | INFO     | ats_engine.jd_parser | Normalized text length: 646 chars
+2026-05-12 21:36:09 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:36:10 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:36:10 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:36:10 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:36:10 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:36:10 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:36:10 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:36:10 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:36:10 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:36:10 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:36:10 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-PERFORMANCE_TEST_ENGINEER
+2026-05-12 21:36:10 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\performance_test_engineer.json
+2026-05-12 21:36:10 | INFO     | ats_engine.batch_processor | Successfully processed: performance_test_engineer.txt
+2026-05-12 21:36:15 | INFO     | ats_engine.batch_processor | Processing 42/68: plant_quality_manager.txt
+2026-05-12 21:36:15 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\plant_quality_manager.txt
+2026-05-12 21:36:15 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-PLANT_QUALITY_MANAGER
+2026-05-12 21:36:15 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-PLANT_QUALITY_MANAGER
+2026-05-12 21:36:15 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:36:15 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 538 chars
+2026-05-12 21:36:15 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 538 | After: 536 | Reduced by: 2 chars
+2026-05-12 21:36:15 | INFO     | ats_engine.jd_parser | Normalized text length: 536 chars
+2026-05-12 21:36:15 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:36:16 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:36:16 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:36:16 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:36:16 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:36:16 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:36:16 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:36:16 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:36:16 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:36:16 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:36:16 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-PLANT_QUALITY_MANAGER
+2026-05-12 21:36:16 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\plant_quality_manager.json
+2026-05-12 21:36:16 | INFO     | ats_engine.batch_processor | Successfully processed: plant_quality_manager.txt
+2026-05-12 21:36:21 | INFO     | ats_engine.batch_processor | Processing 43/68: ppap_engineer.txt
+2026-05-12 21:36:21 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\ppap_engineer.txt
+2026-05-12 21:36:21 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-PPAP_ENGINEER
+2026-05-12 21:36:21 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-PPAP_ENGINEER
+2026-05-12 21:36:21 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:36:21 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 871 chars
+2026-05-12 21:36:21 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 871 | After: 870 | Reduced by: 1 chars
+2026-05-12 21:36:21 | INFO     | ats_engine.jd_parser | Normalized text length: 870 chars
+2026-05-12 21:36:21 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:36:23 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:36:23 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:36:23 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:36:23 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:36:23 | INFO     | ats_engine.synonym_mapper | Skill mapped: 'PPAP' -> 'Production Part Approval Process'
+2026-05-12 21:36:23 | INFO     | ats_engine.synonym_mapper | Skill mapped: 'APQP' -> 'Advanced Product Quality Planning'
+2026-05-12 21:36:23 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:36:23 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:36:23 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:36:23 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:36:23 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:36:23 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-PPAP_ENGINEER
+2026-05-12 21:36:23 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\ppap_engineer.json
+2026-05-12 21:36:23 | INFO     | ats_engine.batch_processor | Successfully processed: ppap_engineer.txt
+2026-05-12 21:36:28 | INFO     | ats_engine.batch_processor | Processing 44/68: predictive_quality_engineer.txt
+2026-05-12 21:36:28 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\predictive_quality_engineer.txt
+2026-05-12 21:36:28 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-PREDICTIVE_QUALITY_ENGINEER
+2026-05-12 21:36:28 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-PREDICTIVE_QUALITY_ENGINEER
+2026-05-12 21:36:28 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:36:28 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 685 chars
+2026-05-12 21:36:28 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 685 | After: 685 | Reduced by: 0 chars
+2026-05-12 21:36:28 | INFO     | ats_engine.jd_parser | Normalized text length: 685 chars
+2026-05-12 21:36:28 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:36:29 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:36:29 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:36:29 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:36:29 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:36:29 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:36:29 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:36:29 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:36:29 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:36:29 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:36:29 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-PREDICTIVE_QUALITY_ENGINEER
+2026-05-12 21:36:29 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\predictive_quality_engineer.json
+2026-05-12 21:36:29 | INFO     | ats_engine.batch_processor | Successfully processed: predictive_quality_engineer.txt
+2026-05-12 21:36:34 | INFO     | ats_engine.batch_processor | Processing 45/68: principal_quality_engineer.txt
+2026-05-12 21:36:34 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\principal_quality_engineer.txt
+2026-05-12 21:36:34 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-PRINCIPAL_QUALITY_ENGINEER
+2026-05-12 21:36:34 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-PRINCIPAL_QUALITY_ENGINEER
+2026-05-12 21:36:34 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:36:34 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 667 chars
+2026-05-12 21:36:34 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 667 | After: 666 | Reduced by: 1 chars
+2026-05-12 21:36:34 | INFO     | ats_engine.jd_parser | Normalized text length: 666 chars
+2026-05-12 21:36:34 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:36:36 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:36:36 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:36:36 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:36:36 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:36:36 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:36:36 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:36:36 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:36:36 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:36:36 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:36:36 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-PRINCIPAL_QUALITY_ENGINEER
+2026-05-12 21:36:36 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\principal_quality_engineer.json
+2026-05-12 21:36:36 | INFO     | ats_engine.batch_processor | Successfully processed: principal_quality_engineer.txt
+2026-05-12 21:36:41 | INFO     | ats_engine.batch_processor | Processing 46/68: process_improvement_consultant.txt
+2026-05-12 21:36:41 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\process_improvement_consultant.txt
+2026-05-12 21:36:41 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-PROCESS_IMPROVEMENT_CONSULTANT
+2026-05-12 21:36:41 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-PROCESS_IMPROVEMENT_CONSULTANT
+2026-05-12 21:36:41 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:36:41 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 637 chars
+2026-05-12 21:36:41 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 637 | After: 637 | Reduced by: 0 chars
+2026-05-12 21:36:41 | INFO     | ats_engine.jd_parser | Normalized text length: 637 chars
+2026-05-12 21:36:41 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:36:42 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:36:42 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:36:42 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:36:42 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:36:42 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:36:42 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:36:42 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:36:42 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:36:42 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:36:42 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-PROCESS_IMPROVEMENT_CONSULTANT
+2026-05-12 21:36:42 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\process_improvement_consultant.json
+2026-05-12 21:36:42 | INFO     | ats_engine.batch_processor | Successfully processed: process_improvement_consultant.txt
+2026-05-12 21:36:47 | INFO     | ats_engine.batch_processor | Processing 47/68: process_quality_engineer.txt
+2026-05-12 21:36:47 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\process_quality_engineer.txt
+2026-05-12 21:36:47 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-PROCESS_QUALITY_ENGINEER
+2026-05-12 21:36:47 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-PROCESS_QUALITY_ENGINEER
+2026-05-12 21:36:47 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:36:47 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 506 chars
+2026-05-12 21:36:47 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 506 | After: 505 | Reduced by: 1 chars
+2026-05-12 21:36:47 | INFO     | ats_engine.jd_parser | Normalized text length: 505 chars
+2026-05-12 21:36:47 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:36:48 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:36:48 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:36:48 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:36:48 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:36:48 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:36:48 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:36:48 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:36:48 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:36:48 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:36:48 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-PROCESS_QUALITY_ENGINEER
+2026-05-12 21:36:48 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\process_quality_engineer.json
+2026-05-12 21:36:48 | INFO     | ats_engine.batch_processor | Successfully processed: process_quality_engineer.txt
+2026-05-12 21:36:53 | INFO     | ats_engine.batch_processor | Processing 48/68: process_quality_engineer_junior.txt
+2026-05-12 21:36:53 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\process_quality_engineer_junior.txt
+2026-05-12 21:36:53 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-PROCESS_QUALITY_ENGINEER_JUNIOR
+2026-05-12 21:36:53 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-PROCESS_QUALITY_ENGINEER_JUNIOR
+2026-05-12 21:36:53 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:36:53 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 530 chars
+2026-05-12 21:36:53 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 530 | After: 530 | Reduced by: 0 chars
+2026-05-12 21:36:53 | INFO     | ats_engine.jd_parser | Normalized text length: 530 chars
+2026-05-12 21:36:53 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:36:55 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:36:55 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:36:55 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:36:55 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:36:55 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:36:55 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:36:55 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:36:55 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:36:55 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:36:55 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-PROCESS_QUALITY_ENGINEER_JUNIOR
+2026-05-12 21:36:55 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\process_quality_engineer_junior.json
+2026-05-12 21:36:55 | INFO     | ats_engine.batch_processor | Successfully processed: process_quality_engineer_junior.txt
+2026-05-12 21:37:00 | INFO     | ats_engine.batch_processor | Processing 49/68: production_quality_engineer.txt
+2026-05-12 21:37:00 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\production_quality_engineer.txt
+2026-05-12 21:37:00 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-PRODUCTION_QUALITY_ENGINEER
+2026-05-12 21:37:00 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-PRODUCTION_QUALITY_ENGINEER
+2026-05-12 21:37:00 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:37:00 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 498 chars
+2026-05-12 21:37:00 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 498 | After: 496 | Reduced by: 2 chars
+2026-05-12 21:37:00 | INFO     | ats_engine.jd_parser | Normalized text length: 496 chars
+2026-05-12 21:37:00 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:37:01 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:37:01 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:37:01 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:37:01 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:37:01 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:37:01 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:37:01 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:37:01 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:37:01 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:37:01 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-PRODUCTION_QUALITY_ENGINEER
+2026-05-12 21:37:01 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\production_quality_engineer.json
+2026-05-12 21:37:01 | INFO     | ats_engine.batch_processor | Successfully processed: production_quality_engineer.txt
+2026-05-12 21:37:06 | INFO     | ats_engine.batch_processor | Processing 50/68: production_quality_specialist.txt
+2026-05-12 21:37:06 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\production_quality_specialist.txt
+2026-05-12 21:37:06 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-PRODUCTION_QUALITY_SPECIALIST
+2026-05-12 21:37:06 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-PRODUCTION_QUALITY_SPECIALIST
+2026-05-12 21:37:06 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:37:06 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 668 chars
+2026-05-12 21:37:06 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 668 | After: 668 | Reduced by: 0 chars
+2026-05-12 21:37:06 | INFO     | ats_engine.jd_parser | Normalized text length: 668 chars
+2026-05-12 21:37:06 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:37:07 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:37:07 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:37:07 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:37:07 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:37:07 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:37:07 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:37:07 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:37:07 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:37:07 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:37:07 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-PRODUCTION_QUALITY_SPECIALIST
+2026-05-12 21:37:07 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\production_quality_specialist.json
+2026-05-12 21:37:07 | INFO     | ats_engine.batch_processor | Successfully processed: production_quality_specialist.txt
+2026-05-12 21:37:12 | INFO     | ats_engine.batch_processor | Processing 51/68: product_quality_engineer.txt
+2026-05-12 21:37:12 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\product_quality_engineer.txt
+2026-05-12 21:37:12 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-PRODUCT_QUALITY_ENGINEER
+2026-05-12 21:37:12 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-PRODUCT_QUALITY_ENGINEER
+2026-05-12 21:37:12 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:37:12 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 523 chars
+2026-05-12 21:37:12 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 523 | After: 522 | Reduced by: 1 chars
+2026-05-12 21:37:12 | INFO     | ats_engine.jd_parser | Normalized text length: 522 chars
+2026-05-12 21:37:12 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:37:13 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:37:13 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:37:13 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:37:13 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:37:13 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:37:13 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:37:13 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:37:13 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:37:13 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:37:13 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-PRODUCT_QUALITY_ENGINEER
+2026-05-12 21:37:13 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\product_quality_engineer.json
+2026-05-12 21:37:13 | INFO     | ats_engine.batch_processor | Successfully processed: product_quality_engineer.txt
+2026-05-12 21:37:18 | INFO     | ats_engine.batch_processor | Processing 52/68: qa_automation_engineer.txt
+2026-05-12 21:37:18 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\qa_automation_engineer.txt
+2026-05-12 21:37:18 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-QA_AUTOMATION_ENGINEER
+2026-05-12 21:37:18 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-QA_AUTOMATION_ENGINEER
+2026-05-12 21:37:18 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:37:18 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 734 chars
+2026-05-12 21:37:18 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 734 | After: 732 | Reduced by: 2 chars
+2026-05-12 21:37:18 | INFO     | ats_engine.jd_parser | Normalized text length: 732 chars
+2026-05-12 21:37:18 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:37:20 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:37:20 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:37:20 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:37:20 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:37:20 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:37:20 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:37:20 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:37:20 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:37:20 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:37:20 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-QA_AUTOMATION_ENGINEER
+2026-05-12 21:37:20 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\qa_automation_engineer.json
+2026-05-12 21:37:20 | INFO     | ats_engine.batch_processor | Successfully processed: qa_automation_engineer.txt
+2026-05-12 21:37:25 | INFO     | ats_engine.batch_processor | Processing 53/68: qa_qc_consultant.txt
+2026-05-12 21:37:25 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\qa_qc_consultant.txt
+2026-05-12 21:37:25 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-QA_QC_CONSULTANT
+2026-05-12 21:37:25 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-QA_QC_CONSULTANT
+2026-05-12 21:37:25 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:37:25 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 627 chars
+2026-05-12 21:37:25 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 627 | After: 627 | Reduced by: 0 chars
+2026-05-12 21:37:25 | INFO     | ats_engine.jd_parser | Normalized text length: 627 chars
+2026-05-12 21:37:25 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:37:26 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:37:26 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:37:26 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:37:26 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:37:26 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:37:26 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:37:26 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:37:26 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:37:26 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:37:26 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-QA_QC_CONSULTANT
+2026-05-12 21:37:26 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\qa_qc_consultant.json
+2026-05-12 21:37:26 | INFO     | ats_engine.batch_processor | Successfully processed: qa_qc_consultant.txt
+2026-05-12 21:37:31 | INFO     | ats_engine.batch_processor | Processing 54/68: quality_analytics_engineer.txt
+2026-05-12 21:37:31 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\quality_analytics_engineer.txt
+2026-05-12 21:37:31 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-QUALITY_ANALYTICS_ENGINEER
+2026-05-12 21:37:31 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-QUALITY_ANALYTICS_ENGINEER
+2026-05-12 21:37:31 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:37:31 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 659 chars
+2026-05-12 21:37:31 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 659 | After: 659 | Reduced by: 0 chars
+2026-05-12 21:37:31 | INFO     | ats_engine.jd_parser | Normalized text length: 659 chars
+2026-05-12 21:37:31 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:37:51 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:37:51 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:37:51 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:37:51 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:37:51 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:37:51 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:37:51 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:37:51 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:37:51 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:37:51 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-QUALITY_ANALYTICS_ENGINEER
+2026-05-12 21:37:51 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\quality_analytics_engineer.json
+2026-05-12 21:37:51 | INFO     | ats_engine.batch_processor | Successfully processed: quality_analytics_engineer.txt
+2026-05-12 21:37:56 | INFO     | ats_engine.batch_processor | Processing 55/68: quality_assurance_engineer.txt
+2026-05-12 21:37:56 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\quality_assurance_engineer.txt
+2026-05-12 21:37:56 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-QUALITY_ASSURANCE_ENGINEER
+2026-05-12 21:37:56 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-QUALITY_ASSURANCE_ENGINEER
+2026-05-12 21:37:56 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:37:56 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 573 chars
+2026-05-12 21:37:56 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 573 | After: 573 | Reduced by: 0 chars
+2026-05-12 21:37:56 | INFO     | ats_engine.jd_parser | Normalized text length: 573 chars
+2026-05-12 21:37:56 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:37:57 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:37:57 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:37:57 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:37:57 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:37:57 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:37:57 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:37:57 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:37:57 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:37:57 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:37:57 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-QUALITY_ASSURANCE_ENGINEER
+2026-05-12 21:37:57 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\quality_assurance_engineer.json
+2026-05-12 21:37:57 | INFO     | ats_engine.batch_processor | Successfully processed: quality_assurance_engineer.txt
+2026-05-12 21:38:02 | INFO     | ats_engine.batch_processor | Processing 56/68: quality_assurance_manager.txt
+2026-05-12 21:38:02 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\quality_assurance_manager.txt
+2026-05-12 21:38:02 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-QUALITY_ASSURANCE_MANAGER
+2026-05-12 21:38:02 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-QUALITY_ASSURANCE_MANAGER
+2026-05-12 21:38:02 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:38:02 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 598 chars
+2026-05-12 21:38:02 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 598 | After: 597 | Reduced by: 1 chars
+2026-05-12 21:38:02 | INFO     | ats_engine.jd_parser | Normalized text length: 597 chars
+2026-05-12 21:38:02 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:38:03 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:38:03 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:38:03 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:38:03 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:38:03 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:38:03 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:38:03 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:38:03 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:38:03 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:38:03 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-QUALITY_ASSURANCE_MANAGER
+2026-05-12 21:38:03 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\quality_assurance_manager.json
+2026-05-12 21:38:03 | INFO     | ats_engine.batch_processor | Successfully processed: quality_assurance_manager.txt
+2026-05-12 21:38:08 | INFO     | ats_engine.batch_processor | Processing 57/68: quality_assurance_officer.txt
+2026-05-12 21:38:08 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\quality_assurance_officer.txt
+2026-05-12 21:38:08 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-QUALITY_ASSURANCE_OFFICER
+2026-05-12 21:38:08 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-QUALITY_ASSURANCE_OFFICER
+2026-05-12 21:38:08 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:38:08 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 925 chars
+2026-05-12 21:38:08 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 925 | After: 925 | Reduced by: 0 chars
+2026-05-12 21:38:08 | INFO     | ats_engine.jd_parser | Normalized text length: 925 chars
+2026-05-12 21:38:08 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:38:10 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:38:10 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:38:10 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:38:10 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:38:10 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:38:10 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:38:10 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:38:10 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:38:10 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:38:10 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-QUALITY_ASSURANCE_OFFICER
+2026-05-12 21:38:10 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\quality_assurance_officer.json
+2026-05-12 21:38:10 | INFO     | ats_engine.batch_processor | Successfully processed: quality_assurance_officer.txt
+2026-05-12 21:38:15 | INFO     | ats_engine.batch_processor | Processing 58/68: quality_consultant.txt
+2026-05-12 21:38:15 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\quality_consultant.txt
+2026-05-12 21:38:15 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-QUALITY_CONSULTANT
+2026-05-12 21:38:15 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-QUALITY_CONSULTANT
+2026-05-12 21:38:15 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:38:15 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 780 chars
+2026-05-12 21:38:15 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 780 | After: 780 | Reduced by: 0 chars
+2026-05-12 21:38:15 | INFO     | ats_engine.jd_parser | Normalized text length: 780 chars
+2026-05-12 21:38:15 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:38:17 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:38:17 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:38:17 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:38:17 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:38:17 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:38:17 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:38:17 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:38:17 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:38:17 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:38:17 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-QUALITY_CONSULTANT
+2026-05-12 21:38:17 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\quality_consultant.json
+2026-05-12 21:38:17 | INFO     | ats_engine.batch_processor | Successfully processed: quality_consultant.txt
+2026-05-12 21:38:22 | INFO     | ats_engine.batch_processor | Processing 59/68: supplier_quality_engineer_junior.txt
+2026-05-12 21:38:22 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\supplier_quality_engineer_junior.txt
+2026-05-12 21:38:22 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-SUPPLIER_QUALITY_ENGINEER_JUNIOR
+2026-05-12 21:38:22 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-SUPPLIER_QUALITY_ENGINEER_JUNIOR
+2026-05-12 21:38:22 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:38:22 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 502 chars
+2026-05-12 21:38:22 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 502 | After: 500 | Reduced by: 2 chars
+2026-05-12 21:38:22 | INFO     | ats_engine.jd_parser | Normalized text length: 500 chars
+2026-05-12 21:38:22 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:38:23 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:38:23 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:38:23 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:38:23 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:38:23 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:38:23 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:38:23 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:38:23 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:38:23 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:38:23 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-SUPPLIER_QUALITY_ENGINEER_JUNIOR
+2026-05-12 21:38:23 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\supplier_quality_engineer_junior.json
+2026-05-12 21:38:23 | INFO     | ats_engine.batch_processor | Successfully processed: supplier_quality_engineer_junior.txt
+2026-05-12 21:38:28 | INFO     | ats_engine.batch_processor | Processing 60/68: supplier_quality_manager.txt
+2026-05-12 21:38:28 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\supplier_quality_manager.txt
+2026-05-12 21:38:28 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-SUPPLIER_QUALITY_MANAGER
+2026-05-12 21:38:28 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-SUPPLIER_QUALITY_MANAGER
+2026-05-12 21:38:28 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:38:28 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 543 chars
+2026-05-12 21:38:28 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 543 | After: 543 | Reduced by: 0 chars
+2026-05-12 21:38:28 | INFO     | ats_engine.jd_parser | Normalized text length: 543 chars
+2026-05-12 21:38:28 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:38:29 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:38:29 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:38:29 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:38:29 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:38:29 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:38:29 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:38:29 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:38:29 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:38:29 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:38:29 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-SUPPLIER_QUALITY_MANAGER
+2026-05-12 21:38:29 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\supplier_quality_manager.json
+2026-05-12 21:38:29 | INFO     | ats_engine.batch_processor | Successfully processed: supplier_quality_manager.txt
+2026-05-12 21:38:34 | INFO     | ats_engine.batch_processor | Processing 61/68: testing_engineer.txt
+2026-05-12 21:38:34 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\testing_engineer.txt
+2026-05-12 21:38:34 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-TESTING_ENGINEER
+2026-05-12 21:38:34 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-TESTING_ENGINEER
+2026-05-12 21:38:34 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:38:34 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 493 chars
+2026-05-12 21:38:34 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 493 | After: 492 | Reduced by: 1 chars
+2026-05-12 21:38:34 | INFO     | ats_engine.jd_parser | Normalized text length: 492 chars
+2026-05-12 21:38:34 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:38:35 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:38:35 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:38:35 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:38:35 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:38:35 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:38:35 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:38:35 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:38:35 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:38:35 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:38:35 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-TESTING_ENGINEER
+2026-05-12 21:38:35 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\testing_engineer.json
+2026-05-12 21:38:35 | INFO     | ats_engine.batch_processor | Successfully processed: testing_engineer.txt
+2026-05-12 21:38:40 | INFO     | ats_engine.batch_processor | Processing 62/68: test_automation_engineer_quality_focused.txt
+2026-05-12 21:38:40 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\test_automation_engineer_quality_focused.txt
+2026-05-12 21:38:40 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-TEST_AUTOMATION_ENGINEER_QUALITY_FOCUSED
+2026-05-12 21:38:40 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-TEST_AUTOMATION_ENGINEER_QUALITY_FOCUSED
+2026-05-12 21:38:40 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:38:40 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 749 chars
+2026-05-12 21:38:40 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 749 | After: 748 | Reduced by: 1 chars
+2026-05-12 21:38:40 | INFO     | ats_engine.jd_parser | Normalized text length: 748 chars
+2026-05-12 21:38:40 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:38:41 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:38:41 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:38:41 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:38:41 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:38:41 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:38:41 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:38:41 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:38:41 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:38:41 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:38:41 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-TEST_AUTOMATION_ENGINEER_QUALITY_FOCUSED
+2026-05-12 21:38:41 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\test_automation_engineer_quality_focused.json
+2026-05-12 21:38:41 | INFO     | ats_engine.batch_processor | Successfully processed: test_automation_engineer_quality_focused.txt
+2026-05-12 21:38:46 | INFO     | ats_engine.batch_processor | Processing 63/68: validation_compliance_engineer.txt
+2026-05-12 21:38:46 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\validation_compliance_engineer.txt
+2026-05-12 21:38:46 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-VALIDATION_COMPLIANCE_ENGINEER
+2026-05-12 21:38:46 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-VALIDATION_COMPLIANCE_ENGINEER
+2026-05-12 21:38:46 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:38:46 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 758 chars
+2026-05-12 21:38:46 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 758 | After: 757 | Reduced by: 1 chars
+2026-05-12 21:38:46 | INFO     | ats_engine.jd_parser | Normalized text length: 757 chars
+2026-05-12 21:38:46 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:38:47 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:38:47 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:38:47 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:38:47 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:38:47 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:38:47 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:38:47 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:38:47 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:38:47 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:38:47 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-VALIDATION_COMPLIANCE_ENGINEER
+2026-05-12 21:38:47 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\validation_compliance_engineer.json
+2026-05-12 21:38:47 | INFO     | ats_engine.batch_processor | Successfully processed: validation_compliance_engineer.txt
+2026-05-12 21:38:52 | INFO     | ats_engine.batch_processor | Processing 64/68: validation_engineer.txt
+2026-05-12 21:38:52 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\validation_engineer.txt
+2026-05-12 21:38:53 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-VALIDATION_ENGINEER
+2026-05-12 21:38:53 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-VALIDATION_ENGINEER
+2026-05-12 21:38:53 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:38:53 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 552 chars
+2026-05-12 21:38:53 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 552 | After: 551 | Reduced by: 1 chars
+2026-05-12 21:38:53 | INFO     | ats_engine.jd_parser | Normalized text length: 551 chars
+2026-05-12 21:38:53 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:38:54 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:38:54 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:38:54 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:38:54 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:38:54 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:38:54 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:38:54 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:38:54 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:38:54 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:38:54 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-VALIDATION_ENGINEER
+2026-05-12 21:38:54 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\validation_engineer.json
+2026-05-12 21:38:54 | INFO     | ats_engine.batch_processor | Successfully processed: validation_engineer.txt
+2026-05-12 21:38:59 | INFO     | ats_engine.batch_processor | Processing 65/68: validation_engineer_v1.txt
+2026-05-12 21:38:59 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\validation_engineer_v1.txt
+2026-05-12 21:38:59 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-VALIDATION_ENGINEER_V1
+2026-05-12 21:38:59 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-VALIDATION_ENGINEER_V1
+2026-05-12 21:38:59 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:38:59 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 811 chars
+2026-05-12 21:38:59 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 811 | After: 811 | Reduced by: 0 chars
+2026-05-12 21:38:59 | INFO     | ats_engine.jd_parser | Normalized text length: 811 chars
+2026-05-12 21:38:59 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:39:00 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:39:00 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:39:00 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:39:00 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:39:00 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:39:00 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:39:00 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:39:00 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:39:00 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:39:00 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-VALIDATION_ENGINEER_V1
+2026-05-12 21:39:00 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\validation_engineer_v1.json
+2026-05-12 21:39:00 | INFO     | ats_engine.batch_processor | Successfully processed: validation_engineer_v1.txt
+2026-05-12 21:39:05 | INFO     | ats_engine.batch_processor | Processing 66/68: vendor_quality_engineer.txt
+2026-05-12 21:39:05 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\vendor_quality_engineer.txt
+2026-05-12 21:39:05 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-VENDOR_QUALITY_ENGINEER
+2026-05-12 21:39:05 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-VENDOR_QUALITY_ENGINEER
+2026-05-12 21:39:05 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:39:05 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 738 chars
+2026-05-12 21:39:05 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 738 | After: 737 | Reduced by: 1 chars
+2026-05-12 21:39:05 | INFO     | ats_engine.jd_parser | Normalized text length: 737 chars
+2026-05-12 21:39:05 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:39:06 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-05-12 21:39:06 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-05-12 21:39:06 | INFO     | ats_engine.jd_parser | JSON parsed successfully.
+2026-05-12 21:39:06 | INFO     | ats_engine.jd_parser | Step 4: Applying synonym mappings...
+2026-05-12 21:39:06 | INFO     | ats_engine.jd_parser | Synonym mapping complete.
+2026-05-12 21:39:06 | INFO     | ats_engine.jd_parser | Step 5: Adding system-generated fields...
+2026-05-12 21:39:06 | INFO     | ats_engine.jd_parser | System fields added.
+2026-05-12 21:39:06 | INFO     | ats_engine.jd_parser | Step 6: Validating with JobProfile Pydantic model...
+2026-05-12 21:39:06 | INFO     | ats_engine.jd_parser | Pydantic validation passed.
+2026-05-12 21:39:06 | INFO     | ats_engine.jd_parser | JDParser complete for job_id: JOB-VENDOR_QUALITY_ENGINEER
+2026-05-12 21:39:06 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\vendor_quality_engineer.json
+2026-05-12 21:39:06 | INFO     | ats_engine.batch_processor | Successfully processed: vendor_quality_engineer.txt
+2026-05-12 21:39:11 | INFO     | ats_engine.batch_processor | Processing 67/68: verification_engineer.txt
+2026-05-12 21:39:11 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\verification_engineer.txt
+2026-05-12 21:39:11 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-VERIFICATION_ENGINEER
+2026-05-12 21:39:11 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-VERIFICATION_ENGINEER
+2026-05-12 21:39:11 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:39:11 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 700 chars
+2026-05-12 21:39:11 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 700 | After: 700 | Reduced by: 0 chars
+2026-05-12 21:39:11 | INFO     | ats_engine.jd_parser | Normalized text length: 700 chars
+2026-05-12 21:39:11 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:39:11 | ERROR    | ats_engine.batch_processor | Failed to process 'verification_engineer.txt': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01krb9ke9tevvb5v8pm1wf4ktr` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99729, Requested 1349. Please try again in 15m31.392s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-12 21:39:16 | INFO     | ats_engine.batch_processor | Processing 68/68: vice_president_quality.txt
+2026-05-12 21:39:16 | INFO     | ats_engine.batch_processor | Processing single file: data/jd\vice_president_quality.txt
+2026-05-12 21:39:16 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-VICE_PRESIDENT_QUALITY
+2026-05-12 21:39:16 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-VICE_PRESIDENT_QUALITY
+2026-05-12 21:39:16 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-05-12 21:39:16 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 684 chars
+2026-05-12 21:39:16 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 684 | After: 683 | Reduced by: 1 chars
+2026-05-12 21:39:16 | INFO     | ats_engine.jd_parser | Normalized text length: 683 chars
+2026-05-12 21:39:16 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-05-12 21:39:17 | ERROR    | ats_engine.batch_processor | Failed to process 'vice_president_quality.txt': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01krb9ke9tevvb5v8pm1wf4ktr` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99723, Requested 1354. Please try again in 15m30.528s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-12 21:39:17 | INFO     | ats_engine.batch_processor | Batch processing complete: {'total': 68, 'successful': 65, 'failed': 3, 'failed_files': ['manufacturing_quality_engineer.txt', 'verification_engineer.txt', 'vice_president_quality.txt'], 'output_folder': 'data\\jd_parsed'}

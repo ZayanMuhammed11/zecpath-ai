@@ -1,0 +1,63 @@
+{
+  "job_id": "JOB-TESTING_ENGINEER",
+  "title": "Testing Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "testing methodologies",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "analytical thinking",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "troubleshooting",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "testing methodologies",
+    "analytical thinking",
+    "troubleshooting"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Develop and execute test plans",
+    "Perform functional and performance testing",
+    "Record and analyze test results",
+    "Report defects and issues",
+    "Collaborate with design and production teams"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Testing Engineer\n\nJob Summary:\nExecute tests on products or systems to verify performance and quality.\nKey Responsibilities:\n• Develop and execute test plans\n• Perform functional and performance testing\n• Record and analyze test results\n• Report defects and issues\n• Collaborate with design and production teams\nRequired Skills:\n• Knowledge of testing methodologies\n• Analytical thinking\n• Basic troubleshooting skills\nQualifications:\n• Bachelor’s degree in Engineering\n• 0–2 years experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:08:35.529365+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

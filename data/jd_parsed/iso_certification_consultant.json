@@ -1,0 +1,92 @@
+{
+  "job_id": "JOB-ISO_CERTIFICATION_CONSULTANT",
+  "title": "ISO Certification Consultant",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "ISO standards",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "documentation",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "auditing",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "training",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "consulting",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "attention to detail",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [
+    {
+      "name": "Lead Auditor certification",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": false
+    }
+  ],
+  "must_have_skills": [
+    "ISO standards",
+    "documentation",
+    "auditing",
+    "training",
+    "consulting"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Conduct gap analysis for ISO standards",
+    "Develop and implement required documentation and processes",
+    "Prepare organizations for certification audits",
+    "Train employees on ISO requirements",
+    "Support audit closure and certification achievement"
+  ],
+  "nice_to_have": [
+    "Lead Auditor certification"
+  ],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "ISO Certification Consultant\nJob Summary:\nGuide organizations through ISO certification processes and ensure compliance with\ninternational standards.\nKey Responsibilities:\n• Conduct gap analysis for ISO standards (ISO 9001, ISO 14001, ISO 45001, etc.)\n• Develop and implement required documentation and processes\n• Prepare organizations for certification audits\n• Train employees on ISO requirements\n• Support audit closure and certification achievement\nRequired Skills:\n• In-depth knowledge of ISO standards\n• Documentation and auditing expertise\n• Training and consulting skills\n• Attention to detail\nQualifications:\n• Bachelor’s degree in Engineering or related field\n• Lead Auditor certification preferred\n• 8–15 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:04:50.080356+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

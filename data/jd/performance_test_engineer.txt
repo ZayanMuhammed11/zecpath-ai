@@ -1,0 +1,16 @@
+Performance Test Engineer
+Job Summary:
+Evaluate system performance, scalability, and stability under various load conditions.
+Key Responsibilities:
+• Design and execute performance, load, and stress tests
+• Analyze system performance metrics
+• Identify bottlenecks and recommend improvements
+• Work with development teams to optimize performance
+• Prepare performance test reports
+Required Skills:
+• Performance testing tools (JMeter, LoadRunner, Gatling)
+• Understanding of system architecture and scalability
+• Data analysis and monitoring tools
+Qualifications:
+• Bachelor’s degree in Computer Science or related field
+• 2–6 years of experience 

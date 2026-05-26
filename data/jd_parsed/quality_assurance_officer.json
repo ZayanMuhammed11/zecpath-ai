@@ -1,0 +1,71 @@
+{
+  "job_id": "JOB-QUALITY_ASSURANCE_OFFICER",
+  "title": "Quality Assurance Officer (Food Industry)",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "food safety and quality systems",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "documentation and auditing",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "attention to detail",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "communication and coordination",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "food safety and quality systems",
+    "documentation and auditing"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Food Technology",
+    "Food Science"
+  ],
+  "responsibilities": [
+    "Monitor production processes and ensure adherence to quality standards",
+    "Conduct internal audits and inspections",
+    "Maintain quality and food safety documentation",
+    "Handle customer complaints and quality issues",
+    "Support regulatory audits and certifications",
+    "Coordinate with production and quality teams for issue resolution",
+    "Ensure compliance with FSSAI and international standards"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Quality Assurance Officer (Food\nIndustry)\nJob Summary:\nEnsure that food production processes consistently meet quality and safety standards through\nmonitoring, auditing, and compliance activities.\nKey Responsibilities:\n• Monitor production processes and ensure adherence to quality standards\n• Conduct internal audits and inspections\n• Maintain quality and food safety documentation\n• Handle customer complaints and quality issues\n• Support regulatory audits and certifications\n• Coordinate with production and quality teams for issue resolution\n• Ensure compliance with FSSAI and international standards\nRequired Skills:\n• Knowledge of food safety and quality systems\n• Strong documentation and auditing skills\n• Attention to detail\n• Communication and coordination skills\nQualifications:\n• Bachelor’s degree in Food Technology, Food Science, or related field\n• 2–5 years of experience in food manufacturing or FMCG industry",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:08:10.465468+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

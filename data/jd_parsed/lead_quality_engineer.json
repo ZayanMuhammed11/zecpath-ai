@@ -1,0 +1,62 @@
+{
+  "job_id": "JOB-LEAD_QUALITY_ENGINEER",
+  "title": "Lead Quality Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Team leadership and management",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Decision-making abilities",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Quality systems and standards",
+      "level": "expert",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "Team leadership and management",
+    "Quality systems and standards"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Lead and manage quality engineering teams",
+    "Develop and enforce quality strategies and policies",
+    "Review and approve quality plans and procedures",
+    "Drive continuous improvement and defect reduction initiatives",
+    "Collaborate with stakeholders across departments"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Lead Quality Engineer\nJob Summary:\nOversee quality engineering activities, manage teams, and ensure consistent implementation\nof quality standards.\nKey Responsibilities:\n• Lead and manage quality engineering teams\n• Develop and enforce quality strategies and policies\n• Review and approve quality plans and procedures\n• Drive continuous improvement and defect reduction initiatives\n• Collaborate with stakeholders across departments\nRequired Skills:\n• Team leadership and management\n• Strong decision-making abilities\n• Expertise in quality systems and standards\nQualifications:\n• Bachelor’s degree in Engineering\n• 6–10 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:05:15.469774+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

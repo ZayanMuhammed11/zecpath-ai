@@ -1,0 +1,68 @@
+{
+  "job_id": "JOB-INDUSTRY_4.0_QUALITY_SPECIALIST",
+  "title": "Industry 4.0 Quality Specialist",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Industry 4.0 technologies",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Digital transformation",
+      "level": "expert",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Process improvement and analytics",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Strategic thinking",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "Industry 4.0 technologies",
+    "Digital transformation"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Implement Industry 4.0 quality strategies",
+    "Integrate digital technologies into quality processes",
+    "Monitor quality performance using real-time data",
+    "Support automation and digital transformation projects",
+    "Ensure compliance with modern quality standards"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Industry 4.0 Quality Specialist\nJob Summary:\nDrive quality transformation initiatives aligned with Industry 4.0 technologies and smart\nmanufacturing.\nKey Responsibilities:\n• Implement Industry 4.0 quality strategies\n• Integrate digital technologies into quality processes\n• Monitor quality performance using real-time data\n• Support automation and digital transformation projects\n• Ensure compliance with modern quality standards\nRequired Skills:\n• Industry 4.0 technologies (IoT, AI, automation)\n• Digital transformation expertise\n• Process improvement and analytics\n• Strategic thinking\nQualifications:\n• Bachelor’s degree in Engineering or related field\n• 4–8 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:04:31.821821+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

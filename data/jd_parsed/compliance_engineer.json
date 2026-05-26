@@ -1,0 +1,63 @@
+{
+  "job_id": "JOB-COMPLIANCE_ENGINEER",
+  "title": "Compliance Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "regulations and standards",
+      "level": "beginner",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "attention to detail",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": false
+    },
+    {
+      "name": "documentation and auditing",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": false
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "regulations and standards",
+    "attention to detail",
+    "documentation and auditing"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Monitor regulatory requirements",
+    "Ensure compliance with standards",
+    "Conduct audits and inspections",
+    "Maintain compliance documentation",
+    "Support certification processes"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Compliance Engineer\nJob Summary:\nEnsure that products and processes comply with regulatory and industry standards.\nKey Responsibilities:\n• Monitor regulatory requirements\n• Ensure compliance with standards (ISO, industry-specific)\n• Conduct audits and inspections\n• Maintain compliance documentation\n• Support certification processes\nRequired Skills:\n• Knowledge of regulations and standards\n• Attention to detail\n• Documentation and auditing skills\nQualifications:\n• Bachelor’s degree in Engineering or related field\n• 3–6 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:02:37.582264+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

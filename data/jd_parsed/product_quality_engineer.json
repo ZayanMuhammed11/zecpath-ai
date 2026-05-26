@@ -1,0 +1,70 @@
+{
+  "job_id": "JOB-PRODUCT_QUALITY_ENGINEER",
+  "title": "Product Quality Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Product lifecycle knowledge",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Problem-solving",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Analytical skills",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Customer-focused approach",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "Product lifecycle knowledge",
+    "Problem-solving",
+    "Analytical skills",
+    "Customer-focused approach"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Define product quality requirements",
+    "Monitor product performance and reliability",
+    "Handle customer complaints and feedback",
+    "Support new product development (NPD)",
+    "Conduct failure analysis"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Product Quality Engineer\nJob Summary:\nEnsure that products meet quality standards throughout the product lifecycle.\nKey Responsibilities:\n• Define product quality requirements\n• Monitor product performance and reliability\n• Handle customer complaints and feedback\n• Support new product development (NPD)\n• Conduct failure analysis\nRequired Skills:\n• Product lifecycle knowledge\n• Problem-solving and analytical skills\n• Customer-focused approach\nQualifications:\n• Bachelor’s degree in Engineering\n• 2–5 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:07:13.220840+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

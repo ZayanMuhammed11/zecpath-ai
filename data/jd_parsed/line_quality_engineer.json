@@ -1,0 +1,63 @@
+{
+  "job_id": "JOB-LINE_QUALITY_ENGINEER",
+  "title": "Line Quality Engineer",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "Shop floor and line management knowledge",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Root cause analysis",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Communication and coordination skills",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "Shop floor and line management knowledge",
+    "Root cause analysis",
+    "Communication and coordination skills"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Monitor quality performance on assigned production lines",
+    "Conduct line audits and inspections",
+    "Identify and resolve line-specific quality issues",
+    "Implement process improvements to reduce defects",
+    "Coordinate with operators and supervisors"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Line Quality Engineer\nJob Summary:\nOversee quality on specific production lines to ensure defect-free output and process\nconsistency.\nKey Responsibilities:\n• Monitor quality performance on assigned production lines\n• Conduct line audits and inspections\n• Identify and resolve line-specific quality issues\n• Implement process improvements to reduce defects\n• Coordinate with operators and supervisors\nRequired Skills:\n• Shop floor and line management knowledge\n• Root cause analysis\n• Communication and coordination skills\nQualifications:\n• Bachelor’s degree in Engineering\n• 2–5 years of experience ",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:05:33.919610+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

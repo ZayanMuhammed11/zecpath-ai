@@ -1,0 +1,76 @@
+{
+  "job_id": "JOB-CUSTOMER_QUALITY_MANAGER",
+  "title": "Customer Quality Manager",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "communication",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "interpersonal skills",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "customer relationship management",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "problem-solving",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "analytical skills",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [],
+  "must_have_skills": [
+    "communication",
+    "customer relationship management",
+    "problem-solving",
+    "analytical skills"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "engineering"
+  ],
+  "responsibilities": [
+    "Handle customer complaints and escalations",
+    "Lead root cause analysis and corrective actions",
+    "Improve customer satisfaction metrics",
+    "Coordinate with internal teams for resolution",
+    "Maintain customer quality reports"
+  ],
+  "nice_to_have": [],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "Customer Quality Manager\nJob Summary:\nManage customer-facing quality activities to ensure satisfaction and issue resolution.\nKey Responsibilities:\n• Handle customer complaints and escalations\n• Lead root cause analysis and corrective actions\n• Improve customer satisfaction metrics\n• Coordinate with internal teams for resolution\n• Maintain customer quality reports\nRequired Skills:\n• Strong communication and interpersonal skills\n• Customer relationship management\n• Problem-solving and analytical skills\nQualifications:\n• Bachelor’s degree in Engineering\n• 8–12 years of experience",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:02:56.245228+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}

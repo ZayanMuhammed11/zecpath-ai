@@ -1,0 +1,91 @@
+{
+  "job_id": "JOB-AS9100_QUALITY_SPECIALIST",
+  "title": "AS9100 Quality Specialist",
+  "department": null,
+  "company_name": null,
+  "company_type": null,
+  "location": null,
+  "employment_type": null,
+  "salary_min_inr": null,
+  "salary_max_inr": null,
+  "required_skills": [
+    {
+      "name": "AS9100",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "ISO 9001",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Auditing",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Documentation control",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Process improvement",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    },
+    {
+      "name": "Analytical skills",
+      "level": "intermediate",
+      "years_of_experience": 0.0,
+      "is_primary_skill": true
+    }
+  ],
+  "preferred_skills": [
+    {
+      "name": "AS9100 Internal/Lead Auditor certification",
+      "level": "advanced",
+      "years_of_experience": 0.0,
+      "is_primary_skill": false
+    }
+  ],
+  "must_have_skills": [
+    "AS9100",
+    "ISO 9001"
+  ],
+  "required_education_level": "bachelors",
+  "required_education_field": [
+    "Engineering"
+  ],
+  "responsibilities": [
+    "Implement and maintain AS9100 Quality Management System (QMS)",
+    "Conduct internal audits and gap assessments",
+    "Ensure compliance with AS9100 requirements across processes",
+    "Manage documentation and quality records",
+    "Support external audits and certification processes",
+    "Train employees on quality standards and procedures",
+    "Drive continuous improvement initiatives"
+  ],
+  "nice_to_have": [
+    "AS9100 Internal/Lead Auditor certification"
+  ],
+  "shortlist_threshold": 75.0,
+  "scoring_weights": {
+    "skills": 50,
+    "experience": 30,
+    "education": 10,
+    "location": 10
+  },
+  "jd_raw_text": "AS9100 Quality Specialist\nJob Summary:\nEnsure the organization’s Quality Management System complies with AS9100 standards and\nsupports certification and continuous improvement.\nKey Responsibilities:\n• Implement and maintain AS9100 Quality Management System (QMS)\n• Conduct internal audits and gap assessments\n• Ensure compliance with AS9100 requirements across processes\n• Manage documentation and quality records\n• Support external audits and certification processes\n• Train employees on quality standards and procedures\n• Drive continuous improvement initiatives\nRequired Skills:\n• In-depth knowledge of AS9100 and ISO 9001 standards\n• Auditing and documentation control\n• Process improvement and analytical skills\n• Strong attention to detail\nQualifications:\n• Bachelor’s degree in Engineering or related field\n• 4–8 years of experience in quality systems\n• AS9100 Internal/Lead Auditor certification preferred",
+  "parsing_metadata": {
+    "model_used": "groq/llama-3.3-70b-versatile",
+    "parsed_at": "2026-05-12T16:02:07.172782+00:00",
+    "confidence_score": 85.0,
+    "parsing_version": "v1.0.0"
+  }
+}
