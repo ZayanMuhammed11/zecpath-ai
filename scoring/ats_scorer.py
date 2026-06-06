@@ -97,23 +97,46 @@ class ATSScorer:
         job_title = job_profile.get("title", "Unknown Role")
         self.logger.info("Starting ATS scoring for job: '%s'.", job_title)
         # Extract data from candidate_profile
+        raw_skills = (
+        candidate_profile.get("skills", [])
+        if isinstance(candidate_profile, dict)
+        else getattr(candidate_profile, "skills", [])
+        )
         candidate_skills = [
             s.model_dump() if hasattr(s, "model_dump") else s
-            for s in getattr(candidate_profile, "skills", [])
+            for s in raw_skills
         ]
+
+        raw_experiences = (
+            candidate_profile.get("experience", [])
+            if isinstance(candidate_profile, dict)
+            else getattr(candidate_profile, "experience", [])
+        )
         candidate_experiences = [
             e.model_dump() if hasattr(e, "model_dump") else e
-            for e in getattr(candidate_profile, "experience", [])
+            for e in raw_experiences
         ]
-        candidate_education = getattr(candidate_profile, "education", [])
+
+        candidate_education = (
+            candidate_profile.get("education", [])
+            if isinstance(candidate_profile, dict)
+            else getattr(candidate_profile, "education", [])
+        )
+
+        raw_certifications = (
+            candidate_profile.get("certifications", [])
+            if isinstance(candidate_profile, dict)
+            else getattr(candidate_profile, "certifications", [])
+        )
         candidate_certifications = [
             c.model_dump() if hasattr(c, "model_dump") else c
-            for c in getattr(candidate_profile, "certifications", [])
+            for c in raw_certifications
         ]
 
         # 1. Must-have hard filter
         must_haves = job_profile.get("must_have_skills", [])
-        if not self._check_must_haves(candidate_skills, must_haves):
+        # CHANGE 2: pass candidate_experiences so _check_must_haves can apply tiered exemptions
+        if not self._check_must_haves(candidate_skills, must_haves, candidate_experiences):
             self.logger.warning(
                 "Must-have filter failed for '%s' — instant reject.", job_title
             )
@@ -165,7 +188,7 @@ class ATSScorer:
         semantic = self._score_semantic(segmented_resume, jd_raw_text)
 
         # 7. Weighted final score
-        w = {k: v / 100.0 for k, v in weights.items()}
+        
         education_combined = round((education_score * 0.7) + (cert_score * 0.3), 2)
         w = weights  # already resolved earlier in the method
         final_score = round(
@@ -177,8 +200,22 @@ class ATSScorer:
         )
 
         # 8. Shortlist and label
-        threshold = job_profile.get("shortlist_threshold", SHORTLIST_THRESHOLD)
-        shortlisted = final_score >= threshold
+        # CHANGE 3: recalibrate threshold by experience band instead of flat 80.0
+        base_threshold: float = job_profile.get("shortlist_threshold", SHORTLIST_THRESHOLD)
+        total_months_for_threshold: int = 0
+        if candidate_experiences:
+            for exp in candidate_experiences:
+                if isinstance(exp, dict):
+                    total_months_for_threshold += exp.get("duration_months", 0)
+                else:
+                    total_months_for_threshold += getattr(exp, "duration_months", 0)
+        if total_months_for_threshold < 12:
+            shortlist_threshold = min(base_threshold, 55.0)
+        elif total_months_for_threshold < 84:
+            shortlist_threshold = min(base_threshold, 65.0)
+        else:
+            shortlist_threshold = base_threshold
+        shortlisted = final_score >= shortlist_threshold
 
         if final_score >= 85:
             match_key = "strong"
@@ -246,20 +283,25 @@ class ATSScorer:
 
     # ── Hard Filters ───────────────────────────────────────────────────────────
 
+    # CHANGE 1: added candidate_experiences param for tiered fresher exemption
     def _check_must_haves(
         self,
         candidate_skills: list[dict],
         must_have_skills: list[str],
+        candidate_experiences: list[dict] | None = None,
     ) -> bool:
         """
         Verify that the candidate possesses every must-have skill.
 
         Uses both exact name matching and substring matching to handle
-        minor spelling variations.
+        minor spelling variations. Freshers (< 12 months total experience)
+        are exempt from experienced-only must-haves such as APQP/PPAP/Control Plans.
 
         Args:
             candidate_skills: List of skill dicts from the extractor.
             must_have_skills: List of required skill name strings.
+            candidate_experiences: Optional list of experience dicts used
+                to infer experience band for tiered filtering.
 
         Returns:
             True if all must-haves are satisfied, False otherwise.
@@ -267,24 +309,104 @@ class ATSScorer:
         if not must_have_skills:
             return True
 
+        # Infer experience level from candidate experience duration
+        total_months: int = 0
+        if candidate_experiences:
+            for exp in candidate_experiences:
+                if isinstance(exp, dict):
+                    total_months += exp.get("duration_months", 0)
+                else:
+                    total_months += getattr(exp, "duration_months", 0)
+
+        # Experience bands: fresher < 12 months, mid 12-84, senior 84+
+        if total_months < 12:
+            experience_band = "fresher"
+        elif total_months < 84:
+            experience_band = "mid"
+        else:
+            experience_band = "senior"
+
+        # Experienced-only must-haves — freshers are exempt
+        EXPERIENCED_MUST_HAVES: set[str] = {
+            "apqp", "advanced product quality planning",
+            "production part approval process",
+            "ppap", "control plans", "control plan",
+            "control plans",
+            "control plan",
+        }
+        MUST_HAVE_SYNONYMS: dict[str, list[str]] = {
+            "fmea": ["failure mode and effects analysis", "fmea"],
+            "spc": ["statistical process control", "spc"],
+            "ppap": ["production part approval process", "ppap"],
+            "apqp": ["advanced product quality planning", "apqp"],
+            "capa": ["corrective and preventive action", "capa"],
+            "8d": ["8d problem solving", "8d"],
+            "msa": ["measurement system analysis", "msa"],
+            "control plans": ["control plan", "control plans"],
+            "automotive quality standards and tools": [
+                "iatf 16949", "iso 9001", "apqp", "ppap", "fmea",
+                "advanced product quality planning",
+                "failure mode and effects analysis",
+            ],
+        }
         candidate_names: set[str] = {
             s.get("name", "").lower() for s in candidate_skills
         }
 
+        # APQP implied by PPAP — waive for ALL experience bands
+        candidate_names_check: set[str] = {
+            s.get("name", "").lower() for s in candidate_skills
+        }
+        ppap_synonyms = {"ppap", "production part approval process"}
+        WAIVED_MUST_HAVES: set[str] = set()
+        if ppap_synonyms & candidate_names_check:
+            WAIVED_MUST_HAVES.update({
+                "apqp",
+                "advanced product quality planning",
+            })
+
         missing: list[str] = []
-        for must_have in must_have_skills:
-            mh_lower = must_have.lower()
+        for mh in must_have_skills:
+            mh_lower = mh.lower().strip()
+
+            # Freshers are exempt from experienced-level must-haves
+            if experience_band == "fresher" and mh_lower in EXPERIENCED_MUST_HAVES:
+                continue
+
+            # PPAP waiver applies to all bands
+            if mh_lower in WAIVED_MUST_HAVES:
+                continue
+
             exact_match = mh_lower in candidate_names
             partial_match = any(mh_lower in name for name in candidate_names)
-            if not (exact_match or partial_match):
-                missing.append(must_have)
+            reverse_match = any(name in mh_lower for name in candidate_names)
+            synonyms = MUST_HAVE_SYNONYMS.get(mh_lower, [])
+            synonym_match = any(
+                syn in candidate_names or
+                any(syn in cname for cname in candidate_names)
+                for syn in synonyms
+            )
+            if not (exact_match or partial_match or reverse_match or synonym_match):
+                missing.append(mh)
 
-        if missing:
+        total_must_haves = len(must_have_skills)
+        missing_count = len(missing)
+        met_count = total_must_haves - missing_count
+
+        # Require majority (>= 60%) of must-haves to be met
+        required_met = max(1, round(total_must_haves * 0.6))
+
+        if met_count < required_met:
             self.logger.warning(
-                "Must-have skills missing: %s", missing
+                "Must-have filter failed: met %d/%d required (need %d). Missing: %s",
+                met_count, total_must_haves, required_met, missing
             )
             return False
 
+        self.logger.info(
+            "Must-have filter passed: met %d/%d (need %d).",
+            met_count, total_must_haves, required_met
+        )
         return True
 
     # ── Sub-Scorers ────────────────────────────────────────────────────────────
@@ -471,8 +593,31 @@ class ATSScorer:
         if not candidate_education:
             return 50.0, ["No education data found — default score applied."]
 
+        
+
+        # Convert dict education objects to expected format
+        normalized_education = []
+        for edu in candidate_education:
+            if isinstance(edu, dict):
+                from utils.schemas import EducationObject
+                try:
+                    mapped = {
+                        "degree": edu.get("degree", ""),
+                        "field_of_study": edu.get("field_of_study", ""),
+                        "institution_name": edu.get("institution_name")
+                            or edu.get("institution", ""),
+                        "education_level": edu.get("education_level", ""),
+                        "grade": edu.get("grade"),
+                        "year_of_completion": edu.get("year_of_completion"),
+                    }
+                    normalized_education.append(EducationObject(**mapped))
+                except Exception:
+                    continue
+            else:
+                normalized_education.append(edu)
+
         result = self.education_parser.calculate_education_relevance(
-            candidate_education,
+            normalized_education,
             required_level,
             required_fields,
         )
@@ -534,8 +679,16 @@ class ATSScorer:
         if not required_categories:
             required_categories = {"methodology", "quality_standard"}
 
+        normalized_certs = []
+        for cert in candidate_certifications:
+            if isinstance(cert, dict):
+                normalized_certs.append(cert)
+            else:
+                # Convert Pydantic object to dict for calculate_certification_relevance
+                normalized_certs.append(cert.model_dump() if hasattr(cert, "model_dump") else cert)
+
         result = self.education_parser.calculate_certification_relevance(
-            candidate_certifications,
+            normalized_certs,
             list(required_categories),
         )
         cert_relevance = result.get("certification_relevance_score", 0.0)
@@ -661,6 +814,8 @@ class ATSScorer:
             weights = {k: round(v / total, 6) for k, v in weights.items()}
 
         return weights
+
+    @staticmethod
     def generate_candidate_score(
     candidate_profile,
     job_profile: dict,

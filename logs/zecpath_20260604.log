@@ -1,0 +1,8 @@
+2026-06-04 08:25:49 | INFO     | main | Zecpath ATS API started
+2026-06-04 08:26:51 | INFO     | ats_engine.experience_parser | Experience text extracted (298 chars).
+2026-06-04 08:26:51 | INFO     | ats_engine.experience_parser | Rule-based parse found 0 entries.
+2026-06-04 08:26:51 | INFO     | ats_engine.experience_parser | Calling LLM parser.
+2026-06-04 08:26:51 | INFO     | ats_engine.experience_parser | Calling Groq LLM for experience extraction.
+2026-06-04 08:26:52 | INFO     | ats_engine.experience_parser | LLM returned 1 experience entries.
+2026-06-04 08:26:52 | INFO     | ats_engine.experience_parser | parse() returning 1 experience entries.
+2026-06-04 18:17:03 | INFO     | main | Zecpath ATS API started

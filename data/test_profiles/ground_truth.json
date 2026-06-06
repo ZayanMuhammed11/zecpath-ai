@@ -1,0 +1,146 @@
+{
+  "job_id": "JOB-AUTOMOTIVE_QUALITY_ENGINEER",
+  "jd_file": "data/jd_parsed/automotive_quality_engineer.json",
+  "test_cases": [
+    {
+      "candidate_id": "C001",
+      "resume_file": "data/test_profiles/resumes/C001_resume.pdf",
+      "category": "qe_fresher",
+      "ground_truth_label": "shortlist",
+      "notes": "B.E Mechanical CGPA 8.7, strong QC tools knowledge, final year project on defect reduction using 7 QC tools, basic FMEA awareness, clear QE intent"
+    },
+    {
+      "candidate_id": "C002",
+      "resume_file": "data/test_profiles/resumes/C002_resume.pdf",
+      "category": "qe_fresher",
+      "ground_truth_label": "shortlist",
+      "notes": "B.Tech Production, 6-month internship at Mahindra automotive, hands-on incoming inspection, NCR, 5S audit, basic FMEA and SPC exposure — strongest fresher profile"
+    },
+    {
+      "candidate_id": "C003",
+      "resume_file": "data/test_profiles/resumes/C003_resume.pdf",
+      "category": "qe_fresher",
+      "ground_truth_label": "shortlist",
+      "notes": "B.E Industrial Engineering, currently working as Graduate Trainee at Lakshmi Machine Works, inspection and NCR documentation, shows active QE entry"
+    },
+    {
+      "candidate_id": "C004",
+      "resume_file": "data/test_profiles/resumes/C004_resume.pdf",
+      "category": "qe_fresher",
+      "ground_truth_label": "shortlist",
+      "notes": "B.Tech Mechanical, no work experience, basic QC tools and inspection knowledge, final year project on welding defect analysis — borderline but shows QE intent"
+    },
+    {
+      "candidate_id": "C005",
+      "resume_file": "data/test_profiles/resumes/C005_resume.pdf",
+      "category": "qe_fresher",
+      "ground_truth_label": "shortlist",
+      "notes": "B.E Mechanical, 3-month internship at Bosch India, quality inspection and calibration exposure, short but reputed QE company internship"
+    },
+    {
+      "candidate_id": "C006",
+      "resume_file": "data/test_profiles/resumes/C006_resume.pdf",
+      "category": "qe_mid",
+      "ground_truth_label": "shortlist",
+      "notes": "4 years at Bharat Forge, FMEA, Control Plan, SPC, CAPA, 8D — all core QE tools present, ISO 9001 Internal Auditor certified"
+    },
+    {
+      "candidate_id": "C007",
+      "resume_file": "data/test_profiles/resumes/C007_resume.pdf",
+      "category": "qe_mid",
+      "ground_truth_label": "shortlist",
+      "notes": "Supplier Quality Engineer at Sundaram Clayton, FMEA, SPC, CAPA, 8D, Six Sigma Green Belt — strong mid-level automotive QE"
+    },
+    {
+      "candidate_id": "C008",
+      "resume_file": "data/test_profiles/resumes/C008_resume.pdf",
+      "category": "qe_mid",
+      "ground_truth_label": "shortlist",
+      "notes": "5 years at LMW, FMEA, 8D, CAPA, Control Plans, SPC, ISO 9001 Internal Auditor, AQL sampling, supplier development — strongest mid-level profile with quantified achievements"
+    },
+    {
+      "candidate_id": "C009",
+      "resume_file": "data/test_profiles/resumes/C009_resume.pdf",
+      "category": "qe_mid",
+      "ground_truth_label": "shortlist",
+      "notes": "3 years at Bosch, PPAP, FMEA, SPC, MSA, 8D, CAPA, IATF 16949 awareness, ISO 9001 Internal Auditor — above-average mid-level with advanced tools"
+    },
+    {
+      "candidate_id": "C010",
+      "resume_file": "data/test_profiles/resumes/C010_resume.pdf",
+      "category": "qe_mid",
+      "ground_truth_label": "shortlist",
+      "notes": "Quality Engineer at Apollo Tyres, FMEA, SPC, 8D, CAPA, ISO 9001 Internal Auditor — meets core QE requirements, less detailed profile but tools are present"
+    },
+    {
+      "candidate_id": "C011",
+      "resume_file": "data/test_profiles/resumes/C011_resume.pdf",
+      "category": "qe_senior",
+      "ground_truth_label": "shortlist",
+      "notes": "Senior QA at Ashok Leyland, APQP PPAP FMEA SPC MSA CAPA 8D, Lead Auditor IATF 16949 IRCA, team lead of 8, 34% customer complaint reduction"
+    },
+    {
+      "candidate_id": "C012",
+      "resume_file": "data/test_profiles/resumes/C012_resume.pdf",
+      "category": "qe_senior",
+      "ground_truth_label": "shortlist",
+      "notes": "9 years at Bharat Forge, CQE ASQ certified, FMEA PPAP APQP SPC MSA 8D RCA, IATF 16949 Internal Auditor, 98% first-time PPAP acceptance rate"
+    },
+    {
+      "candidate_id": "C013",
+      "resume_file": "data/test_profiles/resumes/C013_resume.pdf",
+      "category": "qe_senior",
+      "ground_truth_label": "shortlist",
+      "notes": "8 years at Toyota Kirloskar + Minda, Six Sigma Black Belt ASQ, ISO 9001 Lead Auditor, IATF 16949 Internal Auditor — top-tier senior profile"
+    },
+    {
+      "candidate_id": "C014",
+      "resume_file": "data/test_profiles/resumes/C014_resume.pdf",
+      "category": "qe_senior",
+      "ground_truth_label": "shortlist",
+      "notes": "QA Manager at Maruti Suzuki, IATF 16949 Lead Auditor IRCA, Six Sigma Black Belt, team of 18, 52% complaint reduction — strongest senior profile, management level"
+    },
+    {
+      "candidate_id": "C015",
+      "resume_file": "data/test_profiles/resumes/C015_resume.pdf",
+      "category": "qe_senior",
+      "ground_truth_label": "shortlist",
+      "notes": "8 years at Apollo Tyres, SPC MSA PPAP APQP FMEA RCA CAPA, Six Sigma Black Belt BSI — meets senior QE requirements"
+    },
+    {
+      "candidate_id": "C016",
+      "resume_file": "data/test_profiles/resumes/C016_resume.pdf",
+      "category": "adjacent_role",
+      "ground_truth_label": "rejected",
+      "notes": "Production Engineer at TVS Motor, only 5S and basic inspection, no FMEA no SPC no CAPA no 8D — missing all core QE competencies"
+    },
+    {
+      "candidate_id": "C017",
+      "resume_file": "data/test_profiles/resumes/C017_resume.pdf",
+      "category": "adjacent_role",
+      "ground_truth_label": "rejected",
+      "notes": "Mechanical Design Engineer at Tata Motors, explicitly states no SPC PPAP Control Plan CAPA ownership, DFMEA participation only — design role not QE"
+    },
+    {
+      "candidate_id": "C018",
+      "resume_file": "data/test_profiles/resumes/C018_resume.pdf",
+      "category": "adjacent_role",
+      "ground_truth_label": "rejected",
+      "notes": "Process Engineer pharma/food, GMP HACCP CAPA in pharma context only, explicitly no FMEA PPAP SPC in manufacturing context — wrong industry domain"
+    },
+    {
+      "candidate_id": "C019",
+      "resume_file": "data/test_profiles/resumes/C019_resume.pdf",
+      "category": "irrelevant",
+      "ground_truth_label": "rejected",
+      "notes": "Full Stack Software Developer at Infosys, Python Java React DevOps — zero manufacturing or quality engineering background"
+    },
+    {
+      "candidate_id": "C020",
+      "resume_file": "data/test_profiles/resumes/C020_resume.pdf",
+      "category": "irrelevant",
+      "ground_truth_label": "rejected",
+      "notes": "Finance and Accounts professional, Tally SAP FICO GST — no technical or quality engineering background whatsoever"
+    }
+  ]
+}

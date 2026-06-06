@@ -414,3 +414,4 @@ is_expired
 2026-05-26 10:41:08 | INFO     | ats_engine.skill_extractor | After stack expansion (2): ['Communication', 'Leadership']
 2026-05-26 10:41:08 | INFO     | ats_engine.skill_extractor | After deduplication (2): ['Communication', 'Leadership']
 2026-05-26 10:41:08 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 2 skills (of 2 detected).
+2026-05-26 17:05:31 | INFO     | main | Zecpath ATS API started

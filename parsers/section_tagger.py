@@ -18,6 +18,7 @@ _CONFIDENCE_MAP: dict[str, float] = {
     "colon_suffix": 0.5,
     "other":        0.0,
     "header":       0.0,
+    "prefix_match": 0.9
 }
 
 

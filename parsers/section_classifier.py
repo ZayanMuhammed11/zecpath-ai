@@ -205,9 +205,26 @@ class SectionClassifier:
             # --- Try section detection ---
             detected_section: str | None = None
             detection_method: str = ""
+            prefix_remainder: str | None = None
 
             if len(stripped) < 60:
                 detected_section, detection_method = self._match_section(normalized)
+
+            # Prefix heading detection: handles PDFs where heading and content
+            # are merged onto one line e.g. "experience supplier quality engineer..."
+            if not detected_section:
+                words = stripped.split()
+                for length in (3, 2, 1):
+                    if len(words) >= length + 1:
+                        candidate_heading = " ".join(words[:length])
+                        normalized_heading = self.normalize_line(candidate_heading)
+                        # Exact match only — fuzzy matching causes false positives
+                        # on regular content lines
+                        if normalized_heading in _KEYWORD_TO_SECTION:
+                            detected_section = _KEYWORD_TO_SECTION[normalized_heading]
+                            detection_method = "prefix_match"
+                            prefix_remainder = " ".join(words[length:])
+                            break
 
             # ALL CAPS rule (only if keyword match failed)
             if not detected_section and stripped.isupper() and len(stripped) < 50:
@@ -234,13 +251,16 @@ class SectionClassifier:
                 current_section = detected_section
                 if current_section not in sections:
                     sections[current_section] = []
-                # Record detection method (first time wins)
                 if current_section not in self._detection_methods:
                     self._detection_methods[current_section] = detection_method
                 logger.debug(
                     "Section heading detected: '%s' → '%s' (%s)",
                     stripped, current_section, detection_method
                 )
+                # If heading and content were merged on one line, push remainder
+                # as the first content line of the new section
+                if prefix_remainder:
+                    sections[current_section].append(prefix_remainder)
             else:
                 # Regular content line — append to current section
                 if current_section not in sections:

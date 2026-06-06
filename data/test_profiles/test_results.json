@@ -1,0 +1,468 @@
+{
+  "run_timestamp": "2026-06-05T10:36:47.599634",
+  "total_tested": 20,
+  "metrics": {
+    "precision": 1.0,
+    "recall": 0.5333,
+    "accuracy": 0.65,
+    "f1": 0.6957,
+    "total": 20,
+    "shortlisted_count": 15,
+    "rejected_count": 5
+  },
+  "category_metrics": {
+    "qe_fresher": {
+      "accuracy": 0.0,
+      "count": 5
+    },
+    "qe_mid": {
+      "accuracy": 0.6,
+      "count": 5
+    },
+    "qe_senior": {
+      "accuracy": 1.0,
+      "count": 5
+    },
+    "adjacent_role": {
+      "accuracy": 1.0,
+      "count": 3
+    },
+    "irrelevant": {
+      "accuracy": 1.0,
+      "count": 2
+    }
+  },
+  "mismatches": [
+    {
+      "candidate_id": "C001",
+      "category": "qe_fresher",
+      "ground_truth_label": "shortlist",
+      "ai_shortlisted": false,
+      "ai_score": 11.39
+    },
+    {
+      "candidate_id": "C002",
+      "category": "qe_fresher",
+      "ground_truth_label": "shortlist",
+      "ai_shortlisted": false,
+      "ai_score": 27.93
+    },
+    {
+      "candidate_id": "C003",
+      "category": "qe_fresher",
+      "ground_truth_label": "shortlist",
+      "ai_shortlisted": false,
+      "ai_score": 0.0
+    },
+    {
+      "candidate_id": "C004",
+      "category": "qe_fresher",
+      "ground_truth_label": "shortlist",
+      "ai_shortlisted": false,
+      "ai_score": 6.31
+    },
+    {
+      "candidate_id": "C005",
+      "category": "qe_fresher",
+      "ground_truth_label": "shortlist",
+      "ai_shortlisted": false,
+      "ai_score": 20.25
+    },
+    {
+      "candidate_id": "C007",
+      "category": "qe_mid",
+      "ground_truth_label": "shortlist",
+      "ai_shortlisted": false,
+      "ai_score": 0.0
+    },
+    {
+      "candidate_id": "C010",
+      "category": "qe_mid",
+      "ground_truth_label": "shortlist",
+      "ai_shortlisted": false,
+      "ai_score": 0.0
+    }
+  ],
+  "full_results": [
+    {
+      "candidate_id": "C001",
+      "category": "qe_fresher",
+      "ground_truth_label": "shortlist",
+      "ai_shortlisted": false,
+      "ai_score": 11.39,
+      "ai_match_label": "Rejected",
+      "must_haves_met": true,
+      "sub_scores": {
+        "skills": 15.11,
+        "experience": 0.0,
+        "education": 32.0,
+        "certifications": 40.0,
+        "semantic": 3.76,
+        "education_combined": 34.4
+      },
+      "pipeline_success": true,
+      "failure_reason": null
+    },
+    {
+      "candidate_id": "C002",
+      "category": "qe_fresher",
+      "ground_truth_label": "shortlist",
+      "ai_shortlisted": false,
+      "ai_score": 27.93,
+      "ai_match_label": "Rejected",
+      "must_haves_met": true,
+      "sub_scores": {
+        "skills": 22.89,
+        "experience": 52.0,
+        "education": 32.0,
+        "certifications": 40.0,
+        "semantic": 7.02,
+        "education_combined": 34.4
+      },
+      "pipeline_success": true,
+      "failure_reason": null
+    },
+    {
+      "candidate_id": "C003",
+      "category": "qe_fresher",
+      "ground_truth_label": "shortlist",
+      "ai_shortlisted": false,
+      "ai_score": 0.0,
+      "ai_match_label": "Rejected",
+      "must_haves_met": false,
+      "sub_scores": {
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "certifications": 0.0,
+        "semantic": 0.0,
+        "education_combined": 0.0
+      },
+      "pipeline_success": true,
+      "failure_reason": null
+    },
+    {
+      "candidate_id": "C004",
+      "category": "qe_fresher",
+      "ground_truth_label": "shortlist",
+      "ai_shortlisted": false,
+      "ai_score": 6.31,
+      "ai_match_label": "Rejected",
+      "must_haves_met": true,
+      "sub_scores": {
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 32.0,
+        "certifications": 40.0,
+        "semantic": 4.59,
+        "education_combined": 34.4
+      },
+      "pipeline_success": true,
+      "failure_reason": null
+    },
+    {
+      "candidate_id": "C005",
+      "category": "qe_fresher",
+      "ground_truth_label": "shortlist",
+      "ai_shortlisted": false,
+      "ai_score": 20.25,
+      "ai_match_label": "Rejected",
+      "must_haves_met": true,
+      "sub_scores": {
+        "skills": 0.0,
+        "experience": 52.0,
+        "education": 32.0,
+        "certifications": 40.0,
+        "semantic": 8.37,
+        "education_combined": 34.4
+      },
+      "pipeline_success": true,
+      "failure_reason": null
+    },
+    {
+      "candidate_id": "C006",
+      "category": "qe_mid",
+      "ground_truth_label": "shortlist",
+      "ai_shortlisted": true,
+      "ai_score": 50.31,
+      "ai_match_label": "Weak Match",
+      "must_haves_met": true,
+      "sub_scores": {
+        "skills": 71.11,
+        "experience": 70.0,
+        "education": 32.0,
+        "certifications": 40.0,
+        "semantic": 11.03,
+        "education_combined": 34.4
+      },
+      "pipeline_success": true,
+      "failure_reason": null
+    },
+    {
+      "candidate_id": "C007",
+      "category": "qe_mid",
+      "ground_truth_label": "shortlist",
+      "ai_shortlisted": false,
+      "ai_score": 0.0,
+      "ai_match_label": "Rejected",
+      "must_haves_met": false,
+      "sub_scores": {
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "certifications": 0.0,
+        "semantic": 0.0,
+        "education_combined": 0.0
+      },
+      "pipeline_success": true,
+      "failure_reason": null
+    },
+    {
+      "candidate_id": "C008",
+      "category": "qe_mid",
+      "ground_truth_label": "shortlist",
+      "ai_shortlisted": true,
+      "ai_score": 41.82,
+      "ai_match_label": "Rejected",
+      "must_haves_met": true,
+      "sub_scores": {
+        "skills": 45.56,
+        "experience": 70.0,
+        "education": 32.0,
+        "certifications": 40.0,
+        "semantic": 12.86,
+        "education_combined": 34.4
+      },
+      "pipeline_success": true,
+      "failure_reason": null
+    },
+    {
+      "candidate_id": "C009",
+      "category": "qe_mid",
+      "ground_truth_label": "shortlist",
+      "ai_shortlisted": true,
+      "ai_score": 51.66,
+      "ai_match_label": "Weak Match",
+      "must_haves_met": true,
+      "sub_scores": {
+        "skills": 73.89,
+        "experience": 70.0,
+        "education": 32.0,
+        "certifications": 40.0,
+        "semantic": 12.55,
+        "education_combined": 34.4
+      },
+      "pipeline_success": true,
+      "failure_reason": null
+    },
+    {
+      "candidate_id": "C010",
+      "category": "qe_mid",
+      "ground_truth_label": "shortlist",
+      "ai_shortlisted": false,
+      "ai_score": 0.0,
+      "ai_match_label": "Rejected",
+      "must_haves_met": false,
+      "sub_scores": {
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "certifications": 0.0,
+        "semantic": 0.0,
+        "education_combined": 0.0
+      },
+      "pipeline_success": true,
+      "failure_reason": null
+    },
+    {
+      "candidate_id": "C011",
+      "category": "qe_senior",
+      "ground_truth_label": "shortlist",
+      "ai_shortlisted": true,
+      "ai_score": 53.51,
+      "ai_match_label": "Weak Match",
+      "must_haves_met": true,
+      "sub_scores": {
+        "skills": 95.56,
+        "experience": 52.0,
+        "education": 32.0,
+        "certifications": 40.0,
+        "semantic": 7.61,
+        "education_combined": 34.4
+      },
+      "pipeline_success": true,
+      "failure_reason": null
+    },
+    {
+      "candidate_id": "C012",
+      "category": "qe_senior",
+      "ground_truth_label": "shortlist",
+      "ai_shortlisted": true,
+      "ai_score": 56.49,
+      "ai_match_label": "Weak Match",
+      "must_haves_met": true,
+      "sub_scores": {
+        "skills": 96.67,
+        "experience": 58.6,
+        "education": 32.0,
+        "certifications": 40.0,
+        "semantic": 11.38,
+        "education_combined": 34.4
+      },
+      "pipeline_success": true,
+      "failure_reason": null
+    },
+    {
+      "candidate_id": "C013",
+      "category": "qe_senior",
+      "ground_truth_label": "shortlist",
+      "ai_shortlisted": true,
+      "ai_score": 58.19,
+      "ai_match_label": "Weak Match",
+      "must_haves_met": true,
+      "sub_scores": {
+        "skills": 100.0,
+        "experience": 59.2,
+        "education": 32.0,
+        "certifications": 40.0,
+        "semantic": 12.91,
+        "education_combined": 34.4
+      },
+      "pipeline_success": true,
+      "failure_reason": null
+    },
+    {
+      "candidate_id": "C014",
+      "category": "qe_senior",
+      "ground_truth_label": "shortlist",
+      "ai_shortlisted": true,
+      "ai_score": 58.93,
+      "ai_match_label": "Weak Match",
+      "must_haves_met": true,
+      "sub_scores": {
+        "skills": 100.0,
+        "experience": 63.4,
+        "education": 32.0,
+        "certifications": 40.0,
+        "semantic": 11.67,
+        "education_combined": 34.4
+      },
+      "pipeline_success": true,
+      "failure_reason": null
+    },
+    {
+      "candidate_id": "C015",
+      "category": "qe_senior",
+      "ground_truth_label": "shortlist",
+      "ai_shortlisted": true,
+      "ai_score": 41.99,
+      "ai_match_label": "Rejected",
+      "must_haves_met": true,
+      "sub_scores": {
+        "skills": 64.44,
+        "experience": 52.0,
+        "education": 32.0,
+        "certifications": 40.0,
+        "semantic": 5.12,
+        "education_combined": 34.4
+      },
+      "pipeline_success": true,
+      "failure_reason": null
+    },
+    {
+      "candidate_id": "C016",
+      "category": "adjacent_role",
+      "ground_truth_label": "rejected",
+      "ai_shortlisted": false,
+      "ai_score": 0.0,
+      "ai_match_label": "Rejected",
+      "must_haves_met": false,
+      "sub_scores": {
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "certifications": 0.0,
+        "semantic": 0.0,
+        "education_combined": 0.0
+      },
+      "pipeline_success": true,
+      "failure_reason": null
+    },
+    {
+      "candidate_id": "C017",
+      "category": "adjacent_role",
+      "ground_truth_label": "rejected",
+      "ai_shortlisted": false,
+      "ai_score": 37.86,
+      "ai_match_label": "Rejected",
+      "must_haves_met": true,
+      "sub_scores": {
+        "skills": 50.22,
+        "experience": 52.0,
+        "education": 32.0,
+        "certifications": 40.0,
+        "semantic": 8.51,
+        "education_combined": 34.4
+      },
+      "pipeline_success": true,
+      "failure_reason": null
+    },
+    {
+      "candidate_id": "C018",
+      "category": "adjacent_role",
+      "ground_truth_label": "rejected",
+      "ai_shortlisted": false,
+      "ai_score": 37.57,
+      "ai_match_label": "Rejected",
+      "must_haves_met": true,
+      "sub_scores": {
+        "skills": 40.0,
+        "experience": 63.4,
+        "education": 32.0,
+        "certifications": 40.0,
+        "semantic": 10.23,
+        "education_combined": 34.4
+      },
+      "pipeline_success": true,
+      "failure_reason": null
+    },
+    {
+      "candidate_id": "C019",
+      "category": "irrelevant",
+      "ground_truth_label": "rejected",
+      "ai_shortlisted": false,
+      "ai_score": 0.0,
+      "ai_match_label": "Rejected",
+      "must_haves_met": false,
+      "sub_scores": {
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "certifications": 0.0,
+        "semantic": 0.0,
+        "education_combined": 0.0
+      },
+      "pipeline_success": true,
+      "failure_reason": null
+    },
+    {
+      "candidate_id": "C020",
+      "category": "irrelevant",
+      "ground_truth_label": "rejected",
+      "ai_shortlisted": false,
+      "ai_score": 0.0,
+      "ai_match_label": "Rejected",
+      "must_haves_met": false,
+      "sub_scores": {
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "certifications": 0.0,
+        "semantic": 0.0,
+        "education_combined": 0.0
+      },
+      "pipeline_success": true,
+      "failure_reason": null
+    }
+  ]
+}
