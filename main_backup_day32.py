@@ -7,7 +7,7 @@ from datetime import datetime
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 
-from routers import ats, jobs, resume, eligibility, screening
+from routers import ats, jobs, resume, eligibility
 from utils.logger import get_logger
 
 logger = get_logger(__name__)
@@ -23,7 +23,6 @@ app.include_router(resume.router, prefix="/resume", tags=["Resume"])
 app.include_router(ats.router, prefix="/ats", tags=["ATS"])
 app.include_router(jobs.router, prefix="/jobs", tags=["Jobs"])
 app.include_router(eligibility.router, prefix="/eligibility", tags=["Eligibility"])
-app.include_router(screening.router, prefix="/screening", tags=["Screening"])
 
 
 # ── Startup event ──────────────────────────────────────────────────────────────

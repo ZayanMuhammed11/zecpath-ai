@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "IQ_INTRO_001",
+    "text": "Could you walk us through your academic background and what initially drew you to Quality Engineering as a career path?",
+    "category": "introduction",
+    "phase": "introduction",
+    "applicable_levels": ["fresher"],
+    "applicable_role_types": ["technical", "non_technical"],
+    "order": 1,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "IQ_INTRO_002",
+    "text": "Please give us an overview of your career journey in Quality Engineering so far, highlighting the roles and milestones that have shaped your expertise.",
+    "category": "introduction",
+    "phase": "introduction",
+    "applicable_levels": ["mid", "senior"],
+    "applicable_role_types": ["technical", "non_technical"],
+    "order": 2,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "IQ_INTRO_003",
+    "text": "Tell me about yourself and why you are interested in this Quality Engineer opportunity with us.",
+    "category": "introduction",
+    "phase": "introduction",
+    "applicable_levels": ["all_levels"],
+    "applicable_role_types": ["technical", "non_technical"],
+    "order": 3,
+    "follow_up_eligible": false
+  },
+  {
+    "question_id": "IQ_SW_001",
+    "text": "What would you consider your greatest professional strength relevant to quality work, and can you give a specific example of when it made a measurable difference to an outcome?",
+    "category": "strengths_weaknesses",
+    "phase": "core_hr",
+    "applicable_levels": ["all_levels"],
+    "applicable_role_types": ["technical", "non_technical"],
+    "order": 4,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "IQ_SW_002",
+    "text": "Describe a professional weakness you have identified in yourself and explain the concrete steps you are currently taking to address it.",
+    "category": "strengths_weaknesses",
+    "phase": "core_hr",
+    "applicable_levels": ["all_levels"],
+    "applicable_role_types": ["technical", "non_technical"],
+    "order": 5,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "IQ_TCF_001",
+    "text": "Describe a situation where you had to collaborate closely with cross-functional teams — such as production, engineering, or procurement — to resolve a quality issue. What was your role and what was the result?",
+    "category": "teamwork_culture_fit",
+    "phase": "core_hr",
+    "applicable_levels": ["all_levels"],
+    "applicable_role_types": ["technical", "non_technical"],
+    "order": 6,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "IQ_TCF_002",
+    "text": "How do you handle a professional disagreement with a colleague about the correct quality approach or standard to apply? Walk me through a real example if you have one.",
+    "category": "teamwork_culture_fit",
+    "phase": "core_hr",
+    "applicable_levels": ["all_levels"],
+    "applicable_role_types": ["technical", "non_technical"],
+    "order": 7,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "IQ_TCF_003",
+    "text": "What kind of work environment allows you to perform at your best, and how do you adapt when the actual environment differs from that ideal?",
+    "category": "teamwork_culture_fit",
+    "phase": "core_hr",
+    "applicable_levels": ["all_levels"],
+    "applicable_role_types": ["technical", "non_technical"],
+    "order": 8,
+    "follow_up_eligible": false
+  },
+  {
+    "question_id": "IQ_CG_001",
+    "text": "Where do you see your Quality Engineering career in the next three to five years, and how does this role fit into that trajectory?",
+    "category": "career_goals",
+    "phase": "core_hr",
+    "applicable_levels": ["all_levels"],
+    "applicable_role_types": ["technical", "non_technical"],
+    "order": 9,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "IQ_CG_002",
+    "text": "What is motivating you to explore new opportunities at this point in your career?",
+    "category": "career_goals",
+    "phase": "core_hr",
+    "applicable_levels": ["all_levels"],
+    "applicable_role_types": ["technical", "non_technical"],
+    "order": 10,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "IQ_RBT_001",
+    "text": "Walk me through a project where you applied FMEA. What failure modes did you identify, what was the RPN before and after mitigation, and what actions were implemented?",
+    "category": "role_based_technical",
+    "phase": "role_based",
+    "applicable_levels": ["all_levels"],
+    "applicable_role_types": ["technical"],
+    "order": 11,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "IQ_RBT_002",
+    "text": "Describe your hands-on involvement across the APQP phases. Which phase have you contributed to most, and what specific deliverables were you responsible for?",
+    "category": "role_based_technical",
+    "phase": "role_based",
+    "applicable_levels": ["all_levels"],
+    "applicable_role_types": ["technical"],
+    "order": 12,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "IQ_RBT_003",
+    "text": "Describe a CAPA you owned from initiation through effectiveness verification. Which root-cause analysis tools did you use, and how did you confirm the corrective action was sustained?",
+    "category": "role_based_technical",
+    "phase": "role_based",
+    "applicable_levels": ["all_levels"],
+    "applicable_role_types": ["technical"],
+    "order": 13,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "IQ_RBT_004",
+    "text": "How have you used Statistical Process Control charts to monitor a manufacturing process? What decisions did the data drive, and how did you communicate out-of-control signals to the production team?",
+    "category": "role_based_technical",
+    "phase": "role_based",
+    "applicable_levels": ["all_levels"],
+    "applicable_role_types": ["technical"],
+    "order": 14,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "IQ_RBNT_001",
+    "text": "Describe your experience preparing or maintaining quality documentation such as SOPs, control plans, or audit checklists. How do you ensure these documents remain accurate and version-controlled?",
+    "category": "role_based_non_technical",
+    "phase": "role_based",
+    "applicable_levels": ["all_levels"],
+    "applicable_role_types": ["non_technical"],
+    "order": 15,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "IQ_RBNT_002",
+    "text": "How have you managed a customer complaint or non-conformance process, from initial intake and documentation through to resolution and formal customer communication?",
+    "category": "role_based_non_technical",
+    "phase": "role_based",
+    "applicable_levels": ["all_levels"],
+    "applicable_role_types": ["non_technical"],
+    "order": 16,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "IQ_RBNT_003",
+    "text": "Tell me about a time you coordinated or supported an internal or third-party quality audit. What was your preparation process, what was your role during the audit, and what was the outcome?",
+    "category": "role_based_non_technical",
+    "phase": "role_based",
+    "applicable_levels": ["all_levels"],
+    "applicable_role_types": ["non_technical"],
+    "order": 17,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "IQ_RBNT_004",
+    "text": "How do you track and ensure that ISO or regulatory compliance requirements are reflected in up-to-date working documents and procedures across the team?",
+    "category": "role_based_non_technical",
+    "phase": "role_based",
+    "applicable_levels": ["all_levels"],
+    "applicable_role_types": ["non_technical"],
+    "order": 18,
+    "follow_up_eligible": false
+  },
+  {
+    "question_id": "IQ_AVAIL_001",
+    "text": "What is your current notice period, and when would you realistically be available to join us if an offer were extended?",
+    "category": "availability",
+    "phase": "closing",
+    "applicable_levels": ["all_levels"],
+    "applicable_role_types": ["technical", "non_technical"],
+    "order": 19,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "IQ_AVAIL_002",
+    "text": "Are you open to any relocation or travel requirements this role may involve, and are there any personal constraints we should factor into our planning?",
+    "category": "availability",
+    "phase": "closing",
+    "applicable_levels": ["all_levels"],
+    "applicable_role_types": ["technical", "non_technical"],
+    "order": 20,
+    "follow_up_eligible": false
+  }
+]

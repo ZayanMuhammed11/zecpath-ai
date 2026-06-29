@@ -1,0 +1,900 @@
+2026-06-15 09:52:32 | INFO     | tests.test_ats | ATS test logger is working
+2026-06-15 09:52:32 | INFO     | tests.test_ats | Config loaded. Model: llama-3.3-70b-versatile, Threshold: 70
+2026-06-15 09:52:32 | INFO     | tests.test_ats | Folder exists: parsers
+2026-06-15 09:52:32 | INFO     | tests.test_ats | Folder exists: ats_engine
+2026-06-15 09:52:32 | INFO     | tests.test_ats | Folder exists: screening_ai
+2026-06-15 09:52:32 | INFO     | tests.test_ats | Folder exists: interview_ai
+2026-06-15 09:52:32 | INFO     | tests.test_ats | Folder exists: scoring
+2026-06-15 09:52:32 | INFO     | tests.test_ats | Folder exists: utils
+2026-06-15 09:52:32 | INFO     | tests.test_ats | Folder exists: config
+2026-06-15 09:52:33 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-06-15 09:52:33 | INFO     | scoring.ats_scorer | _score_skills(): matched 3/3, score=76.00.
+2026-06-15 09:52:33 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 48).
+2026-06-15 09:52:33 | INFO     | scoring.ats_scorer | _score_experience(): total=48 months, relevance=1.00, score=100.00.
+2026-06-15 09:52:33 | INFO     | scoring.ats_scorer | Scoring complete — final_score=76.94, shortlisted=True, label=Moderate Match.
+2026-06-15 09:52:34 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-06-15 09:52:34 | WARNING  | scoring.ats_scorer | Must-have filter failed: met 0/2 required (need 1). Missing: ['FMEA', 'ISO 9001']
+2026-06-15 09:52:34 | WARNING  | scoring.ats_scorer | Must-have filter failed for 'Quality Engineer' — instant reject.
+2026-06-15 09:52:35 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-06-15 09:52:35 | INFO     | scoring.ats_scorer | _score_skills(): matched 2/3, score=50.67.
+2026-06-15 09:52:35 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 48).
+2026-06-15 09:52:35 | INFO     | scoring.ats_scorer | _score_experience(): total=48 months, relevance=1.00, score=100.00.
+2026-06-15 09:52:35 | INFO     | scoring.ats_scorer | Scoring complete — final_score=62.05, shortlisted=False, label=Weak Match.
+2026-06-15 09:52:36 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-06-15 09:52:36 | INFO     | scoring.ats_scorer | _score_skills(): matched 3/3, score=76.00.
+2026-06-15 09:52:36 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 6).
+2026-06-15 09:52:36 | INFO     | scoring.ats_scorer | _score_experience(): total=6 months, relevance=1.00, score=72.00.
+2026-06-15 09:52:36 | INFO     | scoring.ats_scorer | Scoring complete — final_score=67.02, shortlisted=True, label=Weak Match.
+2026-06-15 09:52:36 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-06-15 09:52:36 | INFO     | scoring.ats_scorer | _score_skills(): matched 3/3, score=76.00.
+2026-06-15 09:52:36 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 60).
+2026-06-15 09:52:36 | INFO     | scoring.ats_scorer | _score_experience(): total=60 months, relevance=1.00, score=100.00.
+2026-06-15 09:52:36 | INFO     | scoring.ats_scorer | Scoring complete — final_score=75.12, shortlisted=True, label=Moderate Match.
+2026-06-15 09:52:37 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-06-15 09:52:37 | INFO     | scoring.ats_scorer | _score_skills(): matched 3/3, score=76.00.
+2026-06-15 09:52:37 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 48).
+2026-06-15 09:52:37 | INFO     | scoring.ats_scorer | _score_experience(): total=48 months, relevance=1.00, score=100.00.
+2026-06-15 09:52:37 | INFO     | parsers.education_parser | Certification relevance: score=0.00, relevant=0/3.
+2026-06-15 09:52:37 | INFO     | parsers.education_parser | Certification relevance: score=0.00, relevant=0/3.
+2026-06-15 09:52:37 | INFO     | scoring.ats_scorer | _score_certifications(): total=3, relevant=0, score=10.00.
+2026-06-15 09:52:37 | INFO     | scoring.ats_scorer | Scoring complete — final_score=67.09, shortlisted=True, label=Weak Match.
+2026-06-15 09:52:39 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-06-15 09:52:39 | INFO     | scoring.ats_scorer | _score_skills(): matched 3/3, score=76.00.
+2026-06-15 09:52:39 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 48).
+2026-06-15 09:52:39 | INFO     | scoring.ats_scorer | _score_experience(): total=48 months, relevance=1.00, score=100.00.
+2026-06-15 09:52:39 | INFO     | scoring.ats_scorer | Scoring complete — final_score=75.12, shortlisted=True, label=Moderate Match.
+2026-06-15 09:52:39 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-06-15 09:52:39 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-06-15 09:52:39 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-06-15 09:52:39 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-06-15 09:52:39 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-06-15 09:52:39 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-06-15 09:52:40 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-06-15 09:52:40 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-06-15 09:52:40 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-06-15 09:52:40 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-06-15 09:52:40 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-06-15 09:52:40 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-06-15 09:52:40 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-06-15 09:52:40 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-06-15 09:52:40 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-06-15 09:52:40 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-06-15 09:52:40 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-06-15 09:52:40 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-06-15 09:52:41 | INFO     | parsers.education_parser | Certification combined text length: 121 chars.
+2026-06-15 09:52:41 | INFO     | parsers.education_parser | Certification combined text length: 121 chars.
+2026-06-15 09:52:41 | INFO     | parsers.education_parser | Rule-based certification parse found 3 entries.
+2026-06-15 09:52:41 | INFO     | parsers.education_parser | Rule-based certification parse found 3 entries.
+2026-06-15 09:52:41 | INFO     | parsers.education_parser | parse_certifications() returning 3 entries.
+2026-06-15 09:52:41 | INFO     | parsers.education_parser | parse_certifications() returning 3 entries.
+2026-06-15 09:52:41 | INFO     | parsers.education_parser | Certification combined text length: 91 chars.
+2026-06-15 09:52:41 | INFO     | parsers.education_parser | Certification combined text length: 91 chars.
+2026-06-15 09:52:41 | INFO     | parsers.education_parser | Rule-based certification parse found 5 entries.
+2026-06-15 09:52:41 | INFO     | parsers.education_parser | Rule-based certification parse found 5 entries.
+2026-06-15 09:52:41 | INFO     | parsers.education_parser | parse_certifications() returning 5 entries.
+2026-06-15 09:52:41 | INFO     | parsers.education_parser | parse_certifications() returning 5 entries.
+2026-06-15 09:52:42 | INFO     | parsers.education_parser | Certification combined text length: 121 chars.
+2026-06-15 09:52:42 | INFO     | parsers.education_parser | Certification combined text length: 121 chars.
+2026-06-15 09:52:42 | INFO     | parsers.education_parser | Rule-based certification parse found 3 entries.
+2026-06-15 09:52:42 | INFO     | parsers.education_parser | Rule-based certification parse found 3 entries.
+2026-06-15 09:52:42 | INFO     | parsers.education_parser | parse_certifications() returning 3 entries.
+2026-06-15 09:52:42 | INFO     | parsers.education_parser | parse_certifications() returning 3 entries.
+2026-06-15 09:52:42 | INFO     | parsers.education_parser | Education relevance: score=1.00, level=bachelors, field_matched=True.
+2026-06-15 09:52:42 | INFO     | parsers.education_parser | Education relevance: score=1.00, level=bachelors, field_matched=True.
+2026-06-15 09:52:42 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-06-15 09:52:42 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-06-15 09:52:42 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-06-15 09:52:42 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-06-15 09:52:42 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-06-15 09:52:42 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-06-15 09:52:42 | INFO     | parsers.education_parser | Certification combined text length: 121 chars.
+2026-06-15 09:52:42 | INFO     | parsers.education_parser | Certification combined text length: 121 chars.
+2026-06-15 09:52:42 | INFO     | parsers.education_parser | Rule-based certification parse found 3 entries.
+2026-06-15 09:52:42 | INFO     | parsers.education_parser | Rule-based certification parse found 3 entries.
+2026-06-15 09:52:42 | INFO     | parsers.education_parser | parse_certifications() returning 3 entries.
+2026-06-15 09:52:42 | INFO     | parsers.education_parser | parse_certifications() returning 3 entries.
+2026-06-15 09:52:42 | WARNING  | parsers.education_parser | EducationObject validation failed for 'B.Tech': 1 validation error for EducationObject
+start_year
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.13/v/int_type — skipping.
+2026-06-15 09:52:42 | WARNING  | parsers.education_parser | EducationObject validation failed for 'B.Tech': 1 validation error for EducationObject
+start_year
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.13/v/int_type — skipping.
+2026-06-15 09:52:42 | WARNING  | parsers.education_parser | CertificationObject validation failed for 'Six Sigma Green Belt': 3 validation errors for CertificationObject
+issuing_organization
+  Field required [type=missing, input_value={'name': 'Six Sigma Green... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+issue_date
+  Field required [type=missing, input_value={'name': 'Six Sigma Green... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+is_expired
+  Field required [type=missing, input_value={'name': 'Six Sigma Green... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing — skipping.
+2026-06-15 09:52:42 | WARNING  | parsers.education_parser | CertificationObject validation failed for 'Six Sigma Green Belt': 3 validation errors for CertificationObject
+issuing_organization
+  Field required [type=missing, input_value={'name': 'Six Sigma Green... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+issue_date
+  Field required [type=missing, input_value={'name': 'Six Sigma Green... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+is_expired
+  Field required [type=missing, input_value={'name': 'Six Sigma Green... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing — skipping.
+2026-06-15 09:52:42 | WARNING  | parsers.education_parser | CertificationObject validation failed for 'Lean Manufacturing': 3 validation errors for CertificationObject
+issuing_organization
+  Field required [type=missing, input_value={'name': 'Lean Manufactur... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+issue_date
+  Field required [type=missing, input_value={'name': 'Lean Manufactur... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+is_expired
+  Field required [type=missing, input_value={'name': 'Lean Manufactur... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing — skipping.
+2026-06-15 09:52:42 | WARNING  | parsers.education_parser | CertificationObject validation failed for 'Lean Manufacturing': 3 validation errors for CertificationObject
+issuing_organization
+  Field required [type=missing, input_value={'name': 'Lean Manufactur... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+issue_date
+  Field required [type=missing, input_value={'name': 'Lean Manufactur... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+is_expired
+  Field required [type=missing, input_value={'name': 'Lean Manufactur... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing — skipping.
+2026-06-15 09:52:42 | WARNING  | parsers.education_parser | CertificationObject validation failed for 'Internal Auditor': 3 validation errors for CertificationObject
+issuing_organization
+  Field required [type=missing, input_value={'name': 'Internal Audito... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+issue_date
+  Field required [type=missing, input_value={'name': 'Internal Audito... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+is_expired
+  Field required [type=missing, input_value={'name': 'Internal Audito... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing — skipping.
+2026-06-15 09:52:42 | WARNING  | parsers.education_parser | CertificationObject validation failed for 'Internal Auditor': 3 validation errors for CertificationObject
+issuing_organization
+  Field required [type=missing, input_value={'name': 'Internal Audito... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+issue_date
+  Field required [type=missing, input_value={'name': 'Internal Audito... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+is_expired
+  Field required [type=missing, input_value={'name': 'Internal Audito... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing — skipping.
+2026-06-15 09:52:42 | INFO     | parsers.education_parser | parse_to_objects(): 0 education, 0 certification objects.
+2026-06-15 09:52:42 | INFO     | parsers.education_parser | parse_to_objects(): 0 education, 0 certification objects.
+2026-06-15 09:52:42 | WARNING  | screening_ai.eligibility_engine | No eligibility rules found for job_id=JOB-001 — using defaults
+2026-06-15 09:52:42 | INFO     | screening_ai.eligibility_engine | Eligibility evaluated — candidate_id=C001, job_id=JOB-001, status=Eligible, score=75.00
+2026-06-15 09:52:42 | WARNING  | screening_ai.eligibility_engine | No eligibility rules found for job_id=JOB-001 — using defaults
+2026-06-15 09:52:42 | INFO     | screening_ai.eligibility_engine | Eligibility evaluated — candidate_id=C002, job_id=JOB-001, status=Review, score=30.00
+2026-06-15 09:52:42 | WARNING  | screening_ai.eligibility_engine | No eligibility rules found for job_id=JOB-001 — using defaults
+2026-06-15 09:52:42 | INFO     | screening_ai.eligibility_engine | Eligibility evaluated — candidate_id=C003, job_id=JOB-001, status=Rejected, score=10.00
+2026-06-15 09:52:42 | INFO     | screening_ai.eligibility_engine | Eligibility evaluated — candidate_id=C004, job_id=JOB-001, status=Rejected, score=80.00
+2026-06-15 09:52:42 | INFO     | screening_ai.eligibility_engine | Eligibility evaluated — candidate_id=C005, job_id=JOB-001, status=Rejected, score=80.00
+2026-06-15 09:52:42 | WARNING  | screening_ai.eligibility_engine | No eligibility rules found for job_id=JOB-001 — using defaults
+2026-06-15 09:52:42 | INFO     | screening_ai.eligibility_engine | Eligibility evaluated — candidate_id=C006, job_id=JOB-001, status=Eligible, score=75.00
+2026-06-15 09:52:42 | INFO     | screening_ai.eligibility_engine | Eligibility evaluated — candidate_id=C007, job_id=JOB-001, status=Rejected, score=80.00
+2026-06-15 09:52:42 | WARNING  | screening_ai.eligibility_engine | No eligibility rules found for job_id=JOB-001 — using defaults
+2026-06-15 09:52:42 | INFO     | screening_ai.eligibility_engine | Hard reject — must_haves_met=False — candidate_id=C009, job_id=JOB-001
+2026-06-15 09:52:42 | WARNING  | screening_ai.eligibility_engine | No eligibility rules found for job_id=JOB-001 — using defaults
+2026-06-15 09:52:42 | WARNING  | screening_ai.eligibility_engine | ATS score not found — candidate_id=C008, job_id=JOB-001
+2026-06-15 09:52:43 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-06-15 09:52:43 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-06-15 09:52:43 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-06-15 09:52:43 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-06-15 09:52:43 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-06-15 09:52:43 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-06-15 09:52:44 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-06-15 09:52:44 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-06-15 09:52:44 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-06-15 09:52:44 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-06-15 09:52:44 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-06-15 09:52:44 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-06-15 09:52:44 | INFO     | ats_engine.experience_parser | Experience text extracted (115 chars).
+2026-06-15 09:52:44 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-06-15 09:52:44 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-06-15 09:52:44 | INFO     | ats_engine.experience_parser | detect_gaps() found 1 gap(s).
+2026-06-15 09:52:44 | INFO     | ats_engine.experience_parser | Relevance score for 'quality engineer': 1.00 (total months: 24).
+2026-06-15 09:52:45 | INFO     | ats_engine.experience_parser | Relevance score for 'quality manager': 0.80 (total months: 24).
+2026-06-15 09:52:45 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-06-15 09:52:45 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-06-15 09:52:45 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-06-15 09:52:45 | INFO     | ats_engine.experience_parser | parse_to_objects(): 2/2 entries validated successfully.
+2026-06-15 09:52:45 | INFO     | tests.test_extraction | Running test: test_pdf_reader_file_not_found
+2026-06-15 09:52:45 | INFO     | tests.test_extraction | Running test: test_docx_reader_file_not_found
+2026-06-15 09:52:45 | INFO     | tests.test_extraction | Running test: test_text_cleaner_removes_special_chars
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 27 chars
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 27 chars
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 27 chars | After: 23 chars | Reduced by: 4 chars
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 27 chars | After: 23 chars | Reduced by: 4 chars
+2026-06-15 09:52:45 | INFO     | tests.test_extraction | Running test: test_text_cleaner_normalizes_bullets
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 46 chars
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 46 chars
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 46 chars | After: 46 chars | Reduced by: 0 chars
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 46 chars | After: 46 chars | Reduced by: 0 chars
+2026-06-15 09:52:45 | INFO     | tests.test_extraction | Running test: test_text_cleaner_normalizes_whitespace
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 33 chars
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 33 chars
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 33 chars | After: 25 chars | Reduced by: 8 chars
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 33 chars | After: 25 chars | Reduced by: 8 chars
+2026-06-15 09:52:45 | INFO     | tests.test_extraction | Running test: test_text_cleaner_fixes_section_headings
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 55 chars
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 55 chars
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 55 chars | After: 55 chars | Reduced by: 0 chars
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 55 chars | After: 55 chars | Reduced by: 0 chars
+2026-06-15 09:52:45 | INFO     | tests.test_extraction | Running test: test_text_cleaner_removes_noise
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 70 chars
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 70 chars
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 70 chars | After: 26 chars | Reduced by: 44 chars
+2026-06-15 09:52:45 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 70 chars | After: 26 chars | Reduced by: 44 chars
+2026-06-15 09:52:45 | INFO     | tests.test_extraction | Running test: test_extract_resume_text_unsupported_format
+2026-06-15 09:52:45 | INFO     | parsers | Starting resume extraction pipeline for: resume_photo.jpg
+2026-06-15 09:52:45 | INFO     | ats_engine.fairness_engine | Normalizing scores — min: 50.00, max: 90.00, total candidates: 3
+2026-06-15 09:52:45 | INFO     | ats_engine.fairness_engine | Normalizing scores — min: 75.00, max: 75.00, total candidates: 3
+2026-06-15 09:52:45 | INFO     | ats_engine.fairness_engine | evaluate_bias_indicators — candidate_id: C020, bias_risk_level: medium
+2026-06-15 09:52:45 | INFO     | ats_engine.fairness_engine | evaluate_bias_indicators — candidate_id: C030, bias_risk_level: low
+2026-06-15 09:52:45 | INFO     | ats_engine.fairness_engine | evaluate_bias_indicators — candidate_id: C031, bias_risk_level: low
+2026-06-15 09:52:45 | INFO     | ats_engine.fairness_engine | evaluate_bias_indicators — candidate_id: C032, bias_risk_level: low
+2026-06-15 09:52:45 | INFO     | ats_engine.fairness_engine | Normalizing scores — min: 55.00, max: 91.00, total candidates: 3
+2026-06-15 09:52:45 | INFO     | ats_engine.fairness_engine | apply_fairness_pipeline complete — total candidates processed: 3
+2026-06-15 09:52:45 | INFO     | tests.test_jd_parser | Running: test_jd_normalizer_removes_html
+2026-06-15 09:52:45 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 61 chars
+2026-06-15 09:52:45 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 61 | After: 43 | Reduced by: 18 chars
+2026-06-15 09:52:45 | INFO     | tests.test_jd_parser | Running: test_jd_normalizer_removes_bullets
+2026-06-15 09:52:45 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 49 chars
+2026-06-15 09:52:45 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 49 | After: 49 | Reduced by: 0 chars
+2026-06-15 09:52:45 | INFO     | tests.test_jd_parser | Running: test_jd_normalizer_removes_boilerplate
+2026-06-15 09:52:45 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 120 chars
+2026-06-15 09:52:45 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 120 | After: 49 | Reduced by: 71 chars
+2026-06-15 09:52:45 | INFO     | tests.test_jd_parser | Running: test_synonym_mapper_role_mapping
+2026-06-15 09:52:45 | INFO     | ats_engine.synonym_mapper | Role mapped: 'QA Engineer' -> 'Quality Assurance Engineer'
+2026-06-15 09:52:45 | INFO     | tests.test_jd_parser | Running: test_synonym_mapper_skill_mapping
+2026-06-15 09:52:45 | INFO     | ats_engine.synonym_mapper | Skill mapped: 'SPC' -> 'Statistical Process Control'
+2026-06-15 09:52:45 | INFO     | tests.test_jd_parser | Running: test_synonym_mapper_no_match_returns_original
+2026-06-15 09:52:45 | INFO     | tests.test_jd_parser | Running: test_jd_parser_invalid_file_raises_error
+2026-06-15 09:52:45 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-TEST-001
+2026-06-15 09:52:45 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-06-15 09:52:45 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 17 chars
+2026-06-15 09:52:45 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 17 | After: 17 | Reduced by: 0 chars
+2026-06-15 09:52:45 | INFO     | ats_engine.jd_parser | Normalized text length: 17 chars
+2026-06-15 09:52:45 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-06-15 09:52:45 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-06-15 09:52:45 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-06-15 09:52:45 | ERROR    | ats_engine.jd_parser | Failed to parse LLM JSON response: Expecting value: line 1 column 1 (char 0)
+2026-06-15 09:52:45 | ERROR    | ats_engine.jd_parser | Raw LLM output was: THIS IS NOT JSON {{{
+2026-06-15 09:52:45 | INFO     | tests.test_jd_parser | Running: test_batch_processor_single_file
+2026-06-15 09:52:45 | INFO     | ats_engine.batch_processor | BatchProcessor initialized. Output folder: data\jd_parsed
+2026-06-15 09:52:45 | INFO     | ats_engine.batch_processor | Processing single file: C:\Users\muham\AppData\Local\Temp\tmpf86c_65g.txt
+2026-06-15 09:52:45 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-TMPF86C_65G
+2026-06-15 09:52:45 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\tmpf86c_65g.json
+2026-06-15 09:52:45 | INFO     | screening_ai.question_bank | Loaded 27 questions from 'C:\Users\muham\OneDrive\Desktop\Zecser Internship\zecpath-ai\tests\..\data\qe_screening_questions.json'
+2026-06-15 09:52:45 | INFO     | screening_ai.question_bank | Built QuestionBank for job_id='JOB-TEST' with 3 questions across 2 categories.
+2026-06-15 09:52:45 | INFO     | screening_ai.question_bank | Built QuestionBank for job_id='JOB-ROUND-TRIP' with 2 questions across 2 categories.
+2026-06-15 09:52:45 | INFO     | screening_ai.question_bank | Saved QuestionBank to Redis key='question_bank:JOB-ROUND-TRIP' (2 questions).
+2026-06-15 09:52:45 | INFO     | screening_ai.question_bank | Loaded QuestionBank from Redis key='question_bank:JOB-ROUND-TRIP' (2 questions).
+2026-06-15 09:52:45 | INFO     | screening_ai.question_bank | Built QuestionBank for job_id='JOB-CAT' with 3 questions across 2 categories.
+2026-06-15 09:52:45 | INFO     | screening_ai.question_bank | Loaded QuestionBank from Redis key='question_bank:JOB-CAT' (3 questions).
+2026-06-15 09:52:45 | INFO     | screening_ai.question_bank | Built QuestionBank for job_id='JOB-LVL' with 3 questions across 1 categories.
+2026-06-15 09:52:45 | INFO     | screening_ai.question_bank | Loaded QuestionBank from Redis key='question_bank:JOB-LVL' (3 questions).
+2026-06-15 09:52:45 | INFO     | screening_ai.question_bank | Built QuestionBank for job_id='JOB-MAND' with 3 questions across 1 categories.
+2026-06-15 09:52:45 | INFO     | screening_ai.question_bank | Loaded QuestionBank from Redis key='question_bank:JOB-MAND' (3 questions).
+2026-06-15 09:52:45 | INFO     | screening_ai.question_bank | Built QuestionBank for job_id='JOB-ID' with 2 questions across 1 categories.
+2026-06-15 09:52:45 | INFO     | screening_ai.question_bank | Loaded QuestionBank from Redis key='question_bank:JOB-ID' (2 questions).
+2026-06-15 09:52:45 | WARNING  | screening_ai.question_bank | No QuestionBank found in Redis for key='question_bank:JOB-NONEXISTENT'.
+2026-06-15 09:52:45 | INFO     | ats_engine.ranking_engine | apply_shortlisting(): Shortlisted=2, Review=1, Rejected=2.
+2026-06-15 09:52:45 | INFO     | ats_engine.ranking_engine | apply_shortlisting(): Shortlisted=2, Review=1, Rejected=2.
+2026-06-15 09:52:45 | INFO     | ats_engine.ranking_engine | apply_shortlisting(): Shortlisted=2, Review=1, Rejected=2.
+2026-06-15 09:52:45 | INFO     | ats_engine.ranking_engine | ranking_pipeline(): complete — job_id='JD-QE-002', total candidates=5.
+2026-06-15 09:52:45 | INFO     | tests.test_scoring | Weights valid. Total = 100
+2026-06-15 09:52:45 | INFO     | tests.test_scoring | Threshold valid: 70
+2026-06-15 09:52:45 | INFO     | tests.test_scoring | Calculated score: 77.0
+2026-06-15 09:52:45 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-06-15 09:52:45 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-06-15 09:52:45 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['experience']
+2026-06-15 09:52:45 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['experience']
+2026-06-15 09:52:45 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['education']
+2026-06-15 09:52:45 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['education']
+2026-06-15 09:52:45 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-06-15 09:52:45 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-06-15 09:52:45 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-06-15 09:52:45 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['header', 'skills', 'other']
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['header', 'skills', 'other']
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 5
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 5
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['experience', 'header', 'other']
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['experience', 'header', 'other']
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 1
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 1
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-X'. Raw sections: ['header', 'other', 'skills']
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-X'. Raw sections: ['header', 'other', 'skills']
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-X'. Sections found: 1, Total lines processed: 3
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-X'. Sections found: 1, Total lines processed: 3
+2026-06-15 09:52:46 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-06-15 09:52:46 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13
+2026-06-15 09:52:46 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-06-15 09:52:46 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-EMPTY'. Raw sections: ['header', 'other']
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-EMPTY'. Raw sections: ['header', 'other']
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-EMPTY'. Sections found: 0, Total lines processed: 0
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-EMPTY'. Sections found: 0, Total lines processed: 0
+2026-06-15 09:52:46 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-06-15 09:52:46 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-9999'. Raw sections: ['header', 'other', 'skills']
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-9999'. Raw sections: ['header', 'other', 'skills']
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-9999'. Sections found: 1, Total lines processed: 1
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-9999'. Sections found: 1, Total lines processed: 1
+2026-06-15 09:52:46 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-06-15 09:52:46 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13
+2026-06-15 09:52:46 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Raw detected skills (3): ['Python', 'Django', 'FastAPI']
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | After stack expansion (3): ['Python', 'Django', 'FastAPI']
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | After deduplication (3): ['Python', 'Django', 'FastAPI']
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 3 skills (of 3 detected).
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Raw detected skills (0): []
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | After stack expansion (4): ['MongoDB', 'Express', 'React', 'Node']
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | After deduplication (4): ['MongoDB', 'Express', 'React', 'Node']
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 4 skills (of 4 detected).
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Raw detected skills (2): ['React', 'Node']
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | After stack expansion (2): ['React', 'Node']
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | After deduplication (2): ['React', 'Node']
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 2 skills (of 2 detected).
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Raw detected skills (1): ['Python']
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | After stack expansion (1): ['Python']
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | After deduplication (1): ['Python']
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 1 skills (of 1 detected).
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Raw detected skills (1): ['Python']
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | After stack expansion (1): ['Python']
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | After deduplication (1): ['Python']
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 1 skills (of 1 detected).
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Raw detected skills (1): ['Python']
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | After stack expansion (1): ['Python']
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | After deduplication (1): ['Python']
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 1 skills (of 1 detected).
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Raw detected skills (3): ['Python', 'Django', 'React']
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | After stack expansion (3): ['Python', 'Django', 'React']
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | After deduplication (3): ['Python', 'Django', 'React']
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 3 skills (of 3 detected).
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Converted 3 skill dicts to SkillObject instances.
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Raw detected skills (2): ['Communication', 'Leadership']
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | After stack expansion (2): ['Communication', 'Leadership']
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | After deduplication (2): ['Communication', 'Leadership']
+2026-06-15 09:52:46 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 2 skills (of 2 detected).
+2026-06-15 09:52:46 | INFO     | screening_ai.transcript_store | TranscriptStore initialized.
+2026-06-15 09:52:46 | INFO     | screening_ai.transcript_store | Created transcript TRX-C001-JOB-001 -> Redis key: transcript:C001:JOB-001
+2026-06-15 09:52:46 | INFO     | screening_ai.transcript_store | TranscriptStore initialized.
+2026-06-15 09:52:46 | INFO     | screening_ai.transcript_store | Created transcript TRX-C002-JOB-002 -> Redis key: transcript:C002:JOB-002
+2026-06-15 09:52:46 | INFO     | screening_ai.transcript_store | Added entry Q_TEST_001 to transcript TRX-C002-JOB-002 (total entries: 1)
+2026-06-15 09:52:46 | INFO     | screening_ai.transcript_store | TranscriptStore initialized.
+2026-06-15 09:52:46 | INFO     | screening_ai.transcript_store | Created transcript TRX-C003-JOB-003 -> Redis key: transcript:C003:JOB-003
+2026-06-15 09:52:46 | INFO     | screening_ai.transcript_store | Completed transcript TRX-C003-JOB-003 at 2026-06-15T04:22:46.247991+00:00
+2026-06-15 09:52:46 | INFO     | screening_ai.transcript_store | TranscriptStore initialized.
+2026-06-15 09:52:46 | INFO     | screening_ai.transcript_store | TranscriptStore initialized.
+2026-06-15 09:52:46 | INFO     | screening_ai.transcript_store | TranscriptStore initialized.
+2026-06-15 09:52:46 | INFO     | screening_ai.transcript_store | TranscriptStore initialized.
+2026-06-15 09:52:46 | INFO     | screening_ai.transcript_store | TranscriptStore initialized.
+2026-06-15 15:53:21 | INFO     | tests.test_ats | ATS test logger is working
+2026-06-15 15:53:21 | INFO     | tests.test_ats | Config loaded. Model: llama-3.3-70b-versatile, Threshold: 70
+2026-06-15 15:53:21 | INFO     | tests.test_ats | Folder exists: parsers
+2026-06-15 15:53:21 | INFO     | tests.test_ats | Folder exists: ats_engine
+2026-06-15 15:53:21 | INFO     | tests.test_ats | Folder exists: screening_ai
+2026-06-15 15:53:21 | INFO     | tests.test_ats | Folder exists: interview_ai
+2026-06-15 15:53:21 | INFO     | tests.test_ats | Folder exists: scoring
+2026-06-15 15:53:21 | INFO     | tests.test_ats | Folder exists: utils
+2026-06-15 15:53:21 | INFO     | tests.test_ats | Folder exists: config
+2026-06-15 15:53:22 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-06-15 15:53:22 | INFO     | scoring.ats_scorer | _score_skills(): matched 3/3, score=76.00.
+2026-06-15 15:53:22 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 48).
+2026-06-15 15:53:22 | INFO     | scoring.ats_scorer | _score_experience(): total=48 months, relevance=1.00, score=100.00.
+2026-06-15 15:53:22 | INFO     | scoring.ats_scorer | Scoring complete — final_score=76.94, shortlisted=True, label=Moderate Match.
+2026-06-15 15:53:22 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-06-15 15:53:22 | WARNING  | scoring.ats_scorer | Must-have filter failed: met 0/2 required (need 1). Missing: ['FMEA', 'ISO 9001']
+2026-06-15 15:53:22 | WARNING  | scoring.ats_scorer | Must-have filter failed for 'Quality Engineer' — instant reject.
+2026-06-15 15:53:23 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-06-15 15:53:23 | INFO     | scoring.ats_scorer | _score_skills(): matched 2/3, score=50.67.
+2026-06-15 15:53:23 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 48).
+2026-06-15 15:53:23 | INFO     | scoring.ats_scorer | _score_experience(): total=48 months, relevance=1.00, score=100.00.
+2026-06-15 15:53:23 | INFO     | scoring.ats_scorer | Scoring complete — final_score=62.05, shortlisted=False, label=Weak Match.
+2026-06-15 15:53:23 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-06-15 15:53:23 | INFO     | scoring.ats_scorer | _score_skills(): matched 3/3, score=76.00.
+2026-06-15 15:53:23 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 6).
+2026-06-15 15:53:23 | INFO     | scoring.ats_scorer | _score_experience(): total=6 months, relevance=1.00, score=72.00.
+2026-06-15 15:53:23 | INFO     | scoring.ats_scorer | Scoring complete — final_score=67.02, shortlisted=True, label=Weak Match.
+2026-06-15 15:53:24 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-06-15 15:53:24 | INFO     | scoring.ats_scorer | _score_skills(): matched 3/3, score=76.00.
+2026-06-15 15:53:24 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 60).
+2026-06-15 15:53:24 | INFO     | scoring.ats_scorer | _score_experience(): total=60 months, relevance=1.00, score=100.00.
+2026-06-15 15:53:24 | INFO     | scoring.ats_scorer | Scoring complete — final_score=75.12, shortlisted=True, label=Moderate Match.
+2026-06-15 15:53:24 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-06-15 15:53:24 | INFO     | scoring.ats_scorer | _score_skills(): matched 3/3, score=76.00.
+2026-06-15 15:53:24 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 48).
+2026-06-15 15:53:24 | INFO     | scoring.ats_scorer | _score_experience(): total=48 months, relevance=1.00, score=100.00.
+2026-06-15 15:53:24 | INFO     | parsers.education_parser | Certification relevance: score=0.00, relevant=0/3.
+2026-06-15 15:53:24 | INFO     | parsers.education_parser | Certification relevance: score=0.00, relevant=0/3.
+2026-06-15 15:53:24 | INFO     | scoring.ats_scorer | _score_certifications(): total=3, relevant=0, score=10.00.
+2026-06-15 15:53:24 | INFO     | scoring.ats_scorer | Scoring complete — final_score=67.09, shortlisted=True, label=Weak Match.
+2026-06-15 15:53:25 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-06-15 15:53:25 | INFO     | scoring.ats_scorer | _score_skills(): matched 3/3, score=76.00.
+2026-06-15 15:53:25 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 48).
+2026-06-15 15:53:25 | INFO     | scoring.ats_scorer | _score_experience(): total=48 months, relevance=1.00, score=100.00.
+2026-06-15 15:53:25 | INFO     | scoring.ats_scorer | Scoring complete — final_score=75.12, shortlisted=True, label=Moderate Match.
+2026-06-15 15:53:25 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-06-15 15:53:25 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-06-15 15:53:25 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-06-15 15:53:25 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-06-15 15:53:25 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-06-15 15:53:25 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-06-15 15:53:26 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-06-15 15:53:26 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-06-15 15:53:26 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-06-15 15:53:26 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-06-15 15:53:26 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-06-15 15:53:26 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-06-15 15:53:26 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-06-15 15:53:26 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-06-15 15:53:26 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-06-15 15:53:26 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-06-15 15:53:26 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-06-15 15:53:26 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-06-15 15:53:26 | INFO     | parsers.education_parser | Certification combined text length: 121 chars.
+2026-06-15 15:53:26 | INFO     | parsers.education_parser | Certification combined text length: 121 chars.
+2026-06-15 15:53:26 | INFO     | parsers.education_parser | Rule-based certification parse found 3 entries.
+2026-06-15 15:53:26 | INFO     | parsers.education_parser | Rule-based certification parse found 3 entries.
+2026-06-15 15:53:26 | INFO     | parsers.education_parser | parse_certifications() returning 3 entries.
+2026-06-15 15:53:26 | INFO     | parsers.education_parser | parse_certifications() returning 3 entries.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | Certification combined text length: 91 chars.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | Certification combined text length: 91 chars.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | Rule-based certification parse found 5 entries.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | Rule-based certification parse found 5 entries.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | parse_certifications() returning 5 entries.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | parse_certifications() returning 5 entries.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | Certification combined text length: 121 chars.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | Certification combined text length: 121 chars.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | Rule-based certification parse found 3 entries.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | Rule-based certification parse found 3 entries.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | parse_certifications() returning 3 entries.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | parse_certifications() returning 3 entries.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | Education relevance: score=1.00, level=bachelors, field_matched=True.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | Education relevance: score=1.00, level=bachelors, field_matched=True.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | Education text extracted (85 chars).
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | Rule-based education parse found 1 entries.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | parse_education() returning 1 entries.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | Certification combined text length: 121 chars.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | Certification combined text length: 121 chars.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | Rule-based certification parse found 3 entries.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | Rule-based certification parse found 3 entries.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | parse_certifications() returning 3 entries.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | parse_certifications() returning 3 entries.
+2026-06-15 15:53:27 | WARNING  | parsers.education_parser | EducationObject validation failed for 'B.Tech': 1 validation error for EducationObject
+start_year
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.13/v/int_type — skipping.
+2026-06-15 15:53:27 | WARNING  | parsers.education_parser | EducationObject validation failed for 'B.Tech': 1 validation error for EducationObject
+start_year
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.13/v/int_type — skipping.
+2026-06-15 15:53:27 | WARNING  | parsers.education_parser | CertificationObject validation failed for 'Six Sigma Green Belt': 3 validation errors for CertificationObject
+issuing_organization
+  Field required [type=missing, input_value={'name': 'Six Sigma Green... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+issue_date
+  Field required [type=missing, input_value={'name': 'Six Sigma Green... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+is_expired
+  Field required [type=missing, input_value={'name': 'Six Sigma Green... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing — skipping.
+2026-06-15 15:53:27 | WARNING  | parsers.education_parser | CertificationObject validation failed for 'Six Sigma Green Belt': 3 validation errors for CertificationObject
+issuing_organization
+  Field required [type=missing, input_value={'name': 'Six Sigma Green... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+issue_date
+  Field required [type=missing, input_value={'name': 'Six Sigma Green... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+is_expired
+  Field required [type=missing, input_value={'name': 'Six Sigma Green... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing — skipping.
+2026-06-15 15:53:27 | WARNING  | parsers.education_parser | CertificationObject validation failed for 'Lean Manufacturing': 3 validation errors for CertificationObject
+issuing_organization
+  Field required [type=missing, input_value={'name': 'Lean Manufactur... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+issue_date
+  Field required [type=missing, input_value={'name': 'Lean Manufactur... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+is_expired
+  Field required [type=missing, input_value={'name': 'Lean Manufactur... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing — skipping.
+2026-06-15 15:53:27 | WARNING  | parsers.education_parser | CertificationObject validation failed for 'Lean Manufacturing': 3 validation errors for CertificationObject
+issuing_organization
+  Field required [type=missing, input_value={'name': 'Lean Manufactur... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+issue_date
+  Field required [type=missing, input_value={'name': 'Lean Manufactur... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+is_expired
+  Field required [type=missing, input_value={'name': 'Lean Manufactur... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing — skipping.
+2026-06-15 15:53:27 | WARNING  | parsers.education_parser | CertificationObject validation failed for 'Internal Auditor': 3 validation errors for CertificationObject
+issuing_organization
+  Field required [type=missing, input_value={'name': 'Internal Audito... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+issue_date
+  Field required [type=missing, input_value={'name': 'Internal Audito... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+is_expired
+  Field required [type=missing, input_value={'name': 'Internal Audito... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing — skipping.
+2026-06-15 15:53:27 | WARNING  | parsers.education_parser | CertificationObject validation failed for 'Internal Auditor': 3 validation errors for CertificationObject
+issuing_organization
+  Field required [type=missing, input_value={'name': 'Internal Audito... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+issue_date
+  Field required [type=missing, input_value={'name': 'Internal Audito... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+is_expired
+  Field required [type=missing, input_value={'name': 'Internal Audito... None, 'is_valid': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing — skipping.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | parse_to_objects(): 0 education, 0 certification objects.
+2026-06-15 15:53:27 | INFO     | parsers.education_parser | parse_to_objects(): 0 education, 0 certification objects.
+2026-06-15 15:53:27 | WARNING  | screening_ai.eligibility_engine | No eligibility rules found for job_id=JOB-001 — using defaults
+2026-06-15 15:53:27 | INFO     | screening_ai.eligibility_engine | Eligibility evaluated — candidate_id=C001, job_id=JOB-001, status=Eligible, score=75.00
+2026-06-15 15:53:27 | WARNING  | screening_ai.eligibility_engine | No eligibility rules found for job_id=JOB-001 — using defaults
+2026-06-15 15:53:27 | INFO     | screening_ai.eligibility_engine | Eligibility evaluated — candidate_id=C002, job_id=JOB-001, status=Review, score=30.00
+2026-06-15 15:53:27 | WARNING  | screening_ai.eligibility_engine | No eligibility rules found for job_id=JOB-001 — using defaults
+2026-06-15 15:53:27 | INFO     | screening_ai.eligibility_engine | Eligibility evaluated — candidate_id=C003, job_id=JOB-001, status=Rejected, score=10.00
+2026-06-15 15:53:27 | INFO     | screening_ai.eligibility_engine | Eligibility evaluated — candidate_id=C004, job_id=JOB-001, status=Rejected, score=80.00
+2026-06-15 15:53:27 | INFO     | screening_ai.eligibility_engine | Eligibility evaluated — candidate_id=C005, job_id=JOB-001, status=Rejected, score=80.00
+2026-06-15 15:53:27 | WARNING  | screening_ai.eligibility_engine | No eligibility rules found for job_id=JOB-001 — using defaults
+2026-06-15 15:53:27 | INFO     | screening_ai.eligibility_engine | Eligibility evaluated — candidate_id=C006, job_id=JOB-001, status=Eligible, score=75.00
+2026-06-15 15:53:27 | INFO     | screening_ai.eligibility_engine | Eligibility evaluated — candidate_id=C007, job_id=JOB-001, status=Rejected, score=80.00
+2026-06-15 15:53:27 | WARNING  | screening_ai.eligibility_engine | No eligibility rules found for job_id=JOB-001 — using defaults
+2026-06-15 15:53:27 | INFO     | screening_ai.eligibility_engine | Hard reject — must_haves_met=False — candidate_id=C009, job_id=JOB-001
+2026-06-15 15:53:27 | WARNING  | screening_ai.eligibility_engine | No eligibility rules found for job_id=JOB-001 — using defaults
+2026-06-15 15:53:27 | WARNING  | screening_ai.eligibility_engine | ATS score not found — candidate_id=C008, job_id=JOB-001
+2026-06-15 15:53:28 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-06-15 15:53:28 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-06-15 15:53:28 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-06-15 15:53:28 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-06-15 15:53:28 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-06-15 15:53:28 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-06-15 15:53:28 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-06-15 15:53:28 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-06-15 15:53:28 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-06-15 15:53:28 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-06-15 15:53:28 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-06-15 15:53:28 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-06-15 15:53:29 | INFO     | ats_engine.experience_parser | Experience text extracted (115 chars).
+2026-06-15 15:53:29 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-06-15 15:53:29 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-06-15 15:53:29 | INFO     | ats_engine.experience_parser | detect_gaps() found 1 gap(s).
+2026-06-15 15:53:29 | INFO     | ats_engine.experience_parser | Relevance score for 'quality engineer': 1.00 (total months: 24).
+2026-06-15 15:53:29 | INFO     | ats_engine.experience_parser | Relevance score for 'quality manager': 0.80 (total months: 24).
+2026-06-15 15:53:30 | INFO     | ats_engine.experience_parser | Experience text extracted (491 chars).
+2026-06-15 15:53:30 | INFO     | ats_engine.experience_parser | Rule-based parse found 2 entries.
+2026-06-15 15:53:30 | INFO     | ats_engine.experience_parser | parse() returning 2 experience entries.
+2026-06-15 15:53:30 | INFO     | ats_engine.experience_parser | parse_to_objects(): 2/2 entries validated successfully.
+2026-06-15 15:53:30 | INFO     | tests.test_extraction | Running test: test_pdf_reader_file_not_found
+2026-06-15 15:53:30 | INFO     | tests.test_extraction | Running test: test_docx_reader_file_not_found
+2026-06-15 15:53:30 | INFO     | tests.test_extraction | Running test: test_text_cleaner_removes_special_chars
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 27 chars
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 27 chars
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 27 chars | After: 23 chars | Reduced by: 4 chars
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 27 chars | After: 23 chars | Reduced by: 4 chars
+2026-06-15 15:53:30 | INFO     | tests.test_extraction | Running test: test_text_cleaner_normalizes_bullets
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 46 chars
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 46 chars
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 46 chars | After: 46 chars | Reduced by: 0 chars
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 46 chars | After: 46 chars | Reduced by: 0 chars
+2026-06-15 15:53:30 | INFO     | tests.test_extraction | Running test: test_text_cleaner_normalizes_whitespace
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 33 chars
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 33 chars
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 33 chars | After: 25 chars | Reduced by: 8 chars
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 33 chars | After: 25 chars | Reduced by: 8 chars
+2026-06-15 15:53:30 | INFO     | tests.test_extraction | Running test: test_text_cleaner_fixes_section_headings
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 55 chars
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 55 chars
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 55 chars | After: 55 chars | Reduced by: 0 chars
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 55 chars | After: 55 chars | Reduced by: 0 chars
+2026-06-15 15:53:30 | INFO     | tests.test_extraction | Running test: test_text_cleaner_removes_noise
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 70 chars
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Starting text cleaning | Input length: 70 chars
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 1 complete: Special characters removed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 2 complete: Bullet points normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 3 complete: Whitespace normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 4 complete: Section headings normalized
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 5 complete: Broken words fixed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Step 6 complete: Noise removed
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 70 chars | After: 26 chars | Reduced by: 44 chars
+2026-06-15 15:53:30 | INFO     | parsers.text_cleaner | Text cleaning complete | Before: 70 chars | After: 26 chars | Reduced by: 44 chars
+2026-06-15 15:53:30 | INFO     | tests.test_extraction | Running test: test_extract_resume_text_unsupported_format
+2026-06-15 15:53:30 | INFO     | parsers | Starting resume extraction pipeline for: resume_photo.jpg
+2026-06-15 15:53:30 | INFO     | ats_engine.fairness_engine | Normalizing scores — min: 50.00, max: 90.00, total candidates: 3
+2026-06-15 15:53:30 | INFO     | ats_engine.fairness_engine | Normalizing scores — min: 75.00, max: 75.00, total candidates: 3
+2026-06-15 15:53:30 | INFO     | ats_engine.fairness_engine | evaluate_bias_indicators — candidate_id: C020, bias_risk_level: medium
+2026-06-15 15:53:30 | INFO     | ats_engine.fairness_engine | evaluate_bias_indicators — candidate_id: C030, bias_risk_level: low
+2026-06-15 15:53:30 | INFO     | ats_engine.fairness_engine | evaluate_bias_indicators — candidate_id: C031, bias_risk_level: low
+2026-06-15 15:53:30 | INFO     | ats_engine.fairness_engine | evaluate_bias_indicators — candidate_id: C032, bias_risk_level: low
+2026-06-15 15:53:30 | INFO     | ats_engine.fairness_engine | Normalizing scores — min: 55.00, max: 91.00, total candidates: 3
+2026-06-15 15:53:30 | INFO     | ats_engine.fairness_engine | apply_fairness_pipeline complete — total candidates processed: 3
+2026-06-15 15:53:30 | INFO     | tests.test_jd_parser | Running: test_jd_normalizer_removes_html
+2026-06-15 15:53:30 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 61 chars
+2026-06-15 15:53:30 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 61 | After: 43 | Reduced by: 18 chars
+2026-06-15 15:53:30 | INFO     | tests.test_jd_parser | Running: test_jd_normalizer_removes_bullets
+2026-06-15 15:53:30 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 49 chars
+2026-06-15 15:53:30 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 49 | After: 49 | Reduced by: 0 chars
+2026-06-15 15:53:30 | INFO     | tests.test_jd_parser | Running: test_jd_normalizer_removes_boilerplate
+2026-06-15 15:53:30 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 120 chars
+2026-06-15 15:53:30 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 120 | After: 49 | Reduced by: 71 chars
+2026-06-15 15:53:30 | INFO     | tests.test_jd_parser | Running: test_synonym_mapper_role_mapping
+2026-06-15 15:53:30 | INFO     | ats_engine.synonym_mapper | Role mapped: 'QA Engineer' -> 'Quality Assurance Engineer'
+2026-06-15 15:53:30 | INFO     | tests.test_jd_parser | Running: test_synonym_mapper_skill_mapping
+2026-06-15 15:53:30 | INFO     | ats_engine.synonym_mapper | Skill mapped: 'SPC' -> 'Statistical Process Control'
+2026-06-15 15:53:30 | INFO     | tests.test_jd_parser | Running: test_synonym_mapper_no_match_returns_original
+2026-06-15 15:53:30 | INFO     | tests.test_jd_parser | Running: test_jd_parser_invalid_file_raises_error
+2026-06-15 15:53:30 | INFO     | ats_engine.jd_parser | JDParser started for job_id: JOB-TEST-001
+2026-06-15 15:53:30 | INFO     | ats_engine.jd_parser | Step 1: Normalizing JD text...
+2026-06-15 15:53:30 | INFO     | ats_engine.jd_normalizer | JDNormalizer started | Input length: 17 chars
+2026-06-15 15:53:30 | INFO     | ats_engine.jd_normalizer | JDNormalizer complete | Before: 17 | After: 17 | Reduced by: 0 chars
+2026-06-15 15:53:30 | INFO     | ats_engine.jd_parser | Normalized text length: 17 chars
+2026-06-15 15:53:30 | INFO     | ats_engine.jd_parser | Step 2: Calling Groq LLM for structured extraction...
+2026-06-15 15:53:30 | INFO     | ats_engine.jd_parser | LLM call complete.
+2026-06-15 15:53:30 | INFO     | ats_engine.jd_parser | Step 3: Parsing LLM JSON response...
+2026-06-15 15:53:30 | ERROR    | ats_engine.jd_parser | Failed to parse LLM JSON response: Expecting value: line 1 column 1 (char 0)
+2026-06-15 15:53:30 | ERROR    | ats_engine.jd_parser | Raw LLM output was: THIS IS NOT JSON {{{
+2026-06-15 15:53:30 | INFO     | tests.test_jd_parser | Running: test_batch_processor_single_file
+2026-06-15 15:53:30 | INFO     | ats_engine.batch_processor | BatchProcessor initialized. Output folder: data\jd_parsed
+2026-06-15 15:53:30 | INFO     | ats_engine.batch_processor | Processing single file: C:\Users\muham\AppData\Local\Temp\tmp0u3vjdad.txt
+2026-06-15 15:53:30 | INFO     | ats_engine.batch_processor | Generated job_id: JOB-TMP0U3VJDAD
+2026-06-15 15:53:30 | INFO     | ats_engine.batch_processor | Output saved to: data\jd_parsed\tmp0u3vjdad.json
+2026-06-15 15:53:30 | INFO     | screening_ai.question_bank | Loaded 27 questions from 'C:\Users\muham\OneDrive\Desktop\Zecser Internship\zecpath-ai\tests\..\data\qe_screening_questions.json'
+2026-06-15 15:53:30 | INFO     | screening_ai.question_bank | Built QuestionBank for job_id='JOB-TEST' with 3 questions across 2 categories.
+2026-06-15 15:53:30 | INFO     | screening_ai.question_bank | Built QuestionBank for job_id='JOB-ROUND-TRIP' with 2 questions across 2 categories.
+2026-06-15 15:53:30 | INFO     | screening_ai.question_bank | Saved QuestionBank to Redis key='question_bank:JOB-ROUND-TRIP' (2 questions).
+2026-06-15 15:53:30 | INFO     | screening_ai.question_bank | Loaded QuestionBank from Redis key='question_bank:JOB-ROUND-TRIP' (2 questions).
+2026-06-15 15:53:30 | INFO     | screening_ai.question_bank | Built QuestionBank for job_id='JOB-CAT' with 3 questions across 2 categories.
+2026-06-15 15:53:30 | INFO     | screening_ai.question_bank | Loaded QuestionBank from Redis key='question_bank:JOB-CAT' (3 questions).
+2026-06-15 15:53:30 | INFO     | screening_ai.question_bank | Built QuestionBank for job_id='JOB-LVL' with 3 questions across 1 categories.
+2026-06-15 15:53:30 | INFO     | screening_ai.question_bank | Loaded QuestionBank from Redis key='question_bank:JOB-LVL' (3 questions).
+2026-06-15 15:53:30 | INFO     | screening_ai.question_bank | Built QuestionBank for job_id='JOB-MAND' with 3 questions across 1 categories.
+2026-06-15 15:53:30 | INFO     | screening_ai.question_bank | Loaded QuestionBank from Redis key='question_bank:JOB-MAND' (3 questions).
+2026-06-15 15:53:30 | INFO     | screening_ai.question_bank | Built QuestionBank for job_id='JOB-ID' with 2 questions across 1 categories.
+2026-06-15 15:53:30 | INFO     | screening_ai.question_bank | Loaded QuestionBank from Redis key='question_bank:JOB-ID' (2 questions).
+2026-06-15 15:53:30 | WARNING  | screening_ai.question_bank | No QuestionBank found in Redis for key='question_bank:JOB-NONEXISTENT'.
+2026-06-15 15:53:30 | INFO     | ats_engine.ranking_engine | apply_shortlisting(): Shortlisted=2, Review=1, Rejected=2.
+2026-06-15 15:53:30 | INFO     | ats_engine.ranking_engine | apply_shortlisting(): Shortlisted=2, Review=1, Rejected=2.
+2026-06-15 15:53:30 | INFO     | ats_engine.ranking_engine | apply_shortlisting(): Shortlisted=2, Review=1, Rejected=2.
+2026-06-15 15:53:30 | INFO     | ats_engine.ranking_engine | ranking_pipeline(): complete — job_id='JD-QE-002', total candidates=5.
+2026-06-15 15:53:30 | INFO     | tests.test_scoring | Weights valid. Total = 100
+2026-06-15 15:53:30 | INFO     | tests.test_scoring | Threshold valid: 70
+2026-06-15 15:53:30 | INFO     | tests.test_scoring | Calculated score: 77.0
+2026-06-15 15:53:30 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-06-15 15:53:30 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-06-15 15:53:30 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['experience']
+2026-06-15 15:53:30 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['experience']
+2026-06-15 15:53:30 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['education']
+2026-06-15 15:53:30 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['education']
+2026-06-15 15:53:30 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-06-15 15:53:30 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-06-15 15:53:30 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-06-15 15:53:30 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['header', 'skills', 'other']
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['header', 'skills', 'other']
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 5
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 5
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['experience', 'header', 'other']
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-TEST'. Raw sections: ['experience', 'header', 'other']
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 1
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-TEST'. Sections found: 1, Total lines processed: 1
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-X'. Raw sections: ['header', 'other', 'skills']
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-X'. Raw sections: ['header', 'other', 'skills']
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-X'. Sections found: 1, Total lines processed: 3
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-X'. Sections found: 1, Total lines processed: 3
+2026-06-15 15:53:30 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-06-15 15:53:30 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13
+2026-06-15 15:53:30 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-06-15 15:53:30 | INFO     | parsers.section_classifier | classify() complete. Sections detected: []
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-EMPTY'. Raw sections: ['header', 'other']
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-EMPTY'. Raw sections: ['header', 'other']
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-EMPTY'. Sections found: 0, Total lines processed: 0
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-EMPTY'. Sections found: 0, Total lines processed: 0
+2026-06-15 15:53:30 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-06-15 15:53:30 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills']
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-9999'. Raw sections: ['header', 'other', 'skills']
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-9999'. Raw sections: ['header', 'other', 'skills']
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-9999'. Sections found: 1, Total lines processed: 1
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-9999'. Sections found: 1, Total lines processed: 1
+2026-06-15 15:53:30 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-06-15 15:53:30 | INFO     | parsers.section_classifier | classify() complete. Sections detected: ['skills', 'experience', 'education']
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging sections for candidate 'CAND-1001'. Raw sections: ['header', 'other', 'skills', 'experience', 'education']
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13
+2026-06-15 15:53:30 | INFO     | parsers.section_tagger | Tagging complete for 'CAND-1001'. Sections found: 3, Total lines processed: 13
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Raw detected skills (3): ['Python', 'Django', 'FastAPI']
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | After stack expansion (3): ['Python', 'Django', 'FastAPI']
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | After deduplication (3): ['Python', 'Django', 'FastAPI']
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 3 skills (of 3 detected).
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Raw detected skills (0): []
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | After stack expansion (4): ['MongoDB', 'Express', 'React', 'Node']
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | After deduplication (4): ['MongoDB', 'Express', 'React', 'Node']
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 4 skills (of 4 detected).
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Raw detected skills (2): ['React', 'Node']
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | After stack expansion (2): ['React', 'Node']
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | After deduplication (2): ['React', 'Node']
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 2 skills (of 2 detected).
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Raw detected skills (1): ['Python']
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | After stack expansion (1): ['Python']
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | After deduplication (1): ['Python']
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 1 skills (of 1 detected).
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Raw detected skills (1): ['Python']
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | After stack expansion (1): ['Python']
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | After deduplication (1): ['Python']
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 1 skills (of 1 detected).
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Raw detected skills (1): ['Python']
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | After stack expansion (1): ['Python']
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | After deduplication (1): ['Python']
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 1 skills (of 1 detected).
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Raw detected skills (3): ['Python', 'Django', 'React']
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | After stack expansion (3): ['Python', 'Django', 'React']
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | After deduplication (3): ['Python', 'Django', 'React']
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 3 skills (of 3 detected).
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Converted 3 skill dicts to SkillObject instances.
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Starting skill extraction (top_n=20).
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Raw detected skills (2): ['Communication', 'Leadership']
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | After stack expansion (2): ['Communication', 'Leadership']
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | After deduplication (2): ['Communication', 'Leadership']
+2026-06-15 15:53:30 | INFO     | ats_engine.skill_extractor | Extraction complete. Returning 2 skills (of 2 detected).
+2026-06-15 15:53:30 | INFO     | screening_ai.transcript_store | TranscriptStore initialized.
+2026-06-15 15:53:30 | INFO     | screening_ai.transcript_store | Created transcript TRX-C001-JOB-001 -> Redis key: transcript:C001:JOB-001
+2026-06-15 15:53:30 | INFO     | screening_ai.transcript_store | TranscriptStore initialized.
+2026-06-15 15:53:30 | INFO     | screening_ai.transcript_store | Created transcript TRX-C002-JOB-002 -> Redis key: transcript:C002:JOB-002
+2026-06-15 15:53:30 | INFO     | screening_ai.transcript_store | Added entry Q_TEST_001 to transcript TRX-C002-JOB-002 (total entries: 1)
+2026-06-15 15:53:30 | INFO     | screening_ai.transcript_store | TranscriptStore initialized.
+2026-06-15 15:53:30 | INFO     | screening_ai.transcript_store | Created transcript TRX-C003-JOB-003 -> Redis key: transcript:C003:JOB-003
+2026-06-15 15:53:30 | INFO     | screening_ai.transcript_store | Completed transcript TRX-C003-JOB-003 at 2026-06-15T10:23:30.412171+00:00
+2026-06-15 15:53:30 | INFO     | screening_ai.transcript_store | TranscriptStore initialized.
+2026-06-15 15:53:30 | INFO     | screening_ai.transcript_store | TranscriptStore initialized.
+2026-06-15 15:53:30 | INFO     | screening_ai.transcript_store | TranscriptStore initialized.
+2026-06-15 15:53:30 | INFO     | screening_ai.transcript_store | TranscriptStore initialized.
+2026-06-15 15:53:30 | INFO     | screening_ai.transcript_store | TranscriptStore initialized.
