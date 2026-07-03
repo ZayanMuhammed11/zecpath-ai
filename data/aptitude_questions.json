@@ -1,0 +1,56 @@
+[
+  {
+    "question_id": "AQ_LOGIC_001",
+    "category": "logical_reasoning",
+    "text": "If all engineers on a team review code before merging, and Priya's code was merged without review, what can you logically conclude about Priya's role on the team?",
+    "scenario_type": null
+  },
+  {
+    "question_id": "AQ_LOGIC_002",
+    "category": "logical_reasoning",
+    "text": "A server goes down every day at 3 PM for the last five days, right after the nightly backup job runs. Walk me through how you would reason about the likely cause.",
+    "scenario_type": null
+  },
+  {
+    "question_id": "AQ_LOGIC_003",
+    "category": "logical_reasoning",
+    "text": "You're given three boxes labeled 'Apples', 'Oranges', and 'Mixed', but all three labels are wrong. Explain the sequence of steps you would take to correctly relabel them by opening the fewest boxes possible.",
+    "scenario_type": null
+  },
+  {
+    "question_id": "AQ_SIT_001",
+    "category": "situational_judgment",
+    "text": "You're two days from a critical release when you discover a major feature is not going to be ready in time. How would you handle this situation?",
+    "scenario_type": "deadline_pressure"
+  },
+  {
+    "question_id": "AQ_SIT_002",
+    "category": "situational_judgment",
+    "text": "Two of your teammates strongly disagree on the technical direction for a project and the disagreement is starting to affect the rest of the team. What would you do?",
+    "scenario_type": "team_conflict"
+  },
+  {
+    "question_id": "AQ_SIT_003",
+    "category": "situational_judgment",
+    "text": "You've been assigned to work with a new tool or framework you've never used before, with only a week to become productive in it. How would you approach getting up to speed?",
+    "scenario_type": "learning_agility"
+  },
+  {
+    "question_id": "AQ_ANALYT_001",
+    "category": "analytical_thinking",
+    "text": "Customer complaints have doubled over the past month while your team's ticket-resolution time has stayed the same. What factors would you analyze to explain this gap?",
+    "scenario_type": null
+  },
+  {
+    "question_id": "AQ_ANALYT_002",
+    "category": "analytical_thinking",
+    "text": "You have three vendor proposals with different pricing, delivery timelines, and support terms. How would you evaluate them to decide which one to recommend?",
+    "scenario_type": null
+  },
+  {
+    "question_id": "AQ_ANALYT_003",
+    "category": "analytical_thinking",
+    "text": "A dashboard shows revenue trending upward while user sign-ups are trending downward over the same quarter. How would you break down this data to understand what's really happening?",
+    "scenario_type": null
+  }
+]
