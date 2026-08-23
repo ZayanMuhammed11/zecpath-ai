@@ -140,12 +140,7 @@ python -m tests.simulate_demo_dataset_day63          # 3 tiered-quality QE candi
 | Eligibility | `POST /eligibility/evaluate`, `POST /eligibility/evaluate-batch`, `GET /eligibility/result/{candidate_id}/{job_id}` |
 | Screening | `POST /screening/run` |
 
-## Known Limitations
 
-- 9 of 13 real AI modules (everything past ATS/eligibility/screening) have no live API — validated via pytest and direct function calls / simulation scripts only. See project documentation for the full architectural rationale.
-- Several modules' inputs (HR/technical answer relevance, visual engagement signals, integrity events, machine test code quality) are caller-supplied placeholders — no live signal-extraction pipeline (STT, gaze tracking, code execution sandbox) exists yet.
-- Candidate consent and data retention mechanisms are not yet implemented.
-- Full known-limitations and backlog detail lives in the project's internal system state logs.
 
 ## Author
 
