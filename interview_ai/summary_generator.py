@@ -109,7 +109,7 @@ def compute_cultural_fit(
     rationale = f"{contradiction_text}; {consistency_text}"
 
     logger.debug(
-        "compute_cultural_fit → score=%.4f, level=%s, rationale=%r",
+        "compute_cultural_fit -> score=%.4f, level=%s, rationale=%r",
         score,
         level.value,
         rationale,
@@ -186,7 +186,7 @@ def build_highlights(
     inconsistencies = extract_inconsistencies(behavior)
 
     logger.debug(
-        "build_highlights → strengths=%d, weaknesses=%d, risks=%d, inconsistencies=%d",
+        "build_highlights -> strengths=%d, weaknesses=%d, risks=%d, inconsistencies=%d",
         len(strengths),
         len(weaknesses),
         len(risks),
@@ -235,7 +235,7 @@ def build_composite(
     aptitude_score = aptitude.aptitude_score if aptitude is not None else None
 
     logger.debug(
-        "build_composite → overall_score=%.2f, decision=%s, aptitude_score=%s",
+        "build_composite -> overall_score=%.2f, decision=%s, aptitude_score=%s",
         overall,
         decision,
         aptitude_score,
@@ -284,7 +284,7 @@ def generate_natural_language_summary(
         f"Overall recommendation: {composite.decision}."
     )
 
-    logger.debug("generate_natural_language_summary → %r", summary)
+    logger.debug("generate_natural_language_summary -> %r", summary)
     return summary
 
 
@@ -325,7 +325,7 @@ def generate_interview_summary(
     )
 
     logger.info(
-        "generate_interview_summary → candidate_id=%s, overall_score=%.2f, decision=%s",
+        "generate_interview_summary -> candidate_id=%s, overall_score=%.2f, decision=%s",
         candidate_id,
         composite.overall_score,
         composite.decision,

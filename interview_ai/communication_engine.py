@@ -130,7 +130,7 @@ def score_grammar(text: str) -> float:
 
     result = round(factor_a * 0.5 + factor_b * 0.5, 4)
     logger.debug(
-        "score_grammar → %.4f (factor_a=%.1f, factor_b=%.1f, avg_words=%.2f)",
+        "score_grammar -> %.4f (factor_a=%.1f, factor_b=%.1f, avg_words=%.2f)",
         result,
         factor_a,
         factor_b,
@@ -172,13 +172,13 @@ def score_vocabulary(text: str) -> float:
     if word_count < 4:
         result = min(0.5, ratio_score)
         logger.debug(
-            "score_vocabulary → %.1f (short-answer cap applied, ratio=%.2f)",
+            "score_vocabulary -> %.1f (short-answer cap applied, ratio=%.2f)",
             result,
             unique_ratio,
         )
         return result
 
-    logger.debug("score_vocabulary → %.1f (ratio=%.2f)", ratio_score, unique_ratio)
+    logger.debug("score_vocabulary -> %.1f (ratio=%.2f)", ratio_score, unique_ratio)
     return ratio_score
 
 
@@ -246,7 +246,7 @@ def filler_penalty(text: str) -> float:
         count += len(re.findall(pattern, text_lower))
     penalty = min(count * 0.1, 0.5)
     result = round(penalty, 4)
-    logger.debug("filler_penalty → %.4f (filler_count=%d)", result, count)
+    logger.debug("filler_penalty -> %.4f (filler_count=%d)", result, count)
     return result
 
 

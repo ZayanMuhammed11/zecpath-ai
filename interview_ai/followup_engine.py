@@ -142,6 +142,34 @@ _DEFAULT_TEMPLATES: Dict[FollowUpAction, str] = {
 # ---------------------------------------------------------------------------
 
 
+def _resolve_override_reason(
+    question: InterviewQuestion,
+    follow_up_attempts: Dict[str, int],
+) -> Optional[str]:
+    """
+    Single source of truth for the two follow-up overrides.
+
+    DAY 42 FIX (backlog #14): decide_followup_action() and
+    build_followup_result() previously re-checked these same two
+    conditions independently. Consolidating them here means a future
+    third override only needs to be added in one place.
+
+    Args:
+        question: The InterviewQuestion being evaluated.
+        follow_up_attempts: Mapping of question_id → follow-up count used so far.
+
+    Returns:
+        "follow_up_eligible=False" if question.follow_up_eligible is False,
+        "max_attempts_reached" if the attempt count for this question has
+        reached MAX_FOLLOWUP_ATTEMPTS, or None if neither override applies.
+    """
+    if not question.follow_up_eligible:
+        return "follow_up_eligible=False"
+    if follow_up_attempts.get(question.question_id, 0) >= MAX_FOLLOWUP_ATTEMPTS:
+        return "max_attempts_reached"
+    return None
+
+
 def decide_followup_action(
     question: InterviewQuestion,
     quality: AnswerQuality,
@@ -174,32 +202,19 @@ def decide_followup_action(
         The FollowUpAction the conversation engine should take.
     """
     qid = question.question_id
+    override_reason = _resolve_override_reason(question, follow_up_attempts)
 
-    # Override 1: eligibility check
-    if not question.follow_up_eligible:
+    if override_reason is not None:
         logger.info(
             "decide_followup_action | question_id=%s quality=%s action=%s "
-            "(override: follow_up_eligible=False)",
+            "(override: %s)",
             qid,
             quality.value,
             FollowUpAction.none.value,
+            override_reason,
         )
         return FollowUpAction.none
 
-    # Override 2: max-attempts guard
-    attempts = follow_up_attempts.get(qid, 0)
-    if attempts >= MAX_FOLLOWUP_ATTEMPTS:
-        logger.info(
-            "decide_followup_action | question_id=%s quality=%s action=%s "
-            "(override: max_attempts_reached, attempts=%d)",
-            qid,
-            quality.value,
-            FollowUpAction.none.value,
-            attempts,
-        )
-        return FollowUpAction.none
-
-    # Quality-based decision table
     action = _QUALITY_TO_ACTION[quality]
     logger.info(
         "decide_followup_action | question_id=%s quality=%s action=%s",
@@ -271,13 +286,11 @@ def build_followup_result(
     action = decide_followup_action(question, quality, follow_up_attempts)
     follow_up_text = generate_followup_text(question, action)
 
-    # Reason string mirrors the override priority order in decide_followup_action
-    if not question.follow_up_eligible:
-        reason = "follow_up_eligible=False"
-    elif follow_up_attempts.get(qid, 0) >= MAX_FOLLOWUP_ATTEMPTS:
-        reason = "max_attempts_reached"
-    else:
-        reason = f"quality={quality.value}"
+    # DAY 42 FIX (backlog #14): reason string now derived from the same
+    # _resolve_override_reason() helper decide_followup_action() uses,
+    # instead of an independently re-checked copy of the same conditions.
+    override_reason = _resolve_override_reason(question, follow_up_attempts)
+    reason = override_reason if override_reason is not None else f"quality={quality.value}"
 
     result = FollowUpResult(
         question_id=qid,

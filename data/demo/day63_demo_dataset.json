@@ -1,0 +1,866 @@
+[
+  {
+    "candidate_id": "strong_automotive_candidate",
+    "skill_domain": "automotive_quality",
+    "role_level": "senior",
+    "ats": {
+      "final_score": 73.26,
+      "match_label": "Moderate Match",
+      "shortlisted": true,
+      "must_haves_met": true,
+      "sub_scores": {
+        "skills": 100.0,
+        "experience": 76.6,
+        "education": 100.0,
+        "certifications": 10.0,
+        "semantic": 31.91,
+        "education_combined": 73.0
+      },
+      "weights_used": {
+        "skills": 0.35,
+        "experience": 0.3,
+        "education": 0.1,
+        "semantic": 0.25
+      },
+      "shortlist_threshold": 40.0,
+      "job_title": "Quality Engineer",
+      "audit_trail": [
+        "=== Skills ===",
+        "Matched: 9/9 required skills.",
+        "Matched skills: ['FMEA', 'Control Plans', 'SPC', 'PPAP', 'APQP', 'CAPA', '8D', 'RCA', 'IATF 16949']",
+        "Missing skills: []",
+        "Primary skill bonus: 10.0 points.",
+        "Skills sub-score: 100.0/100",
+        "=== Experience ===",
+        "Total experience: 110 months.",
+        "Required: 0 to 9999 months.",
+        "Duration score: 1.0",
+        "Relevance score: 0.61 (QE role match).",
+        "Experience sub-score: 76.6/100",
+        "=== Education ===",
+        "Required level: EducationLevel.bachelors.",
+        "Highest level found: bachelors.",
+        "Field matched: True.",
+        "Education sub-score: 100.0/100",
+        "=== Certifications ===",
+        "Total certifications: 3.",
+        "Required categories: ['methodology', 'quality_standard'].",
+        "Relevant certifications: 0.",
+        "Certification sub-score: 10.0/100",
+        "Semantic similarity: 31.91/100",
+        "Education combined (edu*0.7 + cert*0.3): 73.0/100",
+        "=== Final Score: 73.26/100 ==="
+      ]
+    },
+    "screening_score": 88.0,
+    "hr": {
+      "hr_score": 92.62,
+      "decision": "Strong Hire",
+      "scored_answers": [
+        {
+          "question_id": "Q1",
+          "final_score": 92.62,
+          "breakdown": {
+            "relevance": 0.95,
+            "communication": 1.0,
+            "confidence": 0.775,
+            "consistency": 1.0
+          }
+        }
+      ]
+    },
+    "technical": {
+      "technical_score": 85.96,
+      "decision": "Strong Technical Fit",
+      "scored_answers": [
+        {
+          "question_id": "T1",
+          "skill_domain": "automotive_quality",
+          "final_score": 89.27,
+          "breakdown": {
+            "accuracy": 0.94,
+            "depth": 1.0,
+            "logic": 0.75,
+            "real_world": 0.6667
+          }
+        },
+        {
+          "question_id": "T2",
+          "skill_domain": "automotive_quality",
+          "final_score": 79.73,
+          "breakdown": {
+            "accuracy": 0.91,
+            "depth": 1.0,
+            "logic": 0.5,
+            "real_world": 0.3333
+          }
+        },
+        {
+          "question_id": "T3",
+          "skill_domain": "automotive_quality",
+          "final_score": 88.87,
+          "breakdown": {
+            "accuracy": 0.93,
+            "depth": 1.0,
+            "logic": 0.75,
+            "real_world": 0.6667
+          }
+        }
+      ],
+      "skill_breakdown": {
+        "automotive_quality": 85.96
+      }
+    },
+    "machine_test": {
+      "task_score": 94.0,
+      "time_score": 35.0,
+      "final_score": 79.25,
+      "decision": "Strong Practical Fit",
+      "breakdown": {
+        "correctness": 1.0,
+        "code_quality": 0.9,
+        "efficiency": 1.0,
+        "problem_solving": 0.8
+      },
+      "submission": {
+        "passed_test_count": 10,
+        "total_test_count": 10,
+        "runtime_seconds": 1.5,
+        "runtime_baseline_seconds": 2.0,
+        "code_quality": 0.9,
+        "attempts": 1,
+        "time_taken_seconds": 780.0,
+        "time_limit_seconds": 1200.0
+      }
+    },
+    "visual_behavior": {
+      "visual_behavior_score": 89.2,
+      "level": "Highly Engaged",
+      "signals": {
+        "gaze_stability": 0.91,
+        "head_stability": 0.89,
+        "facial_engagement": 0.87,
+        "attention_consistency": 0.9
+      }
+    },
+    "integrity": {
+      "integrity_score": 100.0,
+      "risk_level": "Low Risk",
+      "events": {
+        "tab_switch_count": 0,
+        "focus_loss_count": 0,
+        "external_voice_count": 0,
+        "gaze_deviation_count": 0
+      },
+      "signals": {
+        "tab_switch_signal": 1.0,
+        "focus_loss_signal": 1.0,
+        "external_voice_signal": 1.0,
+        "gaze_deviation_signal": 1.0
+      },
+      "warnings": []
+    },
+    "unified_score": {
+      "candidate_id": "strong_automotive_candidate",
+      "final_score": 84.28,
+      "recommendation": "selected",
+      "confidence": "high",
+      "breakdown": {
+        "contributions": [
+          {
+            "round_name": "ats",
+            "raw_score": 73.26,
+            "weight_used": 0.2,
+            "weighted_contribution": 14.652000000000001
+          },
+          {
+            "round_name": "screening",
+            "raw_score": 88.0,
+            "weight_used": 0.1,
+            "weighted_contribution": 8.8
+          },
+          {
+            "round_name": "hr",
+            "raw_score": 92.62,
+            "weight_used": 0.25,
+            "weighted_contribution": 23.155
+          },
+          {
+            "round_name": "technical",
+            "raw_score": 85.96,
+            "weight_used": 0.3,
+            "weighted_contribution": 25.787999999999997
+          },
+          {
+            "round_name": "machine_test",
+            "raw_score": 79.25,
+            "weight_used": 0.15,
+            "weighted_contribution": 11.8875
+          }
+        ],
+        "rounds_included": [
+          "ats",
+          "screening",
+          "hr",
+          "technical",
+          "machine_test"
+        ],
+        "rounds_missing": []
+      },
+      "hiring_fit": {
+        "hiring_fit_percentage": 84.28,
+        "fit_category": "Excellent Fit"
+      },
+      "reasoning": "Final score driven primarily by technical (contributed 25.79 of 84.28 total). ats and screening and hr and machine_test also included. All rounds were included with no redistribution needed. Recommendation: selected.",
+      "role_level_used": "senior"
+    },
+    "final_decision": {
+      "candidate_id": "strong_automotive_candidate",
+      "base_final_score": 84.28,
+      "base_recommendation": "selected",
+      "adjusted_score": 84.28,
+      "final_recommendation": "selected",
+      "risk_adjustment": {
+        "applied": true,
+        "risk_level": "Low Risk",
+        "penalty_points": 0.0,
+        "reason": "Integrity risk level 'Low Risk' warranted no penalty."
+      },
+      "decision_confidence": "high",
+      "visual_behavior_context": {
+        "visual_behavior_score": 89.2,
+        "level": "Highly Engaged",
+        "note": "Visual behavior data is informational only and does not affect the adjusted score or final recommendation."
+      },
+      "reasoning": "Received a base final score of 84.28 from decision_ai with a base recommendation of 'selected'. Integrity risk level 'Low Risk' warranted no penalty. The resulting adjusted score is 84.28. Final recommendation: 'selected'. The recommendation is unchanged by this adjustment."
+    },
+    "hiring_report": {
+      "candidate_id": "strong_automotive_candidate",
+      "job_title": "Senior Quality Engineer \u2014 Automotive (Demo)",
+      "rounds": [
+        {
+          "round_name": "ats",
+          "score": 73.26,
+          "label": "Moderate Match",
+          "included": true
+        },
+        {
+          "round_name": "screening",
+          "score": 88.0,
+          "label": null,
+          "included": true
+        },
+        {
+          "round_name": "hr_interview",
+          "score": 92.62,
+          "label": "Strong Hire",
+          "included": true
+        },
+        {
+          "round_name": "technical",
+          "score": 85.96,
+          "label": "Strong Technical Fit",
+          "included": true
+        },
+        {
+          "round_name": "machine_test",
+          "score": 79.25,
+          "label": "Strong Practical Fit",
+          "included": true
+        }
+      ],
+      "authoritative_recommendation": {
+        "recommendation": "selected",
+        "source": "final_decision_ai (risk-adjusted final recommendation)",
+        "rationale": "This is the most downstream stage in the hiring pipeline and the only one that incorporates integrity risk adjustment; it is treated as authoritative for recruiter action."
+      },
+      "supporting_labels_note": "The figures and labels below reflect each individual round's own scoring criteria and are shown for context only. They are not competing conclusions \u2014 the Authoritative Recommendation above is the figure a recruiter should act on.",
+      "highlights": {
+        "strengths": [
+          "Strong HR interview performance",
+          "Excellent communication skills"
+        ],
+        "weaknesses": [],
+        "risks": [],
+        "inconsistencies": []
+      },
+      "behavioral_integrity_notes": {
+        "visual_behavior_score": 89.2,
+        "visual_behavior_level": "Highly Engaged",
+        "visual_behavior_note": "Visual behavior data, where available, reflects engagement only and carries no risk or scoring implications.",
+        "integrity_score": 100.0,
+        "integrity_risk_level": "Low Risk",
+        "integrity_warnings": []
+      },
+      "report_text": "Candidate: strong_automotive_candidate\nRole: Senior Quality Engineer \u2014 Automotive (Demo)\n\nRound Summary:\n  ats: 73.26 \u2014 Moderate Match\n  screening: 88.0 \u2014 None\n  hr_interview: 92.62 \u2014 Strong Hire\n  technical: 85.96 \u2014 Strong Technical Fit\n  machine_test: 79.25 \u2014 Strong Practical Fit\n\nAuthoritative Recommendation: selected (source: final_decision_ai (risk-adjusted final recommendation))\n\nStrengths:\n  - Strong HR interview performance\n  - Excellent communication skills"
+    }
+  },
+  {
+    "candidate_id": "average_food_safety_candidate",
+    "skill_domain": "food_safety_systems",
+    "role_level": "mid",
+    "ats": {
+      "final_score": 67.68,
+      "match_label": "Weak Match",
+      "shortlisted": true,
+      "must_haves_met": true,
+      "sub_scores": {
+        "skills": 68.0,
+        "experience": 100.0,
+        "education": 100.0,
+        "certifications": 5.0,
+        "semantic": 26.93,
+        "education_combined": 71.5
+      },
+      "weights_used": {
+        "skills": 0.35,
+        "experience": 0.3,
+        "education": 0.1,
+        "semantic": 0.25
+      },
+      "shortlist_threshold": 45.0,
+      "job_title": "Quality Engineer",
+      "audit_trail": [
+        "=== Skills ===",
+        "Matched: 5/5 required skills.",
+        "Matched skills: ['HACCP', 'GMP', 'SQF', 'ISO 22000', 'FSSC 22000']",
+        "Missing skills: []",
+        "Primary skill bonus: 6.0 points.",
+        "Skills sub-score: 68.0/100",
+        "=== Experience ===",
+        "Total experience: 36 months.",
+        "Required: 0 to 9999 months.",
+        "Duration score: 1.0",
+        "Relevance score: 1.0 (QE role match).",
+        "Experience sub-score: 100.0/100",
+        "=== Education ===",
+        "Required level: EducationLevel.bachelors.",
+        "Highest level found: bachelors.",
+        "Field matched: True.",
+        "Education sub-score: 100.0/100",
+        "=== Certifications ===",
+        "Total certifications: 1.",
+        "Required categories: ['food_safety', 'pharmaceutical'].",
+        "Relevant certifications: 0.",
+        "Certification sub-score: 5.0/100",
+        "Semantic similarity: 26.93/100",
+        "Education combined (edu*0.7 + cert*0.3): 71.5/100",
+        "=== Final Score: 67.68/100 ==="
+      ]
+    },
+    "screening_score": 62.0,
+    "hr": {
+      "hr_score": 86.53,
+      "decision": "Strong Hire",
+      "scored_answers": [
+        {
+          "question_id": "Q1",
+          "final_score": 86.53,
+          "breakdown": {
+            "relevance": 0.68,
+            "communication": 0.92,
+            "confidence": 0.925,
+            "consistency": 1.0
+          }
+        }
+      ]
+    },
+    "technical": {
+      "technical_score": 37.3,
+      "decision": "Weak Technical Fit",
+      "scored_answers": [
+        {
+          "question_id": "T1",
+          "skill_domain": "food_safety_systems",
+          "final_score": 43.1,
+          "breakdown": {
+            "accuracy": 0.64,
+            "depth": 0.25,
+            "logic": 0.5,
+            "real_world": 0.0
+          }
+        },
+        {
+          "question_id": "T2",
+          "skill_domain": "food_safety_systems",
+          "final_score": 31.5,
+          "breakdown": {
+            "accuracy": 0.6,
+            "depth": 0.25,
+            "logic": 0.0,
+            "real_world": 0.0
+          }
+        }
+      ],
+      "skill_breakdown": {
+        "food_safety_systems": 37.3
+      }
+    },
+    "machine_test": {
+      "task_score": 60.5,
+      "time_score": 12.5,
+      "final_score": 48.5,
+      "decision": "Moderate Practical Fit",
+      "breakdown": {
+        "correctness": 0.6,
+        "code_quality": 0.6,
+        "efficiency": 0.8333,
+        "problem_solving": 0.4
+      },
+      "submission": {
+        "passed_test_count": 6,
+        "total_test_count": 10,
+        "runtime_seconds": 2.4,
+        "runtime_baseline_seconds": 2.0,
+        "code_quality": 0.6,
+        "attempts": 3,
+        "time_taken_seconds": 1050.0,
+        "time_limit_seconds": 1200.0
+      }
+    },
+    "visual_behavior": {
+      "visual_behavior_score": 62.3,
+      "level": "Engaged",
+      "signals": {
+        "gaze_stability": 0.63,
+        "head_stability": 0.65,
+        "facial_engagement": 0.6,
+        "attention_consistency": 0.62
+      }
+    },
+    "integrity": {
+      "integrity_score": 86.0,
+      "risk_level": "Low Risk",
+      "events": {
+        "tab_switch_count": 1,
+        "focus_loss_count": 1,
+        "external_voice_count": 0,
+        "gaze_deviation_count": 1
+      },
+      "signals": {
+        "tab_switch_signal": 0.8,
+        "focus_loss_signal": 0.8,
+        "external_voice_signal": 1.0,
+        "gaze_deviation_signal": 0.8
+      },
+      "warnings": []
+    },
+    "unified_score": {
+      "candidate_id": "average_food_safety_candidate",
+      "final_score": 61.07,
+      "recommendation": "hold",
+      "confidence": "high",
+      "breakdown": {
+        "contributions": [
+          {
+            "round_name": "ats",
+            "raw_score": 67.68,
+            "weight_used": 0.2,
+            "weighted_contribution": 13.536000000000001
+          },
+          {
+            "round_name": "screening",
+            "raw_score": 62.0,
+            "weight_used": 0.15,
+            "weighted_contribution": 9.299999999999999
+          },
+          {
+            "round_name": "hr",
+            "raw_score": 86.53,
+            "weight_used": 0.25,
+            "weighted_contribution": 21.6325
+          },
+          {
+            "round_name": "technical",
+            "raw_score": 37.3,
+            "weight_used": 0.25,
+            "weighted_contribution": 9.325
+          },
+          {
+            "round_name": "machine_test",
+            "raw_score": 48.5,
+            "weight_used": 0.15,
+            "weighted_contribution": 7.2749999999999995
+          }
+        ],
+        "rounds_included": [
+          "ats",
+          "screening",
+          "hr",
+          "technical",
+          "machine_test"
+        ],
+        "rounds_missing": []
+      },
+      "hiring_fit": {
+        "hiring_fit_percentage": 61.07,
+        "fit_category": "Moderate Fit"
+      },
+      "reasoning": "Final score driven primarily by hr (contributed 21.63 of 61.07 total). ats and screening and technical and machine_test also included. All rounds were included with no redistribution needed. Recommendation: hold.",
+      "role_level_used": "mid"
+    },
+    "final_decision": {
+      "candidate_id": "average_food_safety_candidate",
+      "base_final_score": 61.07,
+      "base_recommendation": "hold",
+      "adjusted_score": 61.07,
+      "final_recommendation": "hold",
+      "risk_adjustment": {
+        "applied": true,
+        "risk_level": "Low Risk",
+        "penalty_points": 0.0,
+        "reason": "Integrity risk level 'Low Risk' warranted no penalty."
+      },
+      "decision_confidence": "high",
+      "visual_behavior_context": {
+        "visual_behavior_score": 62.3,
+        "level": "Engaged",
+        "note": "Visual behavior data is informational only and does not affect the adjusted score or final recommendation."
+      },
+      "reasoning": "Received a base final score of 61.07 from decision_ai with a base recommendation of 'hold'. Integrity risk level 'Low Risk' warranted no penalty. The resulting adjusted score is 61.07. Final recommendation: 'hold'. The recommendation is unchanged by this adjustment."
+    },
+    "hiring_report": {
+      "candidate_id": "average_food_safety_candidate",
+      "job_title": "Quality Engineer \u2014 Food Safety Systems (Demo)",
+      "rounds": [
+        {
+          "round_name": "ats",
+          "score": 67.68,
+          "label": "Weak Match",
+          "included": true
+        },
+        {
+          "round_name": "screening",
+          "score": 62.0,
+          "label": null,
+          "included": true
+        },
+        {
+          "round_name": "hr_interview",
+          "score": 86.53,
+          "label": "Strong Hire",
+          "included": true
+        },
+        {
+          "round_name": "technical",
+          "score": 37.3,
+          "label": "Weak Technical Fit",
+          "included": true
+        },
+        {
+          "round_name": "machine_test",
+          "score": 48.5,
+          "label": "Moderate Practical Fit",
+          "included": true
+        }
+      ],
+      "authoritative_recommendation": {
+        "recommendation": "hold",
+        "source": "final_decision_ai (risk-adjusted final recommendation)",
+        "rationale": "This is the most downstream stage in the hiring pipeline and the only one that incorporates integrity risk adjustment; it is treated as authoritative for recruiter action."
+      },
+      "supporting_labels_note": "The figures and labels below reflect each individual round's own scoring criteria and are shown for context only. They are not competing conclusions \u2014 the Authoritative Recommendation above is the figure a recruiter should act on.",
+      "highlights": {
+        "strengths": [
+          "Strong HR interview performance",
+          "Excellent communication skills",
+          "High behavioral confidence"
+        ],
+        "weaknesses": [],
+        "risks": [],
+        "inconsistencies": []
+      },
+      "behavioral_integrity_notes": {
+        "visual_behavior_score": 62.3,
+        "visual_behavior_level": "Engaged",
+        "visual_behavior_note": "Visual behavior data, where available, reflects engagement only and carries no risk or scoring implications.",
+        "integrity_score": 86.0,
+        "integrity_risk_level": "Low Risk",
+        "integrity_warnings": []
+      },
+      "report_text": "Candidate: average_food_safety_candidate\nRole: Quality Engineer \u2014 Food Safety Systems (Demo)\n\nRound Summary:\n  ats: 67.68 \u2014 Weak Match\n  screening: 62.0 \u2014 None\n  hr_interview: 86.53 \u2014 Strong Hire\n  technical: 37.3 \u2014 Weak Technical Fit\n  machine_test: 48.5 \u2014 Moderate Practical Fit\n\nAuthoritative Recommendation: hold (source: final_decision_ai (risk-adjusted final recommendation))\n\nStrengths:\n  - Strong HR interview performance\n  - Excellent communication skills\n  - High behavioral confidence"
+    }
+  },
+  {
+    "candidate_id": "weak_pharma_candidate",
+    "skill_domain": "pharmaceutical_quality",
+    "role_level": "fresher",
+    "ats": {
+      "final_score": 35.36,
+      "match_label": "Rejected",
+      "shortlisted": true,
+      "must_haves_met": true,
+      "sub_scores": {
+        "skills": 22.0,
+        "experience": 52.0,
+        "education": 100.0,
+        "certifications": 40.0,
+        "semantic": 15.45,
+        "education_combined": 82.0
+      },
+      "weights_used": {
+        "skills": 0.35,
+        "experience": 0.3,
+        "education": 0.1,
+        "semantic": 0.25
+      },
+      "shortlist_threshold": 35.0,
+      "job_title": "Quality Engineer",
+      "audit_trail": [
+        "=== Skills ===",
+        "Matched: 2/5 required skills.",
+        "Matched skills: ['GMP Pharmaceutical', 'CAPA']",
+        "Missing skills: ['21 cfr part 211', 'iq-oq-pq', 'gxp']",
+        "Primary skill bonus: 2.0 points.",
+        "Skills sub-score: 22.0/100",
+        "=== Experience ===",
+        "Total experience: 5 months.",
+        "Required: 0 to 9999 months.",
+        "Duration score: 1.0",
+        "Relevance score: 0.2 (QE role match).",
+        "Experience sub-score: 52.0/100",
+        "=== Education ===",
+        "Required level: EducationLevel.bachelors.",
+        "Highest level found: bachelors.",
+        "Field matched: True.",
+        "Education sub-score: 100.0/100",
+        "=== Certifications ===",
+        "No certifications found \u2014 partial score applied.",
+        "Semantic similarity: 15.45/100",
+        "Education combined (edu*0.7 + cert*0.3): 82.0/100",
+        "=== Final Score: 35.36/100 ==="
+      ]
+    },
+    "screening_score": 33.0,
+    "hr": {
+      "hr_score": 70.73,
+      "decision": "Consider",
+      "scored_answers": [
+        {
+          "question_id": "Q1",
+          "final_score": 70.73,
+          "breakdown": {
+            "relevance": 0.32,
+            "communication": 0.92,
+            "confidence": 0.925,
+            "consistency": 0.6
+          }
+        }
+      ]
+    },
+    "technical": {
+      "technical_score": 10.6,
+      "decision": "Weak Technical Fit",
+      "scored_answers": [
+        {
+          "question_id": "T1",
+          "skill_domain": "pharmaceutical_quality",
+          "final_score": 11.2,
+          "breakdown": {
+            "accuracy": 0.28,
+            "depth": 0.0,
+            "logic": 0.0,
+            "real_world": 0.0
+          }
+        },
+        {
+          "question_id": "T2",
+          "skill_domain": "pharmaceutical_quality",
+          "final_score": 10.0,
+          "breakdown": {
+            "accuracy": 0.25,
+            "depth": 0.0,
+            "logic": 0.0,
+            "real_world": 0.0
+          }
+        }
+      ],
+      "skill_breakdown": {
+        "pharmaceutical_quality": 10.6
+      }
+    },
+    "machine_test": {
+      "task_score": 22.77,
+      "time_score": 0.42,
+      "final_score": 17.18,
+      "decision": "Weak Practical Fit",
+      "breakdown": {
+        "correctness": 0.2,
+        "code_quality": 0.3,
+        "efficiency": 0.3846,
+        "problem_solving": 0.0
+      },
+      "submission": {
+        "passed_test_count": 2,
+        "total_test_count": 10,
+        "runtime_seconds": 5.2,
+        "runtime_baseline_seconds": 2.0,
+        "code_quality": 0.3,
+        "attempts": 6,
+        "time_taken_seconds": 1195.0,
+        "time_limit_seconds": 1200.0
+      }
+    },
+    "visual_behavior": {
+      "visual_behavior_score": 36.5,
+      "level": "Low Engagement",
+      "signals": {
+        "gaze_stability": 0.38,
+        "head_stability": 0.4,
+        "facial_engagement": 0.33,
+        "attention_consistency": 0.36
+      }
+    },
+    "integrity": {
+      "integrity_score": 86.0,
+      "risk_level": "Low Risk",
+      "events": {
+        "tab_switch_count": 1,
+        "focus_loss_count": 1,
+        "external_voice_count": 0,
+        "gaze_deviation_count": 1
+      },
+      "signals": {
+        "tab_switch_signal": 0.8,
+        "focus_loss_signal": 0.8,
+        "external_voice_signal": 1.0,
+        "gaze_deviation_signal": 0.8
+      },
+      "warnings": []
+    },
+    "unified_score": {
+      "candidate_id": "weak_pharma_candidate",
+      "final_score": 35.14,
+      "recommendation": "rejected",
+      "confidence": "high",
+      "breakdown": {
+        "contributions": [
+          {
+            "round_name": "ats",
+            "raw_score": 35.36,
+            "weight_used": 0.15,
+            "weighted_contribution": 5.303999999999999
+          },
+          {
+            "round_name": "screening",
+            "raw_score": 33.0,
+            "weight_used": 0.2,
+            "weighted_contribution": 6.6000000000000005
+          },
+          {
+            "round_name": "hr",
+            "raw_score": 70.73,
+            "weight_used": 0.25,
+            "weighted_contribution": 17.6825
+          },
+          {
+            "round_name": "technical",
+            "raw_score": 10.6,
+            "weight_used": 0.2,
+            "weighted_contribution": 2.12
+          },
+          {
+            "round_name": "machine_test",
+            "raw_score": 17.18,
+            "weight_used": 0.2,
+            "weighted_contribution": 3.436
+          }
+        ],
+        "rounds_included": [
+          "ats",
+          "screening",
+          "hr",
+          "technical",
+          "machine_test"
+        ],
+        "rounds_missing": []
+      },
+      "hiring_fit": {
+        "hiring_fit_percentage": 35.14,
+        "fit_category": "Low Fit"
+      },
+      "reasoning": "Final score driven primarily by hr (contributed 17.68 of 35.14 total). ats and screening and technical and machine_test also included. All rounds were included with no redistribution needed. Recommendation: rejected.",
+      "role_level_used": "fresher"
+    },
+    "final_decision": {
+      "candidate_id": "weak_pharma_candidate",
+      "base_final_score": 35.14,
+      "base_recommendation": "rejected",
+      "adjusted_score": 35.14,
+      "final_recommendation": "rejected",
+      "risk_adjustment": {
+        "applied": true,
+        "risk_level": "Low Risk",
+        "penalty_points": 0.0,
+        "reason": "Integrity risk level 'Low Risk' warranted no penalty."
+      },
+      "decision_confidence": "high",
+      "visual_behavior_context": {
+        "visual_behavior_score": 36.5,
+        "level": "Low Engagement",
+        "note": "Visual behavior data is informational only and does not affect the adjusted score or final recommendation."
+      },
+      "reasoning": "Received a base final score of 35.14 from decision_ai with a base recommendation of 'rejected'. Integrity risk level 'Low Risk' warranted no penalty. The resulting adjusted score is 35.14. Final recommendation: 'rejected'. The recommendation is unchanged by this adjustment."
+    },
+    "hiring_report": {
+      "candidate_id": "weak_pharma_candidate",
+      "job_title": "Quality Engineer \u2014 Pharmaceutical (Entry Level, Demo)",
+      "rounds": [
+        {
+          "round_name": "ats",
+          "score": 35.36,
+          "label": "Rejected",
+          "included": true
+        },
+        {
+          "round_name": "screening",
+          "score": 33.0,
+          "label": null,
+          "included": true
+        },
+        {
+          "round_name": "hr_interview",
+          "score": 70.73,
+          "label": "Strong Hire",
+          "included": true
+        },
+        {
+          "round_name": "technical",
+          "score": 10.6,
+          "label": "Weak Technical Fit",
+          "included": true
+        },
+        {
+          "round_name": "machine_test",
+          "score": 17.18,
+          "label": "Weak Practical Fit",
+          "included": true
+        }
+      ],
+      "authoritative_recommendation": {
+        "recommendation": "rejected",
+        "source": "final_decision_ai (risk-adjusted final recommendation)",
+        "rationale": "This is the most downstream stage in the hiring pipeline and the only one that incorporates integrity risk adjustment; it is treated as authoritative for recruiter action."
+      },
+      "supporting_labels_note": "The figures and labels below reflect each individual round's own scoring criteria and are shown for context only. They are not competing conclusions \u2014 the Authoritative Recommendation above is the figure a recruiter should act on.",
+      "highlights": {
+        "strengths": [
+          "Excellent communication skills",
+          "High behavioral confidence"
+        ],
+        "weaknesses": [],
+        "risks": [],
+        "inconsistencies": []
+      },
+      "behavioral_integrity_notes": {
+        "visual_behavior_score": 36.5,
+        "visual_behavior_level": "Low Engagement",
+        "visual_behavior_note": "Visual behavior data, where available, reflects engagement only and carries no risk or scoring implications.",
+        "integrity_score": 86.0,
+        "integrity_risk_level": "Low Risk",
+        "integrity_warnings": []
+      },
+      "report_text": "Candidate: weak_pharma_candidate\nRole: Quality Engineer \u2014 Pharmaceutical (Entry Level, Demo)\n\nRound Summary:\n  ats: 35.36 \u2014 Rejected\n  screening: 33.0 \u2014 None\n  hr_interview: 70.73 \u2014 Strong Hire\n  technical: 10.6 \u2014 Weak Technical Fit\n  machine_test: 17.18 \u2014 Weak Practical Fit\n\nAuthoritative Recommendation: rejected (source: final_decision_ai (risk-adjusted final recommendation))\n\nStrengths:\n  - Excellent communication skills\n  - High behavioral confidence"
+    }
+  }
+]

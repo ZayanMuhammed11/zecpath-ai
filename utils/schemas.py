@@ -261,6 +261,11 @@ class CertificationObject(BaseModel):
         description="Credential identifier"
     )
 
+    category: Optional[str] = Field(
+        None,
+        description="QE certification category, e.g. methodology, quality_standard, food_safety, pharmaceutical"
+    )
+
     is_expired: bool = Field(
         ...,
         description="Whether certification is expired"

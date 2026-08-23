@@ -232,7 +232,11 @@ def process_answer(
     availability = extract_availability(answer_text)
     is_vague_result = is_vague(answer_text)
     off_topic_result = is_off_topic(intent, expected_intent)
-    missing_answer = len(answer_text.strip()) < 3
+    # DAY 42 FIX (backlog #5): was character-count (< 3 chars), which
+    # disagreed with conversation_flow.py's word-count check (< 3 words)
+    # on the same threshold value. Aligned to word-count so both layers
+    # agree on what counts as a "too short to be a real answer" response.
+    missing_answer = len(answer_text.strip().split()) < 3
 
     result = {
         "question_id": question_id,

@@ -151,14 +151,32 @@ def hr_scoring_pipeline(
     """
     weights = get_weights(role_level)
 
+    # DAY 42 FIX (backlog #18): answer.get() silently returning None for a
+    # missing required key previously caused a raw, unhelpful TypeError
+    # deep inside score_hr_answer() rather than a clear, diagnosable error.
+    _REQUIRED_ANSWER_KEYS = (
+        "question_id",
+        "relevance_score",
+        "communication_score",
+        "confidence_score",
+    )
+
     scored_answers: list[HRAnswerScore] = []
     for answer in answers:
+        missing = [k for k in _REQUIRED_ANSWER_KEYS if answer.get(k) is None]
+        if missing:
+            raise ValueError(
+                f"hr_scoring_pipeline received an answer dict missing "
+                f"required field(s) {missing}: {answer!r}. question_id, "
+                f"relevance_score, communication_score, and "
+                f"confidence_score must all be present and non-None."
+            )
         scored_answers.append(
             score_hr_answer(
-                question_id=answer.get("question_id"),
-                relevance_score=answer.get("relevance_score"),
-                communication_score=answer.get("communication_score"),
-                confidence_score=answer.get("confidence_score"),
+                question_id=answer["question_id"],
+                relevance_score=answer["relevance_score"],
+                communication_score=answer["communication_score"],
+                confidence_score=answer["confidence_score"],
                 contradiction_detected=answer.get("contradiction_detected", False),
                 is_vague=answer.get("is_vague", False),
                 weights=weights,

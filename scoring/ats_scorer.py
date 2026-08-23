@@ -605,13 +605,20 @@ class ATSScorer:
                         "degree": edu.get("degree", ""),
                         "field_of_study": edu.get("field_of_study", ""),
                         "institution_name": edu.get("institution_name")
-                            or edu.get("institution", ""),
-                        "education_level": edu.get("education_level", ""),
+                            or edu.get("institution", "Not specified"),
+                        "location": "Not specified",
+                        "start_year": edu.get("year_of_completion") or 0,
+                        "end_year": edu.get("year_of_completion") or 0,
                         "grade": edu.get("grade"),
-                        "year_of_completion": edu.get("year_of_completion"),
+                        "is_highest_qualification": False,
                     }
                     normalized_education.append(EducationObject(**mapped))
-                except Exception:
+                except Exception as exc:
+                    self.logger.warning(
+                        "_score_education(): dropping dict-shaped education "
+                        "entry %r — failed to construct EducationObject: %s",
+                        edu, exc,
+                    )
                     continue
             else:
                 normalized_education.append(edu)

@@ -76,7 +76,15 @@ def generate_screening_report(
         if score["final_score"] < 50 or behavior["communication_strength"] == "Weak":
             risks.append(f"Weak response in {ans['question_id']}")
 
-        if ans["is_vague"] or ans["off_topic"]:
+        # DAY 42 FIX (backlog #7): mirror scoring_engine.py's keyword-match
+        # override — a non-empty keywords_found list is evidence the answer
+        # IS on-topic even when off_topic=True (Day 25's classify_intent()
+        # cannot recognize domain-specific QE terminology). Without this,
+        # technically strong QE answers were incorrectly flagged as
+        # "Incomplete or off-topic" in the recruiter-facing report even
+        # though scoring_engine.py had already correctly credited them via
+        # its own override.
+        if ans["is_vague"] or (ans["off_topic"] and not ans["keywords_found"]):
             missing_data.append(
                 f"Incomplete or off-topic answer in {ans['question_id']}"
             )

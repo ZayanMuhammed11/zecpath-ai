@@ -92,6 +92,15 @@ def get_processing_summary(results: list[dict]) -> dict:
     poor_audio_detected = sum(
         1 for r in results if r["status"] == "poor_audio_detected"
     )
+    # DAY 42 FIX: Day 31 added noise_detected / language_mixed_detected
+    # statuses to stt_processor.py, but this summary function was never
+    # updated to count them — category counts silently didn't sum to total
+    # whenever those two statuses occurred, even though success_rate itself
+    # was still computed correctly.
+    noise_detected = sum(1 for r in results if r["status"] == "noise_detected")
+    language_mixed_detected = sum(
+        1 for r in results if r["status"] == "language_mixed_detected"
+    )
     success_rate = round(processed / total * 100, 2) if total > 0 else 0.0
 
     summary = {
@@ -99,6 +108,8 @@ def get_processing_summary(results: list[dict]) -> dict:
         "processed": processed,
         "silence_detected": silence_detected,
         "poor_audio_detected": poor_audio_detected,
+        "noise_detected": noise_detected,
+        "language_mixed_detected": language_mixed_detected,
         "success_rate": success_rate,
     }
     logger.debug("get_processing_summary result=%s", summary)

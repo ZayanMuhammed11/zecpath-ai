@@ -1,0 +1,137 @@
+[
+  {
+    "question_id": "TQ_AUTO_INTRO_001",
+    "text": "Can you walk me through your background working in automotive quality environments, such as IATF 16949-certified manufacturing plants?",
+    "skill_domain": "automotive_quality",
+    "phase": "introduction",
+    "applicable_difficulties": ["basic"],
+    "order": 1,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "TQ_AUTO_EXP_001",
+    "text": "Walk me through a project where you developed or maintained a Control Plan for a new part introduction. What challenges did you run into during implementation?",
+    "skill_domain": "automotive_quality",
+    "phase": "experience_based",
+    "applicable_difficulties": ["intermediate", "advanced"],
+    "order": 1,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "TQ_AUTO_CONC_001",
+    "text": "Explain how Statistical Process Control (SPC) is used to monitor a production line, and how you would interpret an out-of-control signal on a control chart.",
+    "skill_domain": "automotive_quality",
+    "phase": "conceptual",
+    "applicable_difficulties": ["intermediate", "advanced"],
+    "order": 1,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "TQ_AUTO_SCEN_001",
+    "text": "If a customer submits a PPAP rejection citing an inconsistent Cpk value on a critical characteristic, how would you investigate the root cause and respond to the customer?",
+    "skill_domain": "automotive_quality",
+    "phase": "scenario_based",
+    "applicable_difficulties": ["advanced"],
+    "order": 1,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "TQ_AUTO_CLOSE_001",
+    "text": "Are you currently certified or trained on IATF 16949 requirements, and would you be available to start supporting our automotive quality team within the next 30 days?",
+    "skill_domain": "automotive_quality",
+    "phase": "closing",
+    "applicable_difficulties": ["basic", "intermediate", "advanced"],
+    "order": 1,
+    "follow_up_eligible": false
+  },
+  {
+    "question_id": "TQ_FOOD_INTRO_001",
+    "text": "Tell me about your experience working within food safety management systems, such as HACCP-based or GMP-certified facilities.",
+    "skill_domain": "food_safety_systems",
+    "phase": "introduction",
+    "applicable_difficulties": ["basic"],
+    "order": 1,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "TQ_FOOD_EXP_001",
+    "text": "Walk me through a time you led or supported a HACCP plan review or update. What hazards did you identify, and how did you validate the critical control points?",
+    "skill_domain": "food_safety_systems",
+    "phase": "experience_based",
+    "applicable_difficulties": ["intermediate", "advanced"],
+    "order": 1,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "TQ_FOOD_CONC_001",
+    "text": "Explain how allergen control programs work in a shared-line food manufacturing facility, including how cleaning validation is used to prevent cross-contact.",
+    "skill_domain": "food_safety_systems",
+    "phase": "conceptual",
+    "applicable_difficulties": ["basic", "intermediate"],
+    "order": 1,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "TQ_FOOD_SCEN_001",
+    "text": "If an internal audit uncovers a recurring temperature deviation at a critical control point that was never escalated, how would you handle the investigation and corrective action?",
+    "skill_domain": "food_safety_systems",
+    "phase": "scenario_based",
+    "applicable_difficulties": ["advanced"],
+    "order": 1,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "TQ_FOOD_CLOSE_001",
+    "text": "Do you hold any food safety certifications, such as HACCP, SQF, or BRCGS, and are you comfortable working rotating shifts if the audit schedule requires it?",
+    "skill_domain": "food_safety_systems",
+    "phase": "closing",
+    "applicable_difficulties": ["basic", "intermediate", "advanced"],
+    "order": 1,
+    "follow_up_eligible": false
+  },
+  {
+    "question_id": "TQ_PHARMA_INTRO_001",
+    "text": "Can you describe your background working in a GMP-regulated pharmaceutical quality environment?",
+    "skill_domain": "pharmaceutical_quality",
+    "phase": "introduction",
+    "applicable_difficulties": ["basic"],
+    "order": 1,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "TQ_PHARMA_EXP_001",
+    "text": "Walk me through a project where you executed or reviewed a validation protocol, such as an IQ, OQ, or PQ. What issues came up during execution and how did you resolve them?",
+    "skill_domain": "pharmaceutical_quality",
+    "phase": "experience_based",
+    "applicable_difficulties": ["intermediate", "advanced"],
+    "order": 1,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "TQ_PHARMA_CONC_001",
+    "text": "Explain the purpose of batch record review in pharmaceutical manufacturing and what specific things you look for when reviewing one.",
+    "skill_domain": "pharmaceutical_quality",
+    "phase": "conceptual",
+    "applicable_difficulties": ["basic", "intermediate"],
+    "order": 1,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "TQ_PHARMA_SCEN_001",
+    "text": "If you discover a deviation during batch record review that was never logged into the CAPA system, how would you proceed?",
+    "skill_domain": "pharmaceutical_quality",
+    "phase": "scenario_based",
+    "applicable_difficulties": ["advanced"],
+    "order": 1,
+    "follow_up_eligible": true
+  },
+  {
+    "question_id": "TQ_PHARMA_CLOSE_001",
+    "text": "Are you familiar with 21 CFR Part 211 requirements, and would you be available to join our pharmaceutical quality team on the proposed timeline?",
+    "skill_domain": "pharmaceutical_quality",
+    "phase": "closing",
+    "applicable_difficulties": ["basic", "intermediate", "advanced"],
+    "order": 1,
+    "follow_up_eligible": false
+  }
+]

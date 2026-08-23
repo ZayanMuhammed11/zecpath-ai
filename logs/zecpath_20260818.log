@@ -1,0 +1,86 @@
+2026-08-18 12:07:39 | INFO     | __main__ | Starting Day 63 demo dataset run
+2026-08-18 12:07:39 | INFO     | __main__ | Running full system pipeline for candidate_id=strong_automotive_candidate
+2026-08-18 12:07:40 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-08-18 12:07:40 | INFO     | scoring.ats_scorer | Must-have filter passed: met 5/5 (need 3).
+2026-08-18 12:07:40 | INFO     | scoring.ats_scorer | _score_skills(): matched 9/9, score=100.00.
+2026-08-18 12:07:40 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 0.61 (total months: 110).
+2026-08-18 12:07:40 | INFO     | scoring.ats_scorer | _score_experience(): total=110 months, relevance=0.61, score=76.60.
+2026-08-18 12:07:40 | INFO     | parsers.education_parser | Education relevance: score=1.00, level=bachelors, field_matched=True.
+2026-08-18 12:07:40 | INFO     | parsers.education_parser | Education relevance: score=1.00, level=bachelors, field_matched=True.
+2026-08-18 12:07:40 | INFO     | scoring.ats_scorer | _score_education(): level=bachelors, field_matched=True, score=100.00.
+2026-08-18 12:07:40 | INFO     | parsers.education_parser | Certification relevance: score=0.00, relevant=0/3.
+2026-08-18 12:07:40 | INFO     | parsers.education_parser | Certification relevance: score=0.00, relevant=0/3.
+2026-08-18 12:07:40 | INFO     | scoring.ats_scorer | _score_certifications(): total=3, relevant=0, score=10.00.
+2026-08-18 12:07:40 | INFO     | scoring.ats_scorer | Scoring complete — final_score=73.26, shortlisted=True, label=Moderate Match.
+2026-08-18 12:07:40 | INFO     | interview_ai.communication_engine | calculate_communication_score ->cx score=100.00, level=Excellent, word_count=150
+2026-08-18 12:07:40 | INFO     | interview_ai.confidence_analyzer | calculate_confidence confidence_score=77.50
+2026-08-18 12:07:40 | INFO     | interview_ai.sentiment_engine | detect_sentiment pos_count=0 neg_count=1 result=sentiment='Negative' sentiment_score=0.2
+2026-08-18 12:07:40 | INFO     | interview_ai.behavior_analyzer | analyze_behavior behavioral_score=72.75
+2026-08-18 12:07:40 | INFO     | interview_ai.hr_scoring_engine | HR interview scored: hr_score=92.62, decision=Strong Hire
+2026-08-18 12:07:40 | INFO     | interview_ai.summary_generator | generate_interview_summary called for candidate_id=strong_automotive_candidate
+2026-08-18 12:07:40 | INFO     | technical_ai.technical_scoring_engine | Technical interview scored: technical_score=85.96, decision=Strong Technical Fit
+2026-08-18 12:07:40 | INFO     | machine_test_ai.machine_test_scoring | calculate_machine_test_score task_score=94.00 time_score=35.00 final_score=79.25 decision=Strong Practical Fit
+2026-08-18 12:07:40 | INFO     | visual_behavior_ai.visual_behavior_scoring | calculate_visual_behavior_score visual_behavior_score=89.20 level=Highly Engaged
+2026-08-18 12:07:40 | INFO     | integrity_ai.integrity_scoring | calculate_integrity_score integrity_score=100.00 risk_level=Low Risk warning_count=0
+2026-08-18 12:07:40 | INFO     | decision_ai.unified_scoring_engine | Starting unified scoring pipeline for candidate=strong_automotive_candidate
+2026-08-18 12:07:40 | INFO     | decision_ai.unified_scoring_engine | Completed unified scoring pipeline for candidate=strong_automotive_candidate final_score=84.28 recommendation=selected
+2026-08-18 12:07:40 | INFO     | final_decision_ai.final_decision_engine | Starting final decision pipeline for candidate=strong_automotive_candidate
+2026-08-18 12:07:40 | INFO     | final_decision_ai.final_decision_engine | Completed final decision pipeline for candidate=strong_automotive_candidate base_final_score=84.28 adjusted_score=84.28 final_recommendation=selected
+2026-08-18 12:07:40 | INFO     | hiring_report_ai.hiring_report_engine | Building hiring report for candidate_id=strong_automotive_candidate.
+2026-08-18 12:07:40 | INFO     | hiring_report_ai.hiring_report_engine | Hiring report built for candidate_id=strong_automotive_candidate; authoritative_recommendation=selected (source=final_decision_ai (risk-adjusted final recommendation)).
+2026-08-18 12:07:40 | INFO     | __main__ | Running full system pipeline for candidate_id=average_food_safety_candidate
+2026-08-18 12:07:41 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-08-18 12:07:41 | INFO     | scoring.ats_scorer | Must-have filter passed: met 3/3 (need 2).
+2026-08-18 12:07:41 | INFO     | scoring.ats_scorer | _score_skills(): matched 5/5, score=68.00.
+2026-08-18 12:07:41 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 1.00 (total months: 36).
+2026-08-18 12:07:41 | INFO     | scoring.ats_scorer | _score_experience(): total=36 months, relevance=1.00, score=100.00.
+2026-08-18 12:07:41 | INFO     | parsers.education_parser | Education relevance: score=1.00, level=bachelors, field_matched=True.
+2026-08-18 12:07:41 | INFO     | parsers.education_parser | Education relevance: score=1.00, level=bachelors, field_matched=True.
+2026-08-18 12:07:41 | INFO     | scoring.ats_scorer | _score_education(): level=bachelors, field_matched=True, score=100.00.
+2026-08-18 12:07:41 | INFO     | parsers.education_parser | Certification relevance: score=0.00, relevant=0/1.
+2026-08-18 12:07:41 | INFO     | parsers.education_parser | Certification relevance: score=0.00, relevant=0/1.
+2026-08-18 12:07:41 | INFO     | scoring.ats_scorer | _score_certifications(): total=1, relevant=0, score=5.00.
+2026-08-18 12:07:41 | INFO     | scoring.ats_scorer | Scoring complete — final_score=67.68, shortlisted=True, label=Weak Match.
+2026-08-18 12:07:41 | INFO     | interview_ai.communication_engine | calculate_communication_score ->cx score=92.00, level=Excellent, word_count=59
+2026-08-18 12:07:41 | INFO     | interview_ai.confidence_analyzer | calculate_confidence confidence_score=92.50
+2026-08-18 12:07:41 | INFO     | interview_ai.sentiment_engine | detect_sentiment pos_count=0 neg_count=0 result=sentiment='Neutral' sentiment_score=0.5
+2026-08-18 12:07:41 | INFO     | interview_ai.behavior_analyzer | analyze_behavior behavioral_score=86.25
+2026-08-18 12:07:41 | INFO     | interview_ai.hr_scoring_engine | HR interview scored: hr_score=86.53, decision=Strong Hire
+2026-08-18 12:07:41 | INFO     | interview_ai.summary_generator | generate_interview_summary called for candidate_id=average_food_safety_candidate
+2026-08-18 12:07:41 | INFO     | technical_ai.technical_scoring_engine | Technical interview scored: technical_score=37.3, decision=Weak Technical Fit
+2026-08-18 12:07:41 | INFO     | machine_test_ai.machine_test_scoring | calculate_machine_test_score task_score=60.50 time_score=12.50 final_score=48.50 decision=Moderate Practical Fit
+2026-08-18 12:07:41 | INFO     | visual_behavior_ai.visual_behavior_scoring | calculate_visual_behavior_score visual_behavior_score=62.30 level=Engaged
+2026-08-18 12:07:41 | INFO     | integrity_ai.integrity_scoring | calculate_integrity_score integrity_score=86.00 risk_level=Low Risk warning_count=0
+2026-08-18 12:07:41 | INFO     | decision_ai.unified_scoring_engine | Starting unified scoring pipeline for candidate=average_food_safety_candidate
+2026-08-18 12:07:41 | INFO     | decision_ai.unified_scoring_engine | Completed unified scoring pipeline for candidate=average_food_safety_candidate final_score=61.07 recommendation=hold
+2026-08-18 12:07:41 | INFO     | final_decision_ai.final_decision_engine | Starting final decision pipeline for candidate=average_food_safety_candidate
+2026-08-18 12:07:41 | INFO     | final_decision_ai.final_decision_engine | Completed final decision pipeline for candidate=average_food_safety_candidate base_final_score=61.07 adjusted_score=61.07 final_recommendation=hold
+2026-08-18 12:07:41 | INFO     | hiring_report_ai.hiring_report_engine | Building hiring report for candidate_id=average_food_safety_candidate.
+2026-08-18 12:07:41 | INFO     | hiring_report_ai.hiring_report_engine | Hiring report built for candidate_id=average_food_safety_candidate; authoritative_recommendation=hold (source=final_decision_ai (risk-adjusted final recommendation)).
+2026-08-18 12:07:41 | INFO     | __main__ | Running full system pipeline for candidate_id=weak_pharma_candidate
+2026-08-18 12:07:42 | INFO     | scoring.ats_scorer | Starting ATS scoring for job: 'Quality Engineer'.
+2026-08-18 12:07:42 | INFO     | scoring.ats_scorer | Must-have filter passed: met 2/2 (need 1).
+2026-08-18 12:07:42 | INFO     | scoring.ats_scorer | _score_skills(): matched 2/5, score=22.00.
+2026-08-18 12:07:42 | INFO     | ats_engine.experience_parser | Relevance score for 'Quality Engineer': 0.20 (total months: 5).
+2026-08-18 12:07:42 | INFO     | scoring.ats_scorer | _score_experience(): total=5 months, relevance=0.20, score=52.00.
+2026-08-18 12:07:42 | INFO     | parsers.education_parser | Education relevance: score=1.00, level=bachelors, field_matched=True.
+2026-08-18 12:07:42 | INFO     | parsers.education_parser | Education relevance: score=1.00, level=bachelors, field_matched=True.
+2026-08-18 12:07:42 | INFO     | scoring.ats_scorer | _score_education(): level=bachelors, field_matched=True, score=100.00.
+2026-08-18 12:07:42 | INFO     | scoring.ats_scorer | Scoring complete — final_score=35.36, shortlisted=True, label=Rejected.
+2026-08-18 12:07:42 | INFO     | interview_ai.communication_engine | calculate_communication_score ->cx score=92.00, level=Excellent, word_count=20
+2026-08-18 12:07:42 | INFO     | interview_ai.confidence_analyzer | calculate_confidence confidence_score=92.50
+2026-08-18 12:07:42 | INFO     | interview_ai.sentiment_engine | detect_sentiment pos_count=0 neg_count=0 result=sentiment='Neutral' sentiment_score=0.5
+2026-08-18 12:07:42 | INFO     | interview_ai.behavior_analyzer | analyze_behavior behavioral_score=86.25
+2026-08-18 12:07:42 | INFO     | interview_ai.hr_scoring_engine | HR interview scored: hr_score=70.73, decision=Consider
+2026-08-18 12:07:42 | INFO     | interview_ai.summary_generator | generate_interview_summary called for candidate_id=weak_pharma_candidate
+2026-08-18 12:07:42 | INFO     | technical_ai.technical_scoring_engine | Technical interview scored: technical_score=10.6, decision=Weak Technical Fit
+2026-08-18 12:07:42 | INFO     | machine_test_ai.machine_test_scoring | calculate_machine_test_score task_score=22.77 time_score=0.42 final_score=17.18 decision=Weak Practical Fit
+2026-08-18 12:07:42 | INFO     | visual_behavior_ai.visual_behavior_scoring | calculate_visual_behavior_score visual_behavior_score=36.50 level=Low Engagement
+2026-08-18 12:07:42 | INFO     | integrity_ai.integrity_scoring | calculate_integrity_score integrity_score=86.00 risk_level=Low Risk warning_count=0
+2026-08-18 12:07:42 | INFO     | decision_ai.unified_scoring_engine | Starting unified scoring pipeline for candidate=weak_pharma_candidate
+2026-08-18 12:07:42 | INFO     | decision_ai.unified_scoring_engine | Completed unified scoring pipeline for candidate=weak_pharma_candidate final_score=35.14 recommendation=rejected
+2026-08-18 12:07:42 | INFO     | final_decision_ai.final_decision_engine | Starting final decision pipeline for candidate=weak_pharma_candidate
+2026-08-18 12:07:42 | INFO     | final_decision_ai.final_decision_engine | Completed final decision pipeline for candidate=weak_pharma_candidate base_final_score=35.14 adjusted_score=35.14 final_recommendation=rejected
+2026-08-18 12:07:42 | INFO     | hiring_report_ai.hiring_report_engine | Building hiring report for candidate_id=weak_pharma_candidate.
+2026-08-18 12:07:42 | INFO     | hiring_report_ai.hiring_report_engine | Hiring report built for candidate_id=weak_pharma_candidate; authoritative_recommendation=rejected (source=final_decision_ai (risk-adjusted final recommendation)).
+2026-08-18 12:07:42 | INFO     | __main__ | Completed Day 63 demo dataset run

@@ -392,14 +392,16 @@ class EducationParser:
         education_objects: list[EducationObject] = []
         for entry in edu_dicts:
             try:
+                year_of_completion = entry.get("year_of_completion") or 0
                 obj = EducationObject(
                     degree=entry["degree"],
                     field_of_study=entry["field_of_study"],
-                    institution_name=entry.get("institution", "Not specified"),
+                    institution_name=entry.get("institution") or "Not specified",
                     location="Not specified",
-                    education_level=EducationLevel(entry["education_level"]),
-                    start_year=None,
-                    end_year=entry.get("year_of_completion"),
+                    start_year=year_of_completion,
+                    end_year=year_of_completion,
+                    grade=entry.get("grade"),
+                    grade_type=None,
                     is_highest_qualification=False,
                 )
                 education_objects.append(obj)
@@ -412,12 +414,16 @@ class EducationParser:
         cert_objects: list[CertificationObject] = []
         for entry in cert_dicts:
             try:
+                year_obtained = entry.get("year_obtained")
+                expiry_year = entry.get("expiry_year")
                 obj = CertificationObject(
                     name=entry["name"],
-                    issuing_body=entry.get("issuing_body"),
-                    year_obtained=entry.get("year_obtained"),
-                    expiry_year=entry.get("expiry_year"),
-                    is_valid=entry.get("is_valid", True),
+                    issuing_organization=entry.get("issuing_body") or "Not specified",
+                    issue_date=f"{year_obtained}-01" if year_obtained else "Not specified",
+                    expiry_date=f"{expiry_year}-01" if expiry_year else None,
+                    credential_id=None,
+                    category=entry.get("category"),
+                    is_expired=not entry.get("is_valid", True),
                 )
                 cert_objects.append(obj)
             except Exception as exc:

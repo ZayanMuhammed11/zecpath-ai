@@ -1,0 +1,816 @@
+[
+  {
+    "resume_and_job_data": {
+      "candidate_id": "strong_automotive_candidate",
+      "skill_domain": "automotive_quality",
+      "role_level": "senior",
+      "job_title_display": "Senior Quality Engineer \u2014 Automotive (Demo)",
+      "candidate_profile_kwargs": {
+        "candidate_id": "strong_automotive_candidate",
+        "full_name": "Vikram Nair",
+        "email": "vikram.nair@example.com",
+        "phone": "+91-9000001001",
+        "location": "Pune, Maharashtra",
+        "is_actively_looking": true,
+        "skills": [
+          {
+            "name": "FMEA",
+            "level": "expert",
+            "years_of_experience": 9.0,
+            "is_primary_skill": true
+          },
+          {
+            "name": "Control Plans",
+            "level": "expert",
+            "years_of_experience": 8.0,
+            "is_primary_skill": true
+          },
+          {
+            "name": "SPC",
+            "level": "advanced",
+            "years_of_experience": 9.0,
+            "is_primary_skill": true
+          },
+          {
+            "name": "PPAP",
+            "level": "expert",
+            "years_of_experience": 8.0,
+            "is_primary_skill": true
+          },
+          {
+            "name": "APQP",
+            "level": "advanced",
+            "years_of_experience": 7.0,
+            "is_primary_skill": true
+          },
+          {
+            "name": "CAPA",
+            "level": "advanced",
+            "years_of_experience": 6.0,
+            "is_primary_skill": false
+          },
+          {
+            "name": "8D",
+            "level": "advanced",
+            "years_of_experience": 7.0,
+            "is_primary_skill": false
+          },
+          {
+            "name": "RCA",
+            "level": "advanced",
+            "years_of_experience": 7.0,
+            "is_primary_skill": false
+          },
+          {
+            "name": "IATF 16949",
+            "level": "expert",
+            "years_of_experience": 8.0,
+            "is_primary_skill": true
+          }
+        ],
+        "experience": [
+          {
+            "company_name": "Mahindra Auto Systems Ltd",
+            "role_title": "Senior Quality Engineer",
+            "department": "Quality Assurance",
+            "company_type": "mnc",
+            "location": "Pune, Maharashtra",
+            "employment_type": "fulltime",
+            "start_date": "2020-02",
+            "end_date": null,
+            "is_current": true,
+            "duration_months": 54,
+            "responsibilities": [
+              "Own FMEA and control plan strategy across three vehicle programs.",
+              "Lead PPAP and APQP governance with tier-1 suppliers."
+            ],
+            "technologies_used": [
+              "FMEA",
+              "PPAP",
+              "APQP",
+              "SPC",
+              "IATF 16949"
+            ],
+            "achievements": [
+              "Cut supplier PPAP rejection rate by 38% over two years."
+            ]
+          },
+          {
+            "company_name": "Bosch Auto Parts",
+            "role_title": "Quality Engineer",
+            "department": "Quality",
+            "company_type": "mnc",
+            "location": "Bangalore, Karnataka",
+            "employment_type": "fulltime",
+            "start_date": "2015-06",
+            "end_date": "2020-01",
+            "is_current": false,
+            "duration_months": 56,
+            "responsibilities": [
+              "Ran SPC monitoring on production lines.",
+              "Led 8D/RCA investigations."
+            ],
+            "technologies_used": [
+              "SPC",
+              "8D",
+              "RCA"
+            ],
+            "achievements": [
+              "Closed 50+ CAPAs with zero repeat findings."
+            ]
+          }
+        ],
+        "education": [
+          {
+            "degree": "B.Tech",
+            "field_of_study": "Mechanical Engineering",
+            "institution_name": "VJTI Mumbai",
+            "location": "Mumbai, Maharashtra",
+            "start_year": 2007,
+            "end_year": 2011,
+            "grade": "8.6",
+            "grade_type": "cgpa",
+            "is_highest_qualification": true
+          }
+        ],
+        "certifications": [
+          {
+            "name": "Six Sigma Black Belt",
+            "issuing_organization": "ASQ",
+            "issue_date": "2014-09",
+            "expiry_date": null,
+            "credential_id": "ASQ-SSBB-9001",
+            "category": null,
+            "is_expired": false
+          },
+          {
+            "name": "ASQ CQE",
+            "issuing_organization": "ASQ",
+            "issue_date": "2015-11",
+            "expiry_date": null,
+            "credential_id": "ASQ-CQE-9002",
+            "category": null,
+            "is_expired": false
+          },
+          {
+            "name": "IATF 16949 Lead Auditor",
+            "issuing_organization": "TUV SUD",
+            "issue_date": "2017-04",
+            "expiry_date": null,
+            "credential_id": "TUV-IATF-9003",
+            "category": null,
+            "is_expired": false
+          }
+        ],
+        "languages_known": [
+          "English",
+          "Hindi",
+          "Marathi"
+        ],
+        "expected_salary_inr": 1350000,
+        "notice_period_days": 60,
+        "raw_text": null,
+        "parsing_metadata": {
+          "model_used": "hand-authored-demo-fixture",
+          "parsed_at": "2026-08-19T07:47:10.029082+00:00",
+          "confidence_score": 95.0,
+          "parsing_version": "day56-demo-v1"
+        }
+      },
+      "segmented_resume": {
+        "sections": [
+          {
+            "section": "skills",
+            "content": "FMEA, Control Plans, SPC, PPAP, APQP, CAPA, 8D, RCA, IATF 16949, Six Sigma Black Belt, supplier quality governance."
+          },
+          {
+            "section": "experience",
+            "content": "Senior Quality Engineer owning FMEA and control plan strategy across multiple vehicle programs, leading PPAP and APQP governance with tier-1 suppliers, running SPC-based monitoring, and closing CAPAs via 8D and root cause analysis for IATF 16949 compliance."
+          }
+        ]
+      },
+      "job_profile": {
+        "job_id": "JOB-AUTO-QE-001",
+        "title": "Quality Engineer",
+        "department": "Quality Assurance",
+        "company_name": "Zecpath Automotive Client",
+        "company_type": "mnc",
+        "location": "Pune, Maharashtra",
+        "employment_type": "fulltime",
+        "salary_min_inr": 600000,
+        "salary_max_inr": 1400000,
+        "required_skills": [
+          {
+            "name": "FMEA",
+            "level": "advanced",
+            "years_of_experience": 3.0,
+            "is_primary_skill": true
+          },
+          {
+            "name": "Control Plans",
+            "level": "advanced",
+            "years_of_experience": 3.0,
+            "is_primary_skill": true
+          },
+          {
+            "name": "SPC",
+            "level": "advanced",
+            "years_of_experience": 3.0,
+            "is_primary_skill": true
+          },
+          {
+            "name": "PPAP",
+            "level": "advanced",
+            "years_of_experience": 3.0,
+            "is_primary_skill": true
+          },
+          {
+            "name": "APQP",
+            "level": "advanced",
+            "years_of_experience": 3.0,
+            "is_primary_skill": true
+          },
+          {
+            "name": "CAPA",
+            "level": "intermediate",
+            "years_of_experience": 2.0,
+            "is_primary_skill": false
+          },
+          {
+            "name": "8D",
+            "level": "intermediate",
+            "years_of_experience": 2.0,
+            "is_primary_skill": false
+          },
+          {
+            "name": "RCA",
+            "level": "intermediate",
+            "years_of_experience": 2.0,
+            "is_primary_skill": false
+          },
+          {
+            "name": "IATF 16949",
+            "level": "advanced",
+            "years_of_experience": 3.0,
+            "is_primary_skill": true
+          }
+        ],
+        "preferred_skills": [],
+        "must_have_skills": [
+          "FMEA",
+          "Control Plans",
+          "SPC",
+          "PPAP",
+          "APQP"
+        ],
+        "required_education_level": "bachelors",
+        "required_education_field": [
+          "mechanical engineering",
+          "industrial engineering",
+          "production engineering"
+        ],
+        "responsibilities": [
+          "Lead FMEA and control plan development for new automotive programs.",
+          "Drive SPC-based process monitoring on the shop floor.",
+          "Own PPAP submissions and APQP milestones with suppliers."
+        ],
+        "nice_to_have": [
+          "Six Sigma Black Belt",
+          "ASQ CQE"
+        ],
+        "shortlist_threshold": 40.0,
+        "scoring_weights": {
+          "skills": 40,
+          "experience": 30,
+          "education": 20,
+          "location": 10
+        },
+        "jd_raw_text": "We are hiring a Quality Engineer for our automotive components plant. The role owns FMEA, control plans, SPC, PPAP, and APQP activities across new product introduction, working closely with suppliers on IATF 16949 compliance, CAPA, 8D, and root cause analysis for field and line issues.",
+        "parsing_metadata": {
+          "model_used": "hand-authored-demo-fixture",
+          "parsed_at": "2026-08-19T07:47:12.043907+00:00",
+          "confidence_score": 95.0,
+          "parsing_version": "day56-demo-v1"
+        }
+      }
+    },
+    "interview_and_behavioral_signals": {
+      "_note": "Caller-supplied placeholder values \u2014 NOT derived from parsing the resume/JD above. These stand in for live interview capture, gaze tracking, and code-execution infrastructure that does not exist yet on this platform (see backlog #13 and #66).",
+      "screening_score": 88.0,
+      "hr_answer": {
+        "question_id": "Q1",
+        "answer_text": "In my current role I led the FMEA and control plan overhaul for a new steering-column program after early validation builds showed an unacceptable defect trend. First, I pulled the FMEA severity and occurrence ratings and traced the highest-risk failure mode to an under-specified tolerance in the control plan. Then, I revised the control plan, tightened the SPC limits on the critical dimension, and re-ran the process capability study. As a result, the defect rate dropped by more than 60% within one quarter and stayed there through launch. I coordinated the PPAP resubmission with the supplier and kept the APQP timeline intact. Because IATF 16949 compliance mattered for the program milestone review, I documented every change through CAPA and ran a joint 8D with the supplier's quality team. Finally, I trained the line inspectors on the revised control plan so the gains would hold after I handed the program off.",
+        "duration_seconds": 48.0,
+        "relevance_score": 0.95,
+        "is_vague": false
+      },
+      "technical_answers": [
+        {
+          "question_id": "T1",
+          "phase": "experience_based",
+          "accuracy": 0.94,
+          "text": "On the production line, we had a recurring dimensional deviation. First I ran a root cause analysis, pulling the SPC charts and the control plan together. Because the tolerance was tight, small tool wear had a real impact. Therefore we added a control point and, as a result, deviations dropped sharply. In practice this is a trade-off between inspection frequency and cycle time, which we validated during a supplier audit."
+        },
+        {
+          "question_id": "T2",
+          "phase": "scenario_based",
+          "accuracy": 0.91,
+          "text": "If a supplier's PPAP submission shows a marginal capability index, I would first review the control plan and specification together, then request updated process data. This matters because the risk of field failure increases with any tolerance drift, so in our facility we would hold the part on a deviation until root cause is confirmed."
+        },
+        {
+          "question_id": "T3",
+          "phase": "conceptual",
+          "accuracy": 0.93,
+          "text": "APQP exists so that risk is managed before mass production, which means FMEA, control plans, and PPAP are all linked. Because of this, a specification change late in the program has a large impact on timeline and cost, which we saw for example during a real-world program launch where a late tolerance change forced a full PPAP resubmission."
+        }
+      ],
+      "machine_test_submission": {
+        "passed_test_count": 10,
+        "total_test_count": 10,
+        "runtime_seconds": 1.5,
+        "runtime_baseline_seconds": 2.0,
+        "code_quality": 0.9,
+        "attempts": 1,
+        "time_taken_seconds": 780.0,
+        "time_limit_seconds": 1200.0
+      },
+      "visual_behavior_signals": {
+        "gaze_stability": 0.91,
+        "head_stability": 0.89,
+        "facial_engagement": 0.87,
+        "attention_consistency": 0.9
+      },
+      "integrity_events": {
+        "tab_switch_count": 0,
+        "focus_loss_count": 0,
+        "external_voice_count": 0,
+        "gaze_deviation_count": 0
+      }
+    }
+  },
+  {
+    "resume_and_job_data": {
+      "candidate_id": "average_food_safety_candidate",
+      "skill_domain": "food_safety_systems",
+      "role_level": "mid",
+      "job_title_display": "Quality Engineer \u2014 Food Safety Systems (Demo)",
+      "candidate_profile_kwargs": {
+        "candidate_id": "average_food_safety_candidate",
+        "full_name": "Priya Deshmukh",
+        "email": "priya.deshmukh@example.com",
+        "phone": "+91-9000002002",
+        "location": "Anand, Gujarat",
+        "is_actively_looking": true,
+        "skills": [
+          {
+            "name": "HACCP",
+            "level": "intermediate",
+            "years_of_experience": 3.0,
+            "is_primary_skill": true
+          },
+          {
+            "name": "GMP",
+            "level": "intermediate",
+            "years_of_experience": 3.0,
+            "is_primary_skill": true
+          },
+          {
+            "name": "SQF",
+            "level": "intermediate",
+            "years_of_experience": 2.0,
+            "is_primary_skill": true
+          },
+          {
+            "name": "ISO 22000",
+            "level": "beginner",
+            "years_of_experience": 1.5,
+            "is_primary_skill": false
+          },
+          {
+            "name": "FSSC 22000",
+            "level": "beginner",
+            "years_of_experience": 1.0,
+            "is_primary_skill": false
+          },
+          {
+            "name": "CAPA",
+            "level": "intermediate",
+            "years_of_experience": 2.0,
+            "is_primary_skill": false
+          }
+        ],
+        "experience": [
+          {
+            "company_name": "Amul Dairy Processing Unit",
+            "role_title": "Quality Engineer",
+            "department": "Quality Assurance",
+            "company_type": "mnc",
+            "location": "Anand, Gujarat",
+            "employment_type": "fulltime",
+            "start_date": "2021-08",
+            "end_date": null,
+            "is_current": true,
+            "duration_months": 36,
+            "responsibilities": [
+              "Monitor HACCP critical control points across one production line.",
+              "Support SQF and ISO 22000 audit preparation."
+            ],
+            "technologies_used": [
+              "HACCP",
+              "GMP",
+              "SQF"
+            ],
+            "achievements": [
+              "Maintained zero critical findings across two SQF surveillance audits."
+            ]
+          }
+        ],
+        "education": [
+          {
+            "degree": "B.Tech",
+            "field_of_study": "Food Technology",
+            "institution_name": "Gujarat Technological University",
+            "location": "Ahmedabad, Gujarat",
+            "start_year": 2016,
+            "end_year": 2020,
+            "grade": "7.1",
+            "grade_type": "cgpa",
+            "is_highest_qualification": true
+          }
+        ],
+        "certifications": [
+          {
+            "name": "HACCP",
+            "issuing_organization": "Codex Alimentarius",
+            "issue_date": "2021-01",
+            "expiry_date": null,
+            "credential_id": "CA-HACCP-5001",
+            "category": null,
+            "is_expired": false
+          }
+        ],
+        "languages_known": [
+          "English",
+          "Hindi",
+          "Gujarati"
+        ],
+        "expected_salary_inr": 750000,
+        "notice_period_days": 30,
+        "raw_text": null,
+        "parsing_metadata": {
+          "model_used": "hand-authored-demo-fixture",
+          "parsed_at": "2026-08-19T07:47:10.029082+00:00",
+          "confidence_score": 95.0,
+          "parsing_version": "day56-demo-v1"
+        }
+      },
+      "segmented_resume": {
+        "sections": [
+          {
+            "section": "skills",
+            "content": "HACCP, GMP, SQF, ISO 22000 basics, FSSC 22000 basics, CAPA."
+          },
+          {
+            "section": "experience",
+            "content": "Quality Engineer monitoring HACCP critical control points on a dairy production line and supporting SQF and ISO 22000 audit preparation."
+          }
+        ]
+      },
+      "job_profile": {
+        "job_id": "JOB-FOOD-QE-002",
+        "title": "Quality Engineer",
+        "department": "Quality Assurance",
+        "company_name": "Zecpath Food Safety Client",
+        "company_type": "mnc",
+        "location": "Anand, Gujarat",
+        "employment_type": "fulltime",
+        "salary_min_inr": 500000,
+        "salary_max_inr": 1000000,
+        "required_skills": [
+          {
+            "name": "HACCP",
+            "level": "advanced",
+            "years_of_experience": 2.0,
+            "is_primary_skill": true
+          },
+          {
+            "name": "GMP",
+            "level": "advanced",
+            "years_of_experience": 2.0,
+            "is_primary_skill": true
+          },
+          {
+            "name": "SQF",
+            "level": "intermediate",
+            "years_of_experience": 1.0,
+            "is_primary_skill": true
+          },
+          {
+            "name": "ISO 22000",
+            "level": "intermediate",
+            "years_of_experience": 1.0,
+            "is_primary_skill": false
+          },
+          {
+            "name": "FSSC 22000",
+            "level": "intermediate",
+            "years_of_experience": 1.0,
+            "is_primary_skill": false
+          }
+        ],
+        "preferred_skills": [],
+        "must_have_skills": [
+          "HACCP",
+          "GMP",
+          "SQF"
+        ],
+        "required_education_level": "bachelors",
+        "required_education_field": [
+          "food technology",
+          "food science",
+          "dairy technology"
+        ],
+        "responsibilities": [
+          "Maintain HACCP plans and GMP compliance across production lines.",
+          "Support SQF and ISO 22000 / FSSC 22000 certification audits."
+        ],
+        "nice_to_have": [
+          "FSSAI certification",
+          "BRC"
+        ],
+        "shortlist_threshold": 45.0,
+        "scoring_weights": {
+          "skills": 40,
+          "experience": 30,
+          "education": 20,
+          "location": 10
+        },
+        "jd_raw_text": "We are hiring a Quality Engineer for our dairy and food processing facility. The role maintains HACCP plans, GMP compliance, and supports SQF, ISO 22000, and FSSC 22000 certification audits across production lines.",
+        "parsing_metadata": {
+          "model_used": "hand-authored-demo-fixture",
+          "parsed_at": "2026-08-19T07:47:12.043907+00:00",
+          "confidence_score": 95.0,
+          "parsing_version": "day56-demo-v1"
+        }
+      }
+    },
+    "interview_and_behavioral_signals": {
+      "_note": "Caller-supplied placeholder values \u2014 NOT derived from parsing the resume/JD above. These stand in for live interview capture, gaze tracking, and code-execution infrastructure that does not exist yet on this platform (see backlog #13 and #66).",
+      "screening_score": 62.0,
+      "hr_answer": {
+        "question_id": "Q1",
+        "answer_text": "In my current role I monitor the HACCP critical control points on our pasteurization line and check the daily temperature logs. Last quarter we had a minor deviation during a SQF surveillance audit, so I updated the monitoring checklist and walked the line staff through the correction. I usually start my shift by reviewing overnight logs before anything else.",
+        "duration_seconds": 24.0,
+        "relevance_score": 0.68,
+        "is_vague": false
+      },
+      "technical_answers": [
+        {
+          "question_id": "T1",
+          "phase": "experience_based",
+          "accuracy": 0.64,
+          "text": "We had a temperature logging gap on the pasteurization line. First we reviewed the HACCP plan, then updated the monitoring checklist. Because product safety was at stake, we also retrained staff on correct logging."
+        },
+        {
+          "question_id": "T2",
+          "phase": "conceptual",
+          "accuracy": 0.6,
+          "text": "GMP covers general hygiene practices while HACCP identifies the specific risk points on the line, and both are checked during an SQF audit."
+        }
+      ],
+      "machine_test_submission": {
+        "passed_test_count": 6,
+        "total_test_count": 10,
+        "runtime_seconds": 2.4,
+        "runtime_baseline_seconds": 2.0,
+        "code_quality": 0.6,
+        "attempts": 3,
+        "time_taken_seconds": 1050.0,
+        "time_limit_seconds": 1200.0
+      },
+      "visual_behavior_signals": {
+        "gaze_stability": 0.63,
+        "head_stability": 0.65,
+        "facial_engagement": 0.6,
+        "attention_consistency": 0.62
+      },
+      "integrity_events": {
+        "tab_switch_count": 1,
+        "focus_loss_count": 1,
+        "external_voice_count": 0,
+        "gaze_deviation_count": 1
+      }
+    }
+  },
+  {
+    "resume_and_job_data": {
+      "candidate_id": "weak_pharma_candidate",
+      "skill_domain": "pharmaceutical_quality",
+      "role_level": "fresher",
+      "job_title_display": "Quality Engineer \u2014 Pharmaceutical (Entry Level, Demo)",
+      "candidate_profile_kwargs": {
+        "candidate_id": "weak_pharma_candidate",
+        "full_name": "Arjun Kulkarni",
+        "email": "arjun.kulkarni@example.com",
+        "phone": "+91-9000003003",
+        "location": "Hyderabad, Telangana",
+        "is_actively_looking": true,
+        "skills": [
+          {
+            "name": "GMP Pharmaceutical",
+            "level": "beginner",
+            "years_of_experience": 0.3,
+            "is_primary_skill": true
+          },
+          {
+            "name": "CAPA",
+            "level": "beginner",
+            "years_of_experience": 0.3,
+            "is_primary_skill": false
+          }
+        ],
+        "experience": [
+          {
+            "company_name": "MediGen Pharma Pvt Ltd",
+            "role_title": "Quality Trainee",
+            "department": "Quality",
+            "company_type": "mnc",
+            "location": "Hyderabad, Telangana",
+            "employment_type": "internship",
+            "start_date": "2024-07",
+            "end_date": "2024-12",
+            "is_current": false,
+            "duration_months": 5,
+            "responsibilities": [
+              "Filed batch documentation."
+            ],
+            "technologies_used": [
+              "GMP Pharmaceutical"
+            ],
+            "achievements": []
+          }
+        ],
+        "education": [
+          {
+            "degree": "B.Pharma",
+            "field_of_study": "Pharmacy",
+            "institution_name": "Kakatiya University",
+            "location": "Warangal, Telangana",
+            "start_year": 2020,
+            "end_year": 2024,
+            "grade": "58%",
+            "grade_type": "percentage",
+            "is_highest_qualification": true
+          }
+        ],
+        "certifications": [],
+        "languages_known": [
+          "English",
+          "Telugu"
+        ],
+        "expected_salary_inr": 280000,
+        "notice_period_days": 15,
+        "raw_text": null,
+        "parsing_metadata": {
+          "model_used": "hand-authored-demo-fixture",
+          "parsed_at": "2026-08-19T07:47:10.029082+00:00",
+          "confidence_score": 95.0,
+          "parsing_version": "day56-demo-v1"
+        }
+      },
+      "segmented_resume": {
+        "sections": [
+          {
+            "section": "skills",
+            "content": "GMP Pharmaceutical basics, CAPA awareness."
+          },
+          {
+            "section": "experience",
+            "content": "Quality trainee who filed batch documentation in a pharmaceutical quality department."
+          }
+        ]
+      },
+      "job_profile": {
+        "job_id": "JOB-PHARMA-QE-003",
+        "title": "Quality Engineer",
+        "department": "Quality Assurance",
+        "company_name": "Zecpath Pharmaceutical Client",
+        "company_type": "mnc",
+        "location": "Hyderabad, Telangana",
+        "employment_type": "fulltime",
+        "salary_min_inr": 350000,
+        "salary_max_inr": 700000,
+        "required_skills": [
+          {
+            "name": "GMP Pharmaceutical",
+            "level": "intermediate",
+            "years_of_experience": 1.0,
+            "is_primary_skill": true
+          },
+          {
+            "name": "CAPA",
+            "level": "intermediate",
+            "years_of_experience": 1.0,
+            "is_primary_skill": true
+          },
+          {
+            "name": "21 CFR Part 211",
+            "level": "beginner",
+            "years_of_experience": 0.5,
+            "is_primary_skill": false
+          },
+          {
+            "name": "IQ-OQ-PQ",
+            "level": "beginner",
+            "years_of_experience": 0.5,
+            "is_primary_skill": false
+          },
+          {
+            "name": "GxP",
+            "level": "beginner",
+            "years_of_experience": 0.5,
+            "is_primary_skill": false
+          }
+        ],
+        "preferred_skills": [],
+        "must_have_skills": [
+          "GMP Pharmaceutical",
+          "CAPA"
+        ],
+        "required_education_level": "bachelors",
+        "required_education_field": [
+          "pharmacy",
+          "pharmaceutical sciences"
+        ],
+        "responsibilities": [
+          "Support GMP Pharmaceutical compliance and CAPA closure.",
+          "Assist with IQ-OQ-PQ validation documentation and 21 CFR Part 211 readiness."
+        ],
+        "nice_to_have": [
+          "ICH guidelines exposure"
+        ],
+        "shortlist_threshold": 35.0,
+        "scoring_weights": {
+          "skills": 40,
+          "experience": 30,
+          "education": 20,
+          "location": 10
+        },
+        "jd_raw_text": "We are hiring an entry-level Quality Engineer for our pharmaceutical manufacturing site. The role supports GMP Pharmaceutical compliance, CAPA closure, IQ-OQ-PQ validation documentation, and readiness for 21 CFR Part 211 audits.",
+        "parsing_metadata": {
+          "model_used": "hand-authored-demo-fixture",
+          "parsed_at": "2026-08-19T07:47:12.043907+00:00",
+          "confidence_score": 95.0,
+          "parsing_version": "day56-demo-v1"
+        }
+      }
+    },
+    "interview_and_behavioral_signals": {
+      "_note": "Caller-supplied placeholder values \u2014 NOT derived from parsing the resume/JD above. These stand in for live interview capture, gaze tracking, and code-execution infrastructure that does not exist yet on this platform (see backlog #13 and #66).",
+      "screening_score": 33.0,
+      "hr_answer": {
+        "question_id": "Q1",
+        "answer_text": "I did a trainee stint where I filed batch documents. It was mostly paperwork. I did not lead anything myself.",
+        "duration_seconds": 7.0,
+        "relevance_score": 0.32,
+        "is_vague": true
+      },
+      "technical_answers": [
+        {
+          "question_id": "T1",
+          "phase": "experience_based",
+          "accuracy": 0.28,
+          "text": "I filed batch documents and checked dates."
+        },
+        {
+          "question_id": "T2",
+          "phase": "conceptual",
+          "accuracy": 0.25,
+          "text": "GMP means following the rules in the factory."
+        }
+      ],
+      "machine_test_submission": {
+        "passed_test_count": 2,
+        "total_test_count": 10,
+        "runtime_seconds": 5.2,
+        "runtime_baseline_seconds": 2.0,
+        "code_quality": 0.3,
+        "attempts": 6,
+        "time_taken_seconds": 1195.0,
+        "time_limit_seconds": 1200.0
+      },
+      "visual_behavior_signals": {
+        "gaze_stability": 0.38,
+        "head_stability": 0.4,
+        "facial_engagement": 0.33,
+        "attention_consistency": 0.36
+      },
+      "integrity_events": {
+        "tab_switch_count": 1,
+        "focus_loss_count": 1,
+        "external_voice_count": 0,
+        "gaze_deviation_count": 1
+      }
+    }
+  }
+]

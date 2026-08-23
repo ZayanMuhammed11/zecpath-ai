@@ -213,12 +213,19 @@ def test_parse_to_objects_returns_pydantic():
     assert "education" in result, "Expected 'education' key in result dict."
     assert "certifications" in result, "Expected 'certifications' key in result dict."
 
-    if len(result["education"]) > 0:
-        assert isinstance(result["education"][0], EducationObject), (
-            f"Expected EducationObject, got {type(result['education'][0])}."
-        )
+    assert len(result["education"]) == 1, (
+        f"Expected exactly 1 education entry, got {len(result['education'])}."
+    )
+    assert isinstance(result["education"][0], EducationObject), (
+        f"Expected EducationObject, got {type(result['education'][0])}."
+    )
+    assert result["education"][0].degree == "B.Tech", (
+        f"Expected degree='B.Tech', got '{result['education'][0].degree}'."
+    )
 
-    if len(result["certifications"]) > 0:
-        assert isinstance(result["certifications"][0], CertificationObject), (
-            f"Expected CertificationObject, got {type(result['certifications'][0])}."
-        )
+    assert len(result["certifications"]) == 3, (
+        f"Expected exactly 3 certification entries, got {len(result['certifications'])}."
+    )
+    assert isinstance(result["certifications"][0], CertificationObject), (
+        f"Expected CertificationObject, got {type(result['certifications'][0])}."
+    )

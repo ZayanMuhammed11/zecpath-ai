@@ -345,6 +345,14 @@ def test_certifications_boost_score():
     )
 
     cert_score = result["sub_scores"]["certifications"]
+    # Day 57 trace (Fix 2): CertificationObject now retains "category" instead of
+    # silently dropping it, so calculate_certification_relevance() (in
+    # parsers/education_parser.py, unmodified) genuinely sees "methodology" /
+    # "quality_standard" instead of None. This can only raise cert_relevance
+    # (bounded 0.0-1.0), never lower it. With 3 certs the count bonus alone is
+    # 10.0 (see ATSScorer._score_certifications: cert_score = min(100, relevance*90 + bonus)),
+    # so cert_score >= 10.0 regardless of the exact relevance value — the existing
+    # >= 5.0 assertion still holds and does not need to change.
     assert cert_score >= 5.0, (
         f"Expected certifications sub-score >= 5.0, got {cert_score}"
     )
@@ -394,4 +402,63 @@ def test_audit_trail_present():
     )
     assert len(result["audit_trail"]) > 0, (
         "Expected a non-empty audit_trail."
+    )
+
+
+def test_education_dict_shaped_entries_are_retained():
+    """
+    Day 57 Fix 1: education entries shaped like parsers/education_parser.py
+    output (keys: degree, field_of_study, institution, education_level,
+    year_of_completion, grade — NOT EducationObject instances) must be mapped
+    onto the real EducationObject fields and scored, rather than raising a
+    ValidationError that gets silently swallowed and dropped.
+
+    candidate_profile is built as a plain dict here (not a CandidateProfile
+    pydantic instance) because CandidateProfile.education is typed
+    List[EducationObject]; a dict shaped like the parser output (missing
+    institution_name/location/start_year/end_year/is_highest_qualification,
+    with an unrelated "institution"/"education_level"/"year_of_completion"
+    keys) would fail CandidateProfile's own pydantic validation before ever
+    reaching ATSScorer. ATSScorer.score() already supports plain-dict
+    candidate_profile input via its isinstance(candidate_profile, dict) checks.
+    """
+    scorer = ATSScorer()
+    skill_names = ["FMEA", "SPC", "ISO 9001"]
+
+    candidate_profile = {
+        "skills": make_skill_objects(skill_names),
+        "experience": make_experience_objects("Quality Engineer", 48),
+        "education": [
+            {
+                "degree": "B.Tech",
+                "field_of_study": "Mechanical Engineering",
+                "institution": "Test Institute of Technology",
+                "education_level": "bachelors",
+                "year_of_completion": 2018,
+                "grade": "8.2 CGPA",
+            }
+        ],
+        "certifications": [],
+    }
+
+    job = make_job_profile(
+        education_level="bachelors",
+        education_fields=["mechanical engineering"],
+    )
+
+    result = scorer.score(
+        segmented_resume=make_segmented_resume(skill_names, "Quality Engineer"),
+        candidate_profile=candidate_profile,
+        job_profile=job,
+        jd_raw_text="Quality Engineer FMEA SPC ISO 9001 mechanical engineering bachelors",
+    )
+
+    education_score = result["sub_scores"]["education"]
+    assert education_score != 50.0, (
+        "Expected education score to reflect real relevance scoring instead of "
+        f"the 'no education data found' default of 50.0, got {education_score}"
+    )
+    assert education_score > 0.0, (
+        f"Expected dict-shaped education entry to be retained (score > 0.0), "
+        f"got {education_score}"
     )
