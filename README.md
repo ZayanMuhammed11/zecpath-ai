@@ -2,7 +2,7 @@
 
 AI-powered hiring intelligence platform for Quality Engineering (QE) roles across three real industry sectors: automotive manufacturing, food safety, and pharmaceutical quality.
 
-Built as a 70-day AI Developer Internship project at Zecser Business LLP.
+
 
 ## Overview
 
